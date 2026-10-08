@@ -1,6 +1,0 @@
-# Golpes: nomes e descrições.
-# As descrições partem da cópia do wiki (tools/locales/ptbr/wiki/moves.json),
-# com as linhas quebradas para caber na janela do jogo.
-
-["src/data/text/move_descriptions.h"]
-sThunderboltDescription = 'Um forte raio elétrico que\npode paralisar o oponente.'

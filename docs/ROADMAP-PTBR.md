@@ -3,10 +3,15 @@
 Guia de trabalho da tradução PT-BR deste fork. Marque os itens à medida que
 forem concluídos e registre as decisões na seção [Decisões](#decisões).
 
-Fonte principal das traduções existentes: uma cópia das traduções da Gen 3
-do **HoennKantoWiki** em [`tools/locales/ptbr/wiki/`](../tools/locales/ptbr/wiki/),
-feita por `tools/import_wiki_ptbr.py`. **O wiki não é alterado por este
-projeto:** só lemos e copiamos o que precisamos.
+Fonte principal das traduções existentes: uma cópia dos dados da Gen 3 do
+**HoennKantoWiki** em
+[`tools/locales/pt_br/referencia/hoennkantowiki/`](../tools/locales/pt_br/referencia/hoennkantowiki/).
+**O wiki não é alterado por este projeto:** só lemos e copiamos o que
+precisamos.
+
+Há um único fluxo de tradução: `python tools/bootstrap.py --make --port-lang pt_br`,
+que aplica os catálogos de `tools/locales/pt_br/` com
+`tools/localize_portuguese.py` (detalhes em [PORTUGUESE.md](PORTUGUESE.md)).
 
 ## Princípios
 
@@ -27,7 +32,7 @@ projeto:** só lemos e copiamos o que precisamos.
 5. **Fidelidade ao Emerald.** Textos com versão própria no Emerald (Pokédex,
    por exemplo) são traduzidos a partir do Emerald, não de Ruby/Sapphire.
 6. **Save compatível.** `GAME_LANGUAGE` continua `LANGUAGE_ENGLISH`. O idioma da
-   tradução é uma flag do port (`PORT_LOCALE_PTBR`), para que os saves sirvam
+   tradução é uma opção do port (`PORT_LANG=pt_br`), para que os saves sirvam
    nas duas versões. O pacote de dados do PT também sai da ROM BPEE, mas é
    próprio: os textos do jogo ficam no pacote, não no executável (ver fase 9).
 
@@ -58,40 +63,30 @@ As fases 5 a 8 podem andar em paralelo depois que 1 a 3 estiverem prontas.
 - [x] Atributos: traduzidos (`ATAQUE`, `DEFESA`, `VELOCIDADE`…).
 - [x] Tratamento ao jogador: "você" e tom informal.
 - [ ] Glossário inicial (ver [Glossário](#glossário)).
-- [x] Nome do idioma no código: `ptbr`.
+- [x] Nome do idioma no código: `pt_br`.
 
 **Pronto quando:** as decisões estiverem registradas abaixo.
 
 ## Fase 1 — Infraestrutura de idioma
 
-- [x] Flag do port `PORT_LOCALE_PTBR` em `include/constants/global.h`;
-      `GAME_LANGUAGE` continua inglês.
-- [x] Catálogo em `tools/locales/ptbr/*.toml`, separado por área (`ui.toml`,
-      `moves.toml`, `maps.toml`…). Cada tabela é um arquivo do pret e cada
-      chave nomeia o texto pelo **símbolo**, nunca pela posição:
-      `sThunderboltDescription`, `"gMoveNames[MOVE_POUND]"`,
-      `"gItems[ITEM_POTION].name"` ou o rótulo `Route101_Text_HelpMe`. Os
-      valores usam strings literais do TOML (`'...'`), então `\n`, `\p` e
-      `\l` ficam escritos como no pret.
-- [x] `tools/localize_ptbr.py`:
-  - [x] Substitui `_("…")` em arquivos C e `.string "…"` em arquivos `.inc`/`.s`
-        pelo nome do símbolo, com uma linha de código por linha do jogo.
-  - [x] Falha se um símbolo do catálogo não existir na árvore (upstream mudou).
-  - [x] Valida tudo antes de escrever: caracteres da fonte, códigos `{…}`,
-        aspas e o `$` dos scripts.
-  - [x] Grava `.emerald3ds-locale` com `PTBR` e a assinatura do catálogo.
-  - [x] Testes: `python -m unittest discover -s tools/tests`.
-- [x] `tools/bootstrap.py --locale ptbr`: aplica o catálogo antes de
-      `make generated`; reinicia a árvore ao trocar de idioma ou quando o
-      catálogo muda (nesse caso recompila só os objetos do jogo).
-- [x] Catálogo de teste: menu principal, descrição do THUNDERBOLT e diálogos do
-      Prof. Birch na Route 101.
-- [ ] Um texto de teste traduzido aparece no jogo no Azahar/Citra (precisa do
-      devkitPro instalado).
+- [x] `PORT_LANG=pt_br` no Makefile do port; `GAME_LANGUAGE` continua inglês.
+- [x] Catálogos em `tools/locales/pt_br/`, espelhando a árvore do pret: os
+      textos de `data/text/birch_speech.inc` ficam em
+      `tools/locales/pt_br/data/text/birch_speech.inc.txt`. Cada entrada nomeia
+      o rótulo ou símbolo, o hash do texto em inglês e o texto em PT, escrito
+      como no pret (`\n`, `\p`, `\l`, `{PLAYER}`).
+- [x] `tools/localize_portuguese.py`:
+  - [x] Substitui os textos de arquivos `.inc` e C pelo rótulo ou símbolo.
+  - [x] Para se o texto em inglês mudou (hash diferente: upstream mudou).
+  - [x] Confere caracteres da fonte e a largura em pixels de cada linha.
+  - [x] `--check`, `--status` (progresso) e `--show` (hash, largura e inglês).
+- [x] `tools/bootstrap.py --port-lang pt_br`: aplica os catálogos depois dos
+      patches e antes do build; reinicia a árvore ao trocar de idioma.
+- [ ] Um texto traduzido aparece no jogo no Azahar/Citra.
 
-**Pronto quando:** `python tools/bootstrap.py --make --locale ptbr` gera um
+**Pronto quando:** `python tools/bootstrap.py --make --port-lang pt_br` gera um
 3DSX (com os dados embutidos, como toda build de desenvolvimento) que mostra os
-textos de teste.
+textos traduzidos.
 
 ## Fase 2 — Fonte com ã e õ
 
@@ -102,7 +97,7 @@ códigos de `charmap.txt` já estão ocupados.
       em português nem no texto inglês (candidatos: `Œ`/`œ`, `Ò`/`ò`, `Ì`/`ì`).
       Antes, conferir com `grep` que nenhum texto do upstream usa esses códigos.
 - [ ] Patch em `charmap.txt` mapeando `ã`, `õ`, `Ã` e `Õ` para esses códigos,
-      sob a flag `PORT_LOCALE_PTBR`.
+      com `PORT_LANG=pt_br`.
 - [ ] Builder: na geração do pacote, desenhar os glifos novos em cada fonte
       latina (`normal`, `short`, `small`, `narrow`, `small_narrow`), copiando o
       til do `ñ`/`Ñ` da própria ROM sobre o `a`/`o`/`A`/`O`. Nada do gráfico é
@@ -136,18 +131,18 @@ emulador e no 3DS.
 
 ## Fase 4 — Importação do HoennKantoWiki
 
-- [x] Cópia das traduções do wiki em `tools/locales/ptbr/wiki/`
-      (`tools/import_wiki_ptbr.py`, só leitura do wiki).
-- [ ] Conversor neste projeto, que gera o catálogo da fase 1 a partir da
-      cópia.
+- [x] Cópia dos dados do wiki em `tools/locales/pt_br/referencia/hoennkantowiki/`
+      (só leitura do wiki).
+- [ ] Conversor neste projeto, que gera entradas do catálogo da fase 1 a
+      partir da cópia.
 
 | Conteúdo | Arquivo da cópia | Destino no pret | Volume |
 |---|---|---|---|
-| Descrições de golpes | `wiki/moves.json` | `src/data/text/move_descriptions.h` | 354 |
-| Categorias | `wiki/genera.json` | `categoryName` em `src/data/pokemon/pokedex_entries.h` | 279 (de 386) |
-| Tipos | `wiki/types.json` | `gTypeNames` | 18 |
-| Descrições de itens | `wiki/items.json` | `src/data/text/item_descriptions.h` | 18 (de ~310) |
-| Termos de local | regras do wiki (ver `wiki/README.md`) | `src/data/region_map/region_map_sections.json` | ~210 |
+| Descrições de golpes | `i18n/pt.json` (`moves`) | `src/data/text/move_descriptions.h` | 354 |
+| Categorias | `i18n/pt.json` (`genera`) | `categoryName` em `src/data/pokemon/pokedex_entries.h` | 279 (de 386) |
+| Tipos | `i18n/pt.json` | `gTypeNames` | 18 |
+| Descrições de itens | `item-descriptions.json` | `src/data/text/item_descriptions.h` | 18 (de ~310) |
+| Termos de local | regras do wiki | `src/data/region_map/region_map_sections.json` | ~210 |
 
 - [ ] Golpes: ligar a chave do wiki (`thunderbolt`) ao símbolo
       (`sThunderboltDescription`), quebrar as linhas e listar o que não couber.
@@ -293,10 +288,11 @@ Registre aqui cada decisão, com data.
 | 2026-10-07 | Tipos traduzidos com `TIPOS_PT`, em maiúsculas. Exige aumentar `TYPE_NAME_LENGTH` (6 hoje; `TERRESTRE` tem 9) e gerar ícones de tipo em PT. |
 | 2026-10-07 | Atributos traduzidos (`ATAQUE`, `DEFESA`, `VELOCIDADE`…), divergindo da regra do wiki. Formas exatas no Glossário. |
 | 2026-10-07 | Tratamento: "você", tom informal. |
-| 2026-10-07 | Nome do idioma no código: `ptbr`. |
+| 2026-10-07 | Nome do idioma no código: `pt_br`. |
 | 2026-10-07 | Nomes de golpes, itens, habilidades, naturezas e a parte genérica dos lugares também são traduzidos, para soar natural ao jogador brasileiro. Espécies, personagens e o nome próprio dos lugares ficam como estão. |
-| 2026-10-07 | O HoennKantoWiki não é alterado. As traduções são copiadas para `tools/locales/ptbr/wiki/` por `tools/import_wiki_ptbr.py`, só com o texto em PT. |
+| 2026-10-07 | O HoennKantoWiki não é alterado. Os dados são copiados para `tools/locales/pt_br/referencia/hoennkantowiki/`. |
 | 2026-10-07 | Traduzir o máximo possível. Quando uma palavra não couber, estudar uma abreviação (registrada no Glossário) em vez de manter o inglês. |
+| 2026-10-08 | Um só fluxo PT-BR: `--port-lang pt_br` com `localize_portuguese.py` e os catálogos de `tools/locales/pt_br/`. O fluxo `--locale ptbr` (`localize_ptbr.py`, catálogo TOML) foi retirado; os textos dele já estavam no catálogo `pt_br`. |
 
 ## Glossário
 
@@ -324,7 +320,7 @@ Termos e nomes traduzidos. Espécies, personagens e o nome próprio dos lugares 
 | Risco | Mitigação |
 |---|---|
 | Textos do jogo vivem no pacote, não no executável | Receita PT com literais de tradução (fase 9) |
-| Atualização do upstream muda símbolos ou textos | Catálogo por símbolo; o `localize_ptbr.py` falha e aponta o que mudou |
+| Atualização do upstream muda símbolos ou textos | Entradas com o hash do inglês; o `localize_portuguese.py` para e aponta o que mudou |
 | Texto PT mais longo estoura janelas | Check em pixels (fase 3) e ajustes de layout no estilo dos patches `0031`–`0036` |
 | Códigos reaproveitados para ã/õ aparecem em nomes de saves ingleses | Escolher letras sem uso real; documentar |
 | Volume dos diálogos | Ordem do jogo, cobertura medida e fallback para o inglês |

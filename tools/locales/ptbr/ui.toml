@@ -1,7 +1,0 @@
-# Interface: menus, bolsa, PC, opções.
-# Formato: docs/ROADMAP-PTBR.md (fase 1) e tools/localize_ptbr.py.
-# Use strings literais ('...'): \n, \p e \l ficam como no pret.
-
-["src/strings.c"]
-gText_MainMenuNewGame = 'NOVO JOGO'
-gText_MainMenuContinue = 'CONTINUAR'
