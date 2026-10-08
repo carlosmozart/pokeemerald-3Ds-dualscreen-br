@@ -1405,7 +1405,7 @@ DEFESA
 VELOC.
 
 [sText_SpAtk2] 4881ee79a1
-ATQ. ESP.
+AT. ESP.
 
 [sText_SpDef2] 3b0727a5ad
 DEF. ESP.
@@ -1635,7 +1635,7 @@ ATAQUE
 DEFESA
 
 [sText_SpAtk] 4881ee79a1 width=42
-ATQ.ESP.
+AT.ESP.
 
 [sText_SpDef] 3b0727a5ad width=42
 DEF.ESP.

@@ -51,7 +51,7 @@ Fica para outra vez, tá?$
 
 [RivalsHouse_2F_Text_BrendanGettingReady] 8072d579e9
 POKéMON recuperados…\n
-Itens na mochila, e…$
+Itens na BOLSA, e…$
 
 [RivalsHouse_2F_Text_ItsRivalsPokeBall] 9b9f880b32
 É a POKé BOLA de {RIVAL}!\p

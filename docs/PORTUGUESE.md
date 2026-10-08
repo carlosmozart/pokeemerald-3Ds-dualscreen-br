@@ -14,6 +14,10 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
 
+O plano da tradução, as decisões e o andamento de cada fase estão no
+[roadmap](ROADMAP-PTBR.md); os termos, no
+[glossário](../tools/locales/pt_br/GLOSSARIO.md).
+
 O jogo continua vindo da ROM americana/europeia (BPEE). Ainda não foi testada
 num 3DS.
 
