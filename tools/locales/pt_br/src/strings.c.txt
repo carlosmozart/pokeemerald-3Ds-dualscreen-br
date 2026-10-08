@@ -397,3 +397,88 @@ MENINO
 
 [gText_BirchGirl] 333d234676 width=40
 MENINA
+
+# O menu de opções (src/option_menu.c). Os rótulos vão até x=92; os valores
+# ficam entre x=96 e x=204 (patch 0045), o TIPO da moldura em 24 px.
+
+[gText_Option] 5b8ec92558 width=60
+OPÇÕES
+
+[gText_TextSpeed] ff4b6daacb width=88
+VEL. DO TEXTO
+
+[gText_BattleScene] 8b3175525e width=88
+ANIMAÇÕES
+
+[gText_BattleStyle] 9c1dbf8dfd width=88
+ESTILO BATALHA
+
+[gText_Sound] 955c8b401b width=88
+SOM
+
+[gText_ButtonMode] 48c5931c4b width=88
+MODO DOS BOTÕES
+
+[gText_Frame] 6d649eb34a width=88
+MOLDURA
+
+[gText_OptionMenuCancel] 1507c40f04 width=88
+VOLTAR
+
+[gText_TextSpeedSlow] b34bd128ac width=30
+{COLOR GREEN}{SHADOW LIGHT_GREEN}LENTA
+
+[gText_TextSpeedMid] af0b6e95ac width=30
+{COLOR GREEN}{SHADOW LIGHT_GREEN}MÉDIA
+
+[gText_TextSpeedFast] 33d7d5ed01 width=36
+{COLOR GREEN}{SHADOW LIGHT_GREEN}RÁPIDA
+
+[gText_BattleSceneOn] ae183e6301 width=40
+{COLOR GREEN}{SHADOW LIGHT_GREEN}SIM
+
+[gText_BattleSceneOff] a7e323f6e6 width=40
+{COLOR GREEN}{SHADOW LIGHT_GREEN}NÃO
+
+[gText_BattleStyleShift] 97702b095f width=60
+{COLOR GREEN}{SHADOW LIGHT_GREEN}ALTERNADO
+
+[gText_BattleStyleSet] cee783625b width=40
+{COLOR GREEN}{SHADOW LIGHT_GREEN}FIXO
+
+[gText_SoundStereo] a8dc3b670d width=50
+{COLOR GREEN}{SHADOW LIGHT_GREEN}ESTÉREO
+
+[gText_FrameType] f67efadb77 width=24
+{COLOR GREEN}{SHADOW LIGHT_GREEN}TIPO
+
+# O menu CONTINUAR (src/main_menu.c): JOGADOR e POKéDEX à esquerda, com o
+# valor alinhado em x=100; TEMPO e INSÍGNIAS a partir de x=108.
+
+[gText_ContinueMenuPlayer] 5055efde51 width=54
+JOGADOR
+
+[gText_ContinueMenuTime] 64269f9bd2 width=60
+TEMPO
+
+[gText_ContinueMenuBadges] 0a93c8513e width=60
+INSÍGNIAS
+
+# Mensagens do save ao abrir o jogo, em caixa de mensagem.
+
+[gText_SaveFileUpdated] 7d81f9b9d6 width=208
+Os dados salvos foram atualizados.
+
+[gText_SaveFileCorrupted] 511a4aa0cf width=208
+Os dados salvos estão corrompidos.\n
+Os dados anteriores serão carregados.
+
+[gText_SaveFileErased] 03d1a727fa width=208
+Os dados salvos foram apagados\n
+por estarem corrompidos ou com defeito.
+
+[gText_BatteryRunDry] 6606baab1a width=208
+A bateria interna acabou.\n
+O jogo pode ser jogado.\p
+Mas os eventos ligados ao relógio\n
+não vão mais acontecer.

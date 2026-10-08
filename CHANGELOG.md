@@ -53,6 +53,10 @@
   the whole selected row is highlighted, not only its left half (patch
   0044): the 3DS shows the rows the GBA hid, and the highlight's right edge
   wrapped on the 400px screen.
+- Portuguese: the OPTION menu (VEL. DO TEXTO, LENTA MÉDIA RÁPIDA,
+  ANIMAÇÕES, ESTILO BATALHA…), the CONTINUE menu and the save file
+  messages at start. Patch 0045 widens the OPTION menu's choices column for
+  Portuguese (x=96..204 instead of 104..198); English is unchanged.
 
 ## 0.3.0 — 2026-10-08
 
