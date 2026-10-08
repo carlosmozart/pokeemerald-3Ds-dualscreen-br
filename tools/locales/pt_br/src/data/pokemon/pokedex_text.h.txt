@@ -313,3 +313,153 @@ Como os trigêmeos surgiram de um único\n
 corpo, eles pensam exatamente igual.\n
 Trabalham juntos para cavar sem parar\n
 por baixo da terra.
+
+[gMeowthPokedexText] 6c31e50894
+MEOWTH recolhe as garras afiadas nas\n
+patas para andar sem fazer barulho.\n
+Por algum motivo, este POKéMON adora\n
+moedas brilhantes que reluzem na luz.
+
+[gPersianPokedexText] 3b8c7e11ea
+Os seis bigodes imponentes de PERSIAN\n
+sentem o movimento do ar para saber o\n
+que há por perto. Ele fica mansinho se\n
+alguém o segura pelos bigodes.
+
+[gPsyduckPokedexText] 52b2d9f071
+Quando a dor de cabeça piora, começa a\n
+usar poderes estranhos. Mas ele não se\n
+lembra dos próprios poderes, por isso\n
+está sempre com cara de perdido.
+
+[gGolduckPokedexText] 476092f560
+GOLDUCK é um nadador habilidoso.\n
+Às vezes treina junto com nadadores de\n
+competição. Usa poderes psíquicos quando\n
+a testa brilha.
+
+[gMankeyPokedexText] 88008b81e3
+Quando começa a tremer e a respirar forte\n
+pelo nariz, é sinal certo de raiva. Mas,\n
+como isso acontece num instante, não dá\n
+tempo de fugir.
+
+[gPrimeapePokedexText] 9eb624a33e
+Quando fica furioso, a circulação do\n
+sangue acelera e os músculos ficam mais\n
+fortes. Mas ele também fica bem menos\n
+inteligente.
+
+[gGrowlithePokedexText] 0e999457c8
+Graças ao olfato excelente, este POKéMON\n
+nunca esquece um cheiro, aconteça o que\n
+acontecer. Usa o olfato para perceber\n
+as emoções dos outros.
+
+[gArcaninePokedexText] 9a095ea22f
+Dizem que este POKéMON veloz corre mais\n
+de 10.000 km num único dia e noite. O fogo\n
+que arde descontrolado dentro do corpo é\n
+a fonte do seu poder.
+
+[gPoliwagPokedexText] 07dca7a27a
+Dá para ver a espiral das entranhas deste\n
+POKéMON através da pele fina. Mas a pele\n
+também é muito flexível. Até presas\n
+afiadas ricocheteiam nela.
+
+[gPoliwhirlPokedexText] 894a81c263
+A pele está sempre molhada e escorregadia\n
+por causa de um líquido oleoso. Graças a\n
+essa camada, ele escapa fácil das garras\n
+de qualquer inimigo na batalha.
+
+[gPoliwrathPokedexText] c076dc6bf3
+Seus músculos bem desenvolvidos nunca se\n
+cansam, por mais que se exercite.\n
+Este POKéMON atravessa o Oceano Pacífico\n
+nadando, ida e volta, sem esforço.
+
+[gAbraPokedexText] 11e4837717
+Um POKéMON que dorme 18 horas por dia.\n
+Observações mostraram que ele usa\n
+TELEPORTE para mudar de lugar uma vez\n
+por hora.
+
+[gKadabraPokedexText] 8f105c1888
+Há um boato de que um garoto com poderes\n
+psíquicos virou KADABRA de repente\n
+enquanto ajudava numa pesquisa sobre\n
+poderes extrassensoriais.
+
+[gAlakazamPokedexText] 8f5029f51a
+Apesar dos fortes poderes psíquicos e da\n
+grande inteligência, os músculos de\n
+ALAKAZAM são muito fracos. Ele usa o poder\n
+psíquico para mover o corpo.
+
+[gMachopPokedexText] 663b53b925
+Treina pesado sem parar para dominar\n
+todas as artes marciais. Sua força deixa\n
+ele erguer um lutador de sumô nos\n
+ombros com facilidade.
+
+[gMachokePokedexText] b7a3e2ec3f
+MACHOKE usa um cinto para manter sob\n
+controle sua força avassaladora. Como é\n
+perigoso demais, ninguém nunca tirou\n
+esse cinto.
+
+[gMachampPokedexText] a121db91ed
+É impossível se defender dos socos e\n
+golpes dos seus quatro braços. O espírito\n
+de luta pega fogo quando ele enfrenta\n
+um oponente difícil.
+
+[gBellsproutPokedexText] 18be367def
+O corpo fino e flexível de BELLSPROUT se\n
+curva e balança para desviar de qualquer\n
+ataque, por mais forte que seja. Da boca,\n
+escorre um líquido que derrete até ferro.
+
+[gWeepinbellPokedexText] 5f948119c8
+À noite, WEEPINBELL dorme pendurado num\n
+galho pelo gancho da traseira. Se ele se\n
+mexe dormindo, pode acordar e descobrir\n
+que caiu no chão.
+
+[gVictreebelPokedexText] 2ad71a50ca
+Balança o cipó comprido da cabeça como se\n
+fosse um bicho vivo para atrair presas.\n
+Quando uma vítima distraída chega perto,\n
+é engolida inteira.
+
+[gTentacoolPokedexText] 44b567d62f
+Seu corpo é quase todo feito de água.\n
+Prende o inimigo com os dois tentáculos\n
+longos e depois o fura com os ferrões\n
+venenosos das pontas.
+
+[gTentacruelPokedexText] 1abd0b5dac
+Vive entre rochas no fundo do mar e\n
+prende as presas com seus 80 tentáculos.\n
+As esferas vermelhas brilham quando ele\n
+fica empolgado ou agitado.
+
+[gGeodudePokedexText] cb2a36b283
+Sobe as trilhas das montanhas usando só a\n
+força dos braços. Como parece uma pedra\n
+à beira do caminho, os trilheiros podem\n
+pisar nele sem perceber.
+
+[gGravelerPokedexText] 85a703fe88
+Descem das montanhas rolando pelas\n
+encostas íngremes. São tão brutos que\n
+arrebentam árvores e rochas enormes no\n
+caminho com investidas estrondosas.
+
+[gGolemPokedexText] d483d398c6
+Dizem que vive nas crateras de vulcões\n
+no alto das montanhas. Uma vez por ano,\n
+troca de casca e cresce. A casca velha\n
+esfarela e volta para a terra.
