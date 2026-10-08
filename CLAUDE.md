@@ -40,6 +40,33 @@ Como compilar: [docs/PORTUGUESE.md](docs/PORTUGUESE.md).
 - Nenhum conteúdo da ROM no repositório: o catálogo guarda só o português e o
   hash do inglês.
 
+## Dois PCs ao mesmo tempo
+
+A tradução avança em dois PCs, os dois no `main`. O GitHub é o ponto de
+encontro, e os ganchos de `.claude/settings.json` cuidam da rotina:
+
+- **Ao abrir uma sessão**, `tools/sync_pcs.py start` traz os commits do
+  outro PC (`pull --rebase`). Leia o que ele disser antes de começar.
+- **Depois de cada `git commit`**, `sync_pcs.py push` faz o rebase sobre o
+  que o outro PC enviou e o push. Faça commits pequenos e frequentes (um
+  mapa, um arquivo do catálogo), nunca um lote de horas.
+- **Ao terminar uma resposta**, `sync_pcs.py check` avisa de commits ou
+  arquivos que ainda não estão no GitHub.
+- Se o rebase der conflito, o script desfaz o rebase sem perder nada e
+  avisa: resolva com o usuário antes de seguir.
+
+Para não pisar no trabalho do outro PC:
+
+- **Patches novos**: antes de escolher o número, rode
+  `python tools/sync_pcs.py start` e use o próximo número livre em
+  `patches/pokeemerald/`; faça o commit e o push do patch logo em seguida,
+  para o número ficar reservado.
+- **Divida o trabalho por arquivo do catálogo** (um PC nos mapas, o outro
+  em `src/strings.c.txt`, por exemplo). Dois PCs editando o mesmo arquivo
+  de catálogo geram conflito.
+- **Decisões** (glossário, roadmap) entram num commit próprio e são
+  enviadas na hora, antes de traduzir com base nelas.
+
 ## HoennKantoWiki
 
 - **Nunca altere o HoennKantoWiki.** Só leia e copie o que precisar para

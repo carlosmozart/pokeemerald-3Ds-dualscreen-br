@@ -37,7 +37,8 @@ __pycache__/
 *.log
 .vscode/
 .idea/
-.claude/
+.claude/*
+!.claude/settings.json
 .agents/
 session-*.md
 .public-denylist
