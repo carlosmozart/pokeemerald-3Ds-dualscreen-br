@@ -188,7 +188,7 @@ Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
       (`texto_historico` pega a primeira versão). Traduzir as entradas do
       **Emerald** a partir de `pokedex_text.h`, com o PT do wiki como apoio
       quando o texto for igual.
-      Andamento: 001–101 e a de espécie desconhecida (102 de 387).
+      Andamento: 001–126 e a de espécie desconhecida (127 de 387).
 - [x] Descrições de itens.
 - [ ] Descrições das bagas e da etiqueta de bagas (comparar com o patch
       `0036`).

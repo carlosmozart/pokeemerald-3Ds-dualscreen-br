@@ -613,3 +613,151 @@ Aparecem aos montes nas usinas de energia\n
 elétrica. Como se alimentam de\n
 eletricidade, causam apagões enormes e\n
 caóticos nas cidades vizinhas.
+
+[gExeggcutePokedexText] f473bd2859
+São seis ovos que cuidam uns dos outros.\n
+Os ovos se atraem e giram em volta uns\n
+dos outros. Quando aparecem cada vez\n
+mais rachaduras, está perto de evoluir.
+
+[gExeggutorPokedexText] edd5d29b4e
+Vindo dos trópicos, EXEGGUTOR tem as\n
+cabeças crescendo com o sol forte. Dizem\n
+que, quando as cabeças caem, elas se\n
+juntam e formam um EXEGGCUTE.
+
+[gCubonePokedexText] b8104865bd
+Sente falta da mãe que nunca mais vai\n
+ver. Quando vê a imagem dela na lua\n
+cheia, chora. As manchas no crânio que\n
+ele usa são das lágrimas.
+
+[gMarowakPokedexText] c37fcdf23a
+MAROWAK é a forma evoluída de um CUBONE\n
+que ficou forte ao superar a dor de\n
+perder a mãe. Seu espírito endurecido\n
+não se quebra fácil.
+
+[gHitmonleePokedexText] 17d8f408f7
+As pernas esticam e encolhem à vontade.\n
+Com esses membros de mola, derruba os\n
+inimigos com chutes devastadores. Depois\n
+da batalha, massageia as pernas cansadas.
+
+[gHitmonchanPokedexText] da2a9affea
+Dizem que HITMONCHAN tem o espírito de\n
+um boxeador que queria ser campeão\n
+mundial. Com esse espírito indomável,\n
+ele nunca desiste.
+
+[gLickitungPokedexText] 0dd29c296b
+Sempre que vê algo desconhecido, lambe,\n
+porque guarda as coisas na memória pela\n
+textura e pelo gosto. Não curte muito\n
+coisas azedas.
+
+[gKoffingPokedexText] 6fbdc67157
+Chegando perto de um KOFFING, dá para ver,\n
+através da pele fina, os gases tóxicos\n
+girando lá dentro. Ele explode ao menor\n
+estímulo.
+
+[gWeezingPokedexText] e614eaaf8d
+Diluindo os gases tóxicos num processo\n
+especial, dá para extrair o melhor\n
+perfume. Para WEEZING, os gases do lixo\n
+são o banquete supremo.
+
+[gRhyhornPokedexText] 46418d7e8c
+Depois que começa a correr, não para.\n
+O cérebro minúsculo o deixa tão bobo que\n
+ele nem lembra por que começou a\n
+correr.
+
+[gRhydonPokedexText] 7294497f53
+O chifre, que gira como uma broca,\n
+destrói prédios altos com um só golpe.\n
+Fica de pé nas patas traseiras, e o\n
+cérebro é bem desenvolvido.
+
+[gChanseyPokedexText] 9d8fa8a481
+CHANSEY põe todo dia ovos muito\n
+nutritivos. São tão gostosos que até\n
+quem perdeu o apetite devora com\n
+vontade.
+
+[gTangelaPokedexText] 563d1aa19c
+Os cipós se soltam fácil e sem dor se\n
+alguém os agarra, o que ajuda na fuga.\n
+Os cipós perdidos são substituídos por\n
+novos já no dia seguinte.
+
+[gKangaskhanPokedexText] 64c66d969e
+Se você achar um KANGASKHAN filhote\n
+brincando sozinho, nunca tente pegá-lo.\n
+A mãe com certeza está por perto e vai\n
+ficar furiosa.
+
+[gHorseaPokedexText] 8a232cbc4e
+Mexendo com esperteza as nadadeiras das\n
+costas de um lado para o outro, vai em\n
+qualquer direção olhando para a frente.\n
+Cospe tinta para fugir do perigo.
+
+[gSeadraPokedexText] a9f637a47f
+Os espinhos venenosos do corpo todo são\n
+muito valorizados como ingrediente de\n
+remédios tradicionais. Não tem piedade\n
+de quem chega perto do ninho.
+
+[gGoldeenPokedexText] 8b8cf78dbe
+Na primavera, cardumes de GOLDEEN sobem\n
+cachoeiras e rios. O chifre único causa\n
+um dano impressionante.
+
+[gSeakingPokedexText] ae32d6e16a
+Abre buracos nas pedras do leito dos\n
+rios. É uma ideia esperta que protege\n
+os ovos de ataques e da correnteza.
+
+[gStaryuPokedexText] 9fcacb1792
+À noite, se junta com outros e faz o\n
+núcleo vermelho piscar junto com as\n
+estrelas. Regenera os membros se eles\n
+forem cortados do corpo.
+
+[gStarmiePokedexText] f5a58daf95
+Antigamente, as pessoas imaginavam que\n
+os STARMIE vinham do reflexo das\n
+estrelas brilhando nas ondas calmas\n
+da noite.
+
+[gMrMimePokedexText] 4bda99e6b4
+MR. MIME é mestre da pantomima.\n
+Convence os outros de que algo invisível\n
+existe de verdade. Quando acreditam, o\n
+objeto imaginário vira real.
+
+[gScytherPokedexText] a402645ce6
+A velocidade estonteante aumenta o corte\n
+das duas foices dos braços. As foices\n
+cortam troncos grossos com um único\n
+golpe cruel.
+
+[gJynxPokedexText] 80d043a0c0
+JYNX rebola no ritmo como se estivesse\n
+dançando. Seus movimentos são tão\n
+gingados que quem vê começa a mexer\n
+o quadril sem perceber.
+
+[gElectabuzzPokedexText] f56b520961
+Quando vem uma tempestade, disputa com\n
+os outros os lugares altos onde os raios\n
+caem. Algumas cidades usam ELECTABUZZ\n
+no lugar de para-raios.
+
+[gMagmarPokedexText] 1c083be6d8
+Na batalha, solta chamas intensas pelo\n
+corpo todo para intimidar o inimigo.\n
+Essas rajadas criam ondas de calor que\n
+incendeiam a grama e as árvores.
