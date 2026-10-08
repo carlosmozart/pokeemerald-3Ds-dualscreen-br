@@ -1211,3 +1211,153 @@ Este POKéMON tem a forma de letras\n
 antigas. As pesquisas continuam, mas não\n
 se sabe o que veio primeiro: a escrita\n
 antiga ou os vários UNOWN.
+
+[gWobbuffetPokedexText] c2af79bdba
+Normalmente manso, WOBBUFFET revida com\n
+ferocidade se atacam sua cauda preta.\n
+Faz a toca em cavernas, onde espera\n
+o anoitecer.
+
+[gGirafarigPokedexText] 783607bed2
+GIRAFARIG é herbívoro: come capim e\n
+brotos de árvore. Enquanto come, a cauda\n
+faz movimentos de mastigar e engolir,\n
+como se também estivesse comendo.
+
+[gPinecoPokedexText] a0910dd9b5
+PINECO fica pendurado num galho\n
+esperando presas. Se alguém sacode a\n
+árvore enquanto ele come, cai no chão\n
+e explode de repente.
+
+[gForretressPokedexText] 91c1c5baf8
+Fica guardado dentro da casca de aço.\n
+Abre a casca para pegar presas, mas é\n
+tão rápido que não dá para ver o que\n
+tem lá dentro.
+
+[gDunsparcePokedexText] 949e8a03c4
+Usa a cauda em forma de broca para\n
+cavar a terra de ré. Este POKéMON é\n
+conhecido por fazer ninhos de formas\n
+complexas no fundo da terra.
+
+[gGligarPokedexText] b472b7be99
+Plana sem fazer nenhum barulho. Agarra\n
+o rosto do inimigo com as garras\n
+traseiras e as dianteiras enormes e\n
+depois o fura com o ferrão venenoso.
+
+[gSteelixPokedexText] c968c7735a
+STEELIX vivem ainda mais fundo que ONIX.\n
+Este POKéMON é conhecido por cavar em\n
+direção ao centro da Terra, chegando a\n
+mais de 1 km de profundidade.
+
+[gSnubbullPokedexText] 3b1b83cdb0
+Mostrando as presas e fazendo cara de\n
+mau, faz POKéMON menores fugirem de\n
+medo. Mas SNUBBULL parece ficar meio\n
+triste por espantar os inimigos.
+
+[gGranbullPokedexText] a3f9617745
+A mandíbula de baixo é muito desenvolvida.\n
+As presas enormes são pesadas e o fazem\n
+inclinar a cabeça. Se não levar um susto,\n
+não tenta morder.
+
+[gQwilfishPokedexText] daa978ede1
+QWILFISH usa a pressão da água que\n
+engole para disparar de uma vez espinhos\n
+tóxicos do corpo todo. Nadar é meio\n
+complicado para ele.
+
+[gScizorPokedexText] d1c8831789
+SCIZOR tem o corpo duro como aço.\n
+Ataques comuns não o abalam fácil.\n
+Bate as asas para regular a temperatura\n
+do corpo.
+
+[gShucklePokedexText] 39903e96e7
+SHUCKLE se esconde debaixo das pedras,\n
+com o corpo guardado na casca, comendo\n
+FRUTAS que estocou. As FRUTAS se misturam\n
+com os fluidos do corpo e viram suco.
+
+[gHeracrossPokedexText] 9d4ff3d632
+Eles se juntam nas florestas atrás da\n
+seiva doce das árvores. É todo coberto\n
+por uma casca dura como aço. Tem orgulho\n
+do chifre, que usa para lançar inimigos.
+
+[gSneaselPokedexText] 3f59fd4b5a
+SNEASEL sobe nas árvores cravando as\n
+garras em gancho na casca. Procura\n
+ninhos sem vigia e rouba ovos para comer\n
+enquanto os pais estão fora.
+
+[gTeddiursaPokedexText] d58cba5737
+Lambe as palmas das patas, adoçadas\n
+de tanto ficar no mel. TEDDIURSA faz o\n
+próprio mel misturando frutas e o pólen\n
+coletado por BEEDRILL.
+
+[gUrsaringPokedexText] d8404b8fbb
+Dizem que nas florestas onde URSARING\n
+junta comida há muitos riachos e árvores\n
+altíssimas. Ele anda pela sua floresta\n
+coletando comida todo dia.
+
+[gSlugmaPokedexText] d75da53eff
+É uma espécie de POKéMON que vive em\n
+áreas vulcânicas. Se o corpo esfria, a\n
+pele endurece e ele não se mexe. Para\n
+evitar isso, dorme perto do magma.
+
+[gMagcargoPokedexText] c528e19cbf
+A concha das costas é de magma\n
+endurecido. Dezenas de milhares de anos\n
+vivendo em crateras de vulcões fizeram\n
+o corpo de MAGCARGO virar magma.
+
+[gSwinubPokedexText] 79ecf1cc55
+Fuça atrás de comida esfregando o focinho\n
+no chão. Sua comida favorita é um cogumelo\n
+que cresce sob o capim seco. De vez em\n
+quando, acha fontes termais fuçando.
+
+[gPiloswinePokedexText] 74ac6e9a2c
+PILOSWINE é coberto por uma pelagem\n
+grossa de pelos longos para aguentar o\n
+frio congelante. Usa as presas para\n
+desenterrar comida debaixo do gelo.
+
+[gCorsolaPokedexText] efa50bb528
+CORSOLA vivem nos mares quentes do sul.\n
+Se o mar fica poluído, os lindos galhos\n
+de coral perdem a cor e se desfazem\n
+em pedaços.
+
+[gRemoraidPokedexText] 67b95b4994
+REMORAID usa os músculos da barriga\n
+para expelir com força a água engolida e\n
+derrubar presas voando. Quando está\n
+perto de evoluir, desce os rios.
+
+[gOctilleryPokedexText] 995d451b9b
+Prende o inimigo com os tentáculos de\n
+ventosas antes de dar o golpe final. Se o\n
+inimigo se mostra forte demais, solta\n
+tinta para fugir.
+
+[gDelibirdPokedexText] c49318b6c2
+Carrega comida embrulhada na cauda.\n
+Houve um explorador famoso que conseguiu\n
+escalar o Monte Everest graças a um\n
+DELIBIRD que dividiu a comida com ele.
+
+[gMantinePokedexText] bb69baf1f6
+Nos dias de sol, dá para ver cardumes de\n
+MANTINE saltando elegantes sobre as\n
+ondas. Não se incomoda com os REMORAID\n
+que pegam carona.
