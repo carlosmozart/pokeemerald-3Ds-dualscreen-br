@@ -1,0 +1,165 @@
+# As descrições da POKéDEX (src/data/pokemon/pokedex_text.h), traduzidas
+# das do Emerald: até 4 linhas e 224 px (a mais larga em inglês). Medidas
+# em unidades métricas, como o jogador brasileiro conhece.
+
+[gDummyPokedexText] 25070b4f39
+Este é um POKéMON recém-descoberto.\n
+Ele ainda está sendo estudado.\n
+Não há informações detalhadas\n
+disponíveis no momento.
+
+[gBulbasaurPokedexText] b7c713f850
+BULBASAUR pode ser visto cochilando sob\n
+o sol forte. Há uma semente nas costas.\n
+Ao absorver os raios do sol, a semente\n
+cresce cada vez mais.
+
+[gIvysaurPokedexText] 76c10e8b16
+Para sustentar o bulbo, as pernas de\n
+IVYSAUR ficam fortes. Se ele passar mais\n
+tempo deitado no sol, o broto logo vai\n
+desabrochar numa flor enorme.
+
+[gVenusaurPokedexText] f646be0749
+Dizem que a flor de VENUSAUR ganha cores\n
+vivas se ele recebe muita nutrição e luz\n
+do sol. O aroma da flor acalma as\n
+emoções das pessoas.
+
+[gCharmanderPokedexText] 73b19c140d
+A chama na ponta da cauda mostra as\n
+emoções dele. A chama tremula quando\n
+CHARMANDER está feliz e arde com força\n
+quando ele fica furioso.
+
+[gCharmeleonPokedexText] c3a502bb78
+Sem piedade, suas garras afiadas destroem\n
+os inimigos. Se encontra um rival forte, ele\n
+fica agitado, e a chama da cauda brilha\n
+num tom branco azulado.
+
+[gCharizardPokedexText] 70ab08c8fd
+CHARIZARD voa por aí em busca de\n
+oponentes fortes. Suas chamas intensas\n
+derretem qualquer material. Mesmo assim,\n
+nunca ataca um inimigo mais fraco.
+
+[gSquirtlePokedexText] 5aded8a01c
+O casco não serve só para proteger.\n
+O formato arredondado e os sulcos na\n
+superfície reduzem o atrito na água,\n
+e SQUIRTLE nada em alta velocidade.
+
+[gWartortlePokedexText] b48b784e2f
+A cauda grande é coberta por um pelo\n
+farto e espesso, que escurece com a idade.\n
+Os arranhões no casco mostram como esse\n
+POKéMON é resistente nas batalhas.
+
+[gBlastoisePokedexText] 11e091c0c9
+Os canhões d'água que saem do casco são\n
+muito precisos. Os jatos d'água acertam\n
+latinhas em cheio a uma distância de\n
+mais de 50 metros.
+
+[gCaterpiePokedexText] d4f6212efc
+O apetite voraz faz CATERPIE devorar\n
+sem hesitar folhas maiores que ele.\n
+Das antenas, ele solta um cheiro\n
+fortíssimo.
+
+[gMetapodPokedexText] dc151052a3
+O casco é duro como uma placa de ferro.\n
+METAPOD quase não se mexe, porque está\n
+preparando o interior macio para a\n
+evolução dentro do casco.
+
+[gButterfreePokedexText] 60ebe323bd
+Tem um talento incrível para achar o mel\n
+gostoso das flores. Consegue encontrar,\n
+extrair e levar o mel de flores que\n
+desabrocham a mais de 10 km de distância.
+
+[gWeedlePokedexText] 6a61129654
+WEEDLE tem um olfato apuradíssimo. Ele\n
+separa as folhas de que gosta das que\n
+não gosta farejando com sua grande\n
+probóscide vermelha (o nariz).
+
+[gKakunaPokedexText] b2bb717781
+Fica praticamente imóvel, agarrado a uma\n
+árvore. Mas, por dentro, está ocupado se\n
+preparando para evoluir. Dá para notar\n
+pelo quanto o casco esquenta.
+
+[gBeedrillPokedexText] 9ef4f79924
+BEEDRILL defende muito seu território.\n
+Por segurança, ninguém deve chegar\n
+perto do ninho. Se ficam bravos,\n
+atacam em enxame.
+
+[gPidgeyPokedexText] e897117be0
+Tem um senso de direção apuradíssimo.\n
+Sempre consegue voltar ao ninho, por\n
+mais longe que esteja do lugar que\n
+conhece.
+
+[gPidgeottoPokedexText] 9ba888490e
+Este POKéMON voa por aí patrulhando seu\n
+grande território. Se alguém invade seu\n
+espaço, castiga o inimigo sem dó com\n
+suas garras afiadas.
+
+[gPidgeotPokedexText] 91c6abb3c2
+Este POKéMON tem penas lindas e lustrosas.\n
+Muitos TREINADORES ficam tão encantados\n
+com as penas da cabeça que escolhem\n
+PIDGEOT como seu POKéMON.
+
+[gRattataPokedexText] 12eab770a2
+RATTATA é cauteloso ao extremo.\n
+Mesmo dormindo, mexe as orelhas o tempo\n
+todo, atento ao perigo. Faz o ninho\n
+em qualquer lugar.
+
+[gRaticatePokedexText] 89cad1a055
+As presas fortes de RATICATE não param\n
+de crescer. Para gastá-las, ele rói\n
+pedras e troncos. Pode até roer as\n
+paredes das casas.
+
+[gSpearowPokedexText] ed5564aa36
+Seu grito alto pode ser ouvido a quase\n
+1 km. Se esse grito agudo ecoa por toda\n
+parte, é sinal de que eles estão\n
+avisando uns aos outros do perigo.
+
+[gFearowPokedexText] b767f8b2f4
+O pescoço comprido e o bico alongado\n
+são ideais para pegar presas na terra ou\n
+na água. Ele move com habilidade esse\n
+bico longo e fino para fisgar a presa.
+
+[gEkansPokedexText] 8f8533b9e4
+EKANS descansa enrolado em espiral.\n
+Nessa posição, consegue reagir rápido a um\n
+inimigo vindo de qualquer direção,\n
+ameaçando com a cabeça erguida.
+
+[gArbokPokedexText] 9bb8e95a31
+Este POKéMON tem uma força de constrição\n
+tremenda. Consegue até amassar barris\n
+de aço. Depois que se enrola no inimigo,\n
+não tem como escapar.
+
+[gPikachuPokedexText] 26eae0e1c9
+Guarda eletricidade nas bolsas elétricas\n
+das bochechas. Quando solta de uma vez\n
+a energia acumulada, a descarga é tão\n
+forte quanto um raio.
+
+[gRaichuPokedexText] e7657c8b48
+Se acumula eletricidade demais, fica\n
+agressivo. Para evitar isso, de vez em\n
+quando descarrega o excesso de energia\n
+e se acalma.
