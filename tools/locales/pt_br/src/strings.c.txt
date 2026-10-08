@@ -482,3 +482,344 @@ A bateria interna acabou.\n
 O jogo pode ser jogado.\p
 Mas os eventos ligados ao relógio\n
 não vão mais acontecer.
+
+# O PC do jogador (src/player_pc.c): os menus se ajustam ao texto; as
+# descrições e mensagens vão na caixa de diálogo, as do depósito de itens
+# numa janela de 13 tiles.
+
+[gText_Cancel] 1507c40f04 width=90
+VOLTAR
+
+[gText_Decoration] 9cb976dd2f width=90
+DECORAÇÃO
+
+[gText_DepositItem] 080dd293fd width=90
+GUARDAR ITEM
+
+[gText_ItemStorage] 2014bad8d9 width=90
+ITENS GUARDADOS
+
+[gText_Mailbox] 172e168c47 width=90
+CARTAS
+
+[gText_MoveToBag] 05d7de447b width=90
+PARA A BOLSA
+
+[gText_Read] 0a3768425d width=90
+LER
+
+[gText_TossItem] f29aa74d1f width=90
+DESCARTAR
+
+[gText_TurnOff] 3caa119c81 width=90
+DESLIGAR
+
+[gText_WithdrawItem] 98e2f00f86 width=90
+RETIRAR ITEM
+
+[gText_MailToBagMessageErased] 69eda9f22d width=208
+A CARTA voltou para a BOLSA\ncom a mensagem apagada.{PAUSE_UNTIL_PRESS}
+
+[gText_MessageWillBeLost] 911d954c26 width=208
+A mensagem será perdida.\nTudo bem?
+
+[gText_NoItems] 80253959c3 width=208
+Não há itens.{PAUSE_UNTIL_PRESS}
+
+[gText_NoMailHere] 818372c97a width=208
+Não há CARTAS aqui.{PAUSE_UNTIL_PRESS}
+
+[gText_StoreItemsInPC] ae53063a5c width=208
+Guardar itens no PC.
+
+[gText_TakeOutItemsFromPC] e297ff9caf width=208
+Retirar itens do PC.
+
+[gText_ThrowAwayItemsInPC] 99a1ff08a3 width=208
+Jogar fora itens guardados no PC.
+
+[gText_WhatToDoWithVar1sMail] 2895bab09f width=208
+O que deseja fazer com a\nCARTA de {STR_VAR_1}?
+
+[gText_WhatWouldYouLike] 7b52603bb2 width=208
+O que você deseja fazer?
+
+[gText_GoBackPrevMenu] 46313be8c5 width=104
+Voltar ao\nmenu anterior.
+
+[gText_NoRoomInBag] 8bc775f840 width=104
+Não há mais espaço\nna BOLSA.
+
+[gText_TooImportantToToss] 251112abc5 width=104
+Isso é importante\ndemais para ser\ndescartado!
+
+[gText_WithdrawHowManyItems] 06bd828766 width=104
+Retirar quantos\n{STR_VAR_1}?
+
+[gText_WithdrawXItems] c05bf1f84d width=120
+Retirou {STR_VAR_2}\n{STR_VAR_1}.
+
+# O sistema de CAIXAS (src/pokemon_storage_system.c): os menus se ajustam
+# ao número de letras; as mensagens vão numa janela de 18 tiles (144 px);
+# as descrições do menu principal, na caixa de diálogo.
+
+[gPCText_Bag] 332c000cf7 width=90
+BOLSA
+
+[gPCText_Beach] ceb835f4de width=90
+PRAIA
+
+[gPCText_Cancel] 1507c40f04 width=90
+VOLTAR
+
+[gPCText_Cave] b1e3943cc1 width=90
+CAVERNA
+
+[gPCText_City] 55f447a461 width=90
+CIDADE
+
+[gPCText_Crag] bf90bde248 width=90
+ROCHEDO
+
+[gPCText_Desert] 8444e9ae2f width=90
+DESERTO
+
+[gPCText_Etcetera] 416400de0c width=90
+OUTROS
+
+[gPCText_Forest] 29c7af3348 width=90
+FLORESTA
+
+[gPCText_Friends] 223635cc48 width=90
+AMIGOS
+
+[gPCText_Give] a5fae5b4e2 width=90
+DAR
+
+[gPCText_Info] 9c9cf99982 width=90
+INFO
+
+[gPCText_Jump] bb0d79b578 width=90
+IR PARA
+
+[gPCText_Machine] 1d6e327716 width=90
+MÁQUINA
+
+[gPCText_Mark] 20b7a63446 width=90
+MARCAR
+
+[gPCText_Move] 3bf08a84f1 width=90
+MOVER
+
+[gPCText_Name] a9d371451b width=90
+NOME
+
+[gPCText_Place] 1127ccbfa2 width=90
+COLOCAR
+
+[gPCText_Pokecenter] 8abde0f9af width=90
+CENTRO POKé
+
+[gPCText_PolkaDot] bfb5b90ca7 width=90
+BOLINHAS
+
+[gPCText_Release] f73b278fda width=90
+SOLTAR
+
+[gPCText_River] 9cefb5f80e width=90
+RIO
+
+[gPCText_Savanna] e1aadc1f77 width=90
+SAVANA
+
+[gPCText_Scenery1] cfa6d4a1b8 width=90
+PAISAGEM 1
+
+[gPCText_Scenery2] d97959e0ca width=90
+PAISAGEM 2
+
+[gPCText_Scenery3] 1d2b7a41e8 width=90
+PAISAGEM 3
+
+[gPCText_Seafloor] 79ab1e4e59 width=90
+FUNDO MAR
+
+[gPCText_Shift] 149b8de2b0 width=90
+TROCAR
+
+[gPCText_Simple] 1c34a90a63 width=90
+SIMPLES
+
+[gPCText_Sky] 65b5966c26 width=90
+CÉU
+
+[gPCText_Snow] 4bbd1caa53 width=90
+NEVE
+
+[gPCText_Store] a022ae64c8 width=90
+GUARDAR
+
+[gPCText_Summary] 1450844d24 width=90
+RESUMO
+
+[gPCText_Switch] b02cbd93fe width=90
+TROCAR
+
+[gPCText_Take] 06614e39f2 width=90
+PEGAR
+
+[gPCText_Volcano] 43fd415f47 width=90
+VULCÃO
+
+[gPCText_Wallpaper] f00e8e606b width=90
+FUNDO
+
+[gPCText_Withdraw] b4bcf59859 width=90
+RETIRAR
+
+[gText_DepositPokemon] 76d7902854 width=90
+DEPOSITAR
+
+[gText_MoveItems] 6e46477b0f width=90
+MOVER ITENS
+
+[gText_MovePokemon] 37e7fb9b7b width=90
+MOVER POKéMON
+
+[gText_SeeYa] 6a4946d8dc width=90
+ATÉ MAIS!
+
+[gText_WithdrawPokemon] eb946f0023 width=90
+RETIRAR
+
+[gText_DepositMonDescription] ad209827e6 width=208
+Guarde POKéMON da equipe nas CAIXAS.
+
+[gText_MoveItemsDescription] e54f650846 width=208
+Mova itens segurados por POKéMON\nnas CAIXAS ou na equipe.
+
+[gText_MoveMonDescription] 022b9ed1e0 width=208
+Organize os POKéMON nas CAIXAS e\nna sua equipe.
+
+[gText_SeeYaDescription] 349bf7a9c5 width=208
+Voltar ao menu anterior.
+
+[gText_WithdrawMonDescription] 41b4e3757e width=208
+Leve POKéMON das CAIXAS para\na sua equipe.
+
+[gText_BagIsFull2] d76a045011 width=144
+A BOLSA está cheia.
+
+[gText_BoxIsFull2] 11b25bfc90 width=144
+A CAIXA está cheia.
+
+[gText_ByeByePkmn] 257c67bb06 width=144
+Tchau, {DYNAMIC 0}!
+
+[gText_ChangedToNewItem] 9567cdc2fd width=144
+Trocado por {DYNAMIC 0}.
+
+[gText_ContinueBoxOperations] d850aa85cc width=144
+Continuar nas CAIXAS?
+
+[gText_DepositInWhichBox] ae37e87288 width=144
+Depositar em qual CAIXA?
+
+[gText_ExitFromBox] 56388e51f6 width=144
+Sair da CAIXA?
+
+[gText_FourEllipsesExclamation] e2ad6dd9d2 width=144
+… … … … !
+
+[gText_GiveToAPkmn] 73b2ae41a8 width=144
+DAR a um POKéMON?
+
+[gText_ItemIsNowHeld] 94b64a89ea width=144
+{DYNAMIC 0} entregue.
+
+[gText_JumpToWhichBox] f648a1b66b width=144
+Ir para qual CAIXA?
+
+[gText_JustOnePkmn] 43061d4787 width=208
+Você só tem um POKéMON com você.
+
+[gText_MailCantBeStored] 2c444bd288 width=144
+Não dá para guardar CARTA!
+
+[gText_MarkYourPkmn] 3eb5795dd4 width=144
+Marque o seu POKéMON.
+
+[gText_PartyFull] 88eb261383 width=144
+Sua equipe está cheia!
+
+[gText_PickTheWallpaper] 32ef8a24b0 width=144
+Escolha o fundo.
+
+[gText_PkmnCameBack] e6d82bcde6 width=144
+{DYNAMIC 0} voltou!
+
+[gText_PkmnIsSelected] fcab592a76 width=144
+{DYNAMIC 0} selecionado.
+
+[gText_PkmnWasDeposited] 8de4ca6d2e width=144
+{DYNAMIC 0} foi guardado.
+
+[gText_PkmnWasReleased] 0f8f327cee width=144
+{DYNAMIC 0} foi solto.
+
+[gText_PlacedItemInBag] 9a38cbf157 width=144
+O item foi para a BOLSA.
+
+[gText_PleasePickATheme] 79b7087542 width=144
+Escolha um tema.
+
+[gText_PleaseRemoveTheMail] 7ed3728edb width=144
+Remova a CARTA, por favor.
+
+[gText_PutItemInBag] 47a200a54a width=144
+Pôr este item na BOLSA?
+
+[gText_ReleaseThisPokemon] 58c86f3878 width=144
+Soltar este POKéMON?
+
+[gText_ThatsYourLastPkmn] cd96404095 width=144
+É o seu último POKéMON!
+
+[gText_WasItWorriedAboutYou] 0ec55c45fd width=144
+Ele se preocupou com você?
+
+[gText_WhatDoYouWantToDo] 8d4f6ef55f width=144
+O que você quer fazer?
+
+[gText_WhichOneWillYouTake] 39182b81f9 width=144
+Qual você vai levar?
+
+[gText_YouCantReleaseAnEgg] e28c017f9c width=144
+Um OVO não pode ser solto.
+
+[gText_YourPartysFull] 611c510c01 width=144
+Sua equipe está cheia!
+
+[gText_YoureHoldingAPkmn] 58e509ee93 width=144
+Você está com um POKéMON!
+
+[gText_Box] 5d27af0eb9 width=40
+CAIXA
+
+[gText_EggNickname] 715a2d4c2e width=40
+OVO
+
+# O menu START (src/start_menu.c): a janela de salvar tem 14 tiles, a das
+# SAFARI BALLS 9 tiles, com o número no lugar do {STR_VAR_1}.
+
+[gText_SavingPlayer] 5055efde51 width=60
+JOGADOR
+
+[gText_SavingTime] 64269f9bd2 width=60
+TEMPO
+
+[gText_SavingBadges] 0a93c8513e width=60
+INSÍGNIAS
+
+[gText_SafariBallStock] 6103285b8b width=124
+BOLAS SAFÁRI\nEstoque: {STR_VAR_1}

@@ -57,6 +57,9 @@
   ANIMAÇÕES, ESTILO BATALHA…), the CONTINUE menu and the save file
   messages at start. Patch 0045 widens the OPTION menu's choices column for
   Portuguese (x=96..204 instead of 104..198); English is unchanged.
+- Portuguese: the player's PC (ITENS GUARDADOS, CARTAS, DECORAÇÃO), the
+  POKéMON STORAGE SYSTEM's menus, wallpapers and messages, and the START
+  menu's save and SAFARI BALLS windows (2805 texts in all).
 
 ## 0.3.0 — 2026-10-08
 
