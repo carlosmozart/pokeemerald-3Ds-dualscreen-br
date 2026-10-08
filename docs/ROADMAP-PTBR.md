@@ -1,0 +1,314 @@
+# Roadmap: Pokémon Emerald 3Ds Dual Screen em português (PT-BR)
+
+Guia de trabalho da tradução PT-BR deste fork. Marque os itens à medida que
+forem concluídos e registre as decisões na seção [Decisões](#decisões).
+
+Fonte principal das traduções existentes: uma cópia das traduções da Gen 3
+do **HoennKantoWiki** em [`tools/locales/ptbr/wiki/`](../tools/locales/ptbr/wiki/),
+feita por `tools/import_wiki_ptbr.py`. **O wiki não é alterado por este
+projeto:** só lemos e copiamos o que precisamos.
+
+## Princípios
+
+1. **Nenhum conteúdo da ROM no repositório.** A tradução é texto original
+   nosso, aplicado ao código-fonte do pret. Gráficos e fontes continuam saindo
+   da ROM do jogador, gerados localmente pelo builder.
+2. **Traduzir o máximo.** Tudo o que der vai para o português. Quando uma
+   palavra não couber, estudamos uma abreviação e a registramos no Glossário,
+   em vez de manter o inglês.
+3. **Fallback para o inglês.** Texto sem tradução continua em inglês. O jogo
+   precisa compilar e rodar em qualquer estágio da tradução.
+4. **Nomes traduzidos para soar natural.** Golpes, itens, habilidades,
+   naturezas e a parte genérica dos lugares vão para o português
+   (`ROUTE 104` vira `ROTA 104`, `MT. PYRE` vira `MONTE PYRE`). Ficam como
+   estão os nomes de espécies de Pokémon (são os mesmos no Brasil), de
+   personagens e o nome próprio dos lugares (`RUSTBORO`). Aqui o jogo diverge
+   da regra do wiki, que mantém esses nomes em inglês.
+5. **Fidelidade ao Emerald.** Textos com versão própria no Emerald (Pokédex,
+   por exemplo) são traduzidos a partir do Emerald, não de Ruby/Sapphire.
+6. **Save compatível.** `GAME_LANGUAGE` continua `LANGUAGE_ENGLISH`. O idioma da
+   tradução é uma flag do port, para que saves e o pacote de dados (gerado da
+   ROM BPEE) sejam os mesmos da versão inglesa.
+
+## Visão geral
+
+| Fase | Entrega | Depende de |
+|---|---|---|
+| 0 | Decisões de estilo e escopo | — |
+| 1 | Infraestrutura de idioma (flag, catálogo, script, bootstrap) | 0 |
+| 2 | Fonte com ã/õ | 1 |
+| 3 | Ferramentas de qualidade (largura em pixels, cobertura) | 1 |
+| 4 | Importação do wiki (golpes, categorias, tipos, locais) | 2, 3 |
+| 5 | Nomes, textos curtos e Pokédex do Emerald | 4 |
+| 6 | Interface, menus, batalha e ícones | 2, 3 |
+| 7 | Diálogos e scripts do mundo | 3 |
+| 8 | Tela de toque do 3DS | 1 |
+| 9 | Builder, release e distribuição | 1, 2 |
+| 10 | Teste completo e lançamento | todas |
+
+As fases 5 a 8 podem andar em paralelo depois que 1 a 3 estiverem prontas.
+
+---
+
+## Fase 0 — Decisões
+
+- [x] Caixa dos termos do jogo: estilo do Emerald (`POKéMON`, `ROTA 104`).
+- [x] Nomes de tipos: `TIPOS_PT` do wiki, em maiúsculas (`FOGO`, `ÁGUA`).
+- [x] Atributos: traduzidos (`ATAQUE`, `DEFESA`, `VELOCIDADE`…).
+- [x] Tratamento ao jogador: "você" e tom informal.
+- [ ] Glossário inicial (ver [Glossário](#glossário)).
+- [x] Nome do idioma no código: `ptbr`.
+
+**Pronto quando:** as decisões estiverem registradas abaixo.
+
+## Fase 1 — Infraestrutura de idioma
+
+- [ ] Flag do port `PORT_LOCALE_PTBR`, ligada pelo bootstrap; `GAME_LANGUAGE`
+      continua inglês.
+- [ ] Catálogo em `tools/locales/ptbr/`, separado por área (`moves.json`,
+      `abilities.json`, `pokedex.json`, `ui.json`, `battle.json`,
+      `maps/<MAPA>.json`…), indexado pelo **nome do símbolo** ou do rótulo do
+      script (`sThunderboltDescription`, `Route104_Text_...`), nunca por
+      posição.
+- [ ] `tools/localize_ptbr.py`:
+  - [ ] Substitui `_("…")` em arquivos C e `.string "…"` em arquivos `.inc`/`.s`
+        pelo nome do símbolo.
+  - [ ] Falha se um símbolo do catálogo não existir na árvore (upstream mudou).
+  - [ ] Valida tudo antes de escrever, como o `localize_spanish.py`.
+  - [ ] Grava `.emerald3ds-locale` com `PTBR`.
+- [ ] `tools/bootstrap.py --locale ptbr`: reinicia a árvore ao trocar de idioma,
+      como já acontece com `--spanish-rom`.
+- [ ] Um texto de teste traduzido aparece no jogo no Azahar/Citra.
+
+**Pronto quando:** `python tools/bootstrap.py --make --locale ptbr` gera um
+3DSX que roda com o pacote inglês e mostra o texto de teste.
+
+## Fase 2 — Fonte com ã e õ
+
+A tabela de caracteres da Gen 3 não tem `ã`, `õ`, `Ã` nem `Õ`, e todos os
+códigos de `charmap.txt` já estão ocupados.
+
+- [ ] Escolher quatro códigos para reaproveitar, entre letras que não aparecem
+      em português nem no texto inglês (candidatos: `Œ`/`œ`, `Ò`/`ò`, `Ì`/`ì`).
+      Antes, conferir com `grep` que nenhum texto do upstream usa esses códigos.
+- [ ] Patch em `charmap.txt` mapeando `ã`, `õ`, `Ã` e `Õ` para esses códigos,
+      sob a flag `PORT_LOCALE_PTBR`.
+- [ ] Builder: na geração do pacote, desenhar os glifos novos em cada fonte
+      latina (`normal`, `short`, `small`, `narrow`, `small_narrow`), copiando o
+      til do `ñ`/`Ñ` da própria ROM sobre o `a`/`o`/`A`/`O`. Nada do gráfico é
+      distribuído.
+- [ ] Ajustar as larguras desses códigos nas tabelas `g*LatinGlyphWidths` de
+      `src/fonts.c`.
+- [ ] Teclado de nomes: decidir se `ã`/`õ` entram no teclado ou se os códigos
+      reaproveitados ficam escondidos.
+- [ ] Captura de tela das cinco fontes com `São Paulo` e `ações`.
+
+**Pronto quando:** as quatro letras aparecem certas em todas as fontes no
+emulador e no 3DS.
+
+## Fase 3 — Ferramentas de qualidade
+
+- [ ] `tools/ptbr_check.py`:
+  - [ ] Mede cada texto em **pixels**, com as larguras de `src/fonts.c`, e
+        compara com a largura da janela onde ele aparece.
+  - [ ] Confere o número de linhas por tipo de texto (descrição de golpe,
+        Pokédex, caixa de diálogo de 2 linhas e `\p`).
+  - [ ] Confere que os códigos de controle (`{PLAYER}`, `{STR_VAR_1}`,
+        `{COLOR}`, `\n`, `\l`, `\p`, `$`) do original estão na tradução.
+  - [ ] Recusa caracteres fora da tabela.
+  - [ ] Relatório de cobertura por área (traduzidos, faltando, com erro).
+  - [ ] Lista de textos que não cabem, para estudar abreviações.
+- [ ] Quebra automática de linha, para os textos importados.
+- [ ] Testes em `3ds_port/tests` ou `builder/tests` rodando o check sobre o
+      catálogo.
+
+**Pronto quando:** o check roda no catálogo inteiro e falha em erros reais.
+
+## Fase 4 — Importação do HoennKantoWiki
+
+- [x] Cópia das traduções do wiki em `tools/locales/ptbr/wiki/`
+      (`tools/import_wiki_ptbr.py`, só leitura do wiki).
+- [ ] Conversor neste projeto, que gera o catálogo da fase 1 a partir da
+      cópia.
+
+| Conteúdo | Arquivo da cópia | Destino no pret | Volume |
+|---|---|---|---|
+| Descrições de golpes | `wiki/moves.json` | `src/data/text/move_descriptions.h` | 354 |
+| Categorias | `wiki/genera.json` | `categoryName` em `src/data/pokemon/pokedex_entries.h` | 279 (de 386) |
+| Tipos | `wiki/types.json` | `gTypeNames` | 18 |
+| Descrições de itens | `wiki/items.json` | `src/data/text/item_descriptions.h` | 18 (de ~310) |
+| Termos de local | regras do wiki (ver `wiki/README.md`) | `src/data/region_map/region_map_sections.json` | ~210 |
+
+- [ ] Golpes: ligar a chave do wiki (`thunderbolt`) ao símbolo
+      (`sThunderboltDescription`), quebrar as linhas e listar o que não couber.
+      O texto em PT ficou cerca de 22% maior que o inglês (mediana), e 232 de
+      354 crescem mais de 15%.
+- [ ] Categorias: tirar o "Pokémon" (`Pokémon Semente` vira `SEMENTE`) e
+      checar o limite de caracteres.
+- [ ] Tipos: aumentar `TYPE_NAME_LENGTH` de 6 para 9 (`TERRESTRE`), conferir
+      todos os usos e ajustar a janela de tipo do golpe na batalha.
+- [ ] `sATypeMove_Table` em PT ("um golpe de FOGO"), alargando a tabela como o
+      patch `0034` fez.
+- [ ] Normalizar o texto do wiki para o estilo do jogo: caixa alta nos termos
+      (`POKéMON`), tipos e atributos nas formas do Glossário.
+- [ ] Locais: só o termo funcional (`ROUTE` vira `ROTA`), respeitando o limite
+      do nome no mapa.
+
+**Pronto quando:** o catálogo importado passa no check da fase 3 e as telas de
+golpes e Pokédex aparecem em PT no jogo.
+
+## Fase 5 — Nomes, textos curtos e Pokédex
+
+Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
+
+- [ ] Levantar referências de nomes em PT-BR (TCG, anime e dublagem, jogos e
+      materiais oficiais recentes) e definir a fonte de cada categoria no
+      Glossário.
+- [ ] **Golpes (354):** `src/data/text/move_names.h`, limite
+      `MOVE_NAME_LENGTH` = 12.
+- [ ] **Itens (~370):** campo `name` em `src/data/items.h`, limite
+      `ITEM_NAME_LENGTH` = 14.
+- [ ] **Habilidades (76):** `gAbilityNames` em `src/data/text/abilities.h`,
+      limite `ABILITY_NAME_LENGTH` = 12.
+- [ ] **Bagas:** o nome fica no limite de 6 de `BERRY_NAME_LENGTH`, que faz
+      parte do save e **não pode mudar**; traduzir o "BERRY" que o código
+      acrescenta (como o patch `0031` fez no espanhol).
+- [ ] **Lugares:** a parte genérica (`CITY`, `TOWN`, `MT.`, `CAVE`, `ROUTE`)
+      em `region_map_sections.json` e nas placas.
+- [ ] Naturezas (25), categorias de concurso, decorações da Secret Base e
+      palavras do Easy Chat.
+- [ ] Os limites de golpe, item e habilidade não estão no save e podem
+      aumentar; antes, conferir as janelas que mostram esses nomes. Se não
+      couber, abreviar (Princípio 2).
+- [ ] **Habilidades (76):** o PT do wiki é a versão expandida (mediana de 2,2×
+      o inglês, até 83 caracteres). No jogo cabe uma linha curta ("Ups GRASS
+      moves in a pinch."). Escrever versões curtas, aproveitando o sentido do
+      wiki.
+- [ ] **Pokédex (386):** o wiki tem as entradas de Ruby/Sapphire
+      (`texto_historico` pega a primeira versão). Traduzir as entradas do
+      **Emerald** a partir de `pokedex_text.h`, com o PT do wiki como apoio
+      quando o texto for igual.
+- [ ] Descrições de itens restantes (~290).
+- [ ] Descrições das bagas e da etiqueta de bagas (comparar com o patch
+      `0036`).
+
+## Fase 6 — Interface, menus e batalha
+
+Ordem sugerida, do que o jogador vê mais para o que vê menos:
+
+- [ ] Menus e bolsa (`src/strings.c`).
+- [ ] Mensagens de batalha (`src/battle_message.c`); conferir larguras com a
+      referência do patch `0034`.
+- [ ] Resumo do Pokémon, Pokédex e unidades (o patch `0035` do espanhol já
+      mostra metros e quilos).
+- [ ] PC, Centro Pokémon, loja, opções e salvamento.
+- [ ] Concursos (títulos, patch `0032`), Battle Frontier, Trainer Hill e
+      Secret Base.
+- [ ] Gráficos com texto em inglês (logo, "THE END", alguns menus): continuam
+      em inglês nesta fase. Avaliar depois se vale desenhar versões próprias.
+- [ ] Ícones de tipo em PT: o builder desenha o nome com a fonte da ROM sobre o
+      fundo do ícone original (resumo, Pokédex, relembrar golpes).
+- [ ] Atributos: localizar onde são texto (janela de subida de nível) e onde
+      são gráfico (página de resumo) e gerar os gráficos no builder.
+- [ ] Atributos: conferir a largura de `ATAQUE ESP.` e `VELOCIDADE` ou usar as
+      abreviações do Glossário.
+
+## Fase 7 — Diálogos e scripts do mundo
+
+O maior volume do projeto, sem equivalente no wiki.
+
+- [ ] Inventário dos textos de `data/text/*.inc` e
+      `data/maps/*/scripts.inc`, com contagem por mapa, para o relatório de
+      cobertura.
+- [ ] Traduzir **na ordem do jogo**, para cada bloco ser testável jogando:
+  - [ ] Littleroot, Oldale, Route 101–103, Petalburg
+  - [ ] Rustboro, Dewford, Slateport (até o 3º ginásio)
+  - [ ] Mauville até Fortree (4º ao 6º ginásio)
+  - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
+  - [ ] Ever Grande e Liga
+  - [ ] Pós-jogo e Battle Frontier
+- [ ] Textos comuns aos mapas (Centro Pokémon, Mart, placas, PC).
+- [ ] Frases de treinador (intro, derrota, revanche).
+- [ ] Cartas, Easy Chat e vocabulário (decidir se ficam em inglês: o Easy Chat
+      é trocado entre saves e jogos).
+- [ ] Braille das ruínas (o espanhol traduziu; avaliar).
+- [ ] Créditos e cena final.
+
+## Fase 8 — Tela de toque do 3DS
+
+- [ ] Generalizar `CTR_TEXT(english, spanish)` em `3ds_port/include/3ds_locale.h`
+      para três idiomas.
+- [ ] Traduzir os rótulos da tela de baixo (menu, OPTION, VOXEL 3D, 3D ANGLE,
+      3D ZOOM, cheats).
+- [ ] Mensagens do port (pacote incompatível, erro de dados, versão).
+
+## Fase 9 — Builder, release e distribuição
+
+- [ ] Variante `payload/pt/` com o executável PT e a receita da ROM BPEE.
+- [ ] Builder (Windows e web): **escolha de idioma**. Hoje a variante sai da
+      ROM; o PT usa a mesma ROM que o inglês.
+- [ ] Verificação do pacote: o 3DSX PT aceita o pacote gerado da BPEE.
+- [ ] `tools/build_release.py` e `tools/release_audit.py`: incluir a variante e
+      conferir que nenhum dado da ROM entrou.
+- [ ] Documentação: `docs/PORTUGUESE.md` (como instalar e compilar), seção no
+      `README.md` e entrada no `CHANGELOG.md`.
+- [ ] Créditos da tradução e nota em `AI_DISCLOSURE.md` se houver texto gerado
+      ou revisado com IA.
+
+## Fase 10 — Teste completo e lançamento
+
+- [ ] Jogar do início à Liga no Azahar/Citra com o relatório de cobertura em
+      100% nas áreas da história.
+- [ ] Jogar no 3DS de verdade (mínimo: abertura, uma batalha de ginásio,
+      concurso, PC, salvamento e carregamento).
+- [ ] Save do inglês abre no PT e vice-versa.
+- [ ] Release beta (`vX.Y.Z-ptbr-beta`), coleta de erros e release final.
+
+---
+
+## Decisões
+
+Registre aqui cada decisão, com data.
+
+| Data | Decisão |
+|---|---|
+| 2026-10-07 | Caixa: estilo do Emerald. Nomes e termos em maiúsculas (`POKéMON`, `POTION`, `ROTA 104`); o conversor converte o texto copiado do wiki. |
+| 2026-10-07 | Tipos traduzidos com `TIPOS_PT`, em maiúsculas. Exige aumentar `TYPE_NAME_LENGTH` (6 hoje; `TERRESTRE` tem 9) e gerar ícones de tipo em PT. |
+| 2026-10-07 | Atributos traduzidos (`ATAQUE`, `DEFESA`, `VELOCIDADE`…), divergindo da regra do wiki. Formas exatas no Glossário. |
+| 2026-10-07 | Tratamento: "você", tom informal. |
+| 2026-10-07 | Nome do idioma no código: `ptbr`. |
+| 2026-10-07 | Nomes de golpes, itens, habilidades, naturezas e a parte genérica dos lugares também são traduzidos, para soar natural ao jogador brasileiro. Espécies, personagens e o nome próprio dos lugares ficam como estão. |
+| 2026-10-07 | O HoennKantoWiki não é alterado. As traduções são copiadas para `tools/locales/ptbr/wiki/` por `tools/import_wiki_ptbr.py`, só com o texto em PT. |
+| 2026-10-07 | Traduzir o máximo possível. Quando uma palavra não couber, estudar uma abreviação (registrada no Glossário) em vez de manter o inglês. |
+
+## Glossário
+
+Termos e nomes traduzidos. Espécies, personagens e o nome próprio dos lugares ficam como estão (Princípio 4).
+
+| Inglês | Português | Observação |
+|---|---|---|
+| Route | Rota | |
+| Bag | Mochila | |
+| Trainer | Treinador | |
+| Gym | Ginásio | |
+| Badge | Insígnia | |
+| Wild | Selvagem | |
+| Foe | Oponente | Como no wiki |
+| Fainted | Desmaiou | |
+| Save | Salvar | |
+| FIRE, WATER, ELECTRIC… | FOGO, ÁGUA, ELÉTRICO, GRAMA, GELO, LUTADOR, VENENOSO, TERRESTRE, VOADOR, PSÍQUICO, INSETO, PEDRA, FANTASMA, DRAGÃO, SOMBRIO, METAL | Tipos (`TIPOS_PT`), decididos |
+| ATTACK / DEFENSE | ATAQUE / DEFESA | Abrev.: AT. / DEF. |
+| SP. ATK / SP. DEF | AT. ESP. / DEF. ESP. | Por extenso: ATAQUE ESP. / DEFESA ESP. |
+| SPEED | VELOCIDADE | Abrev.: VELOC. |
+| ACCURACY / EVASIVENESS | PRECISÃO / EVASÃO | |
+
+## Riscos
+
+| Risco | Mitigação |
+|---|---|
+| Atualização do upstream muda símbolos ou textos | Catálogo por símbolo; o `localize_ptbr.py` falha e aponta o que mudou |
+| Texto PT mais longo estoura janelas | Check em pixels (fase 3) e ajustes de layout no estilo dos patches `0031`–`0036` |
+| Códigos reaproveitados para ã/õ aparecem em nomes de saves ingleses | Escolher letras sem uso real; documentar |
+| Volume dos diálogos | Ordem do jogo, cobertura medida e fallback para o inglês |
+| Divergência entre wiki e jogo | O wiki é a referência de termos; o jogo é a referência do texto original |
+| Tipos e atributos em PT mexem em limites e gráficos | Gerar ícones e rótulos no builder a partir da ROM; testar todas as telas com o nome mais longo (`TERRESTRE`, `VELOCIDADE`) |
