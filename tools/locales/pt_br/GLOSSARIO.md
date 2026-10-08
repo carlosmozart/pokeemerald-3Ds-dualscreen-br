@@ -78,6 +78,12 @@ Os nomes dos POKéMON não se traduzem.
 | Toss | DESCARTAR | |
 | Box (PC) | CAIXA | oficial |
 | Coins | FICHAS | |
+| Team Aqua / Team Magma | EQUIPE AQUA / EQUIPE MAGMA | anime |
+| Match Call (POKéNAV) | sistema de CHAMADAS | |
+| Trainer Tips | DICAS DE TREINADOR | |
+| Balance Badge | INSÍGNIA DO EQUILÍBRIO | |
+| Mr. Briney / Capt. Stern | SR. BRINEY / CAP. STERN | |
+| Pretty Petal Flower Shop | FLORICULTURA PÉTALA BONITA | |
 
 ## Nomes de itens
 
