@@ -136,3 +136,11 @@ As categorias da POKéDEX vêm dos gêneros da cópia do HoennKantoWiki, em até
 11 bytes, com “POKéMON” antes (patch 0042). Quando o nome não cabe, a
 palavra portuguesa mais próxima: MIRMELEÃO (antlion), ERMITÃO, TATURANA,
 BANANEIRA (handstand), OTÁRIA (sea lion), GUAXININHO, TOURO BRAVO.
+
+## Descrições da POKéDEX
+
+Traduzidas das do Emerald (não das de Ruby/Sapphire do wiki), em até 4
+linhas e 224 px. Medidas no sistema métrico, arredondadas como alguém
+diria: “a mais de 10 km” (six miles), “mais de 50 metros” (160 feet),
+“quase 1 km” (half a mile). Nomes de POKéMON e golpes em maiúsculas, como
+no jogo.
