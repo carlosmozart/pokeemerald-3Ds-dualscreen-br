@@ -1956,3 +1956,151 @@ Guarda poder nas pérolas pretas da testa.\n
 Quando usa poder psíquico, faz um passo\n
 de dança esquisito. Seu jeito de dançar\n
 virou febre no exterior.
+
+[gSpindaPokedexText] 216888be7d
+Dá para reconhecê-lo pelas manchas, que\n
+nunca são iguais. O andar cambaleante\n
+e trôpego atrapalha a mira do\n
+inimigo.
+
+[gTrapinchPokedexText] ba01c6fbae
+A mandíbula grande tritura pedras.\n
+Como a cabeça é muito grande, tem\n
+dificuldade para se desvirar quando\n
+cai de costas.
+
+[gVibravaPokedexText] 8462535c06
+Solta ondas ultrassônicas esfregando as\n
+asas uma na outra. Como as asas de\n
+VIBRAVA ainda estão crescendo, ele só\n
+consegue voar distâncias curtas.
+
+[gFlygonPokedexText] 79a64880fe
+O bater das asas parece uma canção.\n
+Para não ser visto pelos inimigos, se\n
+esconde levantando uma nuvem de areia\n
+do deserto com as asas.
+
+[gCacneaPokedexText] d0ae8ee2d7
+CACNEA vivem em desertos onde quase não\n
+chove. Luta balançando os braços grossos\n
+e cheios de espinhos. Uma vez por ano,\n
+desabrocha uma flor amarela.
+
+[gCacturnePokedexText] 3151e63536
+Depois de milhares de anos em desertos\n
+inóspitos, o sangue virou a mesma\n
+substância da areia. É noturno, por isso\n
+caça à noite.
+
+[gSwabluPokedexText] a0ef08c9b8
+Um POKéMON de asas que parecem nuvens\n
+de algodão. Depois do inverno, quando há\n
+pouca comida, os bandos de SWABLU\n
+chegam perto das cidades na primavera.
+
+[gAltariaPokedexText] 490ba699d6
+Cantarola com uma linda voz de soprano.\n
+Voa entre as nuvens brancas do céu\n
+azul. Lança bolas de fogo muito quentes\n
+pela boca.
+
+[gZangoosePokedexText] a861ce1d0e
+Na batalha, fica de pé nas patas traseiras\n
+e ataca com as garras afiadas das patas\n
+da frente. O pelo se eriça se ele\n
+encontra um SEVIPER.
+
+[gSeviperPokedexText] ee83e959ae
+SEVIPER e ZANGOOSE são rivais eternos.\n
+Ele enfrenta a agilidade incrível de\n
+ZANGOOSE com a cauda em forma de espada,\n
+que também solta um veneno terrível.
+
+[gLunatonePokedexText] d7c318a9c6
+Fica muito ativo nas noites de lua cheia.\n
+Este POKéMON foi descoberto há 40 anos\n
+no lugar onde caiu um meteoro.
+
+[gSolrockPokedexText] 7ea2ae274d
+A energia solar é a fonte do poder deste\n
+POKéMON. Nos dias de sol, grupos de\n
+SOLROCK se alinham de frente para o sol\n
+e absorvem sua luz.
+
+[gBarboachPokedexText] c206e3d458
+O corpo é coberto por uma película\n
+viscosa. Ela serve de barreira e impede\n
+que os germes da água lamacenta entrem\n
+no corpo de BARBOACH.
+
+[gWhiscashPokedexText] 045b1a84d4
+Misteriosamente, consegue prever\n
+terremotos. Durante o dia, dorme na lama\n
+do fundo do lago. Quando acorda, passa a\n
+noite inteira comendo.
+
+[gCorphishPokedexText] 2259895ce8
+Depois que agarra a presa com as pinças\n
+grandes, não solta de jeito nenhum.\n
+É um POKéMON resistente, que se dá bem\n
+em qualquer ambiente.
+
+[gCrawdauntPokedexText] 8451b5d1f8
+Um POKéMON brigão que adora batalhar.\n
+Um CRAWDAUNT veterano, que venceu\n
+centenas de batalhas, tem as pinças\n
+gigantes cheias de cicatrizes.
+
+[gBaltoyPokedexText] 1337cbfe24
+BALTOY se move girando sobre o único pé.\n
+Aparece em murais que enfeitavam as\n
+paredes de uma cidade movimentada de\n
+uma era antiga.
+
+[gClaydolPokedexText] c492596323
+CLAYDOL dorme flutuando no ar. Os braços\n
+são separados do corpo e ficam\n
+flutuando graças ao poder psíquico\n
+deste POKéMON.
+
+[gLileepPokedexText] c4f0c97c61
+Disfarça-se de alga balançando os\n
+tentáculos. As presas desavisadas que\n
+chegam perto são engolidas inteiras.\n
+Foi extinto há 100 milhões de anos.
+
+[gCradilyPokedexText] 3c751c7206
+Arrasta o corpo pesado pelo fundo do mar.\n
+Faz o ninho nas partes rasas dos mares\n
+quentes. Dá para ver CRADILY nas praias\n
+quando a maré baixa.
+
+[gAnorithPokedexText] 79660a79ae
+Foi ressuscitado de um fóssil com o poder\n
+da ciência. Nada ondulando as oito asas\n
+dos lados, que eram patas que se\n
+adaptaram à vida no mar.
+
+[gArmaldoPokedexText] 96c5c22d1c
+ARMALDO costuma viver em terra. Mas,\n
+quando caça, mergulha no oceano. Nada\n
+usando as duas asas grandes.
+
+[gFeebasPokedexText] 91fbab425d
+FEEBAS vivem em lagos tomados por\n
+plantas aquáticas. Como a aparência é\n
+feia de dar dó, parece que poucos\n
+TREINADORES o criam.
+
+[gMiloticPokedexText] 2074df6fb9
+Dizem que vive no fundo de lagos grandes.\n
+Considerado o mais bonito de todos os\n
+POKéMON, já foi retratado em pinturas e\n
+estátuas.
+
+[gCastformPokedexText] eaf4181d31
+Muda de forma conforme o tempo.\n
+Mudanças no clima, como a temperatura e\n
+a umidade, parecem afetar a estrutura\n
+das suas células.
