@@ -1659,3 +1659,152 @@ Apesar de pequeno, é muito corajoso.\n
 Enfrenta de igual para igual um SKARMORY\n
 bem maior. Mas a coragem diminui quando\n
 ele fica com fome.
+
+[gSwellowPokedexText] bed9310edb
+SWELLOW mergulha sobre a presa lá do\n
+alto. Nunca erra o alvo. Voa pelos céus\n
+em busca de terras de clima quente.
+
+[gWingullPokedexText] 5aa1a4248a
+Faz o ninho num penhasco à beira-mar.\n
+Tem dificuldade para bater as asas em\n
+voo. Em vez disso, plana nas correntes\n
+de ar que sobem.
+
+[gPelipperPokedexText] 5748d7a603
+Voa rente às ondas. Quando vê uma presa,\n
+usa o bico grande para pegá-la junto\n
+com a água. Protege os ovos dentro do\n
+bico.
+
+[gRaltsPokedexText] 407b4d0b93
+RALTS sente as emoções das pessoas e\n
+dos POKéMON com os chifres da cabeça.\n
+Se esconde se percebe qualquer\n
+hostilidade.
+
+[gKirliaPokedexText] e174a50b42
+KIRLIA tem o poder psíquico de abrir uma\n
+fenda entre as dimensões e ver o futuro.\n
+Dizem que dança de alegria nas manhãs\n
+de sol.
+
+[gGardevoirPokedexText] 7d8e2f5cb5
+Pelo jeito, não sente a gravidade, porque\n
+se sustenta com poder psíquico. Dá a\n
+própria vida para proteger o seu\n
+TREINADOR.
+
+[gSurskitPokedexText] dfd764e198
+Eles se juntam nas poças depois das\n
+chuvas da tarde, deslizando na água como\n
+se patinassem. Da cabeça, solta um mel\n
+de aroma doce.
+
+[gMasquerainPokedexText] 26d5b1d168
+Intimida os inimigos com os desenhos de\n
+olhos nas antenas. Como não voa com as\n
+asas molhadas, se abriga da chuva debaixo\n
+de árvores grandes e dos beirais.
+
+[gShroomishPokedexText] ba7751f658
+Adora comer a terra úmida e adubada das\n
+florestas. Se você entrar numa floresta\n
+depois de uma chuva longa, vai ver vários\n
+SHROOMISH se banqueteando.
+
+[gBreloomPokedexText] fad99d9dc4
+Espalha esporos pelos buracos do chapéu\n
+da cabeça. Adora clima quente e úmido.\n
+Alimenta-se das árvores e plantas dos\n
+campos e florestas.
+
+[gSlakothPokedexText] 8a718d6a16
+Dorme praticamente dia e noite. Nunca\n
+troca de ninho na vida toda, mas às\n
+vezes percorre grandes distâncias\n
+nadando pelos rios.
+
+[gVigorothPokedexText] fb55f1e938
+Não fica quieto, porque o sangue\n
+ferve de energia. Corre pelos campos e\n
+montanhas o dia todo para se acalmar.\n
+Se não fizer isso, não dorme à noite.
+
+[gSlakingPokedexText] d29204184c
+Bandos de SLAKING se juntam em volta das\n
+árvores na época das frutas. Esperam com\n
+paciência as frutas maduras caírem das\n
+árvores.
+
+[gNincadaPokedexText] f7e6c1c026
+Faz o ninho nas raízes de uma árvore\n
+enorme. Com as antenas que parecem\n
+bigodes, explora o que tem em volta na\n
+escuridão total da terra.
+
+[gNinjaskPokedexText] 5573edc922
+Como dispara pra lá e pra cá em alta\n
+velocidade, é muito difícil de ver.\n
+Ouvir seu grito característico por muito\n
+tempo dá dor de cabeça.
+
+[gShedinjaPokedexText] 8f7ebce165
+Um POKéMON peculiar que flutua no ar\n
+mesmo com as asas totalmente paradas.\n
+O interior do corpo é oco e escuro\n
+como breu.
+
+[gWhismurPokedexText] 29c62ad9b8
+Seu grito é tão alto quanto um avião a\n
+jato. Respira pelos ouvidos. Graças a\n
+esse sistema, grita sem parar sem\n
+precisar tomar fôlego.
+
+[gLoudredPokedexText] 7cbb90446f
+Posiciona os alto-falantes redondos da\n
+cabeça para atacar os inimigos com ondas\n
+ultrassônicas no volume máximo. Ganha\n
+força batendo os pés no chão.
+
+[gExploudPokedexText] 91a07c123f
+Tem órgãos que produzem som pelo corpo\n
+todo. Comunica-se com os outros\n
+ajustando o tom e o volume dos gritos\n
+que solta.
+
+[gMakuhitaPokedexText] 0044f3c2ca
+Adora fortalecer o corpo acima de tudo.\n
+Se você ouvir estrondos numa caverna, é o\n
+som de MAKUHITA fazendo um treino\n
+pesado.
+
+[gHariyamaPokedexText] 9e7e1b8dfd
+Tem o costume de desafiar os outros em\n
+provas de força sem hesitar. Já se viu\n
+um parado nos trilhos parando trens com\n
+empurrões dos braços.
+
+[gAzurillPokedexText] 90cbeb9d13
+A cauda, cheia de nutrientes, é elástica\n
+como uma bola de borracha. Nos dias de\n
+sol, eles se juntam na beira da água e\n
+brincam espirrando água.
+
+[gNosepassPokedexText] e3a9c01133
+O corpo emite um magnetismo poderoso.\n
+Come as presas atraídas por essa força.\n
+O magnetismo fica mais forte nas\n
+estações frias.
+
+[gSkittyPokedexText] 10c6a8bd3a
+O jeitinho fofo de SKITTY faz dele um\n
+POKéMON muito popular. Na batalha, deixa\n
+a cauda eriçada. Ameaça os inimigos com\n
+um rosnado afiado.
+
+[gDelcattyPokedexText] 83a3be47e1
+Em vez de ter uma toca fixa, costuma\n
+procurar cantinhos confortáveis e dormir\n
+ali. É noturno e fica ativo ao\n
+anoitecer.
