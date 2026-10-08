@@ -385,3 +385,15 @@ Isso não vai ter efeito nenhum.{PAUSE_UNTIL_PRESS}
 
 [gText_BagIsFull] 7e594d8a29 width=208
 A BOLSA tá cheia.{PAUSE_UNTIL_PRESS}
+
+# A fala do Prof. Birch (src/main_menu.c): o POKéMON saindo da bola, numa
+# caixa de mensagem, e o menu de gênero, numa janela de 6 tiles.
+
+[gText_ThisIsAPokemon] 008934bd0c width=208
+Isto é o que chamamos de “POKéMON”.{PAUSE 96}\p
+
+[gText_BirchBoy] 0858b75d3b width=40
+MENINO
+
+[gText_BirchGirl] 333d234676 width=40
+MENINA
