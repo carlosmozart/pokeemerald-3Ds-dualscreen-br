@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python -B tools/sync_pcs.py start",
+            "command": "python -B \"$CLAUDE_PROJECT_DIR/tools/sync_pcs.py\" start",
             "timeout": 60,
             "statusMessage": "Sincronizando com o GitHub..."
           }
@@ -19,14 +19,14 @@
           {
             "type": "command",
             "if": "Bash(git commit*)",
-            "command": "python -B tools/sync_pcs.py push",
+            "command": "python -B \"$CLAUDE_PROJECT_DIR/tools/sync_pcs.py\" push",
             "timeout": 60,
             "statusMessage": "Enviando o commit ao GitHub..."
           },
           {
             "type": "command",
             "if": "PowerShell(git commit*)",
-            "command": "python -B tools/sync_pcs.py push",
+            "command": "python -B \"$CLAUDE_PROJECT_DIR/tools/sync_pcs.py\" push",
             "timeout": 60,
             "statusMessage": "Enviando o commit ao GitHub..."
           }
@@ -38,7 +38,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python -B tools/sync_pcs.py check",
+            "command": "python -B \"$CLAUDE_PROJECT_DIR/tools/sync_pcs.py\" check",
             "timeout": 30
           }
         ]

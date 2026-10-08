@@ -67,6 +67,17 @@ Para não pisar no trabalho do outro PC:
 - **Decisões** (glossário, roadmap) entram num commit próprio e são
   enviadas na hora, antes de traduzir com base nelas.
 
+**Divisão atual** (09/10/2026; o usuário diz qual PC é qual ao abrir a
+sessão, ou pergunte):
+
+| PC | Fica com | Arquivos do catálogo |
+|---|---|---|
+| Menus | Os menus e mensagens de `src/strings.c`, incluindo os textos da tela da POKéDEX (busca, ordem, HT/WT), que também estão nele | `src/strings.c.txt` |
+| POKéDEX | As 386 descrições da POKéDEX do Emerald | `src/data/pokemon/pokedex_text.h.txt` |
+
+Ao terminar uma parte, combine a próxima com o usuário e atualize esta
+tabela num commit próprio.
+
 ## HoennKantoWiki
 
 - **Nunca altere o HoennKantoWiki.** Só leia e copie o que precisar para

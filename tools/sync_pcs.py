@@ -81,6 +81,14 @@ def start() -> None:
 
 
 def push() -> None:
+    # From the hook, stdin holds the tool call: act only after a git commit.
+    if not sys.stdin.isatty():
+        try:
+            command = json.loads(sys.stdin.read() or "{}").get("tool_input", {}).get("command", "")
+        except ValueError:
+            command = ""
+        if command and "git commit" not in command:
+            return
     if git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip() != BRANCH:
         return
     git("fetch", "-q", "origin")
