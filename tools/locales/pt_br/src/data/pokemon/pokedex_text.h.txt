@@ -463,3 +463,153 @@ Dizem que vive nas crateras de vulcões\n
 no alto das montanhas. Uma vez por ano,\n
 troca de casca e cresce. A casca velha\n
 esfarela e volta para a terra.
+
+[gPonytaPokedexText] 27a628f634
+PONYTA nasce muito fraco. Mal consegue\n
+ficar de pé. As pernas vão ficando fortes\n
+de tanto tropeçar e cair tentando\n
+acompanhar os pais.
+
+[gRapidashPokedexText] 2de98b188d
+Costuma trotar tranquilo pelos campos e\n
+planícies. Mas, se RAPIDASH fica sério,\n
+as crinas de fogo se inflamam e ele galopa\n
+a até 240 km/h.
+
+[gSlowpokePokedexText] 2be8928e0a
+Pega as presas mergulhando a cauda na\n
+água, na beira do rio. Mas vive esquecendo\n
+o que está fazendo e passa dias inteiros\n
+só de moleza na beira da água.
+
+[gSlowbroPokedexText] 5d9cdfcf7c
+Um SHELLDER está preso à cauda por uma\n
+mordida. Por isso, a cauda não serve mais\n
+para pescar, e ele é obrigado a nadar\n
+para pegar presas, de má vontade.
+
+[gMagnemitePokedexText] 21c3c931a5
+As peças dos lados são ímãs poderosos.\n
+Geram magnetismo suficiente para atrair\n
+objetos de ferro a mais de 100 metros\n
+de distância.
+
+[gMagnetonPokedexText] 9f2e275c87
+Na verdade, são três MAGNEMITE ligados\n
+pelo magnetismo. Gera ondas de rádio que\n
+aumentam a temperatura em 2 graus num\n
+raio de 1 km.
+
+[gFarfetchdPokedexText] 53130a880b
+Está sempre com um talo de planta. Pelo\n
+jeito, existem talos bons e talos ruins.\n
+Às vezes, este POKéMON briga com outros\n
+pelos melhores talos.
+
+[gDoduoPokedexText] 93d03f2b91
+Mesmo comendo ou dormindo, uma das\n
+cabeças fica sempre atenta a qualquer\n
+sinal de perigo. Quando ameaçado, foge\n
+a mais de 100 km/h.
+
+[gDodrioPokedexText] 2c3004afa7
+Uma espécie peculiar de POKéMON com três\n
+cabeças. Corre com vigor pelas planícies\n
+de capim, mesmo nas estações secas,\n
+com pouca chuva.
+
+[gSeelPokedexText] 62310e4631
+SEEL caça presas em mares gelados,\n
+cobertos de gelo. Quando precisa\n
+respirar, abre um buraco no gelo com a\n
+ponta afiada da cabeça.
+
+[gDewgongPokedexText] d5351da730
+Adora cochilar no gelo congelante. Há\n
+muito tempo, um marinheiro viu este\n
+POKéMON dormindo numa geleira e o\n
+confundiu com uma sereia.
+
+[gGrimerPokedexText] 1221f4c845
+Nascido do lodo poluído do mar, GRIMER\n
+tem como comida favorita qualquer sujeira.\n
+Eles se alimentam do esgoto despejado\n
+pelas fábricas.
+
+[gMukPokedexText] 4ee57eae98
+Prefere lugares quentes e úmidos.\n
+No verão, as substâncias tóxicas do corpo\n
+ficam mais fortes, e MUK fede como lixo\n
+de cozinha podre.
+
+[gShellderPokedexText] 6caa16f7c5
+À noite, cava um buraco no fundo do mar\n
+com a língua larga para fazer um lugar\n
+para dormir. Dormindo, fecha a concha,\n
+mas deixa a língua para fora.
+
+[gCloysterPokedexText] 69de2acd4f
+Nada no mar engolindo água e soltando\n
+um jato para trás. CLOYSTER dispara\n
+espinhos da concha usando o mesmo\n
+sistema.
+
+[gGastlyPokedexText] 43856892cd
+Exposto a um vento forte, o corpo gasoso\n
+de GASTLY some rapidinho. Eles se juntam\n
+debaixo dos beirais das casas para fugir\n
+da fúria do vento.
+
+[gHaunterPokedexText] 9d086fe5f6
+Se um HAUNTER chamar você enquanto\n
+flutua no escuro, não chegue perto.\n
+Este POKéMON vai tentar lamber você\n
+com a língua e roubar sua vida.
+
+[gGengarPokedexText] beafd835aa
+Tarde da noite, sua sombra sob um poste\n
+pode de repente passar na sua frente.\n
+Na verdade, é um GENGAR correndo por\n
+você, fingindo ser sua sombra.
+
+[gOnixPokedexText] 71ed8af37c
+Há um ímã no cérebro que impede ONIX de\n
+perder o rumo enquanto cava túneis.\n
+Com o tempo, o corpo dele vai ficando\n
+mais redondo e liso.
+
+[gDrowzeePokedexText] bb5e2d831c
+Se o seu nariz coçar enquanto você dorme,\n
+é sinal certo de que um DROWZEE está em\n
+cima do travesseiro, tentando comer seu\n
+sonho pelas narinas.
+
+[gHypnoPokedexText] eff5d08e99
+O balanço e o brilho do pêndulo na mão\n
+de HYPNO deixam o inimigo em hipnose\n
+profunda. Enquanto procura presas, ele\n
+fica polindo o pêndulo.
+
+[gKrabbyPokedexText] 42c5606ac2
+KRABBY vivem em buracos cavados nas\n
+praias. Em areias com pouca comida, dá\n
+para ver eles brigando uns com os outros\n
+por território.
+
+[gKinglerPokedexText] 3e8c7dc237
+Agita no ar a garra enorme para se\n
+comunicar com os outros. Mas, como a\n
+garra é muito pesada, este POKéMON\n
+se cansa rápido.
+
+[gVoltorbPokedexText] 59f9aadef5
+Tem uma semelhança estranha e sem\n
+explicação com a POKé BOLA. Como explode\n
+ao menor choque, até TREINADORES\n
+veteranos o tratam com cuidado.
+
+[gElectrodePokedexText] 9758c41a97
+Aparecem aos montes nas usinas de energia\n
+elétrica. Como se alimentam de\n
+eletricidade, causam apagões enormes e\n
+caóticos nas cidades vizinhas.
