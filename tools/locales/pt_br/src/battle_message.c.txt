@@ -1411,10 +1411,10 @@ AT. ESP.
 DEF. ESP.
 
 [sText_Accuracy] 26de05a44d
-precisão
+PRECISÃO
 
 [sText_Evasiveness] f2185a1d3f
-evasão
+EVASÃO
 
 [sText_PokeblockWasTooSpicy] beeab99051
 estava picante demais!

@@ -119,8 +119,8 @@ diria (“É super efetivo!”, “Não é muito efetivo…”, “Acerto críti
   patch 0041). Os POKéMON são tratados no masculino (o POKéMON).
 - O lado de cada um: “a equipe aliada” / “a equipe inimiga”.
 - Posse: “ATAQUE de MUDKIP”, “INTIMIDAÇÃO de GYARADOS” (a coisa antes do dono).
-- Atributos nas mensagens: PS, ATAQUE, DEFESA, VELOC., ATQ. ESP., DEF. ESP.,
-  precisão, evasão; na caixa de nível, ATQ.ESP. e DEF.ESP.
+- Atributos nas mensagens: PS, ATAQUE, DEFESA, VELOC., AT. ESP., DEF. ESP.,
+  PRECISÃO, EVASÃO; na caixa de nível, AT.ESP. e DEF.ESP.
 - Menus: LUTAR, BOLSA, POKéMON, FUGIR; no SAFÁRI, BOLA e CHEGAR.
 - SAFARI BALL é BOLA SAFÁRI (como o item). REFEREE é JUIZ.
 

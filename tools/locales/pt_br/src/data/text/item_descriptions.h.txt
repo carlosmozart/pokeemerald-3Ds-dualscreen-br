@@ -312,7 +312,7 @@ VELOCIDADE numa\n
 batalha.
 
 [sXAccuracyDesc] e7c920d2e5
-Aumenta a precisão\n
+Aumenta a PRECISÃO\n
 dos golpes durante\n
 uma batalha.
 
@@ -698,7 +698,7 @@ colher um mistério.
 [sBrightPowderDesc] 1873da99d2
 Se segurado,\n
 ofusca o alvo e\n
-baixa a precisão.
+baixa a PRECISÃO.
 
 [sWhiteHerbDesc] bfdaec3ae9
 Se segurada,\n
@@ -907,7 +907,7 @@ de tipo ÁGUA.
 
 [sLaxIncenseDesc] cfb2b399f8
 Se segurado, baixa\n
-um pouco a precisão\n
+de leve a PRECISÃO\n
 do adversário.
 
 [sLuckyPunchDesc] e2c17ba65d
@@ -1373,7 +1373,7 @@ o alvo.
 [sHM05Desc] f15b584bcd
 Solta um clarão\n
 forte que reduz a\n
-precisão.
+PRECISÃO.
 
 [sHM06Desc] cca3f427e7
 Um ataque que\n

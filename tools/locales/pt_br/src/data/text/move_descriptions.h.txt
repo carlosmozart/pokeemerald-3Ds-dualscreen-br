@@ -111,7 +111,7 @@ depois de um giro.
 
 [sSandAttackDescription] 03631a62d2
 Joga areia na cara do\n
-alvo e baixa a precisão.
+alvo e baixa a PRECISÃO.
 
 [sHeadbuttDescription] f07da4bd06
 Uma cabeçada que pode\n
@@ -430,7 +430,7 @@ Diminui de tamanho para\n
 fugir dos golpes.
 
 [sSmokescreenDescription] b8a677eb26
-Baixa a precisão do alvo\n
+Baixa a PRECISÃO do alvo\n
 com fumaça, tinta etc.
 
 [sConfuseRayDescription] b51c5883ab
@@ -535,7 +535,7 @@ muito a DEF. ESP.
 
 [sKinesisDescription] 78da6cb452
 Distrai o alvo. Pode\n
-baixar a precisão.
+baixar a PRECISÃO.
 
 [sSoftBoiledDescription] 0b1f10d563
 Recupera até metade dos\n
@@ -591,7 +591,7 @@ sempre faz dormir.
 
 [sFlashDescription] 1649e13199
 Solta um clarão forte\n
-que baixa a precisão.
+que baixa a PRECISÃO.
 
 [sPsywaveDescription] 01f4384d00
 Ataca com uma onda\n
@@ -755,11 +755,11 @@ alvo. Pode envenenar.
 
 [sMudSlapDescription] e6997024b4
 Joga lama na cara do alvo\n
-e baixa a precisão.
+e baixa a PRECISÃO.
 
 [sOctazookaDescription] fef4b6f2c7
 Atira tinta que fere\n
-e baixa a precisão.
+e baixa a PRECISÃO.
 
 [sSpikesDescription] eac43d990f
 Espalha espinhos que\n
@@ -767,7 +767,7 @@ ferem quem entra.
 
 [sZapCannonDescription] a71dba824f
 Forte e sempre paralisa,\n
-mas tem pouca precisão.
+mas tem pouca PRECISÃO.
 
 [sForesightDescription] f3d9c5a608
 Anula a esquiva extra\n
@@ -891,7 +891,7 @@ força ao acaso.
 
 [sDynamicPunchDescription] f583e928dd
 Forte e sempre confunde,\n
-mas tem pouca precisão.
+mas tem pouca PRECISÃO.
 
 [sMegahornDescription] 5216d8ebac
 Uma chifrada brutal com\n
@@ -1319,7 +1319,7 @@ acertar, nocauteia.
 
 [sMuddyWaterDescription] 1328bae6de
 Ataca com água barrenta.\n
-Pode baixar a precisão.
+Pode baixar a PRECISÃO.
 
 [sBulletSeedDescription] 5889ff091f
 Dispara de 2 a 5 sementes\n

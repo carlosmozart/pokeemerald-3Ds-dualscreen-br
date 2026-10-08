@@ -276,7 +276,7 @@ Impede a atração.
 Anula os efeitos do clima.
 
 [sCompoundEyesDescription] 482b88ff77
-Aumenta a precisão.
+Aumenta a PRECISÃO.
 
 [sInsomniaDescription] 315a592f99
 Impede o sono.
@@ -387,7 +387,7 @@ Queima no contato.
 Facilita a fuga.
 
 [sKeenEyeDescription] f6b8162502
-Impede perda de precisão.
+Impede perda de PRECISÃO.
 
 [sHyperCutterDescription] 6fb9efddd1
 Impede perda de ATAQUE.
@@ -399,7 +399,7 @@ Pode achar itens.
 Só age a cada dois turnos.
 
 [sHustleDescription] 72de02b2f1
-Troca precisão por força.
+Troca PRECISÃO por força.
 
 [sCuteCharmDescription] f63fe800aa
 Atrai no contato.
