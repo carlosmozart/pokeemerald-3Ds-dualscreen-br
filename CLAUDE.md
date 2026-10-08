@@ -67,13 +67,13 @@ Para não pisar no trabalho do outro PC:
 - **Decisões** (glossário, roadmap) entram num commit próprio e são
   enviadas na hora, antes de traduzir com base nelas.
 
-**Divisão atual** (09/10/2026; o usuário diz qual PC é qual ao abrir a
+**Divisão atual** (09/10/2026, revista no mesmo dia; o usuário diz qual PC é qual ao abrir a
 sessão, ou pergunte):
 
 | PC | Fica com | Arquivos do catálogo |
 |---|---|---|
 | Menus | Os menus e mensagens de `src/strings.c`, incluindo os textos da tela da POKéDEX (busca, ordem, HT/WT), que também estão nele | `src/strings.c.txt` |
-| POKéDEX | As 386 descrições da POKéDEX do Emerald; roteiro em [docs/TAREFA-POKEDEX.md](docs/TAREFA-POKEDEX.md) | `src/data/pokemon/pokedex_text.h.txt` |
+| Mapas | Os diálogos dos mapas na ordem do jogo, a partir de PETALBURG: ROTA 102, PETALBURG (cidade, casa, GINÁSIO), ROTA 104, BOSQUE PETALBURG, RUSTBORO… (as 386 descrições da POKéDEX ficaram prontas em 09/10) | `data/maps/<Mapa>/scripts.inc.txt`, um por mapa |
 
 Ao terminar uma parte, combine a próxima com o usuário e atualize esta
 tabela num commit próprio.
