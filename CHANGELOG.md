@@ -31,6 +31,9 @@
 - Portuguese: the BAG's menus, pockets and messages, and the messages of
   using items (59 texts, 887 in all). CANCEL becomes VOLTAR, as wide as the
   English word, since some windows fit it exactly.
+- Portuguese: every move's name, Brazil's official one abbreviated to the
+  game's 12 bytes where needed (GOLPE CARATÊ, REV. D'ÁGUA), and its
+  two-line description (708 texts, 1595 in all).
 
 ## 0.3.0 — 2026-10-08
 

@@ -87,3 +87,13 @@ SUP, BOLA PRESENT. (BOLA PRESENTEADA nos diálogos), BOLA REPETIÇ., CURA
 PARALIS., MÁX. REVIVER. As frutas são FRUTA + nome (FRUTA ORAN), como nos
 jogos oficiais; as MÁQUINAS são MT01–MT50 e MO01–MO08. A lista completa, com
 o nome escolhido para cada item, está em `src/data/items.h.txt`.
+
+## Nomes de golpes
+
+Os golpes têm o nome oficial brasileiro (o primeiro nome “games” do
+Bulbapedia), em até 12 bytes (`src/data/text/move_names.h`): abreviado no
+estilo do jogo quando não cabe (GOLPE CARATÊ, REV. D'ÁGUA, DANÇA ESPADA,
+ATAQ. RÁPIDO). Quando há mais de um nome oficial, vale o dos jogos; quando
+dois golpes ficariam iguais, um deles usa a alternativa do anime (SOCO
+TROVÃO, VENTO GELADO, LANÇA GELO). A lista completa está em
+`src/data/text/move_names.h.txt`.
