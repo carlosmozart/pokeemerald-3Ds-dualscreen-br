@@ -1361,3 +1361,153 @@ Nos dias de sol, dá para ver cardumes de\n
 MANTINE saltando elegantes sobre as\n
 ondas. Não se incomoda com os REMORAID\n
 que pegam carona.
+
+[gSkarmoryPokedexText] a9349a2465
+Um POKéMON com corpo e asas de aço.\n
+Antigamente, as pessoas usavam as penas\n
+que caíam de SKARMORY para fazer\n
+espadas e facas.
+
+[gHoundourPokedexText] 32bd9edd7e
+HOUNDOUR se comunicam com vários tipos\n
+de uivo para encurralar a presa.\n
+O trabalho em equipe deste POKéMON\n
+simplesmente não tem igual.
+
+[gHoundoomPokedexText] 2f8be246e4
+Numa matilha de HOUNDOOM, o que tem os\n
+chifres mais inclinados para trás é o\n
+líder. Eles escolhem o líder brigando\n
+entre si.
+
+[gKingdraPokedexText] fcc0bbb17e
+Dorme quietinho no fundo do mar.\n
+Quando sobe para a superfície, cria um\n
+redemoinho enorme que consegue engolir\n
+até navios.
+
+[gPhanpyPokedexText] e0dc4e6634
+As orelhas grandes de PHANPY servem de\n
+leques. Quando faz calor, ele abana as\n
+orelhas sem parar para se refrescar.\n
+Até os filhotes são muito fortes.
+
+[gDonphanPokedexText] 2ded9a7233
+DONPHAN é tão forte que puxa um\n
+caminhão de lixo sem esforço. O couro\n
+ficou duro como pedra. Um ataque comum\n
+nem deixa arranhão.
+
+[gPorygon2PokedexText] 6ea3ae49d9
+Foi criado pelos humanos com o poder da\n
+ciência. Ganhou uma inteligência\n
+artificial que o deixa aprender sozinho\n
+gestos e emoções novos.
+
+[gStantlerPokedexText] 6f3536f1cf
+Os chifres magníficos de STANTLER já\n
+foram vendidos a preços altos como obras\n
+de arte. Por isso, este POKéMON foi\n
+caçado quase até a extinção.
+
+[gSmearglePokedexText] a552158a16
+SMEARGLE marca o território com um\n
+líquido que sai da ponta da cauda.\n
+Já foram achadas umas 5.000 marcas\n
+diferentes deixadas por ele.
+
+[gTyroguePokedexText] 04482c4329
+TYROGUE ficam estressados se não\n
+treinam todo dia. Quem cria este POKéMON\n
+precisa montar uma rotina de treinos\n
+regular.
+
+[gHitmontopPokedexText] 7b2d618851
+Sua técnica de chutar girando mistura\n
+ataque e defesa de um jeito incrível.\n
+HITMONTOP andam mais rápido girando\n
+do que andando.
+
+[gSmoochumPokedexText] 8276b2fa5e
+Corre pra lá e pra cá, mas também cai\n
+muito. Toda vez que cai, confere o\n
+reflexo na água de um lago para ver se\n
+o rosto não ficou sujo.
+
+[gElekidPokedexText] 2fb557e4af
+Se encosta em metal e descarrega a\n
+eletricidade guardada no corpo, ELEKID\n
+começa a girar os braços em círculos\n
+para se recarregar.
+
+[gMagbyPokedexText] e108bdefd3
+Se MAGBY solta chamas amarelas pela\n
+boca, é sinal de boa saúde. Quando está\n
+cansado, as chamas saem misturadas com\n
+fumaça preta.
+
+[gMiltankPokedexText] 90ca91f2d0
+Dá mais de 20 litros de leite por dia.\n
+O leite doce agrada crianças e adultos.\n
+Quem não pode tomar leite faz iogurte\n
+com ele.
+
+[gBlisseyPokedexText] 1e621ba34a
+Se sente tristeza com o pelo fofinho,\n
+BLISSEY corre até a pessoa triste, por\n
+mais longe que esteja, e divide com ela\n
+um ovo da felicidade que faz sorrir.
+
+[gRaikouPokedexText] 576de9d4be
+RAIKOU encarna a velocidade do raio.\n
+Seus rugidos fazem ondas de choque\n
+tremerem o ar e o chão como se raios\n
+estivessem caindo.
+
+[gEnteiPokedexText] 81dd16329b
+ENTEI encarna a paixão do magma.\n
+Acredita-se que nasceu da erupção de um\n
+vulcão. Solta fogo que consome tudo o\n
+que toca.
+
+[gSuicunePokedexText] 41b2fb07b4
+SUICUNE encarna a bondade de uma fonte\n
+de água pura. Corre pela terra com uma\n
+elegância deslizante. Tem o poder de\n
+purificar a água suja.
+
+[gLarvitarPokedexText] 5ab8dc9271
+LARVITAR nasce no fundo da terra. Ele\n
+precisa comer o caminho pelo solo até\n
+chegar à superfície para ver o rosto\n
+dos pais.
+
+[gPupitarPokedexText] bb0a712876
+PUPITAR cria um gás dentro do corpo e\n
+o solta comprimido para se lançar como\n
+um jato. Seu corpo aguenta até uma\n
+batida contra aço maciço.
+
+[gTyranitarPokedexText] d4e78cdcdd
+TYRANITAR é tão forte que derruba uma\n
+montanha inteira para fazer o ninho.\n
+Anda pelas montanhas procurando novos\n
+oponentes para lutar.
+
+[gLugiaPokedexText] 20554bbbfb
+LUGIA é tão poderoso que até um bater\n
+leve de asas pode destruir casas. Por\n
+isso, prefere viver escondido no fundo\n
+do mar.
+
+[gHoOhPokedexText] 354fae5393
+Acredita-se que suas penas, que brilham\n
+em sete cores conforme o ângulo da luz,\n
+trazem alegria. Dizem que vive no pé\n
+do arco-íris.
+
+[gCelebiPokedexText] 13534b8d07
+Este POKéMON veio do futuro atravessando\n
+o tempo. Acredita-se que, enquanto\n
+CELEBI aparecer, um futuro brilhante\n
+espera por nós.
