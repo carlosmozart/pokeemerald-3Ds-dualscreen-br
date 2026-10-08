@@ -120,7 +120,8 @@ diria (“É super efetivo!”, “Não é muito efetivo…”, “Acerto críti
 - O lado de cada um: “a equipe aliada” / “a equipe inimiga”.
 - Posse: “ATAQUE de MUDKIP”, “INTIMIDAÇÃO de GYARADOS” (a coisa antes do dono).
 - Atributos nas mensagens: PS, ATAQUE, DEFESA, VELOC., AT. ESP., DEF. ESP.,
-  PRECISÃO, EVASÃO; na caixa de nível, AT.ESP. e DEF.ESP.
+  PRECISÃO, EVASÃO; na caixa de nível, AT.ESP. e DEF.ESP.; no resumo do
+  POKéMON, que centraliza o nome em 36 px, AT.ESP e DEF.ESP, sem o ponto.
 - Menus: LUTAR, BOLSA, POKéMON, FUGIR; no SAFÁRI, BOLA e CHEGAR.
 - SAFARI BALL é BOLA SAFÁRI (como o item). REFEREE é JUIZ.
 

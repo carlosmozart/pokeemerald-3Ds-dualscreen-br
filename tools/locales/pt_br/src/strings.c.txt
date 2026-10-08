@@ -823,3 +823,397 @@ INSÍGNIAS
 
 [gText_SafariBallStock] 6103285b8b width=124
 BOLAS SAFÁRI\nEstoque: {STR_VAR_1}
+
+# O resumo do POKéMON (src/pokemon_summary_screen.c). Títulos em 11 tiles;
+# atributos à esquerda em 6 tiles, à direita centralizados em 36 px (por
+# isso AT.ESP e DEF.ESP); APELO e ATRAP. em 5 tiles; o quadro de natureza,
+# origem e OVO em 18 tiles (144 px). As larguras das frases de origem
+# contam os códigos de cor como texto; as linhas reais ficam abaixo de 144.
+
+[gText_PkmnInfo] d62b3b3e52 width=88
+INFO POKéMON
+
+[gText_PkmnSkills] bfbdcfea89 width=88
+ATRIBUTOS
+
+[gText_BattleMoves] 0e54668249 width=88
+GOLPES DE LUTA
+
+[gText_ContestMoves] 5e3f529e72 width=88
+GOLPES CONC.
+
+[gText_Info] 9c9cf99982 width=60
+INFO
+
+[gText_Switch] b02cbd93fe width=60
+TROCAR
+
+[gText_RentalPkmn] 755d279110 width=144
+POKéMON ALUGADO
+
+[gText_TypeSlash] 23b582f48e width=40
+TIPO/
+
+[gText_OTSlash] 19eae4f147 width=30
+TO/
+
+[gText_None] 0654a028e5 width=80
+NADA
+
+[gText_RibbonsVar1] 3a312b4a83 width=120
+FITAS: {STR_VAR_1}
+
+[gText_HP4] 5200bdfc01 width=40
+PS
+
+[gText_Attack3] df86d4b6db width=48
+ATAQUE
+
+[gText_Defense3] d4f6d85456 width=48
+DEFESA
+
+[gText_SpAtk4] 4881ee79a1 width=38
+AT.ESP
+
+[gText_SpDef4] 3b0727a5ad width=40
+DEF.ESP
+
+[gText_Speed2] 265ffc5673 width=38
+VELOC.
+
+[gText_ExpPoints] 49b6e97d3e width=80
+PONTOS EXP.
+
+[gText_NextLv] df8e4370df width=80
+PRÓX. NV.
+
+[gText_Status] 7168833cc8 width=48
+STATUS
+
+[gText_Power] c2b6b521a7 width=72
+PODER
+
+[gText_Accuracy2] 3d61db27cf width=72
+PRECISÃO
+
+[gText_Appeal] e1a476f66b width=40
+APELO
+
+[gText_Jam] 18951a64f6 width=40
+ATRAP.
+
+[gText_HMMovesCantBeForgotten2] 0c23ac9d64 width=160
+Golpes de MO não podem\n
+ser esquecidos agora.
+
+[gText_EggAboutToHatch] 974f6baa4e width=144
+Está fazendo barulho.\n
+Vai chocar logo!
+
+[gText_EggFromHotSprings] 750be19f3a width=144
+Um OVO POKéMON obtido\n
+nas fontes termais.
+
+[gText_EggFromTraveler] 6e07dc116d width=144
+Um OVO POKéMON curioso\n
+obtido de um viajante.
+
+[gText_EggWillHatchSoon] 02240fcb1b width=144
+Ele se mexe às vezes.\n
+Deve chocar em breve.
+
+[gText_EggWillTakeALongTime] 98dd1f5144 width=144
+Parece que este OVO vai\n
+demorar muito para chocar.
+
+[gText_EggWillTakeSomeTime] 5003e8f71e width=144
+O que vai sair daqui?\n
+Ainda vai demorar.
+
+[gText_OddEggFoundByCouple] 180bb4247a width=144
+Um OVO POKéMON curioso\n
+achado na CRECHE.
+
+[gText_PeculiarEggNicePlace] a1eae0c4a8 width=144
+Um OVO POKéMON peculiar\n
+obtido no lugar legal.
+
+[gText_PeculiarEggTrade] bf882ca1eb width=144
+Um OVO POKéMON peculiar\n
+obtido numa troca.
+
+[gText_XNature] ac2ddc5d29 width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5}
+
+[gText_XNatureMetAtYZ] 8d24a89530 width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n
+encontrado no {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.
+
+[gText_XNatureHatchedAtYZ] 20e65b9ac3 width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n
+chocado no {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.
+
+[gText_XNatureObtainedInTrade] d0076530db width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n
+obtido numa troca.
+
+[gText_XNatureFatefulEncounter] ba5853f89f width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n
+obtido num encontro\n
+do destino no {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.
+
+[gText_XNatureProbablyMetAt] bf75217d3c width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n
+talvez visto no {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1},\n
+{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}.
+
+[gText_XNatureMetSomewhereAt] f94aa7efc3 width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n
+visto em algum lugar\n
+no {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.
+
+[gText_XNatureHatchedSomewhereAt] c1a3c71074 width=270
+Natureza {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}{DYNAMIC 5},\n
+chocado em algum lugar\n
+no {LV_2}{DYNAMIC 0}{DYNAMIC 3}{DYNAMIC 1}.
+
+# A tela da equipe (src/party_menu.c): as mensagens vão na caixa de diálogo;
+# os atributos, na janela de subida de nível (10 tiles) e nas mensagens.
+
+[gText_HP3] 5200bdfc01 width=40
+PS
+
+[gText_SpAtk3] 4881ee79a1 width=48
+AT. ESP.
+
+[gText_SpDef3] 3b0727a5ad width=48
+DEF. ESP.
+
+[gText_12PoofForgotMove] 2862488cb3 width=208
+1, {PAUSE 15}2 e{PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Puf!\p
+{STR_VAR_1} esqueceu como\n
+usar {STR_VAR_2}.\p
+E…{PAUSE_UNTIL_PRESS}
+
+[gText_BagFullCouldNotRemoveItem] b4d6e0bcb5 width=208
+A BOLSA está cheia. Não deu para\n
+tirar o item do POKéMON.{PAUSE_UNTIL_PRESS}
+
+[gText_CancelBattle] 6878f779b2 width=208
+Cancelar a batalha?
+
+[gText_CancelChallenge] 78d7977bf4 width=208
+Cancelar o desafio?
+
+[gText_CancelParticipation] d4decaee34 width=208
+Cancelar a participação?
+
+[gText_CantSwitchWithAlly] 745d05f04a width=208
+Não dá para trocar os POKéMON de\n
+{STR_VAR_1} com os seus!{PAUSE_UNTIL_PRESS}
+
+[gText_CantUseUntilNewBadge] 3483ccff8f width=208
+Isso só pode ser usado com uma\n
+nova INSÍGNIA.{PAUSE_UNTIL_PRESS}
+
+[gText_EggCantBattle] 409a88e364 width=208
+Um OVO não pode lutar!{PAUSE_UNTIL_PRESS}
+
+[gText_EggCantBeTradedNow] d2f991301d width=208
+Um OVO não pode ser trocado agora.
+
+[gText_EscapeFromHere] 85c554a777 width=208
+Quer fugir daqui e voltar\n
+para {STR_VAR_1}?
+
+[gText_ItemThrownAway] ead1e79fd2 width=208
+{STR_VAR_1}\n
+foi jogado fora.{PAUSE_UNTIL_PRESS}
+
+[gText_MailMessageWillBeLost] 822edf7af1 width=208
+Se a CARTA sair, a mensagem\n
+será perdida. Tudo bem?
+
+[gText_MailSentToPC] 0ea873af95 width=208
+A CARTA foi enviada ao seu PC.{PAUSE_UNTIL_PRESS}
+
+[gText_MailTakenFromPkmn] de228a34f3 width=208
+A CARTA foi tirada do\n
+POKéMON.{PAUSE_UNTIL_PRESS}
+
+[gText_MailTransferredFromMailbox] 96ffe3fdf7 width=208
+A CARTA veio das\n
+CARTAS do PC.{PAUSE_UNTIL_PRESS}
+
+[gText_MoveNotLearned] f58fababaf width=208
+{STR_VAR_1} não aprendeu o\n
+golpe {STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+
+[gText_MovesPPIncreased] 93310c246e width=208
+Os PP de {STR_VAR_1} aumentaram.{PAUSE_UNTIL_PRESS}
+
+[gText_NoMoreThanVar1Pkmn] 1116374a76 width=208
+Só podem entrar até\n
+{STR_VAR_1} POKéMON.{PAUSE_UNTIL_PRESS}
+
+[gText_OnlyPkmnForBattle] eaea70fe85 width=208
+É o seu único\n
+POKéMON para lutar.
+
+[gText_PCMailboxFull] 406f1ad349 width=208
+As CARTAS do seu PC estão cheias.{PAUSE_UNTIL_PRESS}
+
+[gText_PPWasRestored] 34c08ec4bc width=208
+Os PP foram restaurados.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnAdoresBaseVar2Fell] 5c3c277d43 width=208
+{STR_VAR_1} adora você!\n
+O {STR_VAR_2} base caiu!{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnAlreadyHoldingItemSwitch] 59b47279d8 width=208
+{STR_VAR_1} já está segurando\n
+um(a) {STR_VAR_2}.\p
+Quer trocar os\n
+dois itens?
+
+[gText_PkmnAlreadyInBattle] 061f72f81d width=208
+{STR_VAR_1} já está\n
+na batalha!{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnAlreadyKnows] 4a874a3971 width=208
+{STR_VAR_1} já conhece\n
+{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnAlreadySelected] 76f841aba2 width=208
+{STR_VAR_1} já foi\n
+escolhido.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnBaseVar2StatIncreased] 237c591348 width=208
+O {STR_VAR_2} base de\n
+{STR_VAR_1} aumentou.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnBecameHealthy] 61b25bd16a width=208
+{STR_VAR_1} ficou saudável.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnBurnHealed] aa5f2d5d85 width=208
+A queimadura de {STR_VAR_1}\n
+sarou.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnCantBeTradedNow] 375fd6f5de width=208
+Esse POKéMON não pode ser\n
+trocado agora.
+
+[gText_PkmnCantLearnMove] 4a13da1bbd width=208
+{STR_VAR_1} e {STR_VAR_2}\n
+não são compatíveis.\p
+{STR_VAR_2} não pode ser\n
+aprendido.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnCantParticipate] 4ab210b272 width=208
+Esse POKéMON não pode participar.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnCantSwitchOut] 84ea1ac027 width=208
+{STR_VAR_1} não pode ser\n
+trocado!{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnCuredOfParalysis] 8a2803b17c width=208
+{STR_VAR_1} foi curado da\n
+paralisia.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnCuredOfPoison] 00c48e97ea width=208
+{STR_VAR_1} foi curado do\n
+veneno.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnElevatedToLvVar2] 3aacd23ec8 width=208
+{STR_VAR_1} subiu para o\n
+Nv. {STR_VAR_2}.
+
+[gText_PkmnFriendlyBaseVar2CantFall] 130cd04d7b width=208
+{STR_VAR_1} ficou amigável.\n
+O {STR_VAR_2} base não pode cair!{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnFriendlyBaseVar2Fell] 3e94d9d47d width=208
+{STR_VAR_1} ficou amigável.\n
+O {STR_VAR_2} base caiu!{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnGotOverInfatuation] 7f42d22b40 width=208
+{STR_VAR_1} superou a\n
+paixão.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnHPRestoredByVar2] 60a18f269c width=208
+{STR_VAR_1} recuperou\n
+{STR_VAR_2} PS.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnHasNoEnergy] 3b348db66c width=208
+{STR_VAR_1} não tem energia\n
+para lutar!{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnHoldingItemCantHoldMail] bfdb065212 width=208
+Este POKéMON está segurando um\n
+item. Não pode segurar CARTA.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnLearnedMove3] d7bee1210f width=208
+{STR_VAR_1} aprendeu\n
+{STR_VAR_2}!
+
+[gText_PkmnNeedsToReplaceMove] 208cef9366 width=208
+{STR_VAR_1} quer aprender o\n
+golpe {STR_VAR_2}.\p
+Mas {STR_VAR_1} já conhece\n
+quatro golpes.\p
+Apagar um golpe e trocar\n
+por {STR_VAR_2}?
+
+[gText_PkmnNotHolding] 217e3ec02b width=208
+{STR_VAR_1} não está\n
+segurando nada.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnSnappedOutOfConfusion] ee33e1399a width=208
+{STR_VAR_1} saiu da\n
+confusão.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnThawedOut] 7b76cac62d width=208
+{STR_VAR_1} descongelou.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnWasGivenItem] c33660f849 width=208
+{STR_VAR_1} recebeu\n
+{STR_VAR_2} para segurar.{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnWokeUp2] ac94e8efef width=208
+{STR_VAR_1} acordou.{PAUSE_UNTIL_PRESS}
+
+[gText_ReceivedItemFromPkmn] 39a4d1ac70 width=208
+Recebeu {STR_VAR_2}\n
+de {STR_VAR_1}.{PAUSE_UNTIL_PRESS}
+
+[gText_RemoveMailBeforeItem] c1ff05597b width=208
+Tire a CARTA antes de\n
+segurar um item.{PAUSE_UNTIL_PRESS}
+
+[gText_ReturnToHealingSpot] e73212f1c8 width=208
+Quer voltar ao último lugar de\n
+cura usado em {STR_VAR_1}?
+
+[gText_ReturnToWaitingRoom] 0fec2d4915 width=208
+Voltar à SALA DE ESPERA?
+
+[gText_SendMailToPC] 1a419962ee width=208
+Mandar a CARTA tirada\n
+para o seu PC?
+
+[gText_StopLearningMove2] b8c99ebeb0 width=208
+Parar de ensinar\n
+{STR_VAR_2}?
+
+[gText_SwitchedPkmnItem] df3c238d3e width=208
+{STR_VAR_2} foi tirado e\n
+trocado por {STR_VAR_1}.{PAUSE_UNTIL_PRESS}
+
+[gText_ThrowAwayItem] 01986e3d9d width=208
+Jogar fora este\n
+{STR_VAR_1}?
+
+[gText_WhichMoveToForget] a3022e39f0 width=208
+Qual golpe deve ser esquecido?{PAUSE_UNTIL_PRESS}

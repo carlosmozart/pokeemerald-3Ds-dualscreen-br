@@ -60,6 +60,9 @@
 - Portuguese: the player's PC (ITENS GUARDADOS, CARTAS, DECORAÇÃO), the
   POKéMON STORAGE SYSTEM's menus, wallpapers and messages, and the START
   menu's save and SAFARI BALLS windows (2805 texts in all).
+- Portuguese: the POKéMON summary (INFO POKéMON, ATRIBUTOS, GOLPES DE
+  LUTA, the nature and where it was met, the EGG notes) and the party
+  menu's messages (healing, items, MAIL, learning moves).
 - Portuguese: all 386 POKéDEX descriptions (and the unknown species'),
   translated from the Emerald's own texts in 4 lines and up to 224 px, with
   metric units.
