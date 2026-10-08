@@ -136,14 +136,16 @@ emulador e no 3DS.
 | Descrições de itens | `item-descriptions.json` | `src/data/text/item_descriptions.h` | 18 (de ~310) |
 | Termos de local | regras do wiki | `src/data/region_map/region_map_sections.json` | ~210 |
 
-- [ ] Golpes: ligar a chave do wiki (`thunderbolt`) ao símbolo
+- [x] Golpes: ligar a chave do wiki (`thunderbolt`) ao símbolo
       (`sThunderboltDescription`), quebrar as linhas e listar o que não couber.
       O texto em PT ficou cerca de 22% maior que o inglês (mediana), e 232 de
       354 crescem mais de 15%.
-- [ ] Categorias: tirar o "Pokémon" (`Pokémon Semente` vira `SEMENTE`) e
-      checar o limite de caracteres.
-- [ ] Tipos: aumentar `TYPE_NAME_LENGTH` de 6 para 9 (`TERRESTRE`), conferir
-      todos os usos e ajustar a janela de tipo do golpe na batalha.
+- [x] Categorias: as 386, em até 11 bytes, com “POKéMON” antes
+      (patch `0042`); quando não cabe, a palavra mais próxima (MIRMELEÃO,
+      TATURANA, OTÁRIA).
+- [x] Tipos: `TYPE_NAME_LENGTH` continua 6. Os nomes oficiais cabem ou são
+      abreviados (LUTA, VENENO, TERRA, FANTAS, ELÉTR., PSÍQ., SOMBR.); os
+      nomes inteiros vão nas mensagens e descrições.
 - [ ] `sATypeMove_Table` em PT ("um golpe de FOGO"), alargando a tabela como o
       patch `0034` fez.
 - [ ] Normalizar o texto do wiki para o estilo do jogo: caixa alta nos termos
@@ -281,7 +283,7 @@ Registre aqui cada decisão, com data.
 | Data | Decisão |
 |---|---|
 | 2026-10-07 | Caixa: estilo do Emerald. Nomes e termos em maiúsculas (`POKéMON`, `POÇÃO`, `ROTA 104`); o conversor converte o texto copiado do wiki. |
-| 2026-10-07 | Tipos traduzidos com `TIPOS_PT`, em maiúsculas. Exige aumentar `TYPE_NAME_LENGTH` (6 hoje; `TERRESTRE` tem 9) e gerar ícones de tipo em PT. |
+| 2026-10-07 | Tipos traduzidos com `TIPOS_PT`, em maiúsculas. Exige gerar ícones de tipo em PT. (Tamanho revisto em 08/10.) |
 | 2026-10-07 | Atributos traduzidos (`ATAQUE`, `DEFESA`, `VELOCIDADE`…), divergindo da regra do wiki. Formas exatas no Glossário. |
 | 2026-10-07 | Tratamento: "você", tom informal. |
 | 2026-10-07 | Nome do idioma no código: `pt_br`. |
@@ -289,6 +291,8 @@ Registre aqui cada decisão, com data.
 | 2026-10-07 | O HoennKantoWiki não é alterado. Os dados são copiados para `tools/locales/pt_br/referencia/hoennkantowiki/`. |
 | 2026-10-07 | Traduzir o máximo possível. Quando uma palavra não couber, estudar uma abreviação (registrada no Glossário) em vez de manter o inglês. |
 | 2026-10-08 | **Nomenclatura oficial do Brasil** (jogos, anime, TCG; Bulbapedia `pt_br`) acima do wiki. Substitui as escolhas de 07/10 que divergem: BOLSA (não Mochila), POKé BOLA, PS (não HP), tipos PLANTA e AÇO (não GRAMA e METAL). Referência única: `GLOSSARIO.md`. |
+| 2026-10-08 | Tipos nos 6 bytes do jogo (`TYPE_NAME_LENGTH` não muda): nomes oficiais abreviados quando não cabem (LUTA, VENENO, TERRA, FANTAS, ELÉTR., PSÍQ., SOMBR.), nomes inteiros nas mensagens. Substitui o aumento para 9 previsto em 07/10. |
+| 2026-10-08 | Categorias da POKéDEX com “POKéMON” antes (“POKéMON SEMENTE”), patch `0042`, em até 11 bytes. |
 | 2026-10-08 | Um só fluxo PT-BR: `--port-lang pt_br` com `localize_portuguese.py` e os catálogos de `tools/locales/pt_br/`. O fluxo `--locale ptbr` (`localize_ptbr.py`, catálogo TOML) foi retirado; os textos dele já estavam no catálogo `pt_br`. |
 
 ## Glossário
@@ -317,4 +321,4 @@ ele ainda não lista, seguem esta tabela:
 | Códigos reaproveitados para ã/õ aparecem em nomes de saves ingleses | Escolher letras sem uso real; documentar |
 | Volume dos diálogos | Ordem do jogo, cobertura medida e fallback para o inglês |
 | Divergência entre wiki e jogo | O wiki é a referência de termos; o jogo é a referência do texto original |
-| Tipos e atributos em PT mexem em limites e gráficos | Gerar ícones e rótulos no builder a partir da ROM; testar todas as telas com o nome mais longo (`TERRESTRE`, `VELOCIDADE`) |
+| Tipos e atributos em PT mexem em limites e gráficos | Tipos abreviados nos 6 bytes do jogo; gerar ícones e rótulos no builder a partir da ROM; testar as telas com os nomes mais longos (`DRAGÃO`, `VELOCIDADE`) |
