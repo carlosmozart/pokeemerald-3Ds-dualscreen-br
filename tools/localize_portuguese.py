@@ -189,9 +189,12 @@ C_ENTRY = re.compile(r"\[(\w+)\]\s*=\s*\{")
 
 # Fixed-size names: the array's length, less the terminator.
 NAME_BYTES = {"src/data/items.h": 13, "src/data/text/move_names.h": 12}
-# Lists drawn in one window: every entry may use the widest English one.
+# Files holding names and descriptions: the labels that are names, and their size.
+NAME_PREFIX_BYTES = {"src/data/text/abilities.h": ("ABILITY_", 12)}
+# Lists drawn in one window: every entry may use the widest English one (of
+# its own kind, in a file of names and descriptions).
 WIDEST_IN_FILE = {"src/data/text/item_descriptions.h", "src/data/text/move_names.h",
-                  "src/data/text/move_descriptions.h"}
+                  "src/data/text/move_descriptions.h", "src/data/text/abilities.h"}
 # Room measured from the window. Item names: the BAG and the marts list them
 # in the narrow font from x=8 to the count or price right-aligned at 120;
 # 80 px of the (wider) normal font leaves them room.
@@ -282,9 +285,15 @@ def localize(tree: Path, relative: str, charset: Charset, write: bool) -> Result
     texts = inc_texts(source) if is_inc else c_texts(source)
     problems, edits = [], []
     seen = set()
-    file_widest = 0
+    prefix, prefix_bytes = NAME_PREFIX_BYTES.get(relative, (None, 0))
+
+    def kind(label: str) -> bool:
+        return prefix is not None and label.startswith(prefix)
+
+    file_widest = {}
     if relative in WIDEST_IN_FILE:
-        file_widest = max((charset.widest(text) for _, _, text in texts.values()), default=0)
+        for label, (_, _, text) in texts.items():
+            file_widest[kind(label)] = max(file_widest.get(kind(label), 0), charset.widest(text))
     for entry in entries:
         where = "%s:%d [%s]" % (catalog.relative_to(ROOT), entry.line, entry.label)
         if entry.label in seen:
@@ -308,12 +317,14 @@ def localize(tree: Path, relative: str, charset: Charset, write: bool) -> Result
                          % (placeholders(entry.text), placeholders(english)))
         if not local and relative in NAME_BYTES and charset.size(entry.text) > NAME_BYTES[relative]:
             local.append(where + ": %d bytes, at most %d" % (charset.size(entry.text), NAME_BYTES[relative]))
+        if not local and kind(entry.label) and charset.size(entry.text) > prefix_bytes:
+            local.append(where + ": %d bytes, at most %d" % (charset.size(entry.text), prefix_bytes))
         if not local:
             limit = entry.width or charset.widest(english)
             if is_inc and not entry.width:
                 limit = max(limit, MESSAGE_BOX_WIDTH)
             if relative in WIDEST_IN_FILE and not entry.width:
-                limit = max(limit, file_widest)
+                limit = max(limit, file_widest[kind(entry.label)])
             if relative in FILE_WIDTH and not entry.width:
                 limit = max(limit, FILE_WIDTH[relative])
             for number, line in enumerate(charset.lines(entry.text), 1):

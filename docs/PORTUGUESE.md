@@ -9,7 +9,7 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
   caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
   LABORATÓRIO), a ROTA 101 com a escolha do primeiro POKéMON, a CIDADE DE
   OLDALE, a enfermeira dos CENTROS POKéMON, os POKé MARTS, os nomes e as
-  descrições de todos os itens e golpes, a BOLSA (menus, bolsos e
+  descrições de todos os itens, golpes e habilidades, a BOLSA (menus, bolsos e
   mensagens), o menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
@@ -87,7 +87,7 @@ falhar:
 - o hash: se o texto inglês mudou, a tradução precisa ser revista;
 - cada caractere existe no charmap (com ã, õ, Ã e Õ do patch 0040);
 - os mesmos placeholders do inglês (`{PLAYER}`, `{STR_VAR_1}`...);
-- o tamanho dos nomes de tamanho fixo (itens: 13 bytes; golpes: 12);
+- o tamanho dos nomes de tamanho fixo (itens: 13 bytes; golpes e habilidades: 12);
 - a largura de cada linha na fonte normal: até 208 px nos textos dos `.inc`
   (as caixas de mensagem têm 216), e nas strings de C, que costumam ser
   menus, a largura do inglês. `width=N` no cabeçalho permite N pixels, para

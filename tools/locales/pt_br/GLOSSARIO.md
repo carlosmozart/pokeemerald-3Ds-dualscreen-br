@@ -97,3 +97,14 @@ ATAQ. RÁPIDO). Quando há mais de um nome oficial, vale o dos jogos; quando
 dois golpes ficariam iguais, um deles usa a alternativa do anime (SOCO
 TROVÃO, VENTO GELADO, LANÇA GELO). A lista completa está em
 `src/data/text/move_names.h.txt`.
+
+## Nomes de habilidades
+
+As habilidades seguem a mesma regra, em até 12 bytes
+(`src/data/text/abilities.h`): ARM. BATALHA, ABS.VOLTAICA, INDULG. SER.,
+SUPERCRESC. Quando o Bulbapedia não traz nome brasileiro (STENCH, SHIELD
+DUST, ARENA TRAP, LIQUID OOZE, WHITE SMOKE, AIR LOCK, CACOPHONY), vale o da
+cópia do HoennKantoWiki ou a tradução direta: FEDOR, PÓ ESCUDO, ARMAD.
+ARENA, LODO LÍQUIDO, FUM. BRANCA, ECLUSA DE AR, CACOFONIA. FORECAST vira
+PREV. TEMPO para não repetir o golpe PREVISÃO. A lista completa está em
+`src/data/text/abilities.h.txt`.

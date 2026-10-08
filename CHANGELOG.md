@@ -34,6 +34,10 @@
 - Portuguese: every move's name, Brazil's official one abbreviated to the
   game's 12 bytes where needed (GOLPE CARATÊ, REV. D'ÁGUA), and its
   two-line description (708 texts, 1595 in all).
+- Portuguese: every ability's name, Brazil's official one in 12 bytes
+  (ARM. BATALHA, ABS.VOLTAICA), and its description (155 texts, 1750 in
+  all). localize_portuguese.py checks names and descriptions sharing a
+  file apart.
 
 ## 0.3.0 — 2026-10-08
 
