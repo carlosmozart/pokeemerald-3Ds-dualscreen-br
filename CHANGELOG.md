@@ -28,6 +28,9 @@
   the game's 13 bytes where needed, such as REPELENTE MÁX) and description
   (618 texts, 828 in all). localize_portuguese.py now reads table entries
   ([MOVE_X] = _("..."), .name = _("...")) and checks fixed-size names.
+- Portuguese: the BAG's menus, pockets and messages, and the messages of
+  using items (59 texts, 887 in all). CANCEL becomes VOLTAR, as wide as the
+  English word, since some windows fit it exactly.
 
 ## 0.3.0 — 2026-10-08
 

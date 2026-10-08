@@ -69,11 +69,15 @@ Os nomes dos POKéMON não se traduzem.
 | Littleroot Town e as outras cidades | CIDADE DE LITTLEROOT | o nome fica, a parte genérica se traduz |
 | Pokémon Wireless Club | CLUBE SEM FIO POKéMON | |
 | Trainer Card (Gold/Silver) | CARTÃO DE OURO / DE PRATA | |
-| Key Items | ITENS-CHAVE | só "Objeto Chave", num manual |
+| Key Items | ITENS CHAVE | só "Objeto Chave", num manual; sem hífen para caber no bolso da BOLSA |
 | Dad | PAPAI | par de MAMÃE |
 | Contest conditions (Cool, Beauty, Cute, Smart, Tough) | ESTILO, BELEZA, FOFURA, ESPERTEZA, FORÇA | |
 | Hold item | item segurado (“Se segurado, …”) | |
 | Mail | CARTA | |
+| Cancel (menus) | VOLTAR | mesma largura de CANCEL, que algumas janelas têm exata |
+| Toss | DESCARTAR | |
+| Box (PC) | CAIXA | oficial |
+| Coins | FICHAS | |
 
 ## Nomes de itens
 

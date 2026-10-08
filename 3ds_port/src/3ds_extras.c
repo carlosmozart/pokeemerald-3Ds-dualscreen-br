@@ -65,8 +65,8 @@ static const char *const sDexDone[] = {CTR_TEXT_PT("TAP TO SET", "TOQUE P/ ATIVA
  * the bag (OPTIONS is only open in the field). The item steps through the
  * pocket's items in the game's order, skipping unused ids.
  */
-static const char *const sGivePockets[] = {CTR_TEXT_PT("ITEMS", "ITENS"), CTR_TEXT_PT("POKE BALLS", "POKé BOLAS"), CTR_TEXT_PT("TMS & HMS", "MTS E MOS"),
-                                            CTR_TEXT_PT("BERRIES", "FRUTAS"), CTR_TEXT_PT("KEY ITEMS", "ITENS-CHAVE")};
+static const char *const sGivePockets[] = {CTR_TEXT_PT("ITEMS", "ITENS"), CTR_TEXT_PT("POKE BALLS", "POKé BOLAS"), CTR_TEXT_PT("TMS & HMS", "MTs E MOs"),
+                                            CTR_TEXT_PT("BERRIES", "FRUTAS"), CTR_TEXT_PT("KEY ITEMS", "ITENS CHAVE")};
 static const char *const sGiveCounts[] = {"1", "5", "10", "50", "99"};
 static const u8 sGiveCountValues[] = {1, 5, 10, 50, 99};
 

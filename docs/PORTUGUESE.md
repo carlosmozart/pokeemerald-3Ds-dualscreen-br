@@ -9,7 +9,8 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
   caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
   LABORATÓRIO), a ROTA 101 com a escolha do primeiro POKéMON, a CIDADE DE
   OLDALE, a enfermeira dos CENTROS POKéMON, os POKé MARTS, os nomes e as
-  descrições de todos os itens, o menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
+  descrições de todos os itens, a BOLSA (menus, bolsos e mensagens), o
+  menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
 

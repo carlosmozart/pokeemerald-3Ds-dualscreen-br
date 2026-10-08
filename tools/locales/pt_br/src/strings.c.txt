@@ -152,3 +152,236 @@ Pode ser?
 [gText_TurnedOverVar1ForVar2] 4ba0d45068 width=208
 Entregou {STR_VAR_2}\n
 e recebeu ¥{STR_VAR_1}.
+
+# ---------------------------------------------------------------- BOLSA
+
+# A BOLSA: as ações do menu de um item, na fonte estreita, em colunas de
+# 56 px a partir de x=8 (48 px de texto; medidos aqui na fonte normal).
+
+[gMenuText_Use] 7dcf46a0ef width=56
+USAR
+
+[gMenuText_Toss] 4e8ae1245c width=56
+DESCARTAR
+
+[gText_Toss] 4e8ae1245c width=56
+DESCARTAR
+
+[gMenuText_Register] 0391d22030 width=56
+REGISTRAR
+
+[gText_Register] 0391d22030 width=56
+REGISTRAR
+
+[gMenuText_Give] a5fae5b4e2 width=56
+DAR
+
+[gMenuText_Give2] a5fae5b4e2 width=56
+DAR
+
+[gText_Give2] a5fae5b4e2 width=56
+DAR
+
+[gMenuText_Check] d37267cb29 width=56
+VER
+
+[gText_Check] d37267cb29 width=56
+VER
+
+[gMenuText_CheckTag] 4c73dcd0f2 width=56
+VER ETIQ.
+
+[gMenuText_Walk] abe59e364f width=56
+ANDAR
+
+[gMenuText_Deselect] 9bb2544d0b width=56
+DESMARCAR
+
+[gText_Deselect] 9bb2544d0b width=56
+DESMARCAR
+
+[gMenuText_Confirm] f6fda10d33 width=56
+CONFIRMAR
+
+[gMenuText_Show] 40ae6fd23e width=56
+MOSTRAR
+
+# CANCEL aparece em muitas janelas do jogo, algumas do tamanho exato da
+# palavra: VOLTAR tem a mesma largura.
+
+[gText_Cancel2] 1507c40f04
+VOLTAR
+
+# Os bolsos da BOLSA: a janela do nome tem 64 px.
+
+[gText_ItemsPocket] a5ef8f60cf width=64
+ITENS
+
+[gText_PokeBallsPocket] 45a1d46176 width=64
+POKé BOLAS
+
+[gText_TMHMPocket] a23cbc63df width=64
+MTs E MOs
+
+[gText_BerriesPocket] fba348a585 width=64
+FRUTAS
+
+[gText_KeyItemsPocket] 0a6c54eddf width=64
+ITENS CHAVE
+
+# A última linha da lista de itens (80 px, como os nomes dos itens).
+
+[gText_CloseBag] 7886114b0d width=80
+FECHAR BOLSA
+
+# Na janela de descrição (3 linhas de 102 px); {STR_VAR_1} é o nome de um
+# item e {STR_VAR_2}, quando há, a quantidade (até 3 dígitos: essas entradas
+# têm a largura do inglês, que conta o placeholder do mesmo jeito).
+# O nome do item vai sem artigo, e o texto evita o gênero dele.
+
+[gText_Var1IsSelected] e810a4f468 width=102
+Selecionou\n
+{STR_VAR_1}.
+
+[gText_TossHowManyVar1s] c738796829 width=102
+Quantas unidades\n
+de {STR_VAR_1}\n
+descartar?
+
+[gText_ConfirmTossItems] be1650eb0e width=131
+Quer mesmo\n
+descartar {STR_VAR_2}\n
+de {STR_VAR_1}?
+
+[gText_ThrewAwayVar2Var1s] 4bb97b46be width=131
+Descartou {STR_VAR_2}\n
+de {STR_VAR_1}.
+
+[gText_DepositHowManyVar1] ff48c8aa84 width=102
+Guardar quantas\n
+unidades de\n
+{STR_VAR_1}?
+
+[gText_DepositedVar2Var1s] 4e82d89da0 width=127
+Guardou {STR_VAR_2}\n
+de {STR_VAR_1}.
+
+[gText_NoRoomForItems] c13fb2d4b2 width=102
+Não há espaço para\n
+guardar itens.
+
+[gText_CantStoreImportantItems] b130988545 width=102
+Itens importantes\n
+não podem ficar\n
+no PC!
+
+[gText_MoveVar1Where] 7f2c22bc42 width=102
+Mover\n
+{STR_VAR_1}\n
+para onde?
+
+[gText_ReturnToVar1] d094803a66 width=102
+Voltar para\n
+{STR_VAR_1}.
+
+# Para onde VOLTAR leva ({STR_VAR_1} acima).
+
+[gText_TheField] 74290c16b1 width=102
+o mapa
+
+[gText_TheBattle] 219ed72c3a width=102
+a batalha
+
+[gText_ThePokemonList] 54b6b886fa width=102
+a lista de POKéMON
+
+[gText_TheShop] 66d3d1475c width=102
+a loja
+
+[gText_ThePC] 9c3806228e width=102
+o PC
+
+# Na caixa de mensagem da BOLSA e ao usar itens (208 px).
+
+[gText_CantWriteMail] 9ab77bc157 width=208
+Não dá para escrever\n
+CARTAS aqui.
+
+[gText_Var1CantBeHeld] 075f274964 width=208
+Não dá para segurar\n
+{STR_VAR_1}.
+
+[gText_Var1CantBeHeldHere] 046232650d width=208
+Não dá para segurar\n
+{STR_VAR_1} aqui.
+
+[gText_NoPokemon] 90d03d1516 width=208
+Não tem nenhum\n
+POKéMON.
+
+[gText_DadsAdvice] 157e30d85c width=208
+Conselho do PAPAI…\n
+{PLAYER}, cada coisa tem a sua hora\l
+e o seu lugar!{PAUSE_UNTIL_PRESS}
+
+[gText_CantDismountBike] 002de62319 width=208
+Não dá para descer da BICICLETA aqui.{PAUSE_UNTIL_PRESS}
+
+[gText_BootedUpTM] 15a777148f width=208
+Ligou uma MT.
+
+[gText_BootedUpHM] 5855cfee5f width=208
+Ligou uma MO.
+
+[gText_TMHMContainedVar1] bcd58c4899 width=208
+Ela tem o golpe\n
+{STR_VAR_1}.\p
+Ensinar {STR_VAR_1}\n
+a um POKéMON?
+
+[gText_ItemFinderNearby] e12b4a7486 width=208
+Hã?\n
+O ACHADOR DE ITENS tá reagindo!\p
+Tem um item enterrado por aqui!{PAUSE_UNTIL_PRESS}
+
+[gText_ItemFinderOnTop] 221032d2a9 width=208
+Opa!\n
+O ACHADOR DE ITENS tá tremendo todo!{PAUSE_UNTIL_PRESS}
+
+[gText_ItemFinderNothing] 60df653093 width=208
+… … … …Nada!\n
+Nenhum sinal.{PAUSE_UNTIL_PRESS}
+
+[gText_CoinCase] 29d3141568 width=208
+Suas FICHAS:\n
+{STR_VAR_1}{PAUSE_UNTIL_PRESS}
+
+[gText_PlayerUsedVar2] aa983bd643 width=208
+{PLAYER} usou\n
+{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+
+[gText_RepelEffectsLingered] 37dbd0dd2f width=208
+Mas o efeito do REPELENTE\n
+ainda tá valendo.{PAUSE_UNTIL_PRESS}
+
+[gText_UsedVar2WildLured] 322a9f6905 width=208
+{PLAYER} usou\n
+{STR_VAR_2}.\p
+POKéMON selvagens vão ser atraídos.{PAUSE_UNTIL_PRESS}
+
+[gText_UsedVar2WildRepelled] b17a76b96c width=208
+{PLAYER} usou\n
+{STR_VAR_2}.\p
+POKéMON selvagens vão ser afastados.{PAUSE_UNTIL_PRESS}
+
+[gText_BoxFull] 3ec32cddf9 width=208
+A CAIXA tá cheia.{PAUSE_UNTIL_PRESS}
+
+[gText_PowderQty] aa25d91247 width=208
+QTD. DE PÓ: {STR_VAR_1}{PAUSE_UNTIL_PRESS}
+
+[gText_WontHaveEffect] 1716666980 width=208
+Isso não vai ter efeito nenhum.{PAUSE_UNTIL_PRESS}
+
+[gText_BagIsFull] 7e594d8a29 width=208
+A BOLSA tá cheia.{PAUSE_UNTIL_PRESS}
