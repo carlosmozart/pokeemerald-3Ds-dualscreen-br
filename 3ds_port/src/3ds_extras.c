@@ -20,11 +20,11 @@
 #include "constants/items.h"
 #include "constants/songs.h"
 
-const char *const gCtrExtrasOffOn[2] = {CTR_TEXT_PT("OFF", "DESLIGADO"), CTR_TEXT_PT("ON", "LIGADO")};
+const char *const gCtrExtrasOffOn[2] = {CTR_TEXT_PT("OFF", "NÃO"), CTR_TEXT_PT("ON", "SIM")};
 
-static const char *const sVisibleWild[] = {CTR_TEXT_PT("OFF", "DESLIGADO"), CTR_TEXT_PT("FEW", "POUCOS"), CTR_TEXT_PT("SOME", "ALGUNS"),
+static const char *const sVisibleWild[] = {CTR_TEXT_PT("OFF", "NÃO"), CTR_TEXT_PT("FEW", "POUCOS"), CTR_TEXT_PT("SOME", "ALGUNS"),
                                             CTR_TEXT_PT("MANY", "MUITOS")};
-static const char *const sEncounterRate[] = {"NORMAL", CTR_TEXT_PT("OFF", "DESLIGADO"), "1/4", "1/2", "2X"};
+static const char *const sEncounterRate[] = {"NORMAL", CTR_TEXT_PT("OFF", "NENHUM"), "1/4", "1/2", "2X"};
 static const char *const sShinyOdds[] = {"1/8192", "1/4096", "1/1024", "1/256", "1/64",
                                            CTR_TEXT_PT("ALWAYS", "SEMPRE")};
 /*

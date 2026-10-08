@@ -2,7 +2,7 @@
 
 **Etapa 1: a interface do port.** A compilação `PORT_LANG=pt_br` mostra em
 português tudo o que é do próprio port: os rótulos da tela de baixo (MAPA, os
-atributos, as opções de 3D), as abas AJUSTES, MELHORIAS e TRAPAÇAS com suas
+atributos, as opções de 3D), as abas OPÇÕES, MELHORIAS e TRAPAÇAS com suas
 células, e as mensagens de erro do pacote de dados. O jogo em si (diálogos,
 menus, nomes) continua em inglês, vindo da ROM americana/europeia (BPEE), e
 usa o mesmo `emerald3ds.pak` da versão inglesa.
