@@ -911,3 +911,153 @@ Dizem que MEW tem os genes de todos os\n
 POKéMON. Consegue ficar invisível quando\n
 quer, então passa despercebido mesmo\n
 chegando perto das pessoas.
+
+[gChikoritaPokedexText] d840a17170
+Balança a folha para manter os inimigos\n
+longe. Mas da folha também sai um cheiro\n
+doce, que cria um clima amigável e\n
+acalma quem está lutando.
+
+[gBayleefPokedexText] b4dee0433f
+O pescoço de BAYLEEF tem um anel de\n
+folhas enroladas. Dentro de cada folha há\n
+um broto de árvore. O cheiro desse broto\n
+deixa as pessoas animadas.
+
+[gMeganiumPokedexText] 801e5bcb38
+O cheiro da flor de MEGANIUM acalma e\n
+tranquiliza as emoções. Na batalha, solta\n
+mais desse aroma calmante para diminuir\n
+o espírito de luta do inimigo.
+
+[gCyndaquilPokedexText] 4dd9e63ef4
+Solta chamas pelas costas para se\n
+proteger. O fogo arde forte se o POKéMON\n
+está bravo. Quando está cansado, solta\n
+só umas faíscas falhadas.
+
+[gQuilavaPokedexText] 772207ba1b
+Intimida os inimigos com rajadas de chamas\n
+e ar superaquecido. Sua agilidade deixa\n
+ele desviar de ataques até enquanto\n
+torra um inimigo.
+
+[gTyphlosionPokedexText] 31667effc2
+Esconde-se atrás de uma névoa de calor\n
+tremulante, criada com suas chamas\n
+intensas. TYPHLOSION solta explosões\n
+ardentes que reduzem tudo a cinzas.
+
+[gTotodilePokedexText] cf092dda72
+Apesar do corpo pequeno, a mandíbula de\n
+TOTODILE é muito forte. Ele pode achar que\n
+só está mordiscando de brincadeira, mas a\n
+mordida é forte o bastante para ferir feio.
+
+[gCroconawPokedexText] b950aa45ea
+Depois que morde o inimigo, não solta de\n
+jeito nenhum. Como as pontas das presas\n
+são curvadas para trás como anzóis, elas\n
+ficam presas e não saem mais.
+
+[gFeraligatrPokedexText] 84a382b163
+Abre a bocarra para intimidar os\n
+inimigos. Na batalha, corre com as patas\n
+traseiras grossas e fortes para investir\n
+contra o inimigo numa velocidade incrível.
+
+[gSentretPokedexText] e3172baef1
+Revezam a vigia na hora de dormir.\n
+O vigia acorda os outros se sente perigo.\n
+Se um deles se separa do grupo, perde\n
+o sono de medo.
+
+[gFurretPokedexText] 53605c80f2
+FURRET é bem magrinho. Quando é atacado,\n
+se espreme por lugares estreitos e foge.\n
+Apesar das patas curtas, é muito ágil e\n
+veloz.
+
+[gHoothootPokedexText] 7d9258bffc
+Tem um órgão interno que sente a rotação\n
+da Terra. Com esse órgão especial,\n
+HOOTHOOT começa a piar exatamente na\n
+mesma hora todo dia.
+
+[gNoctowlPokedexText] 5d2d7bb392
+Nunca deixa de pegar a presa no escuro.\n
+NOCTOWL deve o sucesso à visão superior,\n
+que enxerga com quase nenhuma luz, e às\n
+asas flexíveis e silenciosas.
+
+[gLedybaPokedexText] 3a9dc1c137
+LEDYBA se comunicam com um líquido que\n
+soltam das juntas das pernas. Dizem que\n
+mostram os sentimentos aos outros\n
+mudando o cheiro desse líquido.
+
+[gLedianPokedexText] b0ff23b94c
+Dizem que, nas terras de ar limpo, onde\n
+as estrelas enchem o céu, vivem muitos\n
+LEDIAN. E com razão: eles usam a luz\n
+das estrelas como energia.
+
+[gSpinarakPokedexText] bde6b659da
+A teia que tece pode ser vista como seu\n
+segundo sistema nervoso. Dizem que\n
+SPINARAK identifica a presa pelas\n
+vibrações mínimas que sente na teia.
+
+[gAriadosPokedexText] 8f2d561ed8
+As patas têm garrinhas em gancho, que o\n
+deixam andar rápido pelo teto e por\n
+paredes. Prende o inimigo com uma teia\n
+de seda fina e resistente.
+
+[gCrobatPokedexText] 446d2dcfa8
+Ao longo da evolução, as patas traseiras\n
+viraram asas. Descansando ora as asas\n
+da frente, ora as de trás, consegue voar\n
+o dia todo sem parar.
+
+[gChinchouPokedexText] c46bd8fa62
+Quando sente perigo, solta eletricidade\n
+positiva e negativa pelas duas antenas.\n
+Vive em profundezas aonde a luz do sol\n
+não chega.
+
+[gLanturnPokedexText] 6d54a6b259
+As esferas luminosas das costas brilham\n
+muito. Elas se formam de uma parte da\n
+barbatana dorsal. Este POKéMON ilumina\n
+a escuridão total do fundo do mar.
+
+[gPichuPokedexText] 09744a3e45
+Ainda não sabe segurar a eletricidade.\n
+Quando leva um susto, solta energia sem\n
+querer. Vai aprendendo a guardar a\n
+energia conforme cresce.
+
+[gCleffaPokedexText] 9821f14456
+Nas noites com muitas estrelas cadentes,\n
+dá para ver CLEFFA dançando em roda.\n
+Eles dançam até o amanhecer, quando\n
+matam a sede com o orvalho da manhã.
+
+[gIgglybuffPokedexText] dfc81dd52b
+O corpo macio e flexível é muito elástico.\n
+Quando canta sem parar com toda a força,\n
+o corpo vai ficando de um rosa cada vez\n
+mais forte.
+
+[gTogepiPokedexText] 3dd8447ef0
+Usa como energia os sentimentos de\n
+carinho e alegria que as pessoas e os\n
+POKéMON emanam. Guarda a felicidade na\n
+casca e depois a reparte.
+
+[gTogeticPokedexText] dfa54c88d1
+Dizem que é um POKéMON que traz boa sorte.\n
+Quando vê alguém de coração puro, TOGETIC\n
+aparece e divide sua felicidade com\n
+essa pessoa.
