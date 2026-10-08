@@ -2104,3 +2104,210 @@ Muda de forma conforme o tempo.\n
 Mudanças no clima, como a temperatura e\n
 a umidade, parecem afetar a estrutura\n
 das suas células.
+
+[gKecleonPokedexText] b737c113c3
+Um POKéMON que muda a cor do corpo para\n
+combinar com o ambiente. KECLEON volta\n
+às cores originais quando leva um\n
+susto.
+
+[gShuppetPokedexText] 1f1c582b22
+Este POKéMON vaga tarde da noite atrás\n
+de emoções negativas, como rancor e\n
+inveja. Volta para o ninho quando o sol\n
+começa a nascer.
+
+[gBanettePokedexText] ede570e003
+Um boneco de pelúcia abandonado virou\n
+este POKéMON. Dizem que vivem em lixões\n
+e vagam procurando as crianças que os\n
+jogaram fora.
+
+[gDuskullPokedexText] 9f80242df2
+Um olhar do seu único olho vermelho deixa\n
+até adultos fortões paralisados de medo.\n
+É um POKéMON noturno que vaga\n
+escondido pelo manto da escuridão.
+
+[gDusclopsPokedexText] d021c4833f
+Acredita-se que o corpo é oco, só com uma\n
+bola de fogo fantasmagórica queimando\n
+dentro. Mas ninguém conseguiu confirmar\n
+essa teoria.
+
+[gTropiusPokedexText] fa62ebd5a2
+Voa batendo as folhas largas. O cacho\n
+de frutas que cresce em volta do pescoço\n
+é docinho. Na primavera, espalha pólen\n
+pelo pescoço.
+
+[gChimechoPokedexText] bf706d82f0
+Voam por aí muito agitados quando chega\n
+a estação quente. Comunicam-se entre si\n
+com sete gritos diferentes e fáceis de\n
+distinguir.
+
+[gAbsolPokedexText] caa0da9eb2
+Percebe até mudanças sutis no céu e na\n
+terra para prever desastres naturais.\n
+É um POKéMON de vida longa, que vive\n
+até 100 anos.
+
+[gWynautPokedexText] 301c34c3c9
+WYNAUT adora comer frutas doces. Colhe\n
+as frutas com esperteza usando os braços\n
+que parecem orelhas. Eles se juntam nos\n
+pomares, atraídos pelo cheiro.
+
+[gSnoruntPokedexText] 0d7da56747
+Costumam andar em grupos de uns cinco\n
+SNORUNT. Nas regiões de neve, dizem que,\n
+quando eles aparecem tarde da noite,\n
+vai nevar até de manhã.
+
+[gGlaliePokedexText] e32f0dfceb
+GLALIE tem o poder de congelar na hora a\n
+umidade do ar. Uma nuvem deslumbrante\n
+de cristais de gelo que parecem\n
+diamantes se forma em volta do corpo.
+
+[gSphealPokedexText] 7cf00be66f
+É todo coberto por um pelo macio. Por\n
+isso, nunca sente frio, nem rolando nos\n
+blocos de gelo, nem mergulhando no mar.
+
+[gSealeoPokedexText] b77e7b96bb
+SEALEO vivem em bandos nos blocos de\n
+gelo. Quebra o gelo com as nadadeiras\n
+fortes. Mergulha no mar para caçar\n
+cinco vezes por dia.
+
+[gWalreinPokedexText] f46bb413e9
+Para proteger o bando, o líder luta com\n
+qualquer um que invade seu território,\n
+mesmo que custe a vida. As presas podem\n
+quebrar na batalha.
+
+[gClamperlPokedexText] 49cfcb2000
+CLAMPERL fecha a concha com tudo sobre\n
+a presa para ela não escapar. Dizem que\n
+a pérola que cria ao evoluir guarda uma\n
+energia misteriosa.
+
+[gHuntailPokedexText] b7716a1565
+Para aguentar a pressão esmagadora da\n
+água no fundo do mar, a espinha é bem\n
+grossa e forte. A cauda, em forma de\n
+peixinho, tem olhos que se acendem.
+
+[gGorebyssPokedexText] d4a147a68e
+GOREBYSS suga os fluidos do corpo da\n
+presa pela boca fina, em forma de tubo.\n
+O corpo rosa-claro fica com uma cor viva\n
+quando termina de comer.
+
+[gRelicanthPokedexText] 35581c057f
+Um POKéMON que já foi considerado extinto.\n
+A espécie não muda de forma há 100\n
+milhões de anos. Anda no fundo do mar\n
+usando as nadadeiras peitorais.
+
+[gLuvdiscPokedexText] dd3161371b
+LUVDISC fazem ninho nos galhos de\n
+CORSOLA. Há um costume antigo de dar\n
+um LUVDISC de presente para mostrar\n
+que se está apaixonado.
+
+[gBagonPokedexText] adc8458340
+Apesar de pequeno, este POKéMON é muito\n
+forte, porque o corpo é um feixe de\n
+músculos. Dá cabeçadas com o crânio\n
+duro como ferro.
+
+[gShelgonPokedexText] 94c16ea68e
+Quase não come enquanto espera evoluir.\n
+Fica mais resistente aguentando a fome.\n
+A casca se solta no instante em que\n
+começa a evoluir.
+
+[gSalamencePokedexText] d956aeba91
+Depois de muitos anos, a estrutura das\n
+células sofreu uma mutação repentina e\n
+criou asas. Quando fica furioso, perde a\n
+razão e sai destruindo tudo.
+
+[gBeldumPokedexText] 8e70073d46
+Quando os BELDUM se juntam em bando, se\n
+movem em perfeita sintonia, como se\n
+fossem um só POKéMON. Comunicam-se\n
+entre si por ondas cerebrais.
+
+[gMetangPokedexText] 44fed8d277
+As garras das pontas dos braços rasgam\n
+chapas grossas de ferro como se fossem\n
+seda. Voa a mais de 100 km/h.
+
+[gMetagrossPokedexText] 0b985df509
+METAGROSS tem quatro cérebros ligados\n
+por uma rede neural complexa. Graças a\n
+essa integração, este POKéMON é mais\n
+inteligente que um supercomputador.
+
+[gRegirockPokedexText] ce5508181c
+Um POKéMON feito inteiro de pedras e\n
+rochas. Se partes do corpo lascam na\n
+batalha, REGIROCK se conserta juntando\n
+pedras novas.
+
+[gRegicePokedexText] 67a87241f1
+O corpo todo é feito de gelo da\n
+Antártida. Depois de muitos estudos, os\n
+pesquisadores acreditam que o gelo se\n
+formou numa era glacial.
+
+[gRegisteelPokedexText] e2617894e5
+O corpo é mais duro que qualquer outro\n
+metal. Esse metal é feito de uma\n
+substância misteriosa. Além de duro,\n
+encolhe e estica com flexibilidade.
+
+[gLatiasPokedexText] 8e8c2063b0
+Vivem em bandos pequenos, de poucos\n
+membros. Raramente têm contato com\n
+pessoas ou outros POKéMON. Somem se\n
+sentem inimigos.
+
+[gLatiosPokedexText] 499b00eb0c
+Mesmo escondido, sabe onde os outros\n
+estão e sente as emoções deles, porque\n
+tem telepatia. Sua inteligência o deixa\n
+entender a língua dos humanos.
+
+[gKyogrePokedexText] 63c5e0e701
+KYOGRE aparece nos mitos como o\n
+criador do mar. Depois de anos de briga\n
+com GROUDON, foi dormir no fundo do\n
+mar.
+
+[gGroudonPokedexText] 8f8529a82e
+GROUDON aparece nos mitos como o\n
+criador da terra. Dorme no magma debaixo\n
+da terra, e dizem que faz os vulcões\n
+entrarem em erupção quando acorda.
+
+[gRayquazaPokedexText] bae4c88524
+Um POKéMON que voa sem parar na camada\n
+de ozônio. Dizem que desceria à terra\n
+se KYOGRE e GROUDON brigassem.
+
+[gJirachiPokedexText] 1ab40c5d9d
+Dizem que JIRACHI realiza desejos.\n
+Enquanto ele dorme, uma casca dura de\n
+cristal envolve o corpo para protegê-lo\n
+dos inimigos.
+
+[gDeoxysPokedexText] b971c7bf34
+Um POKéMON que surgiu da mutação de um\n
+vírus extraterrestre exposto a um raio\n
+laser. O corpo é feito para ter agilidade\n
+e velocidade superiores.

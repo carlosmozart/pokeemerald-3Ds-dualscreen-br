@@ -184,11 +184,13 @@ Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
       o inglês, até 83 caracteres). No jogo cabe uma linha curta ("Ups GRASS
       moves in a pinch."). Escrever versões curtas, aproveitando o sentido do
       wiki.
-- [ ] **Pokédex (386):** o wiki tem as entradas de Ruby/Sapphire
+- [x] **Pokédex (386):** o wiki tem as entradas de Ruby/Sapphire
       (`texto_historico` pega a primeira versão). Traduzir as entradas do
       **Emerald** a partir de `pokedex_text.h`, com o PT do wiki como apoio
       quando o texto for igual.
-      Andamento: 001–351 e a de espécie desconhecida (352 de 387).
+      Feito: as 386 e a de espécie desconhecida, em até 4 linhas e
+      224 px, com medidas no sistema métrico. Conferir no 3DS as mais
+      largas.
 - [x] Descrições de itens.
 - [ ] Descrições das bagas e da etiqueta de bagas (comparar com o patch
       `0036`).

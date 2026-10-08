@@ -60,6 +60,9 @@
 - Portuguese: the player's PC (ITENS GUARDADOS, CARTAS, DECORAÇÃO), the
   POKéMON STORAGE SYSTEM's menus, wallpapers and messages, and the START
   menu's save and SAFARI BALLS windows (2805 texts in all).
+- Portuguese: all 386 POKéDEX descriptions (and the unknown species'),
+  translated from the Emerald's own texts in 4 lines and up to 224 px, with
+  metric units.
 
 ## 0.3.0 — 2026-10-08
 
