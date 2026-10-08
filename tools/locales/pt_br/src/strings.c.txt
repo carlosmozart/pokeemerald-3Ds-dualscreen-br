@@ -45,3 +45,12 @@ PARAR
 
 [gText_MenuRest] cbaaa18133 width=42
 PAUSAR
+
+# A mãe do rival fala de "{STR_VAR_1}" (GetRivalSonDaughterString): com o
+# possessivo, para a concordância vir junto.
+
+[gText_Son] f0cbc0ee7d width=72
+nosso filho
+
+[gText_Daughter] 6490e67e82 width=72
+nossa filha

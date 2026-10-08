@@ -6,7 +6,8 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
   (MAPA, os atributos, as opções de 3D), as abas OPÇÕES, MELHORIAS e
   TRAPAÇAS com suas células, e as mensagens de erro do pacote de dados.
 - **O texto do jogo**, em tradução: por enquanto a fala do Prof. Birch, o
-  menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
+  caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
+  LABORATÓRIO), o menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
 
@@ -89,10 +90,25 @@ falhar:
   uma entrada de menu que cabe na janela (`[gText_MenuBag] 332c000cf7
   width=42`: as entradas do menu START cabem na largura de POKéMON).
 
-`--check` só valida. Convenções: nomes próprios em maiúsculas como no jogo
-(POKéMON, BIRCH, LITTLEROOT), os termos oficiais brasileiros quando existem
-(MOCHILA, OPÇÕES), e texto neutro quando o jogador ainda não escolheu o
-gênero.
+`--check` só valida.
+
+### Convenções
+
+- Nomes próprios em maiúsculas, como no jogo (POKéMON, BIRCH, MAY). Nos
+  lugares, o nome fica e a parte genérica se traduz: CIDADE DE LITTLEROOT,
+  ROTA 103, GINÁSIO DE PETALBURG, FRONTEIRA DE BATALHA.
+- Os termos oficiais brasileiros quando existem: MOCHILA, POKé BOLA, OPÇÕES,
+  INSÍGNIA, os tipos (FOGO, ÁGUA, PLANTA). A família: MÃE, PAPAI.
+  RUNNING SHOES é TÊNIS DE CORRIDA; MOVE é golpe.
+- O jogador pode ser menino ou menina: o texto que vale para os dois não
+  flexiona gênero para ele (a MÃE diz “meu amor”, “meu bem”; “terá talento
+  para treinar” em vez de “será um ótimo TREINADOR”). As falas de MAY só
+  aparecem a um jogador e as de BRENDAN a uma jogadora, e podem flexionar.
+- {RIVAL} é MAY ou BRENDAN: quem fala do rival sem saber qual evita o gênero
+  (o PROF. BIRCH diz “{RIVAL}” ou “a minha cria”). O {STR_VAR_1} da mãe do
+  rival é “nosso filho” ou “nossa filha” e fica no meio da frase.
+- Placeholders que viram nomes de POKéMON ou itens ({STR_VAR_1}) vão sem
+  artigo: “{PLAYER} recebeu {STR_VAR_1}!”.
 
 ## O pacote de dados
 

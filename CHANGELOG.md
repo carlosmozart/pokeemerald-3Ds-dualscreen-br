@@ -17,6 +17,8 @@
   tree, after checking the charmap, the placeholders and every line's width.
   Translated so far: Prof. Birch's speech, the main menu, the START menu and
   YES/NO. The rest stays in English.
+- Portuguese: the moving truck and all of LITTLEROOT TOWN (the town, both
+  houses and PROF. BIRCH's LAB), 122 more texts.
 
 ## 0.3.0 — 2026-10-08
 
