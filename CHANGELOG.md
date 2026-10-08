@@ -49,6 +49,10 @@
   makes type names 9 bytes long, widens "a FIRE move" for Portuguese as
   0034 does for Spanish, and draws a type too wide for the POKéDEX search
   boxes in the narrow font. PRECISÃO and EVASÃO in capitals.
+- The OPTION menu's frame no longer runs past the bottom of its window, and
+  the whole selected row is highlighted, not only its left half (patch
+  0044): the 3DS shows the rows the GBA hid, and the highlight's right edge
+  wrapped on the 400px screen.
 
 ## 0.3.0 — 2026-10-08
 
