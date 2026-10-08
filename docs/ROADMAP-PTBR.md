@@ -27,8 +27,9 @@ projeto:** só lemos e copiamos o que precisamos.
 5. **Fidelidade ao Emerald.** Textos com versão própria no Emerald (Pokédex,
    por exemplo) são traduzidos a partir do Emerald, não de Ruby/Sapphire.
 6. **Save compatível.** `GAME_LANGUAGE` continua `LANGUAGE_ENGLISH`. O idioma da
-   tradução é uma flag do port, para que saves e o pacote de dados (gerado da
-   ROM BPEE) sejam os mesmos da versão inglesa.
+   tradução é uma flag do port (`PORT_LOCALE_PTBR`), para que os saves sirvam
+   nas duas versões. O pacote de dados do PT também sai da ROM BPEE, mas é
+   próprio: os textos do jogo ficam no pacote, não no executável (ver fase 9).
 
 ## Visão geral
 
@@ -63,25 +64,34 @@ As fases 5 a 8 podem andar em paralelo depois que 1 a 3 estiverem prontas.
 
 ## Fase 1 — Infraestrutura de idioma
 
-- [ ] Flag do port `PORT_LOCALE_PTBR`, ligada pelo bootstrap; `GAME_LANGUAGE`
-      continua inglês.
-- [ ] Catálogo em `tools/locales/ptbr/`, separado por área (`moves.json`,
-      `abilities.json`, `pokedex.json`, `ui.json`, `battle.json`,
-      `maps/<MAPA>.json`…), indexado pelo **nome do símbolo** ou do rótulo do
-      script (`sThunderboltDescription`, `Route104_Text_...`), nunca por
-      posição.
-- [ ] `tools/localize_ptbr.py`:
-  - [ ] Substitui `_("…")` em arquivos C e `.string "…"` em arquivos `.inc`/`.s`
-        pelo nome do símbolo.
-  - [ ] Falha se um símbolo do catálogo não existir na árvore (upstream mudou).
-  - [ ] Valida tudo antes de escrever, como o `localize_spanish.py`.
-  - [ ] Grava `.emerald3ds-locale` com `PTBR`.
-- [ ] `tools/bootstrap.py --locale ptbr`: reinicia a árvore ao trocar de idioma,
-      como já acontece com `--spanish-rom`.
-- [ ] Um texto de teste traduzido aparece no jogo no Azahar/Citra.
+- [x] Flag do port `PORT_LOCALE_PTBR` em `include/constants/global.h`;
+      `GAME_LANGUAGE` continua inglês.
+- [x] Catálogo em `tools/locales/ptbr/*.toml`, separado por área (`ui.toml`,
+      `moves.toml`, `maps.toml`…). Cada tabela é um arquivo do pret e cada
+      chave nomeia o texto pelo **símbolo**, nunca pela posição:
+      `sThunderboltDescription`, `"gMoveNames[MOVE_POUND]"`,
+      `"gItems[ITEM_POTION].name"` ou o rótulo `Route101_Text_HelpMe`. Os
+      valores usam strings literais do TOML (`'...'`), então `\n`, `\p` e
+      `\l` ficam escritos como no pret.
+- [x] `tools/localize_ptbr.py`:
+  - [x] Substitui `_("…")` em arquivos C e `.string "…"` em arquivos `.inc`/`.s`
+        pelo nome do símbolo, com uma linha de código por linha do jogo.
+  - [x] Falha se um símbolo do catálogo não existir na árvore (upstream mudou).
+  - [x] Valida tudo antes de escrever: caracteres da fonte, códigos `{…}`,
+        aspas e o `$` dos scripts.
+  - [x] Grava `.emerald3ds-locale` com `PTBR` e a assinatura do catálogo.
+  - [x] Testes: `python -m unittest discover -s tools/tests`.
+- [x] `tools/bootstrap.py --locale ptbr`: aplica o catálogo antes de
+      `make generated`; reinicia a árvore ao trocar de idioma ou quando o
+      catálogo muda (nesse caso recompila só os objetos do jogo).
+- [x] Catálogo de teste: menu principal, descrição do THUNDERBOLT e diálogos do
+      Prof. Birch na Route 101.
+- [ ] Um texto de teste traduzido aparece no jogo no Azahar/Citra (precisa do
+      devkitPro instalado).
 
 **Pronto quando:** `python tools/bootstrap.py --make --locale ptbr` gera um
-3DSX que roda com o pacote inglês e mostra o texto de teste.
+3DSX (com os dados embutidos, como toda build de desenvolvimento) que mostra os
+textos de teste.
 
 ## Fase 2 — Fonte com ã e õ
 
@@ -245,9 +255,16 @@ O maior volume do projeto, sem equivalente no wiki.
 ## Fase 9 — Builder, release e distribuição
 
 - [ ] Variante `payload/pt/` com o executável PT e a receita da ROM BPEE.
+- [ ] Receita com o texto PT: os textos do jogo vão para `gamedata.bin` e
+      `scripts.bin`, que o builder recria da ROM. O texto traduzido não existe
+      na ROM e entra como literal; hoje `tools/gen_recipe.py` limita literais
+      de objetos do jogo a 4 KB (`--max-game-literal`). Criar uma classe
+      "tradução" para esses bytes, com limite próprio, e conferir com
+      `release_audit.py --rom` que nenhum trecho da ROM entrou junto.
 - [ ] Builder (Windows e web): **escolha de idioma**. Hoje a variante sai da
       ROM; o PT usa a mesma ROM que o inglês.
-- [ ] Verificação do pacote: o 3DSX PT aceita o pacote gerado da BPEE.
+- [ ] Verificação do pacote: o 3DSX PT aceita só o pacote PT (ABI própria),
+      e o 3DSX inglês recusa o pacote PT.
 - [ ] `tools/build_release.py` e `tools/release_audit.py`: incluir a variante e
       conferir que nenhum dado da ROM entrou.
 - [ ] Documentação: `docs/PORTUGUESE.md` (como instalar e compilar), seção no
@@ -306,6 +323,7 @@ Termos e nomes traduzidos. Espécies, personagens e o nome próprio dos lugares 
 
 | Risco | Mitigação |
 |---|---|
+| Textos do jogo vivem no pacote, não no executável | Receita PT com literais de tradução (fase 9) |
 | Atualização do upstream muda símbolos ou textos | Catálogo por símbolo; o `localize_ptbr.py` falha e aponta o que mudou |
 | Texto PT mais longo estoura janelas | Check em pixels (fase 3) e ajustes de layout no estilo dos patches `0031`–`0036` |
 | Códigos reaproveitados para ã/õ aparecem em nomes de saves ingleses | Escolher letras sem uso real; documentar |

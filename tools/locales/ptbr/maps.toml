@@ -1,0 +1,8 @@
+# Diálogos dos mapas, na ordem do jogo (fase 7).
+# Cada texto termina com $, como no original.
+
+["data/maps/Route101/scripts.inc"]
+Route101_Text_HelpMe = 'S-socorro!$'
+Route101_Text_PleaseHelp = 'Olá! Você aí!\nPor favor! Socorro!\pNa minha MOCHILA!\nTem uma POKé BALL!$'
+Route101_Text_DontLeaveMe = 'O-onde você vai?!\nVai me deixar assim?!$'
+Route101_Text_YouSavedMe = '''PROF. BIRCH: Ufa…\pEu estava no mato alto estudando\nPOKéMON selvagens quando fui atacado.\pVocê me salvou.\nMuito obrigado!\pUé?\pOi, você é {PLAYER}{KUN}!\pEste lugar é ruim para conversar.\pPasse no meu LABORATÓRIO POKéMON\ndepois, combinado?$'''
