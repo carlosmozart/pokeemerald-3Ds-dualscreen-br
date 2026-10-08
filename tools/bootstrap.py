@@ -5,6 +5,7 @@
     python tools/bootstrap.py --make -j8      # and build the 3DSX there
     python tools/bootstrap.py --clean         # start again from the pinned commit
     python tools/bootstrap.py --make --spanish-rom esmeralda.gba   # Spanish (BPES) build
+    python tools/bootstrap.py --make --port-lang pt_br   # the port's interface in Portuguese
 
 1. Reads upstream.lock and fetches exactly that commit of pret/pokeemerald into
    build/upstream (a shallow fetch of one commit).
@@ -19,6 +20,9 @@
 5. With --spanish-rom: after the generated includes, tools/localize_spanish.py
    stages the Spanish texts and graphics from the player's clean BPES ROM
    (docs/SPANISH.md). Switching language back and forth resets the tree.
+6. With --port-lang pt_br: the port's own interface (bottom screen labels,
+   extras, data pack errors) in Brazilian Portuguese over the English game
+   (docs/PORTUGUESE.md). The Makefile rebuilds every object when it changes.
 """
 
 from __future__ import annotations
@@ -62,10 +66,14 @@ def main() -> int:
     ap.add_argument("--dir", type=Path, default=ROOT / "build" / "upstream")
     ap.add_argument("--clean", action="store_true", help="reset the tree to the pinned commit first")
     ap.add_argument("--spanish-rom", type=Path, help="stage the Spanish data from a clean BPES ROM")
+    ap.add_argument("--port-lang", choices=["en", "pt_br"], default="en",
+                    help="language of the port's own interface (PORT_LANG=)")
     ap.add_argument("--make", action="store_true", help="build the tools and the 3DSX afterwards")
     ap.add_argument("-j", "--jobs", type=int, default=4)
     ap.add_argument("--python", default=sys.executable, help="Python the build calls (PYTHON=)")
     args = ap.parse_args()
+    if args.port_lang == "pt_br" and args.spanish_rom:
+        ap.error("--port-lang pt_br goes over the English game, not the Spanish one")
 
     lock = tomllib.loads((ROOT / "upstream.lock").read_text(encoding="utf-8"))
     repo, commit = lock["pokeemerald"]["repository"], lock["pokeemerald"]["commit"]
@@ -136,7 +144,8 @@ def main() -> int:
         run([args.python, ROOT / "tools/localize_spanish.py", "--tree", tree,
              "--rom", args.spanish_rom.resolve()])
     if args.make:
-        run(["make", "-C", "3ds_port", "-j%d" % args.jobs, "PYTHON=%s" % args.python], cwd=tree)
+        run(["make", "-C", "3ds_port", "-j%d" % args.jobs, "PYTHON=%s" % args.python,
+             "PORT_LANG=%s" % args.port_lang], cwd=tree)
     return 0
 
 

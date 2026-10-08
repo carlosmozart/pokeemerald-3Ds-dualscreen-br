@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Brazilian Portuguese, step 1: `PORT_LANG=pt_br` (`bootstrap.py
+  --port-lang pt_br`) shows the port's own interface in Portuguese over the
+  English game: the bottom screen's labels, the OPTIONS tabs and extras, and
+  the data pack errors. The bottom screen's labels take accented letters
+  (docs/PORTUGUESE.md). Not yet tested on a 3DS.
+
 ## 0.3.0 — 2026-10-08
 
 New and improved:
