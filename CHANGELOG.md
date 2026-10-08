@@ -7,6 +7,10 @@
   English game: the bottom screen's labels, the OPTIONS tabs and extras, and
   the data pack errors. The bottom screen's labels take accented letters
   (docs/PORTUGUESE.md). Not yet tested on a 3DS.
+- ã, õ, Ã and Õ in every latin font (codes 0x2F-0x32, patch 0040): drawn
+  when each font loads from the pack, as the letter with the tilde of the
+  same font's ñ (Ñ) over it. The bottom screen's labels and the game's
+  `_("...")` texts can use them.
 
 ## 0.3.0 — 2026-10-08
 

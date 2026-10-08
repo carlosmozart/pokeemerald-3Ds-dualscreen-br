@@ -1338,7 +1338,8 @@ static void DrawStrIn(const Font *font, const u8 *str, int x0, int x1, int y0, i
 }
 
 /* The accented letters of the Portuguese interface (UTF-8 C3 xx in the
- * sources) that the game's font has. It has no Ã or Õ. */
+ * sources) that the game's font has, or that 3ds_compat.c draws into it
+ * (ã, õ, Ã, Õ). */
 static u8 Latin1Letter(u8 code)
 {
     switch (code)
@@ -1346,6 +1347,10 @@ static u8 Latin1Letter(u8 code)
     case 0xC0: return CHAR_A_GRAVE;
     case 0xC1: return CHAR_A_ACUTE;
     case 0xC2: return CHAR_A_CIRCUMFLEX;
+    case 0xC3: return CHAR_A_TILDE;
+    case 0xD5: return CHAR_O_TILDE;
+    case 0xE3: return CHAR_a_TILDE;
+    case 0xF5: return CHAR_o_TILDE;
     case 0xC7: return CHAR_C_CEDILLA;
     case 0xC9: return CHAR_E_ACUTE;
     case 0xCA: return CHAR_E_CIRCUMFLEX;
