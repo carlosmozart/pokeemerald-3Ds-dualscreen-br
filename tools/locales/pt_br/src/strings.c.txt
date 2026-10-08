@@ -1,0 +1,47 @@
+# O menu principal: a janela tem a largura da tela.
+
+[gText_MainMenuNewGame] f6f0416884 width=150
+NOVO JOGO
+
+[gText_MainMenuContinue] ff3dbb4248 width=150
+CONTINUAR
+
+[gText_MainMenuOption] 5b8ec92558 width=150
+OPÇÕES
+
+[gText_MainMenuMysteryGift] 38d1678325 width=150
+PRESENTE MISTERIOSO
+
+[gText_MainMenuMysteryGift2] 38d1678325 width=150
+PRESENTE MISTERIOSO
+
+[gText_MainMenuMysteryEvents] 14e5d0d0bf width=150
+EVENTOS MISTERIOSOS
+
+# SIM e NÃO: a janela de cinco tiles tem espaço para três letras.
+
+[gText_Yes] 8fff039853 width=24
+SIM
+
+[gText_No] a0509b7780 width=24
+NÃO
+
+# O menu START: as entradas cabem na largura de POKéMON (42 px).
+
+[gText_MenuBag] 332c000cf7 width=42
+MOCHILA
+
+[gText_MenuSave] 508156a39b width=42
+SALVAR
+
+[gText_MenuOption] 5b8ec92558 width=42
+OPÇÕES
+
+[gText_MenuExit] bb1b38004d width=42
+SAIR
+
+[gText_MenuRetire] 0e25d55e0a width=42
+PARAR
+
+[gText_MenuRest] cbaaa18133 width=42
+PAUSAR

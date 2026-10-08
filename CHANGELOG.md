@@ -11,6 +11,12 @@
   when each font loads from the pack, as the letter with the tilde of the
   same font's ñ (Ñ) over it. The bottom screen's labels and the game's
   `_("...")` texts can use them.
+- The game's texts in Portuguese, step 1: `tools/localize_portuguese.py`
+  stages the translations of `tools/locales/pt_br/` (a label, the hash of
+  the English text and the Portuguese one) into the `--port-lang pt_br`
+  tree, after checking the charmap, the placeholders and every line's width.
+  Translated so far: Prof. Birch's speech, the main menu, the START menu and
+  YES/NO. The rest stays in English.
 
 ## 0.3.0 — 2026-10-08
 

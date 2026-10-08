@@ -21,8 +21,8 @@
    stages the Spanish texts and graphics from the player's clean BPES ROM
    (docs/SPANISH.md). Switching language back and forth resets the tree.
 6. With --port-lang pt_br: the port's own interface (bottom screen labels,
-   extras, data pack errors) in Brazilian Portuguese over the English game
-   (docs/PORTUGUESE.md). The Makefile rebuilds every object when it changes.
+   extras, data pack errors) in Brazilian Portuguese, and the game's texts
+   translated so far (tools/localize_portuguese.py, docs/PORTUGUESE.md).
 """
 
 from __future__ import annotations
@@ -78,7 +78,9 @@ def main() -> int:
     lock = tomllib.loads((ROOT / "upstream.lock").read_text(encoding="utf-8"))
     repo, commit = lock["pokeemerald"]["repository"], lock["pokeemerald"]["commit"]
     tree = args.dir.resolve()
-    previous_locale = (tree / ".emerald3ds-locale").exists()
+    locale_marker = tree / ".emerald3ds-locale"
+    previous_locale = locale_marker.read_text().strip() if locale_marker.exists() else ""
+    portuguese = args.port_lang == "pt_br"
     patches = sorted((ROOT / "patches" / "pokeemerald").glob("*.patch"))
     marker = tree / ".emerald3ds-patches"
     digest = patch_digest(patches)
@@ -88,18 +90,18 @@ def main() -> int:
         head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=tree, capture_output=True,
                               text=True).stdout.strip()
     stale = not marker.exists() or marker.read_text().strip() != digest
-    if args.clean or args.spanish_rom or previous_locale or head != commit or stale:
+    if args.clean or args.spanish_rom or portuguese or previous_locale or head != commit or stale:
         if head != commit:
             fetch(tree, repo, commit)
         run(["git", "reset", "-q", "--hard", commit], cwd=tree)
         (tree / ".emerald3ds-locale").unlink(missing_ok=True)
-        if args.spanish_rom or previous_locale:
+        if args.spanish_rom or portuguese or previous_locale:
             # Objects and staged data of the other language must not be
             # reused: rebuild every native object when the language changes.
             shutil.rmtree(tree / "3ds_port/build", ignore_errors=True)
             shutil.rmtree(tree / "3ds_port/romfs", ignore_errors=True)
             (tree / "src/data/region_map/region_map_entries.h").unlink(missing_ok=True)
-        if previous_locale:
+        if previous_locale.startswith("BPES"):
             import gzip
             import json
             manifest = json.loads(gzip.decompress((ROOT / "tools/locales/spanish.json.gz").read_bytes()))
@@ -143,6 +145,8 @@ def main() -> int:
     if args.spanish_rom:
         run([args.python, ROOT / "tools/localize_spanish.py", "--tree", tree,
              "--rom", args.spanish_rom.resolve()])
+    if portuguese:
+        run([args.python, ROOT / "tools/localize_portuguese.py", "--tree", tree])
     if args.make:
         run(["make", "-C", "3ds_port", "-j%d" % args.jobs, "PYTHON=%s" % args.python,
              "PORT_LANG=%s" % args.port_lang], cwd=tree)
