@@ -8,7 +8,7 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
 - **O texto do jogo**, em tradução: por enquanto a fala do Prof. Birch, o
   caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
   LABORATÓRIO), a ROTA 101 com a escolha do primeiro POKéMON, a CIDADE DE
-  OLDALE, a enfermeira dos CENTROS POKéMON, as LOJAS POKéMON, o menu
+  OLDALE, a enfermeira dos CENTROS POKéMON, os POKé MARTS, o menu
   principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
@@ -96,18 +96,20 @@ falhar:
 
 ### Convenções
 
-- Nomes próprios em maiúsculas, como no jogo (POKéMON, BIRCH, MAY). Nos
-  lugares, o nome fica e a parte genérica se traduz: CIDADE DE LITTLEROOT,
-  ROTA 103, GINÁSIO DE PETALBURG, FRONTEIRA DE BATALHA.
-- Os termos oficiais brasileiros quando existem: MOCHILA, POKé BOLA, OPÇÕES,
-  INSÍGNIA, os tipos (FOGO, ÁGUA, PLANTA). A família: MÃE, PAPAI.
-  RUNNING SHOES é TÊNIS DE CORRIDA; MOVE é golpe; POKéMON CENTER é CENTRO
-  POKéMON, POKéMON MART é LOJA POKéMON, POTION é POÇÃO, HP é PS. Os nomes
-  dos itens ficam como estão até a tradução da lista de itens (PREMIER BALL).
+A regra do projeto é traduzir o máximo possível com a **nomenclatura
+oficial usada no Brasil**. Os termos oficiais, com a fonte, e as escolhas
+para o que não tem nome oficial estão em
+[`tools/locales/pt_br/GLOSSARIO.md`](../tools/locales/pt_br/GLOSSARIO.md):
+confira lá antes de usar um termo novo.
+
+- Nomes próprios em maiúsculas, como no jogo (POKéMON, BIRCH, MAY). Os
+  nomes dos POKéMON não se traduzem. Nos lugares, o nome fica e a parte
+  genérica se traduz: CIDADE DE LITTLEROOT, ROTA 103, GINÁSIO DE PETALBURG.
 - O jogador pode ser menino ou menina: o texto que vale para os dois não
-  flexiona gênero para ele (a MÃE diz “meu amor”, “meu bem”; “terá talento
-  para treinar” em vez de “será um ótimo TREINADOR”). As falas de MAY só
-  aparecem a um jogador e as de BRENDAN a uma jogadora, e podem flexionar.
+  flexiona gênero para ele (a MAMÃE diz “meu amor”, “meu bem”; “terá
+  talento para treinar” em vez de “será um ótimo TREINADOR”). As falas de
+  MAY só aparecem a um jogador e as de BRENDAN a uma jogadora, e podem
+  flexionar.
 - {RIVAL} é MAY ou BRENDAN: quem fala do rival sem saber qual evita o gênero
   (o PROF. BIRCH diz “{RIVAL}” ou “a minha cria”). O {STR_VAR_1} da mãe do
   rival é “nosso filho” ou “nossa filha” e fica no meio da frase.

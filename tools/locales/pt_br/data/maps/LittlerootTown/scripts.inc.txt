@@ -1,7 +1,7 @@
-# CIDADE DE LITTLEROOT: a chegada, a MÃE, os moradores e as placas.
+# CIDADE DE LITTLEROOT: a chegada, a MAMÃE, os moradores e as placas.
 
 [LittlerootTown_Text_OurNewHomeLetsGoInside] 1c4eb2d20e
-MÃE: {PLAYER}, chegamos, meu amor!\p
+MAMÃE: {PLAYER}, chegamos, meu amor!\p
 Deve ter sido cansativo viajar junto\n
 com a mudança no caminhão.\p
 Bem, esta é a CIDADE DE LITTLEROOT.\p
@@ -13,29 +13,29 @@ E você vai ter o seu próprio quarto,\n
 {PLAYER}! Vamos entrar.$
 
 [LittlerootTown_Text_WaitPlayer] 12eee5c3e2
-MÃE: Espere, {PLAYER}!$
+MAMÃE: Espere, {PLAYER}!$
 
 [LittlerootTown_Text_WearTheseRunningShoes] 8f8a92e70b
-MÃE: {PLAYER}! {PLAYER}! Você já se\n
+MAMÃE: {PLAYER}! {PLAYER}! Você já se\n
 apresentou ao PROF. BIRCH?\p
 Oh! Que POKéMON mais lindo!\n
 Foi o PROF. BIRCH que deu? Que ótimo!\p
 Você puxou mesmo o seu pai.\n
 Você e os POKéMON combinam!\p
 Tome, meu amor! Se vai sair em uma\n
-aventura, use este TÊNIS DE CORRIDA.\p
+aventura, use este TÊNIS DE CORRER.\p
 Ele vai deixar os seus passos ligeiros!$
 
 [LittlerootTown_Text_SwitchShoesWithRunningShoes] b1bbbe2394
 {PLAYER} trocou os sapatos pelo\n
-TÊNIS DE CORRIDA.$
+TÊNIS DE CORRER.$
 
 [LittlerootTown_Text_ExplainRunningShoes] e704f00f0d
-MÃE: {PLAYER}, o tênis veio com um\n
+MAMÃE: {PLAYER}, o tênis veio com um\n
 manual de instruções.\p
 “Aperte o Botão B usando este TÊNIS\n
-DE CORRIDA para correr bem rápido!\p
-“Calce este TÊNIS DE CORRIDA e saia\n
+DE CORRER para ir bem mais rápido!\p
+“Calce este TÊNIS DE CORRER e saia\n
 correndo pelo mundo afora!”$
 
 [LittlerootTown_Text_ComeHomeIfAnythingHappens] db99f3cffb

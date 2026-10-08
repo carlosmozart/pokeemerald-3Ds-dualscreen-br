@@ -1,4 +1,4 @@
-# O atendente das LOJAS POKéMON.
+# O atendente dos POKé MARTS.
 
 [gText_HowMayIServeYou] b0fe8101f3
 Boas-vindas!\p

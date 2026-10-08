@@ -1,4 +1,4 @@
-# CIDADE DE OLDALE: os moradores, a LOJA POKéMON e a placa.
+# CIDADE DE OLDALE: os moradores, o POKé MART e a placa.
 # A fala de MAY só aparece a um jogador; a de BRENDAN, a uma jogadora.
 
 [OldaleTown_Text_SavingMyProgress] 4d4b33ace1
@@ -7,11 +7,11 @@ o meu progresso.$
 
 [OldaleTown_Text_IWorkAtPokemonMart] c3bc930e68
 Oi!\n
-Eu trabalho numa LOJA POKéMON.\p
+Eu trabalho num POKé MART.\p
 Pode vir comigo um instante?$
 
 [OldaleTown_Text_ThisIsAPokemonMart] b7154abb10
-Esta é uma LOJA POKéMON.\n
+Este é um POKé MART.\n
 É só procurar o nosso telhado azul.\p
 Vendemos vários produtos, inclusive\n
 POKé BOLAS para capturar POKéMON.\p

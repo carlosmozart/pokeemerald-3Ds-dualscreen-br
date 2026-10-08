@@ -21,6 +21,9 @@
   houses and PROF. BIRCH's LAB), 122 more texts.
 - Portuguese: ROUTE 101 with the choice of the first POKéMON, OLDALE TOWN,
   the POKéMON CENTER nurse and the POKéMON MARTs (65 more texts, 210 in all).
+- Portuguese: Brazil's official names, in tools/locales/pt_br/GLOSSARIO.md
+  with their source: BOLSA (not MOCHILA), MAMÃE, POKé MART, BOLA
+  PRESENTEADA and TÊNIS DE CORRER replace the earlier choices.
 
 ## 0.3.0 — 2026-10-08
 

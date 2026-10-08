@@ -120,7 +120,7 @@ Se eu achar POKéMON fofos, vou\n
 capturar com POKé BOLAS!$
 
 [LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull] b4d8bf5a64
-Oh? A sua MOCHILA está cheia.$
+Oh? A sua BOLSA está cheia.$
 
 [LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext] 4942a381d7
 MAY: Aonde será que eu vou procurar\n
@@ -141,7 +141,7 @@ Se eu achar POKéMON maneiros, pode\n
 apostar que vou pegar com POKé BOLAS.$
 
 [LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull] 408786b5e6
-Ei, a sua MOCHILA está cheia.$
+Ei, a sua BOLSA está cheia.$
 
 [LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext] a1fd04ce9e
 BRENDAN: Onde será que eu procuro\n

@@ -5,7 +5,7 @@ O relógio está parado…\p
 Melhor acertar e ligar!$
 
 [PlayersHouse_2F_Text_HowDoYouLikeYourRoom] 341edffe71
-MÃE: {PLAYER}, gostou do seu\n
+MAMÃE: {PLAYER}, gostou do seu\n
 quarto novo?\p
 Ótimo! Tudo bem arrumadinho!\p
 Lá embaixo também já terminaram\n

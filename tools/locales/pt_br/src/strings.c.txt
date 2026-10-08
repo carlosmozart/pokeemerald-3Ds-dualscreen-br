@@ -29,7 +29,7 @@ NÃO
 # O menu START: as entradas cabem na largura de POKéMON (42 px).
 
 [gText_MenuBag] 332c000cf7 width=42
-MOCHILA
+BOLSA
 
 [gText_MenuSave] 508156a39b width=42
 SALVAR
@@ -65,7 +65,7 @@ Solte um POKéMON e salve-o!
 [gText_ConfirmStarterChoice] f9f15b3147 width=208
 Você escolhe este POKéMON?
 
-# As LOJAS POKéMON. O menu ajusta a largura às entradas; as mensagens saem
+# Os POKé MARTS. O menu ajusta a largura às entradas; as mensagens saem
 # na caixa de mensagem (208 px, ou a largura do inglês quando é maior).
 
 [gText_ShopBuy] 6bb45f3794 width=48
@@ -79,7 +79,7 @@ SAIR
 
 # A janela tem 96 px; {STR_VAR_1} é a quantidade, de até 4 dígitos.
 [gText_InBagVar1] 90ab92d791 width=140
-NA MOCHILA: {STR_VAR_1}
+NA BOLSA: {STR_VAR_1}
 
 # A última linha da lista de itens (15 tiles).
 [gText_QuitShopping] c42d94b637 width=100
@@ -135,7 +135,7 @@ coisa?
 Posso ajudar em mais alguma coisa?
 
 [gText_ThrowInPremierBall] 73f851cd43 width=208
-E leve uma PREMIER BALL de brinde.{PAUSE_UNTIL_PRESS}
+E leve uma BOLA PRESENTEADA de brinde.{PAUSE_UNTIL_PRESS}
 
 [gText_CantBuyKeyItem] 2af9bff187 width=208
 {STR_VAR_2}? Ah, não.\n
