@@ -163,3 +163,153 @@ Se acumula eletricidade demais, fica\n
 agressivo. Para evitar isso, de vez em\n
 quando descarrega o excesso de energia\n
 e se acalma.
+
+[gSandshrewPokedexText] dcc597cb71
+Quando se enrola como uma bola, faz\n
+qualquer ataque ricochetear sem dano.\n
+Por viver no deserto, seu couro ficou\n
+duro e resistente.
+
+[gSandslashPokedexText] bdac78e5bd
+Enrola-se como uma bola para se proteger\n
+dos ataques inimigos. Também se enrola\n
+para evitar insolação durante o dia,\n
+quando a temperatura sobe muito.
+
+[gNidoranFPokedexText] e668b7b831
+Acredita-se que seus espinhos tóxicos\n
+surgiram para proteger esse POKéMON de\n
+corpo pequeno. Quando fica furioso, solta\n
+uma toxina terrível pelo chifre.
+
+[gNidorinaPokedexText] 762374cad7
+Quando está com os amigos ou a família,\n
+recolhe os espinhos para não machucar\n
+ninguém. Parece ficar nervoso se é\n
+separado dos outros.
+
+[gNidoqueenPokedexText] 14bc17c003
+É craque em lançar os inimigos longe com\n
+investidas do seu corpo duro e escamoso.\n
+Este POKéMON fica mais forte do que nunca\n
+quando está defendendo os filhotes.
+
+[gNidoranMPokedexText] b198c16a19
+O NIDORAN macho desenvolveu músculos que\n
+movem as orelhas livremente para qualquer\n
+lado. Nem o menor som escapa da atenção\n
+deste POKéMON.
+
+[gNidorinoPokedexText] f34d6aee08
+Seu chifre é mais duro que um diamante.\n
+Se sente uma presença hostil, todos os\n
+espinhos das costas se eriçam de uma vez,\n
+e ele enfrenta o inimigo com toda a força.
+
+[gNidokingPokedexText] c6fda8833b
+A cauda grossa de NIDOKING tem um poder\n
+destrutivo enorme, capaz de derrubar uma\n
+torre de transmissão de metal. Quando ele\n
+sai descontrolado, ninguém o segura.
+
+[gClefairyPokedexText] ef2d6b99cc
+Toda noite de lua cheia, eles saem para\n
+brincar. Quando amanhece, os CLEFAIRY\n
+cansados vão dormir encolhidinhos uns nos\n
+outros, no fundo das montanhas quietas.
+
+[gClefablePokedexText] 307a31b76e
+CLEFABLE usa as asas para pular de leve,\n
+como se estivesse voando. Com esse passo\n
+saltitante, consegue até andar na água.\n
+Nas noites calmas de luar, anda nos lagos.
+
+[gVulpixPokedexText] 683ef599a4
+Controla o fogo à vontade, fazendo bolas\n
+de fogo voarem como fogos-fátuos. Pouco\n
+antes de evoluir, suas seis caudas ficam\n
+quentes como se estivessem pegando fogo.
+
+[gNinetalesPokedexText] 0fea7540b1
+Há muito tempo se diz que cada uma das\n
+nove caudas guarda um poder encantado.\n
+Um NINETALES que vive muito tem o pelo\n
+brilhando como ouro.
+
+[gJigglypuffPokedexText] 4d29b59be2
+Ninguém resiste ao sono ouvindo a canção\n
+de JIGGLYPUFF. As ondas sonoras da sua\n
+voz combinam com as ondas cerebrais de\n
+alguém em sono profundo.
+
+[gWigglytuffPokedexText] 6e3450cfc2
+Seu pelo é o máximo do luxo. Dormir\n
+abraçado a um WIGGLYTUFF é simplesmente\n
+divino. Quando ele inspira, o corpo infla\n
+como se não tivesse fim.
+
+[gZubatPokedexText] 867b288161
+De tanto viver em cavernas escuras como\n
+breu, seus olhos foram se fechando até\n
+perderem a visão. Ele usa ondas\n
+ultrassônicas para detectar obstáculos.
+
+[gGolbatPokedexText] 7bdc6607a2
+As presas furam com facilidade até couro\n
+grosso. Adora se banquetear com o sangue\n
+de pessoas e POKéMON. Voa pela escuridão\n
+e ataca pelas costas.
+
+[gOddishPokedexText] 2999bef146
+Este POKéMON cresce absorvendo o luar.\n
+Durante o dia, se enterra no chão,\n
+deixando só as folhas de fora, para não\n
+ser visto pelos inimigos.
+
+[gGloomPokedexText] 92ec78f4f9
+Um mel terrivelmente fedido escorre da\n
+boca. Uma cheirada pode causar perda de\n
+memória. Mesmo assim, dizem que alguns\n
+fãs adoram esse fedor avassalador.
+
+[gVileplumePokedexText] f0019db74d
+Nas épocas em que produz mais pólen, o\n
+ar em volta de VILEPLUME fica amarelo de\n
+pó enquanto ele anda. O pólen é muito\n
+tóxico e causa paralisia.
+
+[gParasPokedexText] ca2281428b
+PARAS tem cogumelos tochukaso parasitas\n
+crescendo nas costas. Eles crescem\n
+tirando nutrientes do hospedeiro e são\n
+valorizados como remédio de longa vida.
+
+[gParasectPokedexText] 1e51491b46
+PARASECT costumam infestar em bando as\n
+raízes de árvores grandes e sugar seus\n
+nutrientes. Quando a árvore morre, todos\n
+mudam juntos para outra árvore.
+
+[gVenonatPokedexText] bc619db556
+Dizem que os pelos finos e duros que\n
+cobrem todo o corpo surgiram para\n
+proteção. Seus olhos grandes nunca\n
+deixam escapar nem a menor presa.
+
+[gVenomothPokedexText] 5d8b40a9da
+VENOMOTH são noturnos: só ficam ativos à\n
+noite. Sua presa favorita são os insetos\n
+que se juntam nos postes de luz, atraídos\n
+pela claridade no meio do escuro.
+
+[gDiglettPokedexText] 0a6d1a90b0
+A maioria das fazendas cria DIGLETT.\n
+O motivo é simples: por onde eles cavam,\n
+a terra fica perfeitamente arada para\n
+plantar colheitas deliciosas.
+
+[gDugtrioPokedexText] 030154e693
+Como os trigêmeos surgiram de um único\n
+corpo, eles pensam exatamente igual.\n
+Trabalham juntos para cavar sem parar\n
+por baixo da terra.
