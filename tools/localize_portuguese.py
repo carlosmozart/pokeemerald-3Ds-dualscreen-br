@@ -46,6 +46,23 @@ MESSAGE_BOX_WIDTH = 208
 # comparison: a 7-letter name, a 12-letter item or species.
 PLACEHOLDER_WIDTHS = {"PLAYER": 42, "RIVAL": 42, "STR_VAR_1": 72, "STR_VAR_2": 72, "STR_VAR_3": 72,
                       "KUN": 0, "DYNAMIC": 42}
+# The battle texts' ({B_...}), by the end of the name: a POKéMON with
+# "selvagem" or "inimigo" after it, an ability, move or item, a trainer
+# class, a POKéMON, a trainer, a buffer (a number, a stat, a name), the
+# "aliada"/"inimiga" of a side.
+BATTLE_PLACEHOLDER_WIDTHS = [("_WITH_PREFIX", 100), ("ABILITY", 72), ("MOVE", 72), ("ITEM", 72),
+                             ("_CLASS", 66), ("MON1_NAME", 60), ("MON2_NAME", 60),
+                             ("CREATOR_NAME", 60), ("_NAME", 42), ("BUFF", 60), ("PREFIX", 36)]
+
+
+def placeholder_width(name: str) -> int:
+    if name in PLACEHOLDER_WIDTHS:
+        return PLACEHOLDER_WIDTHS[name]
+    if name.startswith("B_"):
+        for ending, width in BATTLE_PLACEHOLDER_WIDTHS:
+            if ending in name:
+                return width
+    return 0
 
 
 def text_hash(text: str) -> str:
@@ -153,7 +170,7 @@ class Charset:
         total = 0
         for item in line:
             if item.startswith("{"):
-                total += PLACEHOLDER_WIDTHS.get(item[1:-1].split()[0], 0)
+                total += placeholder_width(item[1:-1].split()[0])
             elif item != "$":
                 total += self.widths[self.codes[item]]
         return total
@@ -198,7 +215,9 @@ WIDEST_IN_FILE = {"src/data/text/item_descriptions.h", "src/data/text/move_names
 # Room measured from the window. Item names: the BAG and the marts list them
 # in the narrow font from x=8 to the count or price right-aligned at 120;
 # 80 px of the (wider) normal font leaves them room.
-FILE_WIDTH = {"src/data/items.h": 80}
+# Battle messages: the battle's message box is 26 tiles wide (208 px); the
+# texts of the other windows (menus, the level-up box) carry width=.
+FILE_WIDTH = {"src/data/items.h": 80, "src/battle_message.c": MESSAGE_BOX_WIDTH}
 
 
 def inc_texts(source: str) -> dict[str, tuple[int, int, str]]:

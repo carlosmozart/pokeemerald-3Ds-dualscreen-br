@@ -108,3 +108,18 @@ cópia do HoennKantoWiki ou a tradução direta: FEDOR, PÓ ESCUDO, ARMAD.
 ARENA, LODO LÍQUIDO, FUM. BRANCA, ECLUSA DE AR, CACOFONIA. FORECAST vira
 PREV. TEMPO para não repetir o golpe PREVISÃO. A lista completa está em
 `src/data/text/abilities.h.txt`.
+
+## Mensagens de batalha
+
+Localizadas, não traduzidas ao pé da letra: o que um narrador brasileiro
+diria (“É super efetivo!”, “Não é muito efetivo…”, “Acerto crítico!”,
+“Não dá pra fugir!”, “Manda ver, {B_BUFF1}!”).
+
+- O POKéMON do oponente: “ZIGZAGOON selvagem”, “POLIWAG inimigo” (sufixo,
+  patch 0041). Os POKéMON são tratados no masculino (o POKéMON).
+- O lado de cada um: “a equipe aliada” / “a equipe inimiga”.
+- Posse: “ATAQUE de MUDKIP”, “INTIMIDAÇÃO de GYARADOS” (a coisa antes do dono).
+- Atributos nas mensagens: PS, ATAQUE, DEFESA, VELOC., ATQ. ESP., DEF. ESP.,
+  precisão, evasão; na caixa de nível, ATQ.ESP. e DEF.ESP.
+- Menus: LUTAR, BOLSA, POKéMON, FUGIR; no SAFÁRI, BOLA e CHEGAR.
+- SAFARI BALL é BOLA SAFÁRI (como o item). REFEREE é JUIZ.

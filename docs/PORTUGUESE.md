@@ -9,7 +9,7 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
   caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
   LABORATÓRIO), a ROTA 101 com a escolha do primeiro POKéMON, a CIDADE DE
   OLDALE, a enfermeira dos CENTROS POKéMON, os POKé MARTS, os nomes e as
-  descrições de todos os itens, golpes e habilidades, a BOLSA (menus, bolsos e
+  descrições de todos os itens, golpes e habilidades, as mensagens de batalha, a BOLSA (menus, bolsos e
   mensagens), o menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
@@ -50,6 +50,18 @@ sobre ela o til do ñ (ou do Ñ) da mesma fonte, isto é, as linhas que o ñ
 pinta e o n deixa em branco, centradas na largura da letra. Assim cada fonte
 ganha um til no seu próprio estilo, e o texto do jogo pode usar
 `_("não")` depois do patch.
+
+## A ordem das palavras nas batalhas
+
+O inglês põe "Wild" e "Foe" antes do nome do POKéMON e "sharply" antes de
+"rose". O patch `patches/pokeemerald/0041-portuguese-battle-word-order.patch`
+acrescenta, sem mudar nada em inglês:
+
+- `sText_WildPkmnSuffix` e `sText_FoePkmnSuffix`, vazios em inglês, que vêm
+  depois do nome: em português o prefixo fica vazio e o sufixo é
+  " selvagem" ou " inimigo" (ZIGZAGOON selvagem usou INVESTIDA!);
+- `sText_StatSharplyRose` e `sText_StatHarshlyFell`, a mudança forte de um
+  atributo numa frase só: "subiu muito!", "caiu muito!".
 
 Limites a respeitar ao traduzir:
 

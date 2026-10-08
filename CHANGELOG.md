@@ -38,6 +38,11 @@
   (ARM. BATALHA, ABS.VOLTAICA), and its description (155 texts, 1750 in
   all). localize_portuguese.py checks names and descriptions sharing a
   file apart.
+- Portuguese: the battle messages, menus and the level-up box (512 texts,
+  2262 in all). Patch 0041 lets a language put "wild"/"foe" after the
+  POKéMON's name and the adverb after the verb of a stat change (both
+  empty or unchanged in English), so the texts read naturally:
+  "ZIGZAGOON selvagem usou INVESTIDA!", "ATAQUE de MUDKIP subiu muito!".
 
 ## 0.3.0 — 2026-10-08
 
