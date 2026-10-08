@@ -761,3 +761,153 @@ Na batalha, solta chamas intensas pelo\n
 corpo todo para intimidar o inimigo.\n
 Essas rajadas criam ondas de calor que\n
 incendeiam a grama e as árvores.
+
+[gPinsirPokedexText] 9ff0800c2c
+Suas pinças são fortes o bastante para\n
+despedaçar troncos grossos. Como não\n
+gostam de frio, PINSIR cavam e dormem\n
+debaixo da terra nas noites frias.
+
+[gTaurosPokedexText] 2c0997e759
+Só fica satisfeito se estiver causando\n
+o tempo todo. Se não tem oponente, TAUROS\n
+investe contra árvores grossas e as\n
+derruba para se acalmar.
+
+[gMagikarpPokedexText] 0f8940380f
+Os músculos de nado são fracos, então a\n
+correnteza o arrasta fácil. Onde a água\n
+se acumula, dá para ver vários MAGIKARP\n
+que foram parar ali levados pelo fluxo.
+
+[gGyaradosPokedexText] cb421e199e
+É um POKéMON extremamente cruel e\n
+violento. Quando os humanos começam a\n
+brigar, ele aparece e queima tudo até o\n
+chão com chamas muito quentes.
+
+[gLaprasPokedexText] c174ca4014
+As pessoas quase levaram LAPRAS à\n
+extinção. Dizem que, ao entardecer, ele\n
+canta com tristeza enquanto procura os\n
+poucos da sua espécie que restam.
+
+[gDittoPokedexText] 4edf614433
+DITTO reorganiza a estrutura das\n
+células para se transformar. Mas, se\n
+tenta mudar de memória, erra os\n
+detalhes.
+
+[gEeveePokedexText] 34352dc029
+EEVEE tem uma genética instável, que\n
+sofre mutações de repente por causa do\n
+ambiente. A radiação de várias PEDRAS\n
+faz este POKéMON evoluir.
+
+[gVaporeonPokedexText] 08b10fcaf2
+VAPOREON sofreu uma mutação espontânea\n
+e ganhou nadadeiras e guelras que o\n
+deixam viver debaixo d'água. Controla\n
+a água à vontade.
+
+[gJolteonPokedexText] c9216bdde5
+As células geram uma energia fraca, que a\n
+eletricidade estática do pelo amplifica\n
+para soltar raios. O pelo eriçado é feito\n
+de agulhas carregadas de eletricidade.
+
+[gFlareonPokedexText] 1ab490c232
+O pelo fofinho de FLAREON solta calor no\n
+ar para o corpo não esquentar demais.\n
+A temperatura do corpo pode chegar a\n
+900 graus.
+
+[gPorygonPokedexText] 9adaa52095
+Consegue se converter inteiro em dados\n
+de programa para entrar no ciberespaço.\n
+PORYGON tem proteção contra cópia, por\n
+isso não pode ser duplicado.
+
+[gOmanytePokedexText] 707ac9970f
+Um dos POKéMON antigos, extintos há muito\n
+tempo, que os humanos regeneraram a\n
+partir de fósseis. Se é atacado, se\n
+esconde na concha dura.
+
+[gOmastarPokedexText] 014db8f203
+OMASTAR usa os tentáculos para capturar\n
+presas. Acredita-se que sumiu porque\n
+a concha cresceu demais, deixando seus\n
+movimentos lentos e pesados.
+
+[gKabutoPokedexText] 7ffbf1f093
+É um POKéMON regenerado de um fóssil.\n
+Mas, em casos raros, foram achados\n
+exemplares vivos. KABUTO não mudou\n
+nada em 300 milhões de anos.
+
+[gKabutopsPokedexText] e26b9d207e
+KABUTOPS nadava sob a água para caçar.\n
+Pelo jeito, estava deixando de viver na\n
+água para viver em terra, como mostram as\n
+mudanças nas guelras e nas pernas.
+
+[gAerodactylPokedexText] 21511457db
+AERODACTYL é um POKéMON da era dos\n
+dinossauros. Foi regenerado a partir do\n
+DNA extraído de âmbar. Imagina-se que\n
+era o rei dos céus.
+
+[gSnorlaxPokedexText] f209359f2e
+O dia típico de SNORLAX é só comer e\n
+dormir. É um POKéMON tão manso que tem\n
+criança que usa a barrigona dele como\n
+lugar para brincar.
+
+[gArticunoPokedexText] 4b86910eaf
+ARTICUNO é um pássaro POKéMON lendário\n
+que controla o gelo. O bater das asas\n
+gela o ar. Por isso, dizem que, quando\n
+este POKéMON voa, começa a nevar.
+
+[gZapdosPokedexText] d77ebe9ffc
+ZAPDOS é um pássaro POKéMON lendário\n
+que controla a eletricidade. Costuma\n
+viver nas nuvens de tempestade. Fica\n
+mais forte quando é atingido por raios.
+
+[gMoltresPokedexText] 2a8352b1ec
+MOLTRES é um pássaro POKéMON lendário\n
+que controla o fogo. Dizem que, se fica\n
+ferido, mergulha o corpo no magma de um\n
+vulcão para se queimar e se curar.
+
+[gDratiniPokedexText] 83f7799159
+DRATINI troca de pele o tempo todo. Faz\n
+isso porque a energia vital dentro do\n
+corpo não para de crescer e chega a\n
+níveis incontroláveis.
+
+[gDragonairPokedexText] 4b5f8db7ad
+DRAGONAIR guarda uma quantidade enorme\n
+de energia no corpo. Dizem que muda o\n
+clima ao redor soltando energia dos\n
+cristais do pescoço e da cauda.
+
+[gDragonitePokedexText] 730ac210f6
+Consegue dar a volta ao mundo em só 16\n
+horas. É um POKéMON bondoso, que guia\n
+para a terra firme os navios perdidos e\n
+afundando nas tempestades.
+
+[gMewtwoPokedexText] f074d4bb3b
+Um POKéMON criado por manipulação\n
+genética. Mas, embora a ciência humana\n
+tenha feito seu corpo, não conseguiu dar\n
+a ele um coração caloroso.
+
+[gMewPokedexText] 3277e185b2
+Dizem que MEW tem os genes de todos os\n
+POKéMON. Consegue ficar invisível quando\n
+quer, então passa despercebido mesmo\n
+chegando perto das pessoas.
