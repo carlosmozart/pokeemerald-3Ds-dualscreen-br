@@ -73,7 +73,7 @@ sessão, ou pergunte):
 | PC | Fica com | Arquivos do catálogo |
 |---|---|---|
 | Menus | Os menus e mensagens de `src/strings.c`, incluindo os textos da tela da POKéDEX (busca, ordem, HT/WT), que também estão nele | `src/strings.c.txt` |
-| POKéDEX | As 386 descrições da POKéDEX do Emerald | `src/data/pokemon/pokedex_text.h.txt` |
+| POKéDEX | As 386 descrições da POKéDEX do Emerald; roteiro em [docs/TAREFA-POKEDEX.md](docs/TAREFA-POKEDEX.md) | `src/data/pokemon/pokedex_text.h.txt` |
 
 Ao terminar uma parte, combine a próxima com o usuário e atualize esta
 tabela num commit próprio.
