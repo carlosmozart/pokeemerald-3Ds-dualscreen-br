@@ -7,7 +7,9 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
   TRAPAÇAS com suas células, e as mensagens de erro do pacote de dados.
 - **O texto do jogo**, em tradução: por enquanto a fala do Prof. Birch, o
   caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
-  LABORATÓRIO), o menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
+  LABORATÓRIO), a ROTA 101 com a escolha do primeiro POKéMON, a CIDADE DE
+  OLDALE, a enfermeira dos CENTROS POKéMON, as LOJAS POKéMON, o menu
+  principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
 
@@ -99,7 +101,9 @@ falhar:
   ROTA 103, GINÁSIO DE PETALBURG, FRONTEIRA DE BATALHA.
 - Os termos oficiais brasileiros quando existem: MOCHILA, POKé BOLA, OPÇÕES,
   INSÍGNIA, os tipos (FOGO, ÁGUA, PLANTA). A família: MÃE, PAPAI.
-  RUNNING SHOES é TÊNIS DE CORRIDA; MOVE é golpe.
+  RUNNING SHOES é TÊNIS DE CORRIDA; MOVE é golpe; POKéMON CENTER é CENTRO
+  POKéMON, POKéMON MART é LOJA POKéMON, POTION é POÇÃO, HP é PS. Os nomes
+  dos itens ficam como estão até a tradução da lista de itens (PREMIER BALL).
 - O jogador pode ser menino ou menina: o texto que vale para os dois não
   flexiona gênero para ele (a MÃE diz “meu amor”, “meu bem”; “terá talento
   para treinar” em vez de “será um ótimo TREINADOR”). As falas de MAY só

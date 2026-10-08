@@ -54,3 +54,101 @@ nosso filho
 
 [gText_Daughter] 6490e67e82 width=72
 nossa filha
+
+# A escolha do primeiro POKéMON, na BOLSA do PROF. BIRCH (ROTA 101): a caixa
+# de mensagem da tela tem a largura das outras.
+
+[gText_BirchInTrouble] 7d7ec5bc54 width=208
+O PROF. BIRCH está em apuros!\n
+Solte um POKéMON e salve-o!
+
+[gText_ConfirmStarterChoice] f9f15b3147 width=208
+Você escolhe este POKéMON?
+
+# As LOJAS POKéMON. O menu ajusta a largura às entradas; as mensagens saem
+# na caixa de mensagem (208 px, ou a largura do inglês quando é maior).
+
+[gText_ShopBuy] 6bb45f3794 width=48
+COMPRAR
+
+[gText_ShopSell] 264137beb1 width=48
+VENDER
+
+[gText_ShopQuit] 5860c84587 width=48
+SAIR
+
+# A janela tem 96 px; {STR_VAR_1} é a quantidade, de até 4 dígitos.
+[gText_InBagVar1] 90ab92d791 width=140
+NA MOCHILA: {STR_VAR_1}
+
+# A última linha da lista de itens (15 tiles).
+[gText_QuitShopping] c42d94b637 width=100
+Sair da loja.
+
+[gText_Var1CertainlyHowMany] 7f17a11bad width=208
+{STR_VAR_1}? Claro.\n
+Quantas unidades você quer?
+
+[gText_Var1CertainlyHowMany2] 7f17a11bad width=208
+{STR_VAR_1}? Claro.\n
+Quantas unidades você quer?
+
+[gText_Var1AndYouWantedVar2] 3efd0147d5 width=240
+{STR_VAR_1}? E você quer {STR_VAR_2}?\n
+Vai custar ¥{STR_VAR_3}.
+
+[gText_Var1IsItThatllBeVar2] e1157d9620 width=216
+{STR_VAR_1}, certo?\n
+Vai custar ¥{STR_VAR_2}. Vai levar?
+
+[gText_YouWantedVar1ThatllBeVar2] 7f5b9ebb09 width=230
+Você quer {STR_VAR_1}?\n
+Vai custar ¥{STR_VAR_2}. Tudo bem?
+
+[gText_HereYouGoThankYou] d2725908a5 width=208
+Aqui está!\n
+Muito obrigado.
+
+[gText_ThankYouIllSendItHome] 6f96feed49 width=208
+Obrigado!\n
+Vou mandar para o PC da sua casa.
+
+[gText_ThanksIllSendItHome] 5566bc373c width=208
+Valeu!\n
+Vou mandar para o seu PC em casa.
+
+[gText_YouDontHaveMoney] 2528019b58 width=208
+Você não tem dinheiro suficiente.{PAUSE_UNTIL_PRESS}
+
+[gText_NoMoreRoomForThis] 438fb28ae9 width=208
+Você não tem mais espaço para\n
+este item.{PAUSE_UNTIL_PRESS}
+
+[gText_SpaceForVar1Full] b5de72d132 width=208
+O espaço de {STR_VAR_1} está cheio.{PAUSE_UNTIL_PRESS}
+
+[gText_AnythingElseICanHelp] 4f4635a815 width=208
+Posso ajudar em mais alguma\n
+coisa?
+
+[gText_CanIHelpWithAnythingElse] 28bae54743 width=208
+Posso ajudar em mais alguma coisa?
+
+[gText_ThrowInPremierBall] 73f851cd43 width=208
+E leve uma PREMIER BALL de brinde.{PAUSE_UNTIL_PRESS}
+
+[gText_CantBuyKeyItem] 2af9bff187 width=208
+{STR_VAR_2}? Ah, não.\n
+Isso eu não posso comprar.{PAUSE_UNTIL_PRESS}
+
+[gText_HowManyToSell] 2468db0b90 width=208
+{STR_VAR_2}?\n
+Quantas unidades quer vender?
+
+[gText_ICanPayVar1] a853a37376 width=208
+Posso pagar ¥{STR_VAR_1}.\n
+Pode ser?
+
+[gText_TurnedOverVar1ForVar2] 4ba0d45068 width=208
+Entregou {STR_VAR_2}\n
+e recebeu ¥{STR_VAR_1}.
