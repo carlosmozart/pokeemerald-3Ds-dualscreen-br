@@ -1061,3 +1061,153 @@ Dizem que é um POKéMON que traz boa sorte.\n
 Quando vê alguém de coração puro, TOGETIC\n
 aparece e divide sua felicidade com\n
 essa pessoa.
+
+[gNatuPokedexText] 64d2ef20de
+Sobe correndo nas árvores baixas da\n
+savana para bicar os brotos novos.\n
+Os olhos de NATU parecem estar sempre\n
+observando alguma coisa.
+
+[gXatuPokedexText] e63fe542e8
+Tem o poder enigmático de prever o\n
+futuro. Em algumas terras, há muito\n
+tempo se acredita que XATU são\n
+mensageiros de outro mundo.
+
+[gMareepPokedexText] 0a9682f7ec
+A lã fofinha se esfrega e acumula carga\n
+estática. Quanto mais energia carregada,\n
+mais forte brilha a lâmpada na ponta\n
+da cauda.
+
+[gFlaaffyPokedexText] 8f504ad84f
+A qualidade da lã muda para gerar uma\n
+eletricidade estática forte com pouca lã.\n
+As partes lisas e peladas da pele são\n
+protegidas contra eletricidade.
+
+[gAmpharosPokedexText] c894742a32
+Brilha tanto que dá para ver até do\n
+espaço. Antigamente, as pessoas usavam\n
+sua luz para trocar sinais com quem\n
+estava muito longe.
+
+[gBellossomPokedexText] 2608572e13
+As pétalas ficam mais coloridas com a luz\n
+do sol. Quando o tempo fica nublado por\n
+muito tempo, faz uma dança que seria um\n
+ritual para chamar o sol.
+
+[gMarillPokedexText] 4ae4305472
+O corpo é coberto por um pelo que repele\n
+a água. Graças a ele, nada em alta\n
+velocidade sem ser freado pela\n
+resistência da água.
+
+[gAzumarillPokedexText] b980b0ba0e
+Vive na água praticamente o dia todo.\n
+A cor e o padrão do corpo funcionam como\n
+camuflagem, o que dificulta para os\n
+inimigos o verem na água.
+
+[gSudowoodoPokedexText] 693a3830e7
+Imita uma árvore para não ser atacado\n
+pelos inimigos. Mas, como os braços ficam\n
+verdes o ano todo, no inverno é fácil\n
+perceber que é falso.
+
+[gPolitoedPokedexText] 23ec1d1fb4
+O cabelo enrolado na cabeça prova sua\n
+posição de rei. Dizem que, quanto mais\n
+longo e enrolado o cabelo, mais respeito\n
+ele ganha dos outros.
+
+[gHoppipPokedexText] d4d32572e6
+Este POKéMON flutua levado pelo vento.\n
+Se sente que vem um vento forte, HOPPIP\n
+junta as folhas com as dos outros para\n
+não ser levado.
+
+[gSkiploomPokedexText] b446222020
+Floresce quando a temperatura passa de\n
+18 graus. Como a flor abre conforme a\n
+temperatura, às vezes é usado como\n
+termômetro.
+
+[gJumpluffPokedexText] 2e1f389fb9
+JUMPLUFF pegam carona nos ventos quentes\n
+do sul para cruzar o mar e voar para\n
+terras distantes. Este POKéMON pousa\n
+quando encontra ar frio no caminho.
+
+[gAipomPokedexText] 0f6a9ee01b
+A cauda termina num apêndice habilidoso\n
+que parece uma mão. Mas, como usa tanto\n
+a cauda, as mãos de verdade de AIPOM\n
+ficaram meio desajeitadas.
+
+[gSunkernPokedexText] 34b2069a19
+SUNKERN se mexem o mínimo possível para\n
+poupar os nutrientes guardados no corpo\n
+para a evolução. Não comem nada e vivem\n
+só do orvalho da manhã.
+
+[gSunfloraPokedexText] fd8978c0c3
+SUNFLORA transformam a energia do sol em\n
+nutrição. São muito ativos durante o dia\n
+quente, mas param de se mexer de repente\n
+assim que o sol se põe.
+
+[gYanmaPokedexText] ae0760b1de
+Enxerga 360 graus sem mexer os olhos.\n
+É um ótimo voador, capaz de parar de\n
+repente e virar no ar para perseguir\n
+rápido a presa que escolheu.
+
+[gWooperPokedexText] 9bc119a42e
+WOOPER costumam viver na água, mas às\n
+vezes saem para a terra atrás de comida.\n
+Em terra, cobrem o corpo com uma camada\n
+pegajosa e tóxica.
+
+[gQuagsirePokedexText] 3eaf5fd734
+QUAGSIRE caça deixando a boca bem aberta\n
+na água e esperando a presa entrar sem\n
+querer. Como não se mexe, não sente\n
+muita fome.
+
+[gEspeonPokedexText] a4d2d2a846
+ESPEON é extremamente leal ao TREINADOR\n
+que acha digno. Dizem que desenvolveu\n
+poderes de premonição para proteger o\n
+TREINADOR de qualquer mal.
+
+[gUmbreonPokedexText] ec2efe3683
+UMBREON evoluiu exposto às ondas de\n
+energia da lua. Espreita no escuro e\n
+espera os inimigos se mexerem. Os anéis\n
+do corpo brilham quando ele salta.
+
+[gMurkrowPokedexText] ed550ae60c
+MURKROW eram temidos como portadores de\n
+azar. Tem muito interesse por tudo que\n
+brilha. Chega até a tentar roubar anéis\n
+das pessoas.
+
+[gSlowkingPokedexText] dbc7366080
+Pesquisa todo dia para desvendar os\n
+mistérios do mundo. Mas, pelo jeito,\n
+esquece tudo se o SHELLDER da cabeça\n
+se soltar.
+
+[gMisdreavusPokedexText] 3f32ce755f
+MISDREAVUS assusta as pessoas com um\n
+choro arrepiante. Parece que usa as\n
+esferas vermelhas para absorver o medo\n
+dos inimigos como alimento.
+
+[gUnownPokedexText] bb7b52ced9
+Este POKéMON tem a forma de letras\n
+antigas. As pesquisas continuam, mas não\n
+se sabe o que veio primeiro: a escrita\n
+antiga ou os vários UNOWN.
