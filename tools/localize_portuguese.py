@@ -214,7 +214,10 @@ NAME_PREFIX_BYTES = {"src/data/text/abilities.h": ("ABILITY_", 12),
 # its own kind, in a file of names and descriptions).
 WIDEST_IN_FILE = {"src/data/text/item_descriptions.h", "src/data/text/move_names.h",
                   "src/data/text/move_descriptions.h", "src/data/text/abilities.h",
-                  "src/battle_main.c", "src/data/pokemon/pokedex_entries.h"}
+                  "src/battle_main.c", "src/data/pokemon/pokedex_entries.h",
+                  "src/data/pokemon/pokedex_text.h"}
+# Texts drawn in a window of so many lines (the POKéDEX description: 4).
+MAX_LINES = {"src/data/pokemon/pokedex_text.h": 4}
 # Room measured from the window. Item names: the BAG and the marts list them
 # in the narrow font from x=8 to the count or price right-aligned at 120;
 # 80 px of the (wider) normal font leaves them room.
@@ -344,6 +347,10 @@ def localize(tree: Path, relative: str, charset: Charset, write: bool) -> Result
             local.append(where + ": %d bytes, at most %d" % (charset.size(entry.text), NAME_BYTES[relative]))
         if not local and kind(entry.label) and charset.size(entry.text) > prefix_bytes:
             local.append(where + ": %d bytes, at most %d" % (charset.size(entry.text), prefix_bytes))
+        if not local and relative in MAX_LINES and len(charset.lines(entry.text)) > MAX_LINES[relative]:
+            local.append(where + ": %d lines, at most %d" % (len(charset.lines(entry.text)), MAX_LINES[relative]))
+        if not local and relative in MAX_LINES and "\\p" in entry.text:
+            local.append(where + ": no \\p in a window of %d lines" % MAX_LINES[relative])
         if not local:
             limit = entry.width or charset.widest(english)
             if is_inc and not entry.width:
