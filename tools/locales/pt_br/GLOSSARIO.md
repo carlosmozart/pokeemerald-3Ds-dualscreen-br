@@ -71,3 +71,15 @@ Os nomes dos POKéMON não se traduzem.
 | Trainer Card (Gold/Silver) | CARTÃO DE OURO / DE PRATA | |
 | Key Items | ITENS-CHAVE | só "Objeto Chave", num manual |
 | Dad | PAPAI | par de MAMÃE |
+| Contest conditions (Cool, Beauty, Cute, Smart, Tough) | ESTILO, BELEZA, FOFURA, ESPERTEZA, FORÇA | |
+| Hold item | item segurado (“Se segurado, …”) | |
+| Mail | CARTA | |
+
+## Nomes de itens
+
+Os nomes dos itens cabem em 13 bytes (`src/data/items.h`). Quando o nome
+oficial não cabe, ele é abreviado no estilo do jogo: REPELENTE MÁX, REPELENTE
+SUP, BOLA PRESENT. (BOLA PRESENTEADA nos diálogos), BOLA REPETIÇ., CURA
+PARALIS., MÁX. REVIVER. As frutas são FRUTA + nome (FRUTA ORAN), como nos
+jogos oficiais; as MÁQUINAS são MT01–MT50 e MO01–MO08. A lista completa, com
+o nome escolhido para cada item, está em `src/data/items.h.txt`.

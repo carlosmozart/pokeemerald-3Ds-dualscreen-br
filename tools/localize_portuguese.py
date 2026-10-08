@@ -95,6 +95,7 @@ class Charset:
     def __init__(self, tree: Path):
         self.codes: dict[str, int] = {}
         self.names: set[str] = set()
+        self.sizes: dict[str, int] = {}
         for line in (tree / "charmap.txt").read_text(encoding="utf-8").splitlines():
             line = line.split("@")[0].strip()
             m = re.match(r"^'(.+)'\s*=\s*([0-9A-Fa-f]{2})\b", line)
@@ -102,6 +103,11 @@ class Charset:
                 char = m.group(1)
                 # '\'' is the apostrophe ('\n', '\l', '\p' are control codes).
                 self.codes.setdefault(char[1:] if char.startswith("\\") else char, int(m.group(2), 16))
+                continue
+            m = re.match(r"^(\w+)\s*=\s*([0-9A-Fa-f ]+)$", line)
+            if m:
+                self.names.add(m.group(1))
+                self.sizes[m.group(1)] = len(m.group(2).split())
                 continue
             m = re.match(r"^(\w+)\s*=", line)
             if m:
@@ -152,6 +158,17 @@ class Charset:
                 total += self.widths[self.codes[item]]
         return total
 
+    def size(self, text: str) -> int:
+        """The bytes the text takes in the game, its terminator aside."""
+        total = len(re.findall(r"\\[nlp]", text))
+        for line in self.lines(text):
+            for item in line:
+                if item.startswith("{"):
+                    total += sum(self.sizes.get(word, 1) for word in item[1:-1].split())
+                elif item != "$":
+                    total += 1
+        return total
+
     def widest(self, text: str) -> int:
         return max(self.width(line) for line in self.lines(text))
 
@@ -164,7 +181,20 @@ def placeholders(text: str) -> list[str]:
 
 INC_LABEL = re.compile(r"^(\w+)::?\s*$")
 INC_STRING = re.compile(r'^\s*\.string\s+"(.*)"\s*$')
-C_STRING = re.compile(r"\bu8\s+(\w+)\[\w*\]\s*=\s*_\(")
+C_STRING = re.compile(r"_\(")
+C_NAMED = re.compile(r"\bu8\s+(\w+)\[\w*\]\s*=\s*$")
+C_DESIGNATED = re.compile(r"\[(\w+)\]\s*=\s*$")
+C_FIELD = re.compile(r"\.\w+\s*=\s*$")
+C_ENTRY = re.compile(r"\[(\w+)\]\s*=\s*\{")
+
+# Fixed-size names: the array's length, less the terminator.
+NAME_BYTES = {"src/data/items.h": 13}
+# Lists drawn in one window: every entry may use the widest English one.
+WIDEST_IN_FILE = {"src/data/text/item_descriptions.h"}
+# Room measured from the window. Item names: the BAG and the marts list them
+# in the narrow font from x=8 to the count or price right-aligned at 120;
+# 80 px of the (wider) normal font leaves them room.
+FILE_WIDTH = {"src/data/items.h": 80}
 
 
 def inc_texts(source: str) -> dict[str, tuple[int, int, str]]:
@@ -194,11 +224,29 @@ def inc_lines(text: str) -> list[str]:
     return ['\t.string "%s"' % piece for piece in pieces if piece]
 
 
+def c_label(source: str, start: int) -> str | None:
+    """The label of the _( ) at start: NAME of u8 NAME[] = _(, KEY of
+    [KEY] = _(, or KEY of the entry [KEY] = { ... .name = _( it is in."""
+    before = source[max(0, start - 200):start]
+    for pattern in (C_NAMED, C_DESIGNATED):
+        m = pattern.search(before)
+        if m:
+            return m.group(1)
+    if C_FIELD.search(before):
+        entries = list(C_ENTRY.finditer(source, 0, start))
+        if entries:
+            return entries[-1].group(1)
+    return None
+
+
 def c_texts(source: str) -> dict[str, tuple[int, int, str]]:
-    """label -> (start, end, text) of each u8 NAME[] = _("...") initializer,
-    start and end around the string literals inside _( )."""
+    """label -> (start, end, text) of each _("...") with a label (see
+    c_label), start and end around the string literals inside _( )."""
     found = {}
     for m in C_STRING.finditer(source):
+        label = c_label(source, m.start())
+        if label is None or label in found:
+            continue
         i = m.end()
         parts = []
         while True:
@@ -212,7 +260,7 @@ def c_texts(source: str) -> dict[str, tuple[int, int, str]]:
             parts.append(source[i + 1:j])
             i = j + 1
         if parts and source[i] == ")":
-            found[m.group(1)] = (m.end(), i, "".join(parts))
+            found[label] = (m.end(), i, "".join(parts))
     return found
 
 
@@ -233,6 +281,9 @@ def localize(tree: Path, relative: str, charset: Charset, write: bool) -> Result
     texts = inc_texts(source) if is_inc else c_texts(source)
     problems, edits = [], []
     seen = set()
+    file_widest = 0
+    if relative in WIDEST_IN_FILE:
+        file_widest = max((charset.widest(text) for _, _, text in texts.values()), default=0)
     for entry in entries:
         where = "%s:%d [%s]" % (catalog.relative_to(ROOT), entry.line, entry.label)
         if entry.label in seen:
@@ -254,10 +305,16 @@ def localize(tree: Path, relative: str, charset: Charset, write: bool) -> Result
         if placeholders(entry.text) != placeholders(english):
             local.append(where + ": placeholders %s, the English text has %s"
                          % (placeholders(entry.text), placeholders(english)))
+        if not local and relative in NAME_BYTES and charset.size(entry.text) > NAME_BYTES[relative]:
+            local.append(where + ": %d bytes, at most %d" % (charset.size(entry.text), NAME_BYTES[relative]))
         if not local:
             limit = entry.width or charset.widest(english)
             if is_inc and not entry.width:
                 limit = max(limit, MESSAGE_BOX_WIDTH)
+            if relative in WIDEST_IN_FILE and not entry.width:
+                limit = max(limit, file_widest)
+            if relative in FILE_WIDTH and not entry.width:
+                limit = max(limit, FILE_WIDTH[relative])
             for number, line in enumerate(charset.lines(entry.text), 1):
                 if charset.width(line) > limit:
                     local.append(where + ": line %d is %d px wide, at most %d"
@@ -278,8 +335,9 @@ def localize(tree: Path, relative: str, charset: Charset, write: bool) -> Result
 
 
 def catalogs() -> list[str]:
+    # referencia/ holds material to translate from, not catalogs.
     return sorted(str(p.relative_to(CATALOG).with_suffix("")).replace("\\", "/")
-                  for p in CATALOG.rglob("*.txt"))
+                  for p in CATALOG.rglob("*.txt") if p.relative_to(CATALOG).parts[0] != "referencia")
 
 
 def status(tree: Path) -> None:

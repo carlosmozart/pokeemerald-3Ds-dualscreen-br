@@ -24,6 +24,10 @@
 - Portuguese: Brazil's official names, in tools/locales/pt_br/GLOSSARIO.md
   with their source: BOLSA (not MOCHILA), MAMÃE, POKé MART, BOLA
   PRESENTEADA and TÊNIS DE CORRER replace the earlier choices.
+- Portuguese: every item's name (official Brazilian names, abbreviated to
+  the game's 13 bytes where needed, such as REPELENTE MÁX) and description
+  (618 texts, 828 in all). localize_portuguese.py now reads table entries
+  ([MOVE_X] = _("..."), .name = _("...")) and checks fixed-size names.
 
 ## 0.3.0 — 2026-10-08
 
