@@ -6,6 +6,7 @@
     python tools/bootstrap.py --clean         # start again from the pinned commit
     python tools/bootstrap.py --make --spanish-rom esmeralda.gba   # Spanish (BPES) build
     python tools/bootstrap.py --make --port-lang pt_br   # the port's interface in Portuguese
+    python tools/bootstrap.py --make --locale ptbr                # Brazilian Portuguese build
 
 1. Reads upstream.lock and fetches exactly that commit of pret/pokeemerald into
    build/upstream (a shallow fetch of one commit).
@@ -23,6 +24,9 @@
 6. With --port-lang pt_br: the port's own interface (bottom screen labels,
    extras, data pack errors) in Brazilian Portuguese, and the game's texts
    translated so far (tools/localize_portuguese.py, docs/PORTUGUESE.md).
+7. With --locale ptbr: before the decomp tools run, tools/localize_ptbr.py
+   writes the texts of the PT-BR catalog (tools/locales/ptbr/*.toml) into the
+   tree. A changed catalog resets the tree and rebuilds the game objects.
 """
 
 from __future__ import annotations
@@ -56,6 +60,9 @@ def fetch(tree: Path, repo: str, commit: str) -> None:
     tree.mkdir(parents=True, exist_ok=True)
     if not (tree / ".git").exists():
         run(["git", "init", "-q"], cwd=tree)
+        # The upstream files and the patches are LF; core.autocrlf=true would
+        # check out CRLF files the patches no longer apply to.
+        run(["git", "config", "core.autocrlf", "false"], cwd=tree)
         run(["git", "remote", "add", "origin", repo], cwd=tree)
     run(["git", "fetch", "-q", "--depth", "1", "origin", commit], cwd=tree)
     run(["git", "checkout", "-q", "--force", "--detach", commit], cwd=tree)
@@ -68,12 +75,17 @@ def main() -> int:
     ap.add_argument("--spanish-rom", type=Path, help="stage the Spanish data from a clean BPES ROM")
     ap.add_argument("--port-lang", choices=["en", "pt_br"], default="en",
                     help="language of the port's own interface (PORT_LANG=)")
+    ap.add_argument("--locale", choices=["ptbr"], help="stage the texts of tools/locales/<locale>")
     ap.add_argument("--make", action="store_true", help="build the tools and the 3DSX afterwards")
     ap.add_argument("-j", "--jobs", type=int, default=4)
     ap.add_argument("--python", default=sys.executable, help="Python the build calls (PYTHON=)")
     args = ap.parse_args()
     if args.port_lang == "pt_br" and args.spanish_rom:
         ap.error("--port-lang pt_br goes over the English game, not the Spanish one")
+    if args.locale and args.spanish_rom:
+        ap.error("--locale and --spanish-rom are different languages")
+    if args.locale and args.port_lang == "pt_br":
+        ap.error("--locale ptbr and --port-lang pt_br are two different PT-BR pipelines")
 
     lock = tomllib.loads((ROOT / "upstream.lock").read_text(encoding="utf-8"))
     repo, commit = lock["pokeemerald"]["repository"], lock["pokeemerald"]["commit"]
@@ -81,6 +93,11 @@ def main() -> int:
     locale_marker = tree / ".emerald3ds-locale"
     previous_locale = locale_marker.read_text().strip() if locale_marker.exists() else ""
     portuguese = args.port_lang == "pt_br"
+    wanted_locale = ""
+    if args.locale == "ptbr":
+        sys.path.insert(0, str(ROOT / "tools"))
+        from localize_ptbr import catalog_digest
+        wanted_locale = "PTBR " + catalog_digest()
     patches = sorted((ROOT / "patches" / "pokeemerald").glob("*.patch"))
     marker = tree / ".emerald3ds-patches"
     digest = patch_digest(patches)
@@ -90,12 +107,17 @@ def main() -> int:
         head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=tree, capture_output=True,
                               text=True).stdout.strip()
     stale = not marker.exists() or marker.read_text().strip() != digest
-    if args.clean or args.spanish_rom or portuguese or previous_locale or head != commit or stale:
+    if args.clean or args.spanish_rom or portuguese or previous_locale != wanted_locale or head != commit or stale:
         if head != commit:
             fetch(tree, repo, commit)
         run(["git", "reset", "-q", "--hard", commit], cwd=tree)
-        (tree / ".emerald3ds-locale").unlink(missing_ok=True)
-        if args.spanish_rom or portuguese or previous_locale:
+        locale_marker.unlink(missing_ok=True)
+        if previous_locale.startswith("PTBR") and wanted_locale.startswith("PTBR"):
+            # Only the PT-BR texts changed. The game's translation units have
+            # no header dependency tracking, so rebuild all of them.
+            shutil.rmtree(tree / "3ds_port/build/root", ignore_errors=True)
+            (tree / "src/data/region_map/region_map_entries.h").unlink(missing_ok=True)
+        elif args.spanish_rom or portuguese or previous_locale or wanted_locale:
             # Objects and staged data of the other language must not be
             # reused: rebuild every native object when the language changes.
             shutil.rmtree(tree / "3ds_port/build", ignore_errors=True)
@@ -126,7 +148,10 @@ def main() -> int:
                             capture_output=True).returncode != 0:
                         created.unlink()
         for patch in patches:
-            run(["git", "apply", "--whitespace=nowarn", patch], cwd=tree)
+            # A checkout with core.autocrlf=true turns the patches into CRLF.
+            print("+ git apply " + patch.name, flush=True)
+            subprocess.run(["git", "apply", "--whitespace=nowarn", "-"], cwd=tree, check=True,
+                           input=patch.read_bytes().replace(b"\r\n", b"\n"))
         marker.write_text(digest + "\n")
     else:
         print("bootstrap: upstream %s with %d patches already in place" % (commit[:12], len(patches)))
@@ -139,6 +164,9 @@ def main() -> int:
     shutil.copy2(ROOT / "upstream.lock", tree / "upstream.lock")
     print("bootstrap: tree ready at %s" % tree)
 
+    if args.locale == "ptbr":
+        # Before `make generated`: some catalog texts feed generated headers.
+        run([args.python, ROOT / "tools/localize_ptbr.py", "--tree", tree])
     if args.make or args.spanish_rom:
         run(["make", "tools", "-j%d" % args.jobs], cwd=tree)
         run(["make", "generated", "-j%d" % args.jobs], cwd=tree)
