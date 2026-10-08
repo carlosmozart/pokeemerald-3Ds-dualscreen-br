@@ -123,3 +123,15 @@ diria (“É super efetivo!”, “Não é muito efetivo…”, “Acerto críti
   precisão, evasão; na caixa de nível, ATQ.ESP. e DEF.ESP.
 - Menus: LUTAR, BOLSA, POKéMON, FUGIR; no SAFÁRI, BOLA e CHEGAR.
 - SAFARI BALL é BOLA SAFÁRI (como o item). REFEREE é JUIZ.
+
+## Tipos e categorias
+
+Os nomes dos tipos têm 6 bytes no jogo (a janela de golpes da batalha, o
+resumo): NORMAL, LUTA, VOADOR, VENENO, TERRA, PEDRA, INSETO, FANTAS, AÇO,
+FOGO, ÁGUA, PLANTA, ELÉTR., PSÍQ., GELO, DRAGÃO, SOMBR. Onde há espaço (as
+mensagens, as descrições), os nomes inteiros da primeira tabela.
+
+As categorias da POKéDEX vêm dos gêneros da cópia do HoennKantoWiki, em até
+11 bytes, com “POKéMON” antes (patch 0042). Quando o nome não cabe, a
+palavra portuguesa mais próxima: MIRMELEÃO (antlion), ERMITÃO, TATURANA,
+BANANEIRA (handstand), OTÁRIA (sea lion), GUAXININHO, TOURO BRAVO.

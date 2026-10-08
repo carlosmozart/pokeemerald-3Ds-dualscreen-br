@@ -205,13 +205,16 @@ C_FIELD = re.compile(r"\.\w+\s*=\s*$")
 C_ENTRY = re.compile(r"\[(\w+)\]\s*=\s*\{")
 
 # Fixed-size names: the array's length, less the terminator.
-NAME_BYTES = {"src/data/items.h": 13, "src/data/text/move_names.h": 12}
-# Files holding names and descriptions: the labels that are names, and their size.
-NAME_PREFIX_BYTES = {"src/data/text/abilities.h": ("ABILITY_", 12)}
+NAME_BYTES = {"src/data/items.h": 13, "src/data/text/move_names.h": 12,
+              "src/data/pokemon/pokedex_entries.h": 11}
+# Files holding names and other texts: the labels that are names, and their size.
+NAME_PREFIX_BYTES = {"src/data/text/abilities.h": ("ABILITY_", 12),
+                     "src/battle_main.c": ("TYPE_", 6)}
 # Lists drawn in one window: every entry may use the widest English one (of
 # its own kind, in a file of names and descriptions).
 WIDEST_IN_FILE = {"src/data/text/item_descriptions.h", "src/data/text/move_names.h",
-                  "src/data/text/move_descriptions.h", "src/data/text/abilities.h"}
+                  "src/data/text/move_descriptions.h", "src/data/text/abilities.h",
+                  "src/battle_main.c", "src/data/pokemon/pokedex_entries.h"}
 # Room measured from the window. Item names: the BAG and the marts list them
 # in the narrow font from x=8 to the count or price right-aligned at 120;
 # 80 px of the (wider) normal font leaves them room.

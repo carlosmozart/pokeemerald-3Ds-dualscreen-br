@@ -9,7 +9,7 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
   caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
   LABORATÓRIO), a ROTA 101 com a escolha do primeiro POKéMON, a CIDADE DE
   OLDALE, a enfermeira dos CENTROS POKéMON, os POKé MARTS, os nomes e as
-  descrições de todos os itens, golpes e habilidades, as mensagens de batalha, a BOLSA (menus, bolsos e
+  descrições de todos os itens, golpes e habilidades, as mensagens de batalha, os tipos, as categorias da POKéDEX, a BOLSA (menus, bolsos e
   mensagens), o menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
   em inglês. `python tools/localize_portuguese.py --tree build/upstream
   --status` mostra o progresso.
@@ -67,6 +67,11 @@ acrescenta, sem mudar nada em inglês:
 - `sText_StatSharplyRose` e `sText_StatHarshlyFell`, a mudança forte de um
   atributo numa frase só: "subiu muito!", "caiu muito!".
 
+Do mesmo jeito, `patches/pokeemerald/0042-portuguese-category-word-order.patch`
+monta a categoria com um prefixo e um sufixo (`sText_CategoryPrefix`,
+vazio em inglês, e `sText_CategorySuffix`, " POKéMON"): em português,
+POKéMON SEMENTE em vez de SEMENTE POKéMON.
+
 Limites a respeitar ao traduzir:
 
 - Células de opção: até 17 caracteres; abas: até 12 (com "1/2").
@@ -103,7 +108,7 @@ falhar:
 - o hash: se o texto inglês mudou, a tradução precisa ser revista;
 - cada caractere existe no charmap (com ã, õ, Ã e Õ do patch 0040);
 - os mesmos placeholders do inglês (`{PLAYER}`, `{STR_VAR_1}`...);
-- o tamanho dos nomes de tamanho fixo (itens: 13 bytes; golpes e habilidades: 12);
+- o tamanho dos nomes de tamanho fixo (itens: 13 bytes; golpes e habilidades: 12; categorias: 11; tipos: 6);
 - a largura de cada linha na fonte normal: até 208 px nos textos dos `.inc`
   (as caixas de mensagem têm 216), e nas strings de C, que costumam ser
   menus, a largura do inglês. `width=N` no cabeçalho permite N pixels, para
