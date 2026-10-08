@@ -103,6 +103,12 @@ def push() -> None:
              "Sincronização: conflito com commits do outro PC; o commit está salvo só aqui.")
         return
     result = git("push", "-q", "origin", BRANCH)
+    for _ in range(3):
+        # The other PC pushed in the same moment: rebase on it and try again.
+        if result.returncode == 0 or rebase() is not None:
+            break
+        behind += 1
+        result = git("push", "-q", "origin", BRANCH)
     if result.returncode != 0:
         emit("PostToolUse", "sync_pcs: push failed; the commit is only local.\n" + result.stderr[-500:],
              "Sincronização: push falhou; o commit está só neste PC.")
