@@ -226,9 +226,9 @@ O maior volume do projeto, sem equivalente no wiki.
       `data/maps/*/scripts.inc`, com contagem por mapa, para o relatório de
       cobertura.
 - [ ] Traduzir **na ordem do jogo**, para cada bloco ser testável jogando:
-  - [ ] Littleroot, Oldale, Route 101–103, Petalburg (feitos: caminhão,
-        LITTLEROOT inteira, ROTA 101, OLDALE, ROTA 102, PETALBURG
-        inteira com o GINÁSIO; falta a ROTA 103)
+  - [x] Littleroot, Oldale, Route 101–103, Petalburg (caminhão,
+        LITTLEROOT inteira, ROTAS 101 a 103, OLDALE, PETALBURG inteira
+        com o GINÁSIO)
   - [ ] Rustboro, Dewford, Slateport (até o 3º ginásio)
   - [ ] Mauville até Fortree (4º ao 6º ginásio)
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
