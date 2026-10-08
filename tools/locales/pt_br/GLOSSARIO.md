@@ -126,10 +126,11 @@ diria (“É super efetivo!”, “Não é muito efetivo…”, “Acerto críti
 
 ## Tipos e categorias
 
-Os nomes dos tipos têm 6 bytes no jogo (a janela de golpes da batalha, o
-resumo): NORMAL, LUTA, VOADOR, VENENO, TERRA, PEDRA, INSETO, FANTAS, AÇO,
-FOGO, ÁGUA, PLANTA, ELÉTR., PSÍQ., GELO, DRAGÃO, SOMBR. Onde há espaço (as
-mensagens, as descrições), os nomes inteiros da primeira tabela.
+Os tipos têm os nomes oficiais inteiros (NORMAL, LUTADOR, VOADOR, VENENOSO,
+TERRESTRE, PEDRA, INSETO, FANTASMA, AÇO, FOGO, ÁGUA, PLANTA, ELÉTRICO,
+PSÍQUICO, GELO, DRAGÃO, SOMBRIO). O patch 0043 dá 9 bytes a eles; na janela
+de golpes da batalha o “TIPO/” sai para o nome caber, e na busca da POKéDEX
+um nome largo (TERRESTRE) usa a fonte estreita.
 
 As categorias da POKéDEX vêm dos gêneros da cópia do HoennKantoWiki, em até
 11 bytes, com “POKéMON” antes (patch 0042). Quando o nome não cabe, a

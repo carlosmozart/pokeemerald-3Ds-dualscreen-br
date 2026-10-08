@@ -72,6 +72,13 @@ monta a categoria com um prefixo e um sufixo (`sText_CategoryPrefix`,
 vazio em inglês, e `sText_CategorySuffix`, " POKéMON"): em português,
 POKéMON SEMENTE em vez de SEMENTE POKéMON.
 
+E `patches/pokeemerald/0043-portuguese-type-names.patch` dá 9 bytes aos
+nomes dos tipos (`TYPE_NAME_LENGTH`, para TERRESTRE), alarga a tabela de
+"um golpe de FOGO" como o patch 0034 faz para o espanhol e põe na fonte
+estreita um tipo largo demais para as caixas da busca da POKéDEX. Na
+janela de golpes da batalha, `gText_MoveInterfaceType` ("TYPE/") fica
+vazio em português, para o nome inteiro caber nos 64 px.
+
 Limites a respeitar ao traduzir:
 
 - Células de opção: até 17 caracteres; abas: até 12 (com "1/2").
@@ -108,7 +115,7 @@ falhar:
 - o hash: se o texto inglês mudou, a tradução precisa ser revista;
 - cada caractere existe no charmap (com ã, õ, Ã e Õ do patch 0040);
 - os mesmos placeholders do inglês (`{PLAYER}`, `{STR_VAR_1}`...);
-- o tamanho dos nomes de tamanho fixo (itens: 13 bytes; golpes e habilidades: 12; categorias: 11; tipos: 6);
+- o tamanho dos nomes de tamanho fixo (itens: 13 bytes; golpes e habilidades: 12; categorias: 11; tipos: 9);
 - a largura de cada linha na fonte normal: até 208 px nos textos dos `.inc`
   (as caixas de mensagem têm 216), e nas strings de C, que costumam ser
   menus, a largura do inglês. `width=N` no cabeçalho permite N pixels, para

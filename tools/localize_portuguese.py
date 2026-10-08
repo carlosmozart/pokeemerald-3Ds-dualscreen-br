@@ -209,7 +209,7 @@ NAME_BYTES = {"src/data/items.h": 13, "src/data/text/move_names.h": 12,
               "src/data/pokemon/pokedex_entries.h": 11}
 # Files holding names and other texts: the labels that are names, and their size.
 NAME_PREFIX_BYTES = {"src/data/text/abilities.h": ("ABILITY_", 12),
-                     "src/battle_main.c": ("TYPE_", 6)}
+                     "src/battle_main.c": ("TYPE_", 9)}
 # Lists drawn in one window: every entry may use the widest English one (of
 # its own kind, in a file of names and descriptions).
 WIDEST_IN_FILE = {"src/data/text/item_descriptions.h", "src/data/text/move_names.h",
@@ -220,7 +220,10 @@ WIDEST_IN_FILE = {"src/data/text/item_descriptions.h", "src/data/text/move_names
 # 80 px of the (wider) normal font leaves them room.
 # Battle messages: the battle's message box is 26 tiles wide (208 px); the
 # texts of the other windows (menus, the level-up box) carry width=.
-FILE_WIDTH = {"src/data/items.h": 80, "src/battle_message.c": MESSAGE_BOX_WIDTH}
+# Type names: the battle's move type window is 64 px, with TIPO/ left out
+# (patch 0043); TERRESTRE, the longest, is 54.
+FILE_WIDTH = {"src/data/items.h": 80, "src/battle_message.c": MESSAGE_BOX_WIDTH,
+              "src/battle_main.c": 54}
 
 
 def inc_texts(source: str) -> dict[str, tuple[int, int, str]]:

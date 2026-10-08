@@ -43,9 +43,12 @@
   POKéMON's name and the adverb after the verb of a stat change (both
   empty or unchanged in English), so the texts read naturally:
   "ZIGZAGOON selvagem usou INVESTIDA!", "ATAQUE de MUDKIP subiu muito!".
-- Portuguese: the type names in 6 bytes (LUTA, ELÉTR., PSÍQ.) and every
-  POKéDEX category in 11 (406 texts, 2668 in all). Patch 0042 lets a
-  language put "POKéMON" before the category: POKéMON SEMENTE.
+- Portuguese: the type names, whole (TERRESTRE, PSÍQUICO), and every
+  POKéDEX category in 11 bytes (406 texts, 2668 in all). Patch 0042 lets a
+  language put "POKéMON" before the category: POKéMON SEMENTE. Patch 0043
+  makes type names 9 bytes long, widens "a FIRE move" for Portuguese as
+  0034 does for Spanish, and draws a type too wide for the POKéDEX search
+  boxes in the narrow font. PRECISÃO and EVASÃO in capitals.
 
 ## 0.3.0 — 2026-10-08
 

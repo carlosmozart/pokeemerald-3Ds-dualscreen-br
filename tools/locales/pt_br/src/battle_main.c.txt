@@ -1,21 +1,20 @@
-# Os nomes dos tipos (src/battle_main.c), em até 6 bytes: o oficial
-# brasileiro, abreviado ou no substantivo quando não cabe (LUTA, VENENO,
-# TERRA, ELÉTR.). Os nomes inteiros estão no GLOSSARIO.md.
+# Os nomes dos tipos (src/battle_main.c), os oficiais do Brasil inteiros: o
+# patch 0043 dá 9 bytes a eles (TERRESTRE).
 
 [TYPE_NORMAL] 21b3708ac8
 NORMAL
 
 [TYPE_FIGHTING] bc62a1966b
-LUTA
+LUTADOR
 
 [TYPE_FLYING] d317505812
 VOADOR
 
 [TYPE_POISON] b8eaf34112
-VENENO
+VENENOSO
 
 [TYPE_GROUND] cb9cfdf235
-TERRA
+TERRESTRE
 
 [TYPE_ROCK] 8f97f5a81b
 PEDRA
@@ -24,7 +23,7 @@ PEDRA
 INSETO
 
 [TYPE_GHOST] a7628d6b02
-FANTAS
+FANTASMA
 
 [TYPE_STEEL] f4321597bb
 AÇO
@@ -39,10 +38,10 @@ FOGO
 PLANTA
 
 [TYPE_ELECTRIC] a1ac309391
-ELÉTR.
+ELÉTRICO
 
 [TYPE_PSYCHIC] dcda14a651
-PSÍQ.
+PSÍQUICO
 
 [TYPE_ICE] 97e6907b70
 GELO
@@ -51,4 +50,4 @@ GELO
 DRAGÃO
 
 [TYPE_DARK] 2924c75b87
-SOMBR.
+SOMBRIO

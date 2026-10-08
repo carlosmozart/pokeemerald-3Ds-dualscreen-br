@@ -1606,8 +1606,8 @@ POKéMON{CLEAR_TO 56}FUGIR
 BOLA{CLEAR_TO 56}{POKEBLOCK}\n
 CHEGAR{CLEAR_TO 56}FUGIR
 
-[gText_MoveInterfaceType] 23b582f48e width=30
-TIPO/
+[gText_MoveInterfaceType] 23b582f48e
+
 
 [gText_MoveInterfacePpType] 2fb76952e2 width=30
 {PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PP\n
@@ -1680,58 +1680,58 @@ OVO Ruim
 {HIGHLIGHT TRANSPARENT}Empate
 
 [TYPE_NORMAL] 925aa86942
-golpe NORMAL
+um golpe NORMAL
 
 [TYPE_FIGHTING] 374a949727
-golpe LUTADOR
+um golpe LUTADOR
 
 [TYPE_FLYING] 0087b488d4
-golpe VOADOR
+um golpe VOADOR
 
 [TYPE_POISON] c392e1d62c
-golpe VENENOSO
+um golpe VENENOSO
 
 [TYPE_GROUND] 9e394e4c01
-golpe de TERRA
+um golpe TERRESTRE
 
 [TYPE_ROCK] 879da38f40
-golpe de PEDRA
+um golpe de PEDRA
 
 [TYPE_BUG] ccb11ef143
-golpe INSETO
+um golpe INSETO
 
 [TYPE_GHOST] 1e0dc56361
-golpe FANTASMA
+um golpe FANTASMA
 
 [TYPE_STEEL] d5019d7f03
-golpe de AÇO
+um golpe de AÇO
 
 [TYPE_MYSTERY] d0353346d1
-golpe ???
+um golpe ???
 
 [TYPE_FIRE] 118631db0b
-golpe de FOGO
+um golpe de FOGO
 
 [TYPE_WATER] 9efaa0576c
-golpe de ÁGUA
+um golpe de ÁGUA
 
 [TYPE_GRASS] b996e8f185
-golpe PLANTA
+um golpe PLANTA
 
 [TYPE_ELECTRIC] 06bfcaeacc
-golpe ELÉTRICO
+um golpe ELÉTRICO
 
 [TYPE_PSYCHIC] 1f2b2958fb
-golpe PSÍQUICO
+um golpe PSÍQUICO
 
 [TYPE_ICE] ffbdce3b1a
-golpe de GELO
+um golpe de GELO
 
 [TYPE_DRAGON] ab7595149b
-golpe DRAGÃO
+um golpe DRAGÃO
 
 [TYPE_DARK] ac53cd5136
-golpe SOMBRIO
+um golpe SOMBRIO
 
 [gText_BattleTourney] b4cc60a52f width=81
 TORNEIO
