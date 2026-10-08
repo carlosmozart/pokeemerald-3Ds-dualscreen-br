@@ -1511,3 +1511,151 @@ Este POKéMON veio do futuro atravessando\n
 o tempo. Acredita-se que, enquanto\n
 CELEBI aparecer, um futuro brilhante\n
 espera por nós.
+
+[gTreeckoPokedexText] 94c51cbf5a
+Faz o ninho numa árvore gigante da\n
+floresta. Defende com ferocidade o\n
+território de quem chega perto. Dizem\n
+que é o protetor das árvores da floresta.
+
+[gGrovylePokedexText] 5cb18f74db
+Folhas crescem do corpo deste POKéMON.\n
+Elas ajudam GROVYLE a se esconder dos\n
+olhos dos inimigos quando está numa\n
+floresta fechada.
+
+[gSceptilePokedexText] 96c4fa6f13
+Na selva, seu poder não tem igual.\n
+Este POKéMON cuida com carinho das\n
+árvores e plantas. Regula a temperatura\n
+do corpo tomando sol.
+
+[gTorchicPokedexText] b979dbd379
+Se é atacado, revida cuspindo bolas de\n
+fogo que forma na barriga. TORCHIC não\n
+gosta do escuro, porque não consegue\n
+ver o que tem em volta.
+
+[gCombuskenPokedexText] d15e1bd82f
+Dá 10 chutes por segundo. Seu forte\n
+instinto de luta o faz continuar\n
+atacando até o oponente desistir.
+
+[gBlazikenPokedexText] eb190d1dc1
+Aprende artes marciais de socos e\n
+chutes. De tempos em tempos, as penas\n
+velhas queimam e caem, e penas novas e\n
+macias nascem no lugar.
+
+[gMudkipPokedexText] c549e9ac01
+Em terra, levanta pedras grandes com\n
+força, firmando as quatro patas e\n
+empurrando. Dorme enterrado na lama\n
+na beira da água.
+
+[gMarshtompPokedexText] 30b5d9b50c
+As pernas traseiras fortes o deixam ficar\n
+de pé. Como enfraquece se a pele seca,\n
+repõe a umidade brincando na lama.
+
+[gSwampertPokedexText] 93a67beb47
+Se sente que vem uma tempestade e uma\n
+onda gigante, protege o ninho na beira\n
+do mar empilhando pedras. Nada tão\n
+rápido quanto um jet ski.
+
+[gPoochyenaPokedexText] 2ab9440c00
+Ameaça os inimigos com ferocidade,\n
+mostrando as presas. Persegue sem\n
+desistir quem foge. Mas, se o inimigo\n
+revida, dá meia-volta e corre.
+
+[gMightyenaPokedexText] 70d3cefbfd
+Na natureza, MIGHTYENA vivem em matilha.\n
+Nunca desobedecem às ordens do líder.\n
+Derrotam os inimigos com um trabalho\n
+em equipe perfeito.
+
+[gZigzagoonPokedexText] 019c084ad9
+Esfregando o nariz no chão, vive andando\n
+pra lá e pra cá atrás de alguma coisa.\n
+Dá para reconhecê-lo pelas pegadas em\n
+zigue-zague que deixa.
+
+[gLinoonePokedexText] dd861ad402
+É rapidíssimo quando só precisa correr em\n
+linha reta. Quando vê uma presa debaixo\n
+d'água num lago, pula rápido e a pega\n
+com as garras afiadas.
+
+[gWurmplePokedexText] 1b6953801a
+Gruda nos galhos e come folhas. O fio que\n
+cospe pela boca, que fica pegajoso ao\n
+tocar o ar, deixa os inimigos mais\n
+lentos.
+
+[gSilcoonPokedexText] a390b03c65
+Se prepara para evoluir com a energia\n
+que guardou quando era WURMPLE. Fica\n
+de olho em tudo em volta com os dois\n
+olhos.
+
+[gBeautiflyPokedexText] b73017cc02
+As asas de desenhos coloridos são sua\n
+marca mais famosa. Voa pelos campos\n
+floridos coletando pólen. Ataca com\n
+ferocidade quando fica bravo.
+
+[gCascoonPokedexText] 7a62f83691
+Para não ser visto pelos inimigos, fica\n
+parado escondido debaixo de folhas\n
+grandes e entre os galhos. Também cola\n
+folhas secas no corpo para se camuflar.
+
+[gDustoxPokedexText] 2384d33208
+É um POKéMON noturno que voa dos campos\n
+e montanhas atraído pelos postes de luz\n
+à noite. Solta um pó muito tóxico pelas\n
+asas.
+
+[gLotadPokedexText] 7f1b37c316
+Este POKéMON vive em lagos de água limpa.\n
+É conhecido por levar POKéMON pequenos\n
+de um lado ao outro do lago na folha\n
+larga da cabeça.
+
+[gLombrePokedexText] 4674fe913b
+Ao entardecer, adora pular para fora do\n
+rio e assustar as pessoas. Come o musgo\n
+aquático que cresce nas pedras do leito\n
+do rio.
+
+[gLudicoloPokedexText] ff75544c8e
+Quando ouve música de festa, todas as\n
+células do corpo ficam agitadas, e ele\n
+começa a dançar no ritmo. Não se abala\n
+nem diante de um oponente difícil.
+
+[gSeedotPokedexText] 9114be87f6
+Fica pendurado nos galhos absorvendo\n
+nutrientes. Quando termina de comer,\n
+o corpo fica tão pesado que cai no chão\n
+com um baque.
+
+[gNuzleafPokedexText] d4e8bbc8c0
+Um POKéMON da floresta que sobe em\n
+árvores com habilidade. O nariz longo\n
+e pontudo é seu ponto fraco. Perde a\n
+força se alguém segura o nariz.
+
+[gShiftryPokedexText] baa54d4c19
+Dizem que chega com os ventos frios do\n
+inverno. Temido há muito tempo como o\n
+guardião das florestas, vive no fundo\n
+da mata, onde as pessoas não vão.
+
+[gTaillowPokedexText] a10e657298
+Apesar de pequeno, é muito corajoso.\n
+Enfrenta de igual para igual um SKARMORY\n
+bem maior. Mas a coragem diminui quando\n
+ele fica com fome.
