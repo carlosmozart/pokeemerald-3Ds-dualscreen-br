@@ -1808,3 +1808,151 @@ Em vez de ter uma toca fixa, costuma\n
 procurar cantinhos confortáveis e dormir\n
 ali. É noturno e fica ativo ao\n
 anoitecer.
+
+[gSableyePokedexText] f2279f3dba
+Cava túneis ramificados nas cavernas com\n
+as garras afiadas, atrás de comida:\n
+pedras preciosas brutas. SABLEYE espreita\n
+no escuro e quase nunca é visto.
+
+[gMawilePokedexText] 37038003a5
+A bocarra gigante na verdade são chifres\n
+de aço que se transformaram. Engana os\n
+inimigos com seu jeitinho fofo e depois\n
+os abocanha com a mandíbula enorme.
+
+[gAronPokedexText] 9f2194b1a2
+Um POKéMON coberto por uma armadura de\n
+aço. Quando evolui, ganha uma armadura\n
+nova. A velha, descartada, é reciclada\n
+como metal para fazer objetos de ferro.
+
+[gLaironPokedexText] eddcf2a49d
+Quando dois LAIRON se encontram na\n
+natureza, disputam território batendo\n
+os corpos de aço um no outro. O barulho\n
+da trombada se ouve a quilômetros.
+
+[gAggronPokedexText] 2212fabb4d
+Os chifres de ferro crescem um pouco de\n
+cada vez e servem para saber a idade de\n
+AGGRON. Ele exibe com orgulho os riscos\n
+da armadura, lembranças das batalhas.
+
+[gMedititePokedexText] 302c889faa
+Medita sem parar durante horas todo dia.\n
+Graças ao treino de ioga rigoroso e\n
+dedicado, fortaleceu tanto o poder\n
+espiritual que consegue voar.
+
+[gMedichamPokedexText] 299fe84574
+Com um treino de ioga duríssimo, ganhou\n
+o poder de prever as ações do inimigo.\n
+Luta com movimentos elegantes, como\n
+se estivesse dançando.
+
+[gElectrikePokedexText] 7556871a43
+Gera eletricidade com o atrito do ar.\n
+Nas estações de ar muito seco, o corpo\n
+todo arde com chuvas violentas de\n
+faíscas.
+
+[gManectricPokedexText] 0894bd6c89
+Como caem raios perto deles, achavam que\n
+MANECTRIC tinham nascido dos raios.\n
+Na batalha, eles criam nuvens de\n
+tempestade.
+
+[gPluslePokedexText] f1dc1dbaf4
+Tem o costume de torcer pelos POKéMON\n
+companheiros. Fazendo curto-circuito na\n
+eletricidade que solta pelas patas,\n
+cria pompons de torcida.
+
+[gMinunPokedexText] afaa186df9
+Num encontro de estudiosos de POKéMON,\n
+foi anunciado que levar a eletricidade de\n
+PLUSLE e MINUN ao mesmo tempo melhora a\n
+circulação e dá mais disposição.
+
+[gVolbeatPokedexText] 92cb61d254
+Com as caudas acesas, os VOLBEAT voam em\n
+bando, desenhando figuras geométricas no\n
+céu noturno. Mudam o ninho de lugar se a\n
+água do lago fica suja.
+
+[gIllumisePokedexText] 36398bf62e
+Um POKéMON noturno que fica ativo ao\n
+anoitecer. Guia um bando de VOLBEAT para\n
+desenhar no céu noturno. Já foram\n
+confirmados mais de 200 desenhos.
+
+[gRoseliaPokedexText] 7396c14d84
+Um ROSELIA que bebe água de fonte rica\n
+em nutrientes floresce com flores lindas.\n
+O perfume das flores deixa os inimigos\n
+descuidados.
+
+[gGulpinPokedexText] dbf13d8ff1
+O suco gástrico deste POKéMON digere até\n
+sucata de ferro. Consegue engolir de uma\n
+vez algo do tamanho dele.
+
+[gSwalotPokedexText] 356f26cb66
+O ácido forte do estômago digere quase\n
+tudo. A única coisa no mundo que SWALOT\n
+não consegue digerir é o próprio\n
+estômago.
+
+[gCarvanhaPokedexText] 63df389ac3
+CARVANHA atacam navios em cardume e os\n
+afundam. Dizem que é um POKéMON muito\n
+cruel, mas foge com medo assim que se vê\n
+sozinho.
+
+[gSharpedoPokedexText] d801f41bf3
+O bandido cruel e esperto do mar. A pele\n
+tem uma textura especial que reduz o\n
+atrito na água. Chega a mais de\n
+120 km/h.
+
+[gWailmerPokedexText] e27330011b
+Este POKéMON costuma viver no mar, mas\n
+aguenta ficar em terra por pouco tempo.\n
+Perde a vitalidade se o corpo seca.
+
+[gWailordPokedexText] e8942a7d8e
+Respira pelas narinas, que ergue acima\n
+do mar. Enchendo os pulmões ao máximo,\n
+WAILORD mergulha quase 3.000 metros\n
+abaixo das ondas.
+
+[gNumelPokedexText] 011d5ca35e
+NUMEL guarda magma fervente na corcova\n
+das costas. É um POKéMON resistente, que\n
+carrega 100 kg de carga. Trabalha para\n
+os humanos desde muito tempo atrás.
+
+[gCameruptPokedexText] 7161f50a00
+Um POKéMON que vive na cratera de um\n
+vulcão. A cada 10 anos, os vulcões das\n
+costas entram em erupção violenta.\n
+A causa ainda está sendo pesquisada.
+
+[gTorkoalPokedexText] 43ad6eef7e
+Luta com a energia que tira de queimar\n
+carvão. Quando solta fumaça pelas\n
+narinas, faz um som parecido com o\n
+apito de uma locomotiva.
+
+[gSpoinkPokedexText] 3784122879
+Um POKéMON que usa poder psíquico à\n
+vontade. Não para de pular nem dormindo.\n
+Adora comer cogumelos que crescem\n
+debaixo da terra.
+
+[gGrumpigPokedexText] 22392620d6
+Guarda poder nas pérolas pretas da testa.\n
+Quando usa poder psíquico, faz um passo\n
+de dança esquisito. Seu jeito de dançar\n
+virou febre no exterior.
