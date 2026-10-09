@@ -278,10 +278,10 @@ O maior volume do projeto, sem equivalente no wiki.
         de concursos, moça de LILYCOVE, LIQUIDIFICADOR, CENTRO DE CUIDADOS,
         BASES SECRETAS, árvores de FRUTA, golpes de campo, ROLETA e os
         PRESENTES MISTERIOSOS: 22 arquivos, cerca de 470 textos), 09/10
-  - [ ] O resto de `data/text` (concursos, `cable_club`,
+  - [x] O resto de `data/text` (concursos, `cable_club`,
         `secret_base_trainers`, `trick_house_mechadolls`, `pokedex_rating`,
         `mauville_man`, `pokemon_news`, `questionnaire`, `abnormal_weather`),
-        passado da Fase 6 em 09/10
+        passado da Fase 6 e concluído em 09/10: todo o `data/text` tem catálogo
   - [x] `apprentice.inc` (288), `battle_dome.inc` (114) e
         `frontier_brain.inc` (28): a FRONTEIRA DE BATALHA, passados da Fase 6
         e concluídos em 09/10
