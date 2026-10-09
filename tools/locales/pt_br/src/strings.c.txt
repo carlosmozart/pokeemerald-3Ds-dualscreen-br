@@ -2471,3 +2471,181 @@ Nocautes: {STR_VAR_2}
 
 [gText_FrontierFacilityFloorsCleared] 52585dd772
 Andares: {STR_VAR_2}
+
+# PASSE DA FRONTEIRA (frontier_pass.c): os três títulos centrados em 96 px;
+
+# a descrição embaixo tem 30 tiles; no mapa, o nome da instalação tem 10
+
+# tiles e a descrição, 26.
+
+[gText_SymbolsEarned] 5080f2a0a0 width=96
+Símbolos
+
+[gText_BattleRecord] def51b558b width=96
+Gravação
+
+[gText_BattlePoints] ee29811b55 width=96
+Pontos de Batalha
+
+[gText_CheckFrontierMap] b9b0c5473b width=232
+Ver o MAPA DA FRONTEIRA.
+
+[gText_CheckTrainerCard] 8bb96f24d6 width=232
+Ver o CARTÃO DE TREINADOR.
+
+[gText_ViewRecordedBattle] 65d68adf65 width=232
+Ver a batalha gravada.
+
+[gText_PutAwayFrontierPass] 1a284c9f14 width=232
+Guardar o PASSE DA FRONTEIRA.
+
+[gText_CurrentBattlePoints] 205a8e80e7 width=232
+Os seus Pontos de Batalha atuais.
+
+[gText_CollectedSymbols] 2a8d13a3bc width=232
+Os Símbolos que você conquistou.
+
+[gText_BattleTowerAbilitySymbol] 61f2bd0e24 width=232
+TORRE DE BATALHA: Símbolo da Habilidade
+
+[gText_BattleDomeTacticsSymbol] 87eefe5fec width=232
+CÚPULA DE BATALHA: Símbolo da Tática
+
+[gText_BattlePalaceSpiritsSymbol] 7c7c9acdda width=232
+PALÁCIO DE BATALHA: Símbolo do Espírito
+
+[gText_BattleArenaGutsSymbol] 7d5e057766 width=232
+ARENA DE BATALHA: Símbolo da Garra
+
+[gText_BattleFactoryKnowledgeSymbol] 2993a080aa width=232
+FÁBRICA DE BATALHA: Símbolo do Saber
+
+[gText_BattlePikeLuckSymbol] b25830a685 width=232
+PICO DE BATALHA: Símbolo da Sorte
+
+[gText_BattlePyramidBraveSymbol] 10fa863d25 width=232
+PIRÂMIDE DE BATALHA: Símbolo da Bravura
+
+[gText_ThereIsNoBattleRecord] af1caa1d2d width=232
+Não há batalha gravada.
+
+[gText_BattleTower3] fbd1b89e76 width=80
+TORRE
+
+[gText_BattleDome2] 5a1f22c3a9 width=80
+CÚPULA
+
+[gText_BattlePalace2] 8ce19449a1 width=80
+PALÁCIO
+
+[gText_BattleArena2] a923af42b7 width=80
+ARENA
+
+[gText_BattleFactory2] 396c12a193 width=80
+FÁBRICA
+
+[gText_BattlePike2] 4afea876c4 width=80
+PICO
+
+[gText_BattlePyramid2] 15dd7c6ba8 width=80
+PIRÂMIDE
+
+[gText_BattleTowerDesc] c2f5f4713f width=208
+Derrote os rivais e chegue ao topo!\nA sua habilidade vai ser testada.
+
+[gText_BattleDomeDesc] f9435fc18b width=208
+Vença sem parar no torneio!\nA sua tática vai ser testada.
+
+[gText_BattlePalaceDesc] ae8a4380bb width=208
+Veja os POKéMON batalharem!\nO seu espírito vai ser testado.
+
+[gText_BattleArenaDesc] 4d5e744d43 width=208
+Vença com POKéMON em equipe!\nA sua garra vai ser testada.
+
+[gText_BattleFactoryDesc] dd1c11e5f0 width=208
+Vença com POKéMON alugados!\nO seu saber vai ser testado.
+
+[gText_BattlePikeDesc] 9dd3de9297 width=208
+Escolha um de três caminhos!\nA sua sorte vai ser testada.
+
+[gText_BattlePyramidDesc] 8cf7fc5c8c width=208
+Explore até chegar ao topo!\nA sua bravura vai ser testada.
+
+# TRITURA FRUTAS (berry_crush.c): mensagens na caixa de mensagem; os
+
+# resultados e rankings, com a largura do inglês.
+
+[gText_ReadyPickBerry] 55e6cc49e2 width=208
+Pronto pra TRITURAR FRUTAS?\nEscolha uma FRUTA pra usar.\p
+
+[gText_WaitForAllChooseBerry] 05bc5b2e8d width=208
+Aguarde enquanto cada participante\nescolhe uma FRUTA.
+
+[gText_EndedWithXUnitsPowder] 6a83e35a4b width=212
+{PAUSE_MUSIC}{PLAY_BGM MUS_LEVEL_UP}Você fez {STR_VAR_1} unidades de\nPÓ DE FRUTA bem fininho.{RESUME_MUSIC}\pO seu total de PÓ DE FRUTA\né {STR_VAR_2}.\p
+
+[gText_RecordingGameResults] 78d13d4e83 width=208
+Gravando os resultados do jogo\nno save.\lAguarde.
+
+[gText_PlayBerryCrushAgain] de8104a5db width=208
+Jogar TRITURA FRUTAS de novo?
+
+[gText_YouHaveNoBerries] 0b70b3df1e width=208
+Você não tem FRUTAS.\nO jogo vai ser cancelado.
+
+[gText_MemberDroppedOut] a780cc7e31 width=208
+Alguém saiu.\nO jogo vai ser cancelado.
+
+[gText_TimesUpNoGoodPowder] 16442e9983 width=208
+Acabou o tempo.\pNão deu pra fazer um bom\nPÓ DE FRUTA…\p
+
+[gText_CommunicationStandby2] 795a08e0b9 width=208
+Aguardando comunicação…
+
+[gText_SpaceTimes2] 2e6eefd076 width=45
+ vez(es)
+
+[gText_Var1Berry] 25cdf11e1a
+FRUTA {STR_VAR_1}
+
+[gText_TimeColon] 179578fe1b width=60
+Tempo:
+
+[gText_PressingSpeed] afcd9b1b77
+Velocidade:
+
+[gText_Silkiness] 37c3366bc1
+Finura:
+
+[gText_SpaceMin] 2e87c2212e
+ min.
+
+[gText_SpaceSec] e4e78163a6
+ s
+
+[gText_TimesPerSec] 923fdda5f0
+ vezes/s
+
+[gText_PressesRankings] 228bd78a80
+Ranking de Apertos
+
+[gText_CrushingResults] 8da1908074
+Resultado
+
+[gText_NeatnessRankings] 9393e6bd0e
+Ranking de Finura
+
+[gText_CoopRankings] cafe8c445a
+Ranking de Equipe
+
+[gText_PressingPowerRankings] a21952048d
+Ranking de Força
+
+[gText_BerryCrush2] 8d9e34e09d width=180
+TRITURA FRUTAS
+
+[gText_PressingSpeedRankings] e767f36b1d
+Ranking de Rapidez
+
+[gText_Var1Players] 8887654ede width=180
+{STR_VAR_1} JOGADORES
