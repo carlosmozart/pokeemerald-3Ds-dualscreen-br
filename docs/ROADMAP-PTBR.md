@@ -230,7 +230,8 @@ O maior volume do projeto, sem equivalente no wiki.
         LITTLEROOT inteira, ROTAS 101 a 103, OLDALE, PETALBURG inteira
         com o GINÁSIO)
   - [ ] Rustboro, Dewford, Slateport (até o 3º ginásio) (feitos: ROTA
-        104, BOSQUE DE PETALBURG, RUSTBORO inteira com a DEVON e o GINÁSIO)
+        104, BOSQUE DE PETALBURG, RUSTBORO inteira com a DEVON e o GINÁSIO,
+        ROTA 116 e TÚNEL RUSTURF)
   - [ ] Mauville até Fortree (4º ao 6º ginásio)
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
   - [ ] Ever Grande e Liga
