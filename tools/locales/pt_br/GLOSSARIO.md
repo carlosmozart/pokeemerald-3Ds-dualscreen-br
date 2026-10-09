@@ -119,6 +119,13 @@ Os nomes dos POKéMON não se traduzem.
 | Meteor Falls | CATARATA DOS METEOROS | |
 | Pokémon Storage System | Sistema de Armazenamento POKéMON | |
 | Super Rank | NÍVEL SUPER | como NÍVEL NORMAL |
+| Feather Badge | INSÍGNIA DA PENA | |
+| Magma Hideout | ESCONDERIJO MAGMA | |
+| Cave of Origin | CAVERNA DA ORIGEM | |
+| Mt. Pyre | MONTE PYRE | |
+| Grunt | CAPANGA | |
+| Bird Pokémon | POKéMON PÁSSARO | |
+| Super Repel | SUPER REPELENTE | REPELENTE SUP no nome do item |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
