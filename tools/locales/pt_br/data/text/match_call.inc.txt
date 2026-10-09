@@ -723,3 +723,231 @@ DRAKE: Essa voz… {PLAYER}, não é?\nVocê parece bem…\pSoube que agora exis
 
 [MatchCall_Text_Wallace] 57d825e0e6
 WALLACE: Olá, {PLAYER}{KUN}.\nJá conheceu o STEVEN?\pEle é…\nNa verdade, incrivelmente habilidoso.\pMas é uma alma estranha que\nquase não batalha.\pEm vez disso, prefere procurar\npedras raras.\pCom certeza está cavando numa\ncaverna ou montanha por aí.\pMas o que é uma pedra rara, afinal?\nSó consigo pensar num METEORITO…$
+
+[MatchCall_Text_MayRayquazaCall] d3597db06e
+… … … … … …\n… … … … … Bipe!\pMAY: Oi, {PLAYER}{KUN}!\pEu tava em PACIFIDLOG agora\nhá pouco.\pVi um POKéMON verde gigante\nvoando lá no alto do céu.\pEu…\nNunca vi nada parecido.\pO que será que era?\nSerá uma grande descoberta?\p… … … … … …\n… … … … … Clique!$
+
+[MatchCall_Text_BrendanRayquazaCall] a7af07255a
+… … … … … …\n… … … … … Bipe!\pBRENDAN: E aí, {PLAYER}!\nEu tava em PACIFIDLOG agora há pouco.\pVi um POKéMON verde enorme\natravessando o céu.\pNunca vi nada tão incrível\nantes.\pQueria que você tivesse visto,\n{PLAYER}.\p… … … … … …\n… … … … … Clique!$
+
+[MatchCall_Text_May1] d12c24b8c5
+MAY: Oi, {PLAYER}{KUN}!\pO SR. BRINEY se aposentou de\nMARINHEIRO, mas às vezes ainda vejo\lele no mar com o PEEKO.\pEle deve amar o mar ainda.$
+
+[MatchCall_Text_May2] 00ee66ead2
+MAY: Oi, {PLAYER}{KUN}!\pSabe como cidadezinhas tipo\nPETALBURG e DEWFORD têm GINÁSIO?\pPor algum motivo, o grande porto\nde SLATEPORT não tem GINÁSIO.\pQuando finalmente fizerem um lá,\nacho que vou me candidatar a LÍDER.$
+
+[MatchCall_Text_May3] 18246e3938
+MAY: Oi, {PLAYER}{KUN}!\pLembra de um homem chamado\nCORTADOR, em RUSTBORO?\lEle tinha uma casa lá, lembra?\pPois é, descobri que o irmão\nmais novo dele mora em MAUVILLE.\pAdivinha o nome dele?\p… … … … … …\n… … … … … …\pO CARA DO ESMAGA PEDRA!$
+
+[MatchCall_Text_May4] 5287d83987
+MAY: {PLAYER}{KUN}?\pTÚNEL RUSTURF…\nO nome é esse porque ele\lliga RUSTBORO e VERDANTURF.$
+
+[MatchCall_Text_May5] f81efb55a5
+MAY: {PLAYER}{KUN}, tudo bem?\pTô na ROTA 111 agora.\pVou descansar na casa de\numa senhora.\pEla mora logo ao norte\ndo deserto.$
+
+[MatchCall_Text_May6] 01505d7453
+MAY: Oi, {PLAYER}{KUN}!\pSabia da TORRE MIRAGEM\nno deserto?\pDizem que, como uma miragem, ela\naparece e some misteriosamente.\pQueria ver ela.$
+
+[MatchCall_Text_May7] d1112725d2
+MAY: {PLAYER}{KUN}, uhuu!\nTô na ROTA 119 agora.\pTem um rio grande aqui, e\nchove muito.\pFiquei ensopada!$
+
+[MatchCall_Text_May8] 46fc813b81
+MAY: {PLAYER}{KUN}, oi.\pO MONTE PYRE é um memorial pros\nPOKéMON que já partiram.\pTalvez por isso esteja cheio\nde POKéMON do tipo FANTASMA!$
+
+[MatchCall_Text_May9] ebfd0bf265
+MAY: Oi, {PLAYER}{KUN}!\pEu tava indo pras águas termais\nde LAVARIDGE.\pMas no caminho, perto da TRILHA\nESCARPADA, topei com uns tipos\lmal-encarados. O clima tava feio!$
+
+[MatchCall_Text_May10] e3afc4b060
+MAY: Oi, {PLAYER}{KUN}!\nViu as notícias?\pDizem que o CAP. STERN descobriu\no CAMINHO SUBMARINO na sua\lexpedição de submarino.$
+
+[MatchCall_Text_May11] 09517da486
+MAY: Oi, {PLAYER}{KUN}!\nNão acha incrível?\pMesmo sem barco, dá pra\natravessar o mar com o golpe\lde um POKéMON.\pSabia que tem mais?\pTem um golpe POKéMON que te\nleva até o fundo do mar.$
+
+[MatchCall_Text_May12] 4de03e73e3
+MAY: Oi, {PLAYER}{KUN}!\nTudo certo por aí?\pJá aconteceu de você estar no mar\ne achar o caminho pro outro lado\lbloqueado?\pTente mergulhar fundo e seguir\nas fossas lá embaixo.\pQuando chegar do outro lado,\nsuba pra superfície. Fácil!$
+
+[MatchCall_Text_May13] 25d8536c58
+MAY: Oi, {PLAYER}{KUN}!\pComo vão as coisas?\nTá completando a sua POKéDEX?\pOuvi um boato de que existem\nPOKéMON super antigos por aí.\lE são três!\pEu adoraria ver nem que fosse um…$
+
+[MatchCall_Text_May14] 8c835093be
+MAY: {PLAYER}{KUN}!\nFiquei sabendo!\pVocê venceu o LÍDER do GINÁSIO\nde SOOTOPOLIS?\pEntão não falta muito,\nnão é?$
+
+[MatchCall_Text_May15] d5d49f5452
+MAY: Não sobrou um TREINADOR em\nHOENN que não saiba quem você é,\l{PLAYER}{KUN}!\pQuando conto que sou sua amiga,\n{PLAYER}{KUN}, todo mundo\lfica surpreso!$
+
+[MatchCall_Text_Brendan1] 0ea9d30cb7
+BRENDAN: E aí, {PLAYER}!\pO SR. BRINEY se aposentou de\nMARINHEIRO, mas às vezes ainda vejo\lele no mar com o PEEKO.\pAcho que ele ainda ama\no mar.$
+
+[MatchCall_Text_Brendan2] 949f5c46d3
+BRENDAN: E aí, {PLAYER}!\pNão entendo como cidadezinhas tipo\nPETALBURG e DEWFORD têm GINÁSIO.\pQuer dizer, se o grande porto de\nSLATEPORT não tem GINÁSIO.\pQuando finalmente fizerem um lá,\nacho que vou me candidatar a LÍDER.$
+
+[MatchCall_Text_Brendan3] 522b855a6b
+BRENDAN: Fala, {PLAYER}!\pLembra de um cara chamado\nCORTADOR, em RUSTBORO?\lEle tinha uma casa lá, né?\pPois é, o irmão mais novo\ndele mora em MAUVILLE.\pAdivinha o nome dele?\p… … … … … …\n… … … … … …\pO CARA DO ESMAGA PEDRA!$
+
+[MatchCall_Text_Brendan4] 3197325887
+BRENDAN: Essa voz… {PLAYER}?\pO TÚNEL RUSTURF tem esse nome\nporque liga RUSTBORO e\lVERDANTURF.\pVocê sabia?$
+
+[MatchCall_Text_Brendan5] 492d82d2f2
+BRENDAN: {PLAYER}, e aí?\pÓ, tô na ROTA 111 agora.\pVou descansar na casa de uma\nsenhora ao norte do deserto.\pSe passar por aqui, devia\nvisitar ela também.$
+
+[MatchCall_Text_Brendan6] 6325ec3adc
+BRENDAN: E aí, {PLAYER}!\pSabia da TORRE MIRAGEM\nno deserto?\pDizem que, como uma miragem, ela\nsó aparece de vez em quando.\pQueria ver isso!$
+
+[MatchCall_Text_Brendan7] dfa5bf4b09
+BRENDAN: Quem é? Ah, {PLAYER}?\nAdivinha? Tô na ROTA 119 agora.\pTem um rio grande aqui, e\nchove o tempo todo.\pFiquei encharcado até os ossos!$
+
+[MatchCall_Text_Brendan8] 2455c468c9
+BRENDAN: {PLAYER}!\pO MONTE PYRE é um memorial pros\nPOKéMON que já partiram.\pDeve ser por isso que tá cheio\nde POKéMON do tipo FANTASMA!$
+
+[MatchCall_Text_Brendan9] 0963666fbd
+BRENDAN: E aí, {PLAYER}.\pEu tava voltando pras águas\ntermais de LAVARIDGE.\pMas perto da TRILHA ESCARPADA,\ntopei com uns tipos mal-encarados.\pAqueles esquisitos…\nAcho que eram da EQUIPE MAGMA.$
+
+[MatchCall_Text_Brendan10] a144dba0ca
+BRENDAN: Oi, {PLAYER}!\nViu as notícias?\pDizem que o CAP. STERN descobriu\no CAMINHO SUBMARINO na sua\lexpedição de submarino.$
+
+[MatchCall_Text_Brendan11] 990c663350
+BRENDAN: E aí, {PLAYER}!\nNão acha irado?\pMesmo sem barco, dá pra\natravessar o mar com o golpe\lde um POKéMON.\pE tem um golpe que te leva\naté o fundo do mar.\pCara, os POKéMON fazem de tudo!$
+
+[MatchCall_Text_Brendan12] 69bc26f428
+BRENDAN: Opa, {PLAYER}!\nComo você tá?\pJá achou o caminho pro outro lado\nbloqueado quando tava no mar?\pTente mergulhar fundo e seguir\nas fossas lá no fundo.\pQuando chegar do outro lado,\nsuba pra superfície. Simples!$
+
+[MatchCall_Text_Brendan13] 9603a4b9e2
+BRENDAN: E aí, {PLAYER}!\pComo vão as coisas? Tá completando\na sua POKéDEX direitinho?\pOuvi um boato de que existem\nPOKéMON super antigos por aí.\lE não é um só: são três!\pEu adoraria capturar nem que fosse um…$
+
+[MatchCall_Text_Brendan14] 9e7f1cf914
+BRENDAN: {PLAYER}!\nFiquei sabendo!\pVocê venceu o LÍDER do GINÁSIO\nde SOOTOPOLIS? Demais!\pVocê tá chegando bem perto agora!$
+
+[MatchCall_Text_Brendan15] 44964362a7
+BRENDAN: Não tem um TREINADOR em\ntoda HOENN que não saiba quem\lvocê é, {PLAYER}!\pQuando conto que sou seu amigo,\n{PLAYER}, todo mundo fica\lcom inveja!$
+
+[MatchCall_Text_Wally1] 1f0d1f2ba9
+WALLY: Ah, {PLAYER}!\pTô ficando mais saudável e\ncom mais disposição.\pEspero virar TREINADOR como\nvocê logo, {PLAYER}!$
+
+[MatchCall_Text_Wally2] 11af9d591d
+WALLY: {PLAYER}, olá!\pDepois que o TÚNEL RUSTURF foi\naberto, a WANDA ficou muito feliz!$
+
+[MatchCall_Text_Wally3] 502649ec31
+WALLY: Ah, {PLAYER}!\pEu… Eu saí da casa do meu tio em\nVERDANTURF sem avisar ninguém.\pSerá que ele tá furioso comigo…\p{PLAYER}, você entende como\neu me sinto, né?$
+
+[MatchCall_Text_Wally4] 1b74c1fbba
+WALLY: {PLAYER}?\nSou eu, o WALLY!\pO mundo dos TREINADORES é incrível!\pQuando tô com os meus POKéMON,\ntodo tipo de gente me cumprimenta!\pÉ como se todo mundo se\nconectasse pelos POKéMON!$
+
+[MatchCall_Text_Wally5] 98b6aad9dd
+WALLY: {PLAYER}? É incrível!\nAquele RALTS que a gente capturou?\lEle evoluiu, {PLAYER}!\pTalvez eu tenha talento…\pAh, mas não devo ficar me\nachando assim!\pAfinal, quem merece elogio\nsão os POKéMON!$
+
+[MatchCall_Text_Wally6] 69f916151f
+… … … … … …\n… … … … … …\pParece que o WALLY está fora da\nárea de cobertura do POKéNAV…$
+
+[MatchCall_Text_Wally7] 805c26cb51
+WALLY: Ah, {PLAYER}!\pAntes de te conhecer, eu quase\nnunca saía de casa…\pMas agora tô numa aventura com\nos meus próprios POKéMON…\p{PLAYER}…\nObrigado…$
+
+[MatchCall_Text_Scott1] 70b204da5f
+SCOTT: Opa, {PLAYER}{KUN}!\pSabe como dá pra achar POKéMON\nem todo lugar?\pNas montanhas, no mar,\nno mato alto em qualquer canto?\pIgual aos POKéMON, dá pra achar\nTREINADORES em todo lugar também.\pPor isso, eu também tenho que correr\npra todo lugar. Que correria!$
+
+[MatchCall_Text_Scott2] 95790e272c
+SCOTT: Tô na ROTA 119 agora.\nTá lotada de TREINADORES!\pE parece que tem mato alto\npra todo lado.\pAndar de bermuda aqui me\ndá uma coceira!$
+
+[MatchCall_Text_Scott3] 7656c56868
+SCOTT: Oi, oi, {PLAYER}{KUN}!\pJá teve a chance de subir\no MONTE PYRE?\pO lugar é um memorial pros\nPOKéMON que já partiram.\pTodo TREINADOR devia subir até\no topo pelo menos uma vez.$
+
+[MatchCall_Text_Scott4] a8c654fb90
+SCOTT: Oi, {PLAYER}{KUN}!\pTenho ouvido falar de umas gangues\nesquisitas que andam incomodando.\pEQUIPE MAGMA e EQUIPE AQUA,\nacho que eram.\pImagino que tenha uns TREINADORES\nhabilidosos entre eles.\p…Mas, se forem só bandidos…$
+
+[MatchCall_Text_Scott5] 369105a5e1
+SCOTT: Ah, oi, {PLAYER}{KUN}.\pSerá que tem TREINADORES fortes\nno fundo do mar?\pNão dá pra eu ir conferir.\nPra começar, não sei nadar.\lE não crio POKéMON…$
+
+[MatchCall_Text_Scott6] be48cdacd0
+SCOTT: Oi, oi, {PLAYER}{KUN}!\pSabe que dá pra desafiar a\nLIGA POKéMON quando você junta\ltodas as INSÍGNIAS?\pCom o seu talento, chegar ao topo\nda LIGA não é um sonho distante.\pMas sabia?\nTem um lugar ainda melhor.\pMas, por enquanto, é só isso\nque eu vou dizer.\pÉ algo pra você esperar\nansiosamente.\pQuando você vencer a LIGA POKéMON\ne entrar pro HALL\lDA FAMA!$
+
+[MatchCall_Text_Scott7] b438f2a31f
+… … … … … …\n… … … … … …\pParece que o SCOTT está fora da\nárea de cobertura do POKéNAV…$
+
+[MatchCall_Text_Norman1] 60efa16a83
+PAPAI: Em RUSTBORO, tem um homem\nconhecido pelo nome estranho\lde CORTADOR.\pSe passar por lá, devia\nfazer uma visita a ele.$
+
+[MatchCall_Text_Norman2] 07be8a920c
+PAPAI: Hm… Pouco a pouco, mas\ncom muita firmeza, você tá\lficando mais forte, {PLAYER}.\pQuanto mais forte você fica, mais\nlonge e mais alto voa de mim\le da sua mãe…\pÉ um sentimento difícil de explicar.$
+
+[MatchCall_Text_Norman3] cf55fafbe8
+PAPAI: Entendi…\nVocê juntou quatro INSÍGNIAS…\pAgora não tem como evitar.\nVamos batalhar, como prometi.\pVenha quando quiser.\nVamos todos te esperar!$
+
+[MatchCall_Text_Norman4] e2de0012a6
+PAPAI: {PLAYER}! Vá visitar a sua\nmãe de vez em quando.\pEu vou ficar aqui e redobrar\no meu treino.\pO caminho das batalhas é profundo\ne implacável!$
+
+[MatchCall_Text_Norman5] d341d20e5d
+PAPAI: Ah, oi, {PLAYER}!\pO quê? EMBLEMA MAGMA?\nNão sei do que se trata.\pMas, com um nome desses, deve\nter alguma ligação com um vulcão!$
+
+[MatchCall_Text_Norman6] ea07cd623b
+PAPAI: Hiyah! Haah! Dwah!\p…Hã? {PLAYER}!\pVocê me pegou bem no meio de\num treino de POKéMON!$
+
+[MatchCall_Text_Norman7] 133efc3b4a
+PAPAI: {PLAYER}!\pQuem diria que você ia chegar\nao topo da LIGA POKéMON…\pCerto!\nEu não vou ficar pra trás!$
+
+[MatchCall_Text_Norman8] 603378a848
+PAPAI: Hm? {PLAYER}?\nQue boa hora!\pDesta vez, eu é que vou te\ndesafiar pra uma batalha.\pEstou te esperando no GINÁSIO de\nPETALBURG. Aceite quando quiser!$
+
+[MatchCall_Text_Norman9] f2bca0c536
+PAPAI: …Você me surpreende, {PLAYER}.\nAté onde você ainda vai voar?$
+
+[MatchCall_Text_Steven1] 5da74eef66
+STEVEN: Oi, {PLAYER}{KUN}!\pJá foi a MAUVILLE?\pVisite a BICICLETARIA\ne pegue uma BICICLETA MACH.\pDepois, explore a CAVERNA\nGRANITO de ponta a ponta.\pTalvez você faça uma descoberta\nnova lá.$
+
+[MatchCall_Text_Steven2] 18bb935075
+STEVEN: Oi, {PLAYER}{KUN}!\pJá conheci muitos TREINADORES\ndiferentes até agora.\pMas você é uma pessoa única.\nNão é como ninguém.$
+
+[MatchCall_Text_Steven3] ba0348b60a
+STEVEN: Oi, {PLAYER}{KUN}!\pQuando você está numa aventura\ncom os seus POKéMON, o que pensa?\pVocê vê eles como parceiros\nfortes?\pOu como companheiros\ndivertidos?\pDependendo de como você pensa, o\nsentido da sua aventura muda.$
+
+[MatchCall_Text_Steven4] fc434b7811
+STEVEN: Alô?\n{PLAYER}{KUN}?\pEstou com um probleminha\nno CENTRO ESPACIAL.\pDesculpe, mas não posso falar agora.\nTchau!$
+
+[MatchCall_Text_Steven5] f467ca1796
+STEVEN: Ah!\n{PLAYER}{KUN}!\pNão precisa falar nada.\nA hora de conversar já passou.\pVocê tem que acreditar em si\ne fazer o que é certo.$
+
+[MatchCall_Text_Steven6] ab7d4174c3
+… … … … … …\pParece que o STEVEN não está\natendendo a ligação…$
+
+[MatchCall_Text_Steven7] dd2f02b4e6
+STEVEN: {PLAYER}{KUN}… Parabéns por\nentrar no HALL DA FAMA.\p… … … … … …\n… … … … … …\pEspero que a gente se encontre\nde novo por aí!$
+
+[MatchCall_Text_BirchRegisterCall] 5f174d0eb6
+PROF. BIRCH: Ah, {PLAYER}{KUN}!\nJá fiquei sabendo de você!\pParece que o seu POKéNAV ganhou\no sistema de CHAMADAS.\pBom, então vou me registrar também!\pAssim, eu posso avaliar a sua\nPOKéDEX mesmo com você\lem campo.\p… … … … … …$
+
+[MatchCall_Text_RegisteredBirch] 2510c06e13
+PROF. BIRCH foi registrado\nno POKéNAV.$
+
+[MatchCall_Text_UnusedProfBirch] 5a931778df
+PROF. BIRCH: Com a POKéDEX e o\nPOKéNAV, estudar POKéMON\lfica mais divertido, né?$
+
+[MatchCall_Text_MrStone1] 6bd7a98380
+SR. STONE: Opa? {PLAYER}{KUN}!\pSe você me ligou, o POKéNAV\ndeve estar funcionando direito!\pOutras pessoas vão ser registradas,\nentão tente ligar pra elas também!\pBom! Bom!\nVocê parece bem feliz!\pHm…\nComo eu sei disso?\pÉ que estou olhando você\nda janela do meu escritório!\pWahahaha!\nAté mais!$
+
+[MatchCall_Text_MrStone2] 6409913130
+SR. STONE: Opa? {PLAYER}{KUN}!\pO que houve? Esqueceu daquele\nmeu pequeno favor?\pPreciso que entregue a minha carta\npro STEVEN, em DEWFORD.\pDepois, entregue a nossa encomenda\npro CAP. STERN, em SLATEPORT.\pVocê lembra, né?\pAgora, como sou um PRESIDENTE\nocupado, tenho que ir! Tchauzinho!$
+
+[MatchCall_Text_MrStone3] 8a7c64bb8c
+SR. STONE: Ah! {PLAYER}{KUN}!\pAh, então você encontrou o STEVEN!\nTenho que te recompensar!\pQuando voltar a RUSTBORO,\nvenha me ver no meu escritório.\pVou estar te esperando!$
+
+[MatchCall_Text_MrStone4] 368a97e18d
+SR. STONE: Ah! {PLAYER}{KUN}!\pSabia que a DEVON estava\ncavando o TÚNEL RUSTURF?\pMas paramos a obra pra\nproteger os POKéMON da região.\pÉ óbvio, na verdade.\pÉ mais importante deixar os POKéMON\nviverem em paz do que pensar\lna nossa conveniência.$
+
+[MatchCall_Text_MrStone5] c8cc4f1ae6
+SR. STONE: Alô, alô, {PLAYER}{KUN}!\pSoube por alguém de PETALBURG\nque o NORMAN é seu pai!\pNão é à toa que você tem\ntanta capacidade!$
+
+[MatchCall_Text_MrStone6] 589b752b90
+SR. STONE: Como é?\pVocê batalhou com o seu próprio\npai e venceu?\pIsso é impressionante!\pNão fazia ideia de que tinha feito\namizade com alguém tão especial!\lWahaha!$
+
+[MatchCall_Text_MrStone7] 59ccd8c052
+Alô!\nAqui é a CORPORAÇÃO DEV…\lAh, olá, {PLAYER}!\pO nosso PRESIDENTE estava aqui\nagora há pouco, mas saiu.\pO PRESIDENTE é ocupado, mas você\nparece ter tanto a fazer quanto\nele, {PLAYER}.$
+
+[MatchCall_Text_MrStone8] 4f91574bf8
+…Hã? …Como é?\pGROU… Sim? …DON?\pTá cortando…\n…não ouço…\pBZZZZ…$
+
+[MatchCall_Text_MrStone9] d84332fdce
+…Hã? …Como é?\pCamin… Sim? …Submar…?\pTá cortando…\n…não ouço…\pBZZZZ…$
+
+[MatchCall_Text_MrStone10] 28343be346
+SR. STONE: {PLAYER}{KUN}! Sou eu!\pParece que você se envolveu em\ntodo tipo de coisa, mas eu, ocupado,\lnão faço ideia do quê!\pMas peço que você siga o caminho\nem que acredita, até o fim.\pVou estar sempre do seu lado!\nSe cuida!$
+
+[MatchCall_Text_MrStone11] b85f7b9d7a
+SR. STONE: … … … … … …\nSerá que é {PLAYER}{KUN}?\pSua voz tá tão cheia de confiança\nque não te reconheci na hora!\pHm! Venha visitar a gente na\nDEVON qualquer dia!$
