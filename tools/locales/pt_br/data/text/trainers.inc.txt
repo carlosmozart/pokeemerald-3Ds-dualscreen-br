@@ -1432,3 +1432,507 @@ Ah, entendo.\nBom saber.$
 
 [Route114_Text_AngelinaPostBattle] cb4364c0ad
 Alguns POKéMON mudam tanto quando\nevoluem que chega a assustar!$
+
+[Route115_Text_TimothyIntro] fd3f1111f0
+Hum…\nVocê parece bem capaz…\lDeixe-me te fazer companhia!$
+
+[Route115_Text_TimothyDefeat] e67652ee03
+Você é muito mais forte do que\neu imaginava!$
+
+[Route115_Text_TimothyPostBattle] 955162aa8c
+Não existe gênio de nascença.\nTudo depende de esforço!\lÉ o que eu acredito…$
+
+[Route115_Text_TimothyRegister] ec034c04ab
+Hum… Fazia tempo que eu não perdia\ndesse jeito.\pSe permitir, quero outra chance\nde batalhar.$
+
+[Route115_Text_TimothyRematchIntro] cce2a74d3d
+Hum… Como sempre, a sua agilidade\nfala por si.\lVenha, me faça companhia!$
+
+[Route115_Text_TimothyRematchDefeat] dc1d24637f
+Forte como sempre!$
+
+[Route115_Text_TimothyPostRematch] 604c0e99f1
+Tudo é questão de esforço!\pPerdi porque não me esforcei\no bastante!$
+
+[Route115_Text_KoichiIntro] 540b36b82b
+Você!\pO meu MACHOP!\pExige uma batalha!$
+
+[Route115_Text_KoichiDefeat] afcfdfb515
+Ai, ai, ai!$
+
+[Route115_Text_KoichiPostBattle] 262fd13524
+A minha turma de MACHOP!\pEnquanto eles buscarem força, eu vou\nficar forte junto com eles!$
+
+[Route115_Text_NobIntro] 633fc8ebf3
+A minha maior técnica é quebrar\ntijolo com a testa!$
+
+[Route115_Text_NobDefeat] c537d46c20
+Ugaaaah!\nQuebrei a cabeça!$
+
+[Route115_Text_NobPostBattle] 665062175b
+Ando ensinando caratê aos meus\nPOKéMON.\pParece que eles vão ficar bem\nmelhores que eu. Que empolgante.$
+
+[Route115_Text_NobRegister] 1ec5c0f884
+Você me impressiona! Me dê uma\nrevanche quando eu refizer o treino!$
+
+[Route115_Text_NobRematchIntro] 34724c70cf
+Depois que você me venceu, treinamos\npesado pra melhorar.\lVem, dá uma revanche pra gente!$
+
+[Route115_Text_NobRematchDefeat] 3e71731fe9
+Ugaaah!\nPerdemos de novo!$
+
+[Route115_Text_NobPostRematch] 750a58a18b
+Os meus POKéMON vão ficar mais fortes!\nVou dobrar o treino!$
+
+[Route115_Text_CyndyIntro] b8f99cf5c5
+Esta praia é o meu lugar secreto de\ntreino! Não se meta!$
+
+[Route115_Text_CyndyDefeat] 9128b01057
+Não treinei o bastante!$
+
+[Route115_Text_CyndyPostBattle] 4882eb09e9
+A areia amortece o impacto e evita\nlesões.\lÉ o lugar perfeito pra treinar.$
+
+[Route115_Text_CyndyRegister] 6fb872803c
+Tá bom, pode vir aqui à vontade.\nEm troca, quero batalhar de novo.$
+
+[Route115_Text_CyndyRematchIntro] a78ea41839
+Certo, vamos começar essa batalha!$
+
+[Route115_Text_CyndyRematchDefeat] c8eee221b1
+Eu sei lutar, mas os meus POKéMON…$
+
+[Route115_Text_CyndyPostRematch] aaaebedccc
+Mesmo perdendo, ainda me divirto.\nDeve ser porque amo os POKéMON.$
+
+[Route115_Text_HectorIntro] 73a957ee8c
+Tenho um POKéMON raro!\nQuer que eu te mostre?$
+
+[Route115_Text_HectorDefeat] 6787a4fe14
+Você…\nVocê quer o meu POKéMON, né?$
+
+[Route115_Text_HectorPostBattle] 8208db2b6c
+Tenho este POKéMON raro.\nIsso já me deixa satisfeito.$
+
+[Route115_Text_KyraIntro] e3e66899ed
+Vou batalhar enquanto corro!\nTente me acompanhar!$
+
+[Route115_Text_KyraDefeat] a3f15e6b77
+Uf, uf…$
+
+[Route115_Text_KyraPostBattle] a52533a495
+Errei em tentar batalhar enquanto\ncorria!\pVou dar uma corrida pra me acalmar…$
+
+[Route115_Text_JaidenIntro] 99ba64cb81
+Toma essa!\nUltra-ataque ninja POKéMON!$
+
+[Route115_Text_JaidenDefeat] fbcd135702
+Buááá!\nA estratégia falhou!$
+
+[Route115_Text_JaidenPostBattle] bd5d5df159
+Mas os meus POKéMON foram ultra,\nnão foram?$
+
+[Route115_Text_HeleneIntro] f6ebcf1442
+Os meus POKéMON têm força de\nfaixa-preta!$
+
+[Route115_Text_HeleneDefeat] 2a054d88b7
+Que humilhação!$
+
+[Route115_Text_HelenePostBattle] 0d5b46f0a2
+Quase nunca encontro alguém melhor\nque eu…\pJá entendi!\nVocê é LÍDER de GINÁSIO, não é?$
+
+[Route115_Text_AlixIntro] ffd8766274
+Os nossos olhos se cruzaram!\nAgora não tem como fugir!$
+
+[Route115_Text_AlixDefeat] 29211a23f3
+Argh!\nNada mal!$
+
+[Route115_Text_AlixPostBattle] 262c7f60da
+Bom, fazer o quê.\nAcho que vou pra casa de TELEPORTE.$
+
+[Route115_Text_MarleneIntro] be520efb4d
+Você atrapalhou a minha meditação…\nVai pagar por isso.$
+
+[Route115_Text_MarleneDefeat] c664f7eb21
+Você quebrou a minha concentração!$
+
+[Route115_Text_MarlenePostBattle] d681e7d95a
+Eu meditava com os meus POKéMON.\nMas este lugar não é muito tranquilo…$
+
+[Route116_Text_ClarkIntro] a2f875224c
+Se o túnel não atravessa, então\neu passo por cima.$
+
+[Route116_Text_ClarkDefeat] 424cf9bda2
+Uf… Uf…\nPerder me cansou…$
+
+[Route116_Text_ClarkPostBattle] e002d096b0
+Não faz mal não ter túnel.\nPra um ALPINISTA, montanha é estrada!$
+
+[Route116_Text_JoeyIntro] fd0759d6a4
+Os meus POKéMON são demais!\nOlha só!$
+
+[Route116_Text_JoeyDefeat] f55bf0744f
+Ai! Um arranhão!\nTenho que pôr um curativo!$
+
+[Route116_Text_JoeyPostBattle] 5795b804c2
+Curativo é sinal de durão!\nGanhei mais um!$
+
+[Route116_Text_JoseIntro] 6ad7b4d718
+Os meus POKéMON INSETO são fortes!\nVamos batalhar!$
+
+[Route116_Text_JoseDefeat] 697ccf7180
+Perdi!\nAchei que ia te pegar!$
+
+[Route116_Text_JosePostBattle] 74fa5e774f
+POKéMON INSETO evoluem rápido.\nEntão também ficam fortes rápido.$
+
+[Route116_Text_JaniceIntro] 520cf2f34b
+Vou te mostrar como o meu POKéMON\nadorável é forte!$
+
+[Route116_Text_JaniceDefeat] f8e71f15e8
+Você está um degrau acima de mim…$
+
+[Route116_Text_JanicePostBattle] 133b896fc7
+POKéMON com fofura e força ao mesmo\ntempo: acho que esse é o ideal.$
+
+[Route116_Text_JerryIntro] f20ce83fca
+A gente aprende de tudo na ESCOLA\nDE TREINADORES.\pQuero testar tudo de verdade!$
+
+[Route116_Text_JerryDefeat] 0eef80b949
+Vacilei na escola…\nPor isso perdi.$
+
+[Route116_Text_JerryPostBattle] 2cb18560e3
+Vou ter que refazer umas matérias na\nESCOLA DE TREINADORES.\lSenão a ROXANNE vai ficar brava.$
+
+[Route116_Text_JerryRegister1] 9e74e3609f
+Aprendi na ESCOLA DE TREINADORES que\no POKéNAV registra TREINADORES.\pNão entendi bem o que isso quer\ndizer, então posso só testar?$
+
+[Route116_Text_JerryRegister2] 9e74e3609f
+Aprendi na ESCOLA DE TREINADORES que\no POKéNAV registra TREINADORES.\pNão entendi bem o que isso quer\ndizer, então posso só testar?$
+
+[Route116_Text_JerryRematchIntro] ab57dd216f
+Ando estudando sério na ESCOLA\nDE TREINADORES.\lNão vou perder como da última vez.$
+
+[Route116_Text_JerryRematchDefeat] b976c81758
+Hã?\nEu estudei direitinho.$
+
+[Route116_Text_JerryPostRematch] 2cb18560e3
+Vou ter que refazer umas matérias na\nESCOLA DE TREINADORES.\lSenão a ROXANNE vai ficar brava.$
+
+[Route116_Text_KarenIntro] e0c261d7b0
+Estudo na escola e estudo no\ncaminho de casa também!$
+
+[Route116_Text_KarenDefeat] 6bab127a08
+Estou em choque. Eu perdi?$
+
+[Route116_Text_KarenPostBattle] 020ddb8dd0
+Aaah, assim nunca vou ser uma\nTREINADORA elegante como a ROXANNE!$
+
+[Route116_Text_KarenRegister1] f9d6df1d57
+Uau! Isso não é um POKéNAV?\nEu também tenho! Me registre!$
+
+[Route116_Text_KarenRegister2] f9d6df1d57
+Uau! Isso não é um POKéNAV?\nEu também tenho! Me registre!$
+
+[Route116_Text_KarenRematchIntro] 282d947020
+Estudei muito desde que te vi.\nVocê tem que ver o que aprendi!$
+
+[Route116_Text_KarenRematchDefeat] 39ed71fe96
+Estou em choque.\nPerdi de novo?$
+
+[Route116_Text_KarenPostRematch] d016a65335
+Você venceu a ROXANNE?\nEntão não consigo te vencer. Ainda não.$
+
+[Route116_Text_SarahIntro] b1b4f02957
+Só pra você saber: nunca fui superada\npor ninguém em nada.$
+
+[Route116_Text_SarahDefeat] 1bffff22cd
+Minha nossa.\nIsso é uma experiência nova pra mim.$
+
+[Route116_Text_SarahPostBattle] 3cf3b64b09
+A minha vida de luxo me dá tudo o\nque eu poderia desejar.\pMas, quando o assunto é POKéMON,\na minha riqueza não vale nada.$
+
+[Route116_Text_DawsonIntro] 47ef380bc7
+Quando você puser os olhos no pelo\nmaravilhoso dos meus POKéMON, a\lbeleza deles vai te desarmar!$
+
+[Route116_Text_DawsonDefeat] 2727535435
+Ai, meu bem, diz que não é verdade!$
+
+[Route116_Text_DawsonPostBattle] d1cff0eed1
+Ai, não, não, não!\nVocê bagunçou o pelo dos meus POKéMON!\lE estragou o meu penteado também!\lVou ter que ligar pro meu cabeleireiro!$
+
+[Route116_Text_DevanIntro] 3a1cb78171
+A gente vai te fazer tremer!$
+
+[Route116_Text_DevanDefeat] c8febf0fca
+Aiaiai!\nNem teve disputa!$
+
+[Route116_Text_DevanPostBattle] b1105a8d37
+Devia tentar POKéMON de outros\ntipos, é o que eu devia fazer.$
+
+[Route116_Text_JohnsonIntro] 2614b15eae
+Aqui em cima não tem saída.\nEstou entediado, vamos batalhar?$
+
+[Route116_Text_JohnsonDefeat] b6aaa39ec2
+Foi divertido, mesmo perdendo.$
+
+[Route116_Text_JohnsonPostBattle] aa619083e2
+Quer ficar aqui me fazendo\ncompanhia?$
+
+[Route117_Text_IsaacIntro] fdf162e497
+Escuta, você topa batalhar com os\nPOKéMON que eu ando criando?$
+
+[Route117_Text_IsaacDefeat] 43049986b4
+Você criou os seus muito bem…$
+
+[Route117_Text_IsaacPostBattle] 425106120c
+POKéMON não é só força.\pLapidar um traço único da\npersonalidade é outro jeito de\lcurtir os POKéMON.$
+
+[Route117_Text_IsaacRegister] a3e588db8e
+Vou dobrar o treino.\nVocê viria ver como estamos?$
+
+[Route117_Text_IsaacRematchIntro] 850c65f0ce
+Os POKéMON que ando criando estão\nindo bem, como antes.$
+
+[Route117_Text_IsaacRematchDefeat] 3c4385778e
+Você sabe criar POKéMON direitinho.\nTalvez tenha jeito pra CENTRO DE\lCUIDADOS…$
+
+[Route117_Text_IsaacPostRematch] 7f7aa0c4a5
+Os seus POKéMON estão crescendo bem!\nDevia inscrever eles em CONCURSOS.$
+
+[Route117_Text_LydiaIntro] 9963f15896
+Permita que eu avalie se você criou\nos seus POKéMON direito.$
+
+[Route117_Text_LydiaDefeat] 3fe76f6b93
+Sim, eles estão crescendo direito.$
+
+[Route117_Text_LydiaPostBattle] 1436fd9b1e
+Tente criar POKéMON prestando mais\natenção na personalidade deles.$
+
+[Route117_Text_LydiaRegister] dddcefab28
+Que bom ter conhecido um TREINADOR\ntão bom. Espero te ver de novo.$
+
+[Route117_Text_LydiaRematchIntro] 564708724a
+Permita que eu reavalie se você\ncriou os seus POKéMON direito.$
+
+[Route117_Text_LydiaRematchDefeat] 909260ebc5
+Estão crescendo de forma admirável.$
+
+[Route117_Text_LydiaPostRematch] fc9632ab0e
+Os POKéMON parecem gostar de tipos\ndiferentes de {POKEBLOCK}, conforme a natureza.$
+
+[Route117_Text_DylanIntro] e5aad7e13f
+Estou no meio de um triatlo, mas,\nsei lá, vamos batalhar!$
+
+[Route117_Text_DylanDefeat] 9036878232
+Acabou a minha energia!$
+
+[Route117_Text_DylanPostBattle] ab9cb8fbf0
+Acho que vacilei…\pTalvez eu tenha caído pro último lugar\ndurante a batalha…$
+
+[Route117_Text_DylanRegister] c8a3888f38
+Os POKéMON também têm que ser fortes?\nQueria que você me treinasse!$
+
+[Route117_Text_DylanRematchIntro] 0af9cd6129
+Estou bem no meio de um triatlo, mas\ncom folga na liderança.\lVamos fazer uma batalha rápida!$
+
+[Route117_Text_DylanRematchDefeat] 39e51f6340
+Acabou a minha energia de novo!$
+
+[Route117_Text_DylanPostRematch] e03f8bf115
+Fui o melhor na natação e no ciclismo,\nmas ainda não tenho tanta confiança\lcom os POKéMON.$
+
+[Route117_Text_MariaIntro] 5a62836473
+Faço o treino de triatlo com POKéMON,\nentão confio bem na minha velocidade.$
+
+[Route117_Text_MariaDefeat] 8120ea10d6
+Acho que preciso treinar mais.$
+
+[Route117_Text_MariaPostBattle] 904e479e81
+O treino só faz sentido se for\nconstante.\pCerto! Vou voltar a treinar!\nAmanhã!$
+
+[Route117_Text_MariaRegister] 9222dd4292
+Parece que você treina direitinho…\nSe quiser, batalho com você depois!$
+
+[Route117_Text_MariaRematchIntro] 553cc50e98
+Continua treinando?\nEu continuo!\lDeixa eu te mostrar a prova!$
+
+[Route117_Text_MariaRematchDefeat] 8120ea10d6
+Acho que preciso treinar mais.$
+
+[Route117_Text_MariaPostRematch] 753ab42468
+Volto a treinar amanhã.\nVamos batalhar de novo um dia!$
+
+[Route117_Text_DerekIntro] 877da65939
+Já fui CAÇA-INSETOS!\nE agora sou MANÍACO POR INSETOS!\pMas o meu amor pelos POKéMON\ncontinua o mesmo!$
+
+[Route117_Text_DerekDefeat] 291e56e05e
+A minha falta de jeito também\ncontinua a mesma…$
+
+[Route117_Text_DerekPostBattle] 920a75a460
+Só segui o meu coração, e agora me\nchamam de MANÍACO POR INSETOS…\pBom, sou especialista em POKéMON\nINSETO, então é natural.$
+
+[Route117_Text_AnnaIntro] 5438d34e5e
+ANNA: Estou com a minha caloura\nlinda. Tenho que mandar bem!$
+
+[Route117_Text_AnnaDefeat] 6dfc3fad85
+ANNA: Estou com a minha caloura\nlinda! Me deixa ganhar!$
+
+[Route117_Text_AnnaPostBattle] 220c3f04f7
+ANNA: Os seus POKéMON têm umas\ncombinações boas.\pEu diria que você só perde pra gente!$
+
+[Route117_Text_AnnaAndMegRegister] 65ab5b37d7
+ANNA: Não vamos deixar barato!\nVocê vai voltar, não vai?$
+
+[Route117_Text_AnnaNotEnoughMons] a2fcb52031
+ANNA: Se quiser batalhar com a gente,\ntraga dois POKéMON.$
+
+[Route117_Text_MegIntro] e09d60a200
+MEG: Vou fazer dupla com a minha\nveterana incrível e te vencer!$
+
+[Route117_Text_MegDefeat] b7d9f7aac1
+MEG: Ah, não!\nDesculpa, ANNA! Te decepcionei…$
+
+[Route117_Text_MegPostBattle] ab930168ed
+MEG: Eu atrapalhei a ANNA…\nSe não fosse eu, ela teria ganhado!$
+
+[Route117_Text_MegNotEnoughMons] 965569ebe5
+MEG: Você só tem um POKéMON?\nEntão não dá pra batalhar.\pA gente quer uma batalha 2 contra 2.$
+
+[Route117_Text_AnnaRematchIntro] 87d2c2a5f9
+ANNA: Não posso continuar perdendo na\nfrente da minha caloura, né?$
+
+[Route117_Text_AnnaRematchDefeat] 40a6db5672
+ANNA: Não consegui entrar no ritmo.$
+
+[Route117_Text_AnnaPostRematch] 220c3f04f7
+ANNA: Os seus POKéMON têm umas\ncombinações boas.\pEu diria que você só perde pra gente!$
+
+[Route117_Text_AnnaRematchNotEnoughMons] a2fcb52031
+ANNA: Se quiser batalhar com a gente,\ntraga dois POKéMON.$
+
+[Route117_Text_MegRematchIntro] 0435e764c3
+MEG: Vou fazer dupla com a minha\nveterana e ganhar desta vez!$
+
+[Route117_Text_MegRematchDefeat] 4f149a8188
+MEG: Forte demais!$
+
+[Route117_Text_MegPostRematch] 6121f55da5
+MEG: Batalhei junto com a minha\nveterana, mas perdemos…\pQue desanimador…$
+
+[Route117_Text_MegRematchNotEnoughMons] 965569ebe5
+MEG: Você só tem um POKéMON?\nEntão não dá pra batalhar.\pA gente quer uma batalha 2 contra 2.$
+
+[Route117_Text_MelinaIntro] dec30176b8
+Não é gostoso? Batalhar olhando\npra flores bonitas?$
+
+[Route117_Text_MelinaDefeat] 2b769b0b85
+Ah, que impressionante!$
+
+[Route117_Text_MelinaPostBattle] ad743a3c4d
+É uma delícia correr olhando\npras flores.$
+
+[Route117_Text_BrandiIntro] c84888df13
+Vou te mostrar o poder escondido\nnum POKéMON PSÍQUICO!$
+
+[Route117_Text_BrandiDefeat] be800bd40b
+Espantoso!$
+
+[Route117_Text_BrandiPostBattle] 49ca161788
+POKéMON PSÍQUICOS são complexos.\nVocê devia pegar alguns.$
+
+[Route117_Text_AishaIntro] fbf3fc0a93
+Foque em ganhar.\nÉ assim que eu batalho!$
+
+[Route117_Text_AishaDefeat] 21d6b56501
+Não perco tempo com raiva por\nperder: prefiro treinar.$
+
+[Route117_Text_AishaPostBattle] 04f9e9c71f
+Acho que, se você se preocupa em\nperder, é mais fácil perder.$
+
+[Route118_Text_RoseIntro] f4e215b53f
+O aroma das flores tem um poder\nmágico. Purifica o corpo e a alma.$
+
+[Route118_Text_RoseDefeat] 16719de9cc
+Ai, minha nossa.\nParece que perdi.$
+
+[Route118_Text_RosePostBattle] 5a311bbe1d
+Flores, POKéMON…\nAmo tudo o que cheira bem.\pCoisas fedidas…\nDispenso.$
+
+[Route118_Text_RoseRegister] 4e08990896
+Snif… Esse cheiro… é um POKéNAV!\nTemos que nos registrar!$
+
+[Route118_Text_RoseRematchIntro] 45f3f17109
+O aroma doce te atraiu?$
+
+[Route118_Text_RoseRematchDefeat] 39b175638c
+O poder do aroma…\nNão adiantou muito.$
+
+[Route118_Text_RosePostRematch] 9573cfa7bc
+Se usar bem um aroma doce, os\nPOKéMON são atraídos por ele.$
+
+[Route118_Text_PerryIntro] 81cf4c686f
+POKéMON PÁSSAROS que VOAM com\nelegância pelo céu… São os melhores!$
+
+[Route118_Text_PerryDefeat] 784d8e88ef
+Argh…\nCaí…$
+
+[Route118_Text_PerryPostBattle] e4139d1a6d
+Você tem POKéMON ótimos.\nVou ter que treinar melhor os meus.$
+
+[Route118_Text_ChesterIntro] 0cf95b0619
+Alcem voo!\nMeus POKéMON PÁSSAROS!$
+
+[Route118_Text_ChesterDefeat] 7fd5cce4d6
+Alçaram voo mesmo…$
+
+[Route118_Text_ChesterPostBattle] a8a50a9e59
+Se ficassem mais fortes, poderiam\nvoar mais livres…$
+
+[Route118_Text_BarnyIntro] 6bd00b3c94
+Sou PESCADOR, mas também TREINADOR.\nCrio os POKéMON que pesco.$
+
+[Route118_Text_BarnyDefeat] bba71b13b4
+Achei que estava indo bem no treino…$
+
+[Route118_Text_BarnyPostBattle] 755f7ee861
+Não deu pra ganhar treinando POKéMON\nenquanto pescava…\pSerá que fiz as coisas pela metade?$
+
+[Route118_Text_WadeIntro] b13a7e1308
+Pros PESCADORES, o equipamento é\ntudo.\pMas pros TREINADORES, o essencial são\nos POKéMON e o coração, claro!$
+
+[Route118_Text_WadeDefeat] 9519f0f6fd
+Perdi no coração?$
+
+[Route118_Text_WadePostBattle] f9eb5714a5
+Pensando bem, pescar é uma batalha\nentre PESCADOR e POKéMON.$
+
+[Route118_Text_DaltonIntro] c39d5987a7
+Deixe a minha melodia balançar a\nsua alma!$
+
+[Route118_Text_DaltonDefeat] e64e937773
+Lá-lalalá…$
+
+[Route118_Text_DaltonPostBattle] e14a556a44
+Guitarra elétrica nem sempre precisa\nser barulhenta…\pDá pra dedilhar e tirar esta melodia\nque mexe com o coração…$
+
+[Route118_Text_DaltonRegister] 5575fc956c
+Quando eu compuser melodias melhores,\nvocê tem que vir ouvir, tá?$
+
+[Route118_Text_DaltonRematchIntro] c9230ecd27
+Uma melodia minha e dos meus POKéMON…\nDeixa a gente entregar à sua alma.$
+
+[Route118_Text_DaltonRematchDefeat] e64e937773
+Lá-lalalá…$
+
+[Route118_Text_DaltonPostRematch] 41d9911b96
+Quando eu toco, as minhas emoções\ndevem chegar a você pela guitarra…$
+
+[Route118_Text_DeandreIntro] 6a1098ff5c
+Vai, vai, vai!\nPOKéMON 1, 2 e 3!$
+
+[Route118_Text_DeandreDefeat] a64b79f2fa
+Respondam, POKéMON! Estão bem?\nPOKéMON 1, 2 e 3?!$
+
+[Route118_Text_DeandrePostBattle] ee6b9e67a0
+Não é legal eu ter uma equipe de\nbatalha POKéMON?\pPode me copiar, eu não ligo!$
