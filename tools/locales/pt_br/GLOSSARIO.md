@@ -88,6 +88,14 @@ Os nomes dos POKéMON não se traduzem.
 | Knuckle Badge | INSÍGNIA DO PUNHO | |
 | Dewford Hall | SALÃO DE DEWFORD | |
 | Seashore House / Mr. Sea | CASA DE PRAIA / SR. MAR | |
+| Oceanic Museum / Stern's Shipyard / Harbor | MUSEU OCEÂNICO / ESTALEIRO DO STERN / PORTO | |
+| Battle Tent | TENDA DE BATALHA | |
+| Pokémon Fan Club / Chairman | FÃ-CLUBE POKéMON / PRESIDENTE | |
+| Name Rater | AVALIADOR DE NOMES | |
+| Energy Guru / Effort Ribbon | GURU DA ENERGIA / FITA DO ESFORÇO | |
+| Berry Powder / Berry Crush / Direct Corner | PÓ DE FRUTA / TRITURA FRUTAS / CANTO DIRETO | os dois últimos são menus de `strings.c`: o PC dos menus deve usar os mesmos |
+| Weather Institute / Hideout | INSTITUTO DO CLIMA / ESCONDERIJO | |
+| MC / Contest Judge | APRESENTADOR / JUIZ DE CONCURSO | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
