@@ -2890,3 +2890,540 @@ Você teve mais coração!$
 
 [Route126_Text_SiennaPostBattle] 38ccc078cc
 Preciso esfriar agora…\nAcho que vou dar um mergulho.$
+
+[Route127_Text_CamdenIntro] 0da4657bde
+Dá pra ver na sua cara.\nVocê quer me desafiar.$
+
+[Route127_Text_CamdenDefeat] 5dc535e7e6
+Auauauauauá…$
+
+[Route127_Text_CamdenPostBattle] 892ca17a1e
+Uma batalha bem jogada me deixa\nrenovado e sereno.$
+
+[Route127_Text_DonnyIntro] f8705c92d5
+Você tem um rival pra quem odeia\nperder?$
+
+[Route127_Text_DonnyDefeat] 1409b3af94
+Argh!\nOdeio perder!$
+
+[Route127_Text_DonnyPostBattle] a36f863969
+Quem tem rival não sente que precisa\nmelhorar sempre?$
+
+[Route127_Text_JonahIntro] 3aac111dca
+Pela pesca, alcancei um estado de\nserenidade tranquila…\pPor favor, permita que eu demonstre…$
+
+[Route127_Text_JonahDefeat] bf360576fd
+Mesmo perdendo, o meu coração\ncontinua calmo…$
+
+[Route127_Text_JonahPostBattle] dc2c7183e6
+Não importa se não pesco nada.\nA linha continua na água…$
+
+[Route127_Text_HenryIntro] d88b12a161
+Opa! Não vai me dizer que fisguei\num POKéMON SURFANDO?$
+
+[Route127_Text_HenryDefeat] 4902244f8c
+Não consigo acompanhar!$
+
+[Route127_Text_HenryPostBattle] 20b00f4d35
+Ia dar trabalho se eu fisgasse os\nseus POKéMON fortes!$
+
+[Route127_Text_RogerIntro] a9f2c3470e
+Ora, ora! É uma batalha entre um fã\nde POKéMON e um fã de pesca!$
+
+[Route127_Text_RogerDefeat] d587f2b524
+Não! A minha linha embolou toda!\nAcabou a festa!$
+
+[Route127_Text_RogerPostBattle] c719c43d63
+A minha linha está dançando!\nO tango do embolo! Hahaha, argh!$
+
+[Route127_Text_AidanIntro] 614c4869d6
+POKéMON PÁSSAROS têm uma visão\nótima. Avistam presas lá do alto.$
+
+[Route127_Text_AidanDefeat] ca058168d4
+Ufa… Desisto.$
+
+[Route127_Text_AidanPostBattle] f3275932e3
+Tem muitos pontos de mergulho no\nmar por aqui.\pDá pra ver fácil lá do céu, porque\na água é mais escura.$
+
+[Route127_Text_KojiIntro] 79c028a126
+Corra descalço.\nIsso fortalece a sola dos pés!$
+
+[Route127_Text_KojiDefeat] afe5d6607a
+Ai!\nEntrou uma pedrinha na unha!$
+
+[Route127_Text_KojiPostBattle] c0b1fa08c4
+Andar descalço é ótimo.\nMas o seu TÊNIS DE CORRER também\lé legal.$
+
+[Route127_Text_KojiRegister] 4f25f54a5f
+É isso que faço com quem me vence!\nEspero que a gente repita isto.$
+
+[Route127_Text_KojiRematchIntro] 00f267b575
+Ainda corro descalço todo dia.\nA minha sola é dura!$
+
+[Route127_Text_KojiRematchDefeat] 1c88e46799
+Ai!\nAs pedrinhas furaram o meu pé!$
+
+[Route127_Text_KojiPostRematch] dc92512b2b
+Quer andar descalço um pouco?\nPra eu testar o seu TÊNIS DE CORRER?$
+
+[Route127_Text_AthenaIntro] e8b6cce6a1
+Devíamos ter uma batalha calma e\nmetódica.$
+
+[Route127_Text_AthenaDefeat] c828b1348e
+Você não me deu chance de montar\nestratégia nenhuma.$
+
+[Route127_Text_AthenaPostBattle] e343c36cd9
+Cercada pelo mar e pelo céu azuis,\nparece que o tempo anda mais devagar.$
+
+[Route128_Text_IsaiahIntro] 04a46bf9d5
+A CIDADE DE EVER GRANDE ainda está\nbem longe…$
+
+[Route128_Text_IsaiahDefeat] b2ef386383
+A minha primeira vitória também\nparece estar longe…$
+
+[Route128_Text_IsaiahPostBattle] ef93e23e5a
+A minha vida toda foi de derrotas,\nmas nunca vou desistir!$
+
+[Route128_Text_IsaiahRegister] 4ee9cf9376
+Sei que não sou bom agora, mas acho\nque um dia vou ganhar.\pPor favor, me registre no seu POKéNAV.$
+
+[Route128_Text_IsaiahRematchIntro] e5d4a2164a
+Ainda estou bem. Vou continuar nadando\naté a CIDADE DE EVER GRANDE.$
+
+[Route128_Text_IsaiahRematchDefeat] ec884888a0
+Ainda não provei a minha primeira\nvitória…$
+
+[Route128_Text_IsaiahPostRematch] 49624dd2e2
+Um dia chego a EVER GRANDE, onde\num dia vou ganhar…$
+
+[Route128_Text_KatelynIntro] 21fcb9a0de
+No triatlo, você nada, pedala e\ndepois corre uma maratona.\pÉ uma prova puxada de três etapas.$
+
+[Route128_Text_KatelynDefeat] ac7c23ec84
+Batalha POKéMON também é puxada…$
+
+[Route128_Text_KatelynPostBattle] a4a29a76eb
+Agora tenho que pedalar, mas…\nEstou quase jogando a toalha…$
+
+[Route128_Text_KatelynRegister] 204869ac42
+Bom, vou aproveitar o que der.\nQuero uma revanche um dia.$
+
+[Route128_Text_KatelynRematchIntro] fbe8420caf
+O triatlo é longo. Mas acho que o\ncaminho até o topo da LIGA também\lé longo e puxado.$
+
+[Route128_Text_KatelynRematchDefeat] a06afbbb68
+Batalha POKéMON é mesmo dura\ne implacável…$
+
+[Route128_Text_KatelynPostRematch] 7515371751
+Pense seriamente nos desafios da\nESTRADA DA VITÓRIA.$
+
+[Route128_Text_AlexaIntro] 4dacba4c28
+A gente se esforçou tanto pra\nenfrentar a LIGA POKéMON…\pNão podemos perder agora!$
+
+[Route128_Text_AlexaDefeat] 1a43a10447
+Oh!\nComo isso foi acontecer?!$
+
+[Route128_Text_AlexaPostBattle] 7bd0c3336c
+Depois de tudo o que fiz pra chegar\naqui, não vou desistir por um tropeço.$
+
+[Route128_Text_RubenIntro] 5d223491f3
+Não há TREINADOR mais forte que eu!$
+
+[Route128_Text_RubenDefeat] 1ac9d6d5f3
+Não pode ser!$
+
+[Route128_Text_RubenPostBattle] b0f27749d4
+Talvez não haja TREINADOR mais forte\nque você!$
+
+[Route128_Text_WayneIntro] af4a23a99c
+Quero visitar EVER GRANDE, então\npeguei um POKéMON que sabe CACHOEIRA\lpra subir as quedas.$
+
+[Route128_Text_WayneDefeat] 57f7788fd2
+Caí da cachoeira!$
+
+[Route128_Text_WaynePostBattle] ed80b96765
+Aaah, que droga!\pO meu POKéMON sabe CACHOEIRA, mas\nnão tenho a INSÍGNIA de SOOTOPOLIS!$
+
+[Route128_Text_HarrisonIntro] 953c35dd67
+Você parece forte demais.\nSerá que consigo ganhar?$
+
+[Route128_Text_HarrisonDefeat] a71373c61a
+Ai!\nAcho que era impossível ganhar.$
+
+[Route128_Text_HarrisonPostBattle] c405a48b4b
+Tem TREINADORES fortes de monte perto\nde EVER GRANDE.\pSerá que estou fora do meu nível?$
+
+[Route128_Text_CarleeIntro] 44f5b43540
+O sol parece mais forte nesta área.$
+
+[Route128_Text_CarleeDefeat] 929a3d52fe
+Não enxerguei direito por causa do\nreflexo do sol.$
+
+[Route128_Text_CarleePostBattle] 501d9c696d
+Tenho que voltar logo.\nPreciso passar protetor solar de novo.$
+
+[Route129_Text_ChaseIntro] 237b740f00
+É o meu primeiro triatlo.\nEstou todo tenso e nervoso!$
+
+[Route129_Text_ChaseDefeat] d9e78ba090
+Uoooaaar!\nNão consegui ganhar!$
+
+[Route129_Text_ChasePostBattle] 746c6f25c2
+Se eu ficar tenso assim, não vou\nconseguir dar tudo de mim.$
+
+[Route129_Text_AllisonIntro] 233480c76c
+Estou no meio de um triatlo, mas,\nclaro, por que não batalhar?$
+
+[Route129_Text_AllisonDefeat] d095f55027
+Eu tinha certeza que ia ganhar!$
+
+[Route129_Text_AllisonPostBattle] 58939762c0
+Sabe o que é o melhor do triatlo?\pTestar os limites da sua força e\nresistência contra a Mãe Natureza!$
+
+[Route129_Text_ReedIntro] c61aa234d4
+E aí, e aí!\nVamos nessa!$
+
+[Route129_Text_ReedDefeat] 23ac076a32
+Perdi, fui vencido.\nÉ isso, acabou!$
+
+[Route129_Text_ReedPostBattle] 5b0726a245
+Não tem nada pro perdedor.\nHora de eu ir pra casa.$
+
+[Route129_Text_TishaIntro] abcdee1de2
+Pra que a pressa?\nVamos com calma.$
+
+[Route129_Text_TishaDefeat] 3c0d85aa21
+Ai, ai.\nQueria relaxar mais um pouco…$
+
+[Route129_Text_TishaPostBattle] 13945d6019
+Não é horrível errar por estar com\npressa?\pPor isso tento fazer as coisas\ncom calma.$
+
+[Route129_Text_ClarenceIntro] f87f8585b9
+Surfar não é tão fácil quanto parece,\nnão é?$
+
+[Route129_Text_ClarenceDefeat] 9041ce8fb7
+Ganhar também não é nada fácil.$
+
+[Route129_Text_ClarencePostBattle] 1551aec323
+Está de olho na LIGA POKéMON?\nContinue assim!$
+
+[Route130_Text_RodneyIntro] 5a7a2aa761
+Que surpresa! Não esperava ver um\nTREINADOR no meio do mar.\pAcho que devíamos batalhar!$
+
+[Route130_Text_RodneyDefeat] 7a5fcbf88f
+Esta criança é forte demais…$
+
+[Route130_Text_RodneyPostBattle] d471d6abaf
+Os seus olhos têm o olhar de quem\nenfrentou desafios duros e venceu.\lCombina com você!$
+
+[Route130_Text_KatieIntro] 287d96772a
+No fundo do mar azul,\no meu triste coração azul\lacha consolo entre as ondas.$
+
+[Route130_Text_KatieDefeat] 0414ac8309
+Como o vasto mar azul,\no mundo dos POKéMON tem\lprofundezas inacreditáveis.$
+
+[Route130_Text_KatiePostBattle] 237a1d5688
+As crianças do mundo sonham\num dia chegar ao topo\lda LIGA POKéMON.$
+
+[Route130_Text_SantiagoIntro] 0db7df7390
+Boiar no mar aberto assim…\nQue paz.$
+
+[Route130_Text_SantiagoDefeat] 0660fe65d1
+Eu precisava de um pouco menos\nde paz!$
+
+[Route130_Text_SantiagoPostBattle] dae6998499
+Nadando e batalhando assim…\nSou um cara feliz…$
+
+[Route131_Text_RichardIntro] 5ae3eb0f88
+O mar está cheio de POKéMON.\nNão é fácil nadar, viu?$
+
+[Route131_Text_RichardDefeat] 24ddb2b9d6
+POKéMON criados por TREINADORES são\nfortes demais…$
+
+[Route131_Text_RichardPostBattle] 9464af3bf5
+Uf… Uf…\nEstou acabado…\pIr é fácil. Difícil é voltar.\pSerá que vou ter energia pra\nvoltar?$
+
+[Route131_Text_HermanIntro] 82038d4b8f
+O mar… O mar… O mar…\nMar a perder de vista!\lEstou cansado do mar!$
+
+[Route131_Text_HermanDefeat] 39e32a18ae
+Bleh!$
+
+[Route131_Text_HermanPostBattle] 3986cacfea
+Estou entediado do mar, mas nadar\neu preciso.\pSou nadador nato!\nÉ o que eu sou.$
+
+[Route131_Text_SusieIntro] 01ba8d02fa
+Oi, querida criança, espera!\nA gente devia batalhar!$
+
+[Route131_Text_SusieDefeat] ba10c810cf
+Você é forte, apesar da aparência!$
+
+[Route131_Text_SusiePostBattle] d539381dbb
+Viu um cara ali reclamando que está\ncansado do mar?\pÉ só conversa.\nEle é perdidamente apaixonado pelo mar!$
+
+[Route131_Text_KaraIntro] d2e4ee70e4
+Por que os homens gostam tanto de\nmaiô?\pTodos ficam me secando!$
+
+[Route131_Text_KaraDefeat] 32d12ad472
+Não dou pé!$
+
+[Route131_Text_KaraPostBattle] 6cc029e5f1
+Talvez não seja o maiô que faz os\nhomens olharem. É a minha beleza!$
+
+[Route131_Text_ReliIntro] bb677ff2dd
+RELI: Vamos te enfrentar juntos\ncomo irmãos!$
+
+[Route131_Text_ReliDefeat] 85af29f16c
+RELI: Nem juntos conseguimos\nganhar…$
+
+[Route131_Text_ReliPostBattle] 4d97a4b2e9
+RELI: O povo de PACIFIDLOG vive junto\ncom o mar e os POKéMON desde que\lnasce.$
+
+[Route131_Text_ReliNotEnoughMons] b1253ebcca
+RELI: Você não tem dois POKéMON?\nEntão não dá pra curtir a batalha.$
+
+[Route131_Text_IanIntro] 52673687d2
+IAN: Estou dando o meu melhor junto\ncom a minha irmã!$
+
+[Route131_Text_IanDefeat] f128c9e6a9
+IAN: Dei o meu melhor com a minha\nirmã, mas não conseguimos ganhar…$
+
+[Route131_Text_IanPostBattle] 927bcec178
+IAN: Sabia que PACIFIDLOG é uma\ncidade flutuante?\pEntão, onde tiver mar, é parte\nde PACIFIDLOG!$
+
+[Route131_Text_IanNotEnoughMons] 3d58b6d1f3
+IAN: Se você tiver dois POKéMON,\na gente te enfrenta!$
+
+[Route131_Text_TaliaIntro] 7b6bbde21b
+Se me vencer, te dou uma informação\nótima!$
+
+[Route131_Text_TaliaDefeat] 1fa2a20e6b
+Hã?\nPerdi?$
+
+[Route131_Text_TaliaPostBattle] bff1635f7c
+Tem um lugar estranho aqui perto.\nTem uma torre enorme lá.\lPor que não vai dar uma olhada?$
+
+[Route131_Text_KevinIntro] 6eb3e520e5
+O povo de PACIFIDLOG é muito\npacífico.\pNunca fica com raiva.\nEu também não.$
+
+[Route131_Text_KevinDefeat] 17f8a1266b
+Opa!$
+
+[Route131_Text_KevinPostBattle] 5374880638
+Tsc! …Ah, espera.\nNão estou com raiva. Sério!\pMas, nossa, você é forte!\nHahaha!$
+
+[Route132_Text_GilbertIntro] e992bc9382
+Quando criança eu vivia resfriado,\nmas fiquei em plena forma depois\lque comecei a nadar.$
+
+[Route132_Text_GilbertDefeat] 813de6cfd6
+Quero mais força…$
+
+[Route132_Text_GilbertPostBattle] 71fdbfa241
+TREINADORES viajam por campos e\nmontanhas, então também têm que\lestar em forma.$
+
+[Route132_Text_DanaIntro] 5531dff244
+Tento não nadar onde a correnteza\né forte demais.$
+
+[Route132_Text_DanaDefeat] d397df512c
+Ai, por favor, não!$
+
+[Route132_Text_DanaPostBattle] 8065bf9242
+Se a correnteza me levar, vou perder\ntodo o senso de direção…$
+
+[Route132_Text_RonaldIntro] 8f0cea7c89
+Ganhar ou perder, só tentando\npra saber!$
+
+[Route132_Text_RonaldDefeat] 2bfc875471
+Buáá!\nAfundei na derrota!$
+
+[Route132_Text_RonaldPostBattle] 7e514831bd
+Nunca batalho quando sei que vou\nganhar. Gosto de batalhar no fio\lda navalha entre vitória e derrota!$
+
+[Route132_Text_KiyoIntro] c0bd8d545f
+Penso em POKéMON 24 horas por dia.\nComo você poderia me vencer?$
+
+[Route132_Text_KiyoDefeat] 4df2206227
+Perdi.\nAdmito a derrota.$
+
+[Route132_Text_KiyoPostBattle] 0840d92c1e
+Argh…\nVocê vive pros POKéMON, né?\pDeve pensar em POKéMON 24 horas\npor dia, não deve?$
+
+[Route132_Text_MakaylaIntro] 282e07e2f1
+Estou sempre com o meu marido, mas\nconsigo ganhar mesmo sem ele.$
+
+[Route132_Text_MakaylaDefeat] 2922e741c7
+Ah, acho que não fui boa o bastante.$
+
+[Route132_Text_MakaylaPostBattle] 6d3a41e5ce
+Aquele moço ali é igualzinho ao meu\nmarido quando era jovem.\pAté fico corada!$
+
+[Route132_Text_JonathanIntro] 880ace623c
+Alguém está me encarando.\nFoi você?$
+
+[Route132_Text_JonathanDefeat] 2be0b744f9
+Uau!\nIsso foi forte, hein!$
+
+[Route132_Text_JonathanPostBattle] ec8c804887
+Não consigo me livrar da sensação de\nque alguém está me olhando.\pNão consigo me concentrar!$
+
+[Route132_Text_PaxtonIntro] 0b256ad4dd
+Aonde será que a minha esposa foi?\nEstou sempre com ela.\lSerá que consigo ganhar sozinho?$
+
+[Route132_Text_PaxtonDefeat] 80e7c315e1
+Ah, vejo que não consegui ganhar\nsozinho, afinal.$
+
+[Route132_Text_PaxtonPostBattle] b2abe484ed
+A minha esposa deve estar me\nprocurando. Melhor eu ir atrás dela.$
+
+[Route132_Text_DarcyIntro] e863a78545
+Eu gostava de treinar aqui sozinha.\nQue horror vir tanta gente!$
+
+[Route132_Text_DarcyDefeat] 516bb426c2
+Tá! Não vou mais reclamar de ter\ngente aqui.$
+
+[Route132_Text_DarcyPostBattle] 9c0e0c8215
+Acho que posso fazer dupla com aquele\nvelhinho e desafiar a outra dupla.$
+
+[Route133_Text_FranklinIntro] 9212eef0f8
+A correnteza também te trouxe aqui?\nDeve ser o destino.\lVamos batalhar!$
+
+[Route133_Text_FranklinDefeat] b9328fcdbd
+Forte!\nForte demais!$
+
+[Route133_Text_FranklinPostBattle] c7f8123c20
+Que azar o meu: um TREINADOR forte\nassim vir parar aqui…\lDevo ser amaldiçoado…$
+
+[Route133_Text_DebraIntro] 3708ee1fa8
+Levei uma vida de tristeza e miséria…\nFui abandonada, e vim parar aqui à\lderiva…$
+
+[Route133_Text_DebraDefeat] 2cf3b09bce
+Outra derrota…$
+
+[Route133_Text_DebraPostBattle] 3b3a07aea2
+Uma vida à deriva…\nNão quero mais isso!$
+
+[Route133_Text_LindaIntro] 4021046c78
+Boas-vindas!\nEstava esperando você!$
+
+[Route133_Text_LindaDefeat] 8289c2bd83
+Não! Por favor!$
+
+[Route133_Text_LindaPostBattle] 1119313f44
+Uma criança TREINADORA forte…\nQue irritante!$
+
+[Route133_Text_WarrenIntro] 9957acd47e
+Quero ganhar como todo mundo, mas não\nvou criar POKéMON como todo mundo.$
+
+[Route133_Text_WarrenDefeat] f10b8f376b
+Droga!\nO meu jeito ainda é frouxo demais!$
+
+[Route133_Text_WarrenPostBattle] 090907b451
+É bem mais divertido fazer do meu jeito\ndo que ser igual a todo mundo.\lQuer dizer, isso é óbvio!$
+
+[Route133_Text_BeckIntro] 183e57b940
+Vim até aqui com os meus POKéMON\nPÁSSAROS.$
+
+[Route133_Text_BeckDefeat] ed5e491122
+Você…\nVocê é incrível demais!$
+
+[Route133_Text_BeckPostBattle] d6af0015eb
+Queria voltar pra FORTREE, mas\npeguei gosto por este lugar também.$
+
+[Route133_Text_MollieIntro] 28ccd9804b
+Já devo ter batalhado milhares de\nvezes. Perdi a conta.$
+
+[Route133_Text_MollieDefeat] 8d61f2cb15
+Posso ter perdido milhares de vezes,\nmas uma derrota ainda dói.$
+
+[Route133_Text_MolliePostBattle] c7d0daab35
+Continue assim, jovem. Pra ficar\ncomo eu e o meu marido.$
+
+[Route133_Text_ConorIntro] 45cc21ed35
+Os jovens adoram ir com a corrente.\nNão têm rumo.$
+
+[Route133_Text_ConorDefeat] 74259f08f5
+Você tem um senso firme de propósito.$
+
+[Route133_Text_ConorPostBattle] 5a2d57a265
+Não deixe os outros te desviarem.\nNão perca o rumo ao crescer.$
+
+[Route134_Text_JackIntro] 5d9f866907
+Até os POKéMON que nadam são levados\npelas correntezas rápidas.$
+
+[Route134_Text_JackDefeat] 0783cd5c93
+Aiiiiih!$
+
+[Route134_Text_JackPostBattle] 109f5459b0
+Acho que os POKéMON curtem as\ncorrentezas rápidas daqui.$
+
+[Route134_Text_LaurelIntro] 58facebf97
+Os meus LUVDISC querem uma batalha\ndivertida. Topa?$
+
+[Route134_Text_LaurelDefeat] 7677af3ae0
+Opa!$
+
+[Route134_Text_LaurelPostBattle] 315d14c4ae
+Tem um colecionador atrás das\nESCAMAS CORAÇÃO dos LUVDISC.$
+
+[Route134_Text_AlexIntro] 0855423de6
+Tá bom! Chega de descanso, turma!\nHora da batalha!$
+
+[Route134_Text_AlexDefeat] 9b1c8bd04e
+Cansado de novo…$
+
+[Route134_Text_AlexPostBattle] a16bfdc458
+Os meus POKéMON PÁSSAROS cansam\nrápido depois de um voo longo…$
+
+[Route134_Text_HitoshiIntro] a8cd73f76b
+Você é TREINADOR POKéMON.\nSem palavras. Batalhemos agora.$
+
+[Route134_Text_HitoshiDefeat] e4bddd8be9
+… … … … … …\n… … … … … …$
+
+[Route134_Text_HitoshiPostBattle] f409ec1a4b
+Fui eu que te desafiei, e mesmo assim\nperdi. Que vergonha…$
+
+[Route134_Text_AaronIntro] 32a2da0318
+A maré selvagem daqui nos deixa\nmais fortes do que nunca.$
+
+[Route134_Text_AaronDefeat] 8224636dc6
+Admito a derrota de bom grado.$
+
+[Route134_Text_AaronPostBattle] a83ee8b045
+Vamos voltar pra treinar mais na\nCATARATA DOS METEOROS.\pSe quiser, vá também.\nCom certeza vai te deixar mais forte!$
+
+[Route134_Text_KelvinIntro] fb5e447234
+O-o nosso barco!\nA maré levou!$
+
+[Route134_Text_KelvinDefeat] 7920ab3dc3
+Auauauauá!\nPor favor, pare! Por favor!$
+
+[Route134_Text_KelvinPostBattle] 8c8912bb4e
+Se não dá pra SURFAR, como a gente\nvolta pra casa?\pNa verdade, sei que POKéMON desmaiado\nainda SURFA, mas parece errado.$
+
+[Route134_Text_MarleyIntro] ea9f69318e
+Os seus POKéMON desviam dos nossos\nataques rápidos feito raio?$
+
+[Route134_Text_MarleyDefeat] 5d61f989c0
+Não sabia que existia uma técnica\nassim! Vocês nos venceram de vez.$
+
+[Route134_Text_MarleyPostBattle] 959bd87962
+Não perdi a minha paixão por\nvelocidade. Vou me esforçar mais.$
+
+[Route134_Text_ReynaIntro] 800a697bd2
+Os meus POKéMON não caem fácil!$
+
+[Route134_Text_ReynaDefeat] af40e44c04
+Está brincando!\nMe explica como eu perdi!$
+
+[Route134_Text_ReynaPostBattle] 906b84b944
+Haha!\nVocê ganhou mesmo!\pVou subir de novo enfrentando os\nTREINADORES que encontrar!$
+
+[Route134_Text_HudsonIntro] eaaf2d5611
+Escuta, viu outro MARINHEIRO\npor aqui?$
+
+[Route134_Text_HudsonDefeat] 6ca36969db
+Isso sim é alguma coisa!$
+
+[Route134_Text_HudsonPostBattle] dd7b7edece
+O nosso barco foi levado pro mar.\pO meu parceiro é medroso, então\nestou preocupado com ele.$
