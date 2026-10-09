@@ -69,6 +69,9 @@
 - Portuguese: the POKéDEX shows meters and kilograms with the decimal comma
   (0,7 m, 6,9 kg), reusing the Spanish metric code of patch 0035 (patch
   0046); English keeps feet and pounds.
+- Portuguese: SIM/NÃO in the scripts' yes/no box (the nickname question
+  stayed YES/NO) and in the BATTLE FACTORY; the POKéNAV's menus, help bar,
+  CONDIÇÃO, FITAS and the CHAMADAS with the trainers' titles.
 - Portuguese: all 386 POKéDEX descriptions (and the unknown species'),
   translated from the Emerald's own texts in 4 lines and up to 224 px, with
   metric units.

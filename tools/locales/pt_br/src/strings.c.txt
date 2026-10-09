@@ -1377,3 +1377,235 @@ Registro na POKéDEX concluído.
 
 [gText_UnkWeight] bb6f6700f8 width=55
 ???,? kg
+
+# A caixa SIM/NÃO dos scripts (menu.c), como a do apelido, e as da BATTLE
+# FACTORY.
+
+[gText_YesNo] 95fce33b3f width=24
+SIM\n
+NÃO
+
+[gText_Yes2] 8fff039853 width=24
+SIM
+
+[gText_No2] a0509b7780 width=24
+NÃO
+
+[gText_Yes3] 8fff039853 width=24
+SIM
+
+[gText_No3] a0509b7780 width=24
+NÃO
+
+[gText_No4] a0509b7780 width=24
+NÃO
+
+# O POKéNAV e as CHAMADAS (src/pokenav_*.c, src/match_call.c). As
+# explicações do menu têm 24 tiles (192 px); as dicas de botões, 16 tiles;
+# o quadro do TREINADOR, 11 tiles (88 px); a mensagem de chamada, 28 tiles.
+# EQUIPE fica no campo de 8 letras do nome da CAIXA.
+
+[gText_CallCantBeMadeHere] d37c607d62 width=190
+Não dá para ligar daqui.
+
+[gText_CallRegisteredTrainer] 043f6efe76 width=190
+Ligar para um TREINADOR.
+
+[gText_CheckAllPokemonInDetail] 78c22c18a2 width=190
+Ver todos os POKéMON em detalhes.
+
+[gText_CheckMapOfHoenn] 8149cebc02 width=190
+Ver o mapa da região de HOENN.
+
+[gText_CheckObtainedRibbons] 39ac2eefeb width=190
+Ver as FITAS obtidas.
+
+[gText_CheckPartyPokemonInDetail] eb16dcef5b width=190
+Ver a equipe em detalhes.
+
+[gText_CheckPokemonInDetail] 0910aa688f width=190
+Ver POKéMON em detalhes.
+
+[gText_FindBeautifulPokemon] ffccc46e6c width=190
+Achar POKéMON belos.
+
+[gText_FindCoolPokemon] 283bd17c1d width=190
+Achar POKéMON estilosos.
+
+[gText_FindCutePokemon] dd86b7ffb0 width=190
+Achar POKéMON fofos.
+
+[gText_FindSmartPokemon] fd6d5011ed width=190
+Achar POKéMON espertos.
+
+[gText_FindToughPokemon] 0272f3600b width=190
+Achar POKéMON fortes.
+
+[gText_NoRibbonWinners] cc5c8666dd width=190
+Não há vencedores de FITAS.
+
+[gText_PutAwayPokenav] c71abcbcfd width=190
+Guardar o POKéNAV.
+
+[gText_ReturnToConditionMenu] 3ed3b376ee width=190
+Voltar ao menu de CONDIÇÃO.
+
+[gText_ReturnToPokenavMenu] fee965a0a3 width=190
+Voltar ao menu do POKéNAV.
+
+[gText_PokenavCondition_MarkingButtons] 2ccfe709dc width=126
+{A_BUTTON}MARCAR {B_BUTTON}VOLTAR
+
+[gText_PokenavCondition_MonListButtons] ff73d70457 width=126
+{A_BUTTON}CONDIÇÃO {B_BUTTON}VOLTAR
+
+[gText_PokenavCondition_MonStatusButtons] bae527f909 width=126
+{A_BUTTON}MARCAS {B_BUTTON}VOLTAR
+
+[gText_PokenavMap_ZoomedInButtons] d725c7532b width=126
+{A_BUTTON}TUDO {B_BUTTON}VOLTAR
+
+[gText_PokenavMap_ZoomedOutButtons] 1c7c9ca2c6 width=126
+{A_BUTTON}ZOOM {B_BUTTON}VOLTAR
+
+[gText_PokenavMatchCall_CallMenuButtons] 209a6d8c54 width=126
+{A_BUTTON}OK {B_BUTTON}VOLTAR
+
+[gText_PokenavMatchCall_CheckTrainerButtons] d4f1312856 width=126
+{B_BUTTON}VOLTAR
+
+[gText_PokenavMatchCall_TrainerListButtons] 68be53efdb width=126
+{A_BUTTON}MENU {B_BUTTON}VOLTAR
+
+[gText_PokenavRibbons_MonListButtons] 9d938e7b5a width=126
+{A_BUTTON}FITAS {B_BUTTON}VOLTAR
+
+[gText_PokenavRibbons_RibbonCheckButtons] d4f1312856 width=126
+{B_BUTTON}VOLTAR
+
+[gText_PokenavRibbons_RibbonListButtons] 8d3da3cf02 width=126
+{A_BUTTON}VER {B_BUTTON}VOLTAR
+
+[gText_BrawlyMatchCallDesc] bcf283e89f width=88
+GOLPE FORTE
+
+[gText_ChampionMatchCallDesc] f40e717094 width=88
+CAMPEÃO
+
+[gText_EliteFourMatchCallDesc] b5cca4e546 width=88
+ELITE DOS 4
+
+[gText_FlanneryMatchCallDesc] a21b0b27bb width=88
+PAIXÃO ARDENTE
+
+[gText_JuanMatchCallDesc] 64b8e0a528 width=88
+CHARME DÂNDI
+
+[gText_MayBrendanMatchCallDesc] 70c6d0604a width=88
+VIZINHO LEGAL
+
+[gText_MayMatchCallDesc] 534de9846b width=88
+VIZINHA LEGAL
+
+[gText_MomMatchCallDesc] 4a225b5191 width=88
+CALMA E GENTIL
+
+[gText_MrStoneMatchCallDesc] 4da44515cc width=88
+PRES. DEVON
+
+[gText_NormanMatchCallDesc] 765752f6af width=88
+O CONFIÁVEL
+
+[gText_NumberOfBattles] b698530d96 width=88
+N.º de batalhas
+
+[gText_NumberRegistered] ebfb4676c9 width=88
+N.º registrados
+
+[gText_ProfBirchMatchCallDesc] a42649a3fa width=88
+PROF. {PKMN}
+
+[gText_RoxanneMatchCallDesc] ecfaa5af18 width=88
+GÊNIO ROCHOSO
+
+[gText_ScottMatchCallDesc] ccb1bbf8c0 width=88
+OLHAR ESQUIVO
+
+[gText_StevenMatchCallDesc] 41dfec0e0e width=88
+DURO COMO ROCHA
+
+[gText_TateLizaMatchCallDesc] 3ca6d12099 width=88
+DUPLA MÍSTICA
+
+[gText_WallyMatchCallDesc] 51d1ec306c width=88
+FÃ DE {PKMN}
+
+[gText_WattsonMatchCallDesc] 834e3793de width=88
+CHOQUE BACANA
+
+[gText_WinonaMatchCallDesc] 7c7864af0e width=88
+DOMADORA DO CÉU
+
+[gText_MatchCallSteven_Intro1_AfterMeteorFallsBattle] c5d8f8da6c width=140
+Sou o mais forte e o mais
+
+[gText_MatchCallSteven_Intro1_BeforeMeteorFallsBattle] fb4737685b width=140
+Eu subiria até cachoeiras
+
+[gText_MatchCallSteven_Intro2_AfterMeteorFallsBattle] d72d9162e1 width=140
+animado, afinal!
+
+[gText_MatchCallSteven_Intro2_BeforeMeteorFallsBattle] 9cd815417f width=140
+por uma pedra rara!
+
+[gText_MatchCallSteven_Pokemon] ee7a7f7684 width=140
+POKéMON METAL supremos.
+
+[gText_MatchCallSteven_Strategy] 9067181c9a width=140
+Atacar os pontos fracos!
+
+[gText_PokenavMatchCall_SelfIntroduction] 8cedc7e098 width=140
+APRESENTAÇÃO
+
+[gText_PokenavMatchCall_Strategy] b571d21b72 width=140
+ESTRATÉGIA
+
+[gText_PokenavMatchCall_TrainerPokemon] 51b52fdab4 width=140
+SEUS POKéMON
+
+[gText_TrainerCloseBy] a78cab38ef width=208
+Esse TREINADOR está por perto.\n
+Fale com ele pessoalmente!
+
+[gText_Call] 1b3cb48469 width=48
+LIGAR
+
+[gText_Cancel6] 1507c40f04 width=48
+VOLTAR
+
+[gText_InParty] 3f516fce1c width=48
+EQUIPE
+
+[gText_MomMatchCallName] 3c93964ebb width=48
+MAMÃE
+
+[gText_MrStoneMatchCallName] 80932b0b55 width=48
+SR. STONE
+
+[gText_NormanMatchCallName] 22338f0423 width=48
+PAPAI
+
+[gText_Number2] 29b315d116 width=48
+N.º
+
+[gText_NumberIndex] fcb36a68ad width=60
+N.º {DYNAMIC 0}
+
+[gText_ProfBirchMatchCallName] 757f680dc9 width=60
+PROF. BIRCH
+
+[gText_RibbonsF700] cc7899feda width=87
+FITAS {DYNAMIC 0}
+
+[gText_Unknown] 25ba44ec3b width=48
+DESCONH.
