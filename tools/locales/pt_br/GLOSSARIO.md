@@ -138,6 +138,7 @@ Os nomes dos POKéMON não se traduzem.
 | Trainer Hill | COLINA DOS TREINADORES | |
 | Time Attack / Time Board | Contra o Tempo / Quadro de Tempos | COLINA DOS TREINADORES |
 | Faraway Island | ILHA DISTANTE | |
+| Navel Rock / Birth Island / Southern Island | ROCHA UMBIGO / ILHA NATAL / ILHA DO SUL | destinos do S.S. TIDAL; sem nome oficial conferido |
 | Mimic Circle | CLUBE DA MÍMICA | treinadores da ROTA 119 |
 | Altering Cave | CAVERNA MUTANTE | sem nome oficial no Brasil; os POKéMON dela mudam com o evento |
 | Stamp Card / Battle Count Card / Wonder Card | CARTÃO DE SELOS / CARTÃO DE BATALHAS / CARTÃO MARAVILHA | PRESENTE MISTERIOSO |
