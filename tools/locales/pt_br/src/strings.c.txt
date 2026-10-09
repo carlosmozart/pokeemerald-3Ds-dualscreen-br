@@ -1776,3 +1776,359 @@ ETIQUETA
 
 [gText_GoldPokeblock] 6c098d2ac8 width=56
 {POKEBLOCK} DOURADO
+
+# Listas de troca e compra da FRONTEIRA e de outros balcões (field_specials.c):
+
+# nome até a coluna do preço ({CLEAR_TO}), preço em PB. Nomes dos catálogos de
+
+# itens e golpes; as decorações, provisórias como no glossário.
+
+[gText_EnergyPowder50] ef6872e1b1 width=104
+PÓ ENERGÉTICO{CLEAR_TO 114}{FONT_SMALL}50
+
+[gText_EnergyRoot80] 77bd16fbdd width=104
+RAIZ ENERGIA{CLEAR_TO 114}{FONT_SMALL}80
+
+[gText_HealPowder50] b68eacee72 width=104
+PÓ CURATIVO{CLEAR_TO 114}{FONT_SMALL}50
+
+[gText_RevivalHerb300] 9f994497a3 width=104
+ERVA REVIVER{CLEAR_TO 108}{FONT_SMALL}300
+
+[gText_Protein1000] 36afc2c29e width=104
+PROTEÍNA{CLEAR_TO 99}{FONT_SMALL}1.000
+
+[gText_Iron1000] 319c922bf8 width=104
+FERRO{CLEAR_TO 99}{FONT_SMALL}1.000
+
+[gText_Carbos1000] 43bf6d5a8d width=104
+CARBONO{CLEAR_TO 99}{FONT_SMALL}1.000
+
+[gText_Calcium1000] 648f983ee0 width=104
+CÁLCIO{CLEAR_TO 99}{FONT_SMALL}1.000
+
+[gText_Zinc1000] 25ee029122 width=104
+ZINCO{CLEAR_TO 99}{FONT_SMALL}1.000
+
+[gText_HPUp1000] a764dfb6ed width=104
+PS UP{CLEAR_TO 99}{FONT_SMALL}1.000
+
+[gText_PPUp3000] 0fb3605750 width=104
+PP UP{CLEAR_TO 99}{FONT_SMALL}3.000
+
+[gText_KissPoster16BP] 3c93d944df width=112
+PÔSTER BEIJO{CLEAR_TO 0x5E}16PB
+
+[gText_KissCushion32BP] bb64ee0cd5 width=112
+ALMOFADA BEIJO{CLEAR_TO 0x5E}32PB
+
+[gText_SmoochumDoll32BP] dad88397c5 width=112
+BONECO SMOOCHUM{CLEAR_TO 0x5E}32PB
+
+[gText_TogepiDoll48BP] d729d7965b width=112
+BONECO TOGEPI{CLEAR_TO 0x5E}48PB
+
+[gText_MeowthDoll48BP] 789a658562 width=112
+BONECO MEOWTH{CLEAR_TO 0x5E}48PB
+
+[gText_ClefairyDoll48BP] 6d6b7221bf width=112
+BONECO CLEFAIRY{CLEAR_TO 0x5E}48PB
+
+[gText_DittoDoll48BP] a369d23d2c width=112
+BONECO DITTO{CLEAR_TO 0x5E}48PB
+
+[gText_CyndaquilDoll80BP] 881c1886c4 width=112
+BON. CYNDAQUIL{CLEAR_TO 0x5E}80PB
+
+[gText_ChikoritaDoll80BP] 3d8bdbfc8b width=112
+BON. CHIKORITA{CLEAR_TO 0x5E}80PB
+
+[gText_TotodileDoll80BP] 8f07b25e65 width=112
+BONECO TOTODILE{CLEAR_TO 0x5E}80PB
+
+[gText_LaprasDoll128BP] 02e029f3a5 width=112
+BONECO LAPRAS{CLEAR_TO 0x58}128PB
+
+[gText_SnorlaxDoll128BP] f9b29dc8ad width=112
+BONECO SNORLAX{CLEAR_TO 0x58}128PB
+
+[gText_VenusaurDoll256BP] 0f6deeaa70 width=112
+BON. VENUSAUR{CLEAR_TO 0x58}256PB
+
+[gText_CharizardDoll256BP] f738936df0 width=112
+BON. CHARIZARD{CLEAR_TO 0x58}256PB
+
+[gText_BlastoiseDoll256BP] f38eb02c7c width=112
+BON. BLASTOISE{CLEAR_TO 0x58}256PB
+
+[gText_Protein1BP] ec25d7691f width=112
+PROTEÍNA{CLEAR_TO 0x64}1PB
+
+[gText_Calcium1BP] 6bfbb3ced6 width=112
+CÁLCIO{CLEAR_TO 0x64}1PB
+
+[gText_Iron1BP] 7dac022196 width=112
+FERRO{CLEAR_TO 0x64}1PB
+
+[gText_Zinc1BP] 194e1d9c2f width=112
+ZINCO{CLEAR_TO 0x64}1PB
+
+[gText_Carbos1BP] 03278ad1f4 width=112
+CARBONO{CLEAR_TO 0x64}1PB
+
+[gText_HpUp1BP] 38de2f13ae width=112
+PS UP{CLEAR_TO 0x64}1PB
+
+[gText_Leftovers48BP] 732eb17301 width=112
+SOBRAS{CLEAR_TO 0x5E}48PB
+
+[gText_WhiteHerb48BP] 74f30e07be width=112
+ERVA BRANCA{CLEAR_TO 0x5E}48PB
+
+[gText_QuickClaw48BP] 551d5d1e43 width=112
+GARRA RÁPIDA{CLEAR_TO 0x5E}48PB
+
+[gText_MentalHerb48BP] 86136b9b06 width=112
+ERVA MENTAL{CLEAR_TO 0x5E}48PB
+
+[gText_BrightPowder64BP] c5a70c0276 width=112
+PÓ BRILHANTE{CLEAR_TO 0x5E}64PB
+
+[gText_ChoiceBand64BP] 53c3b51f46 width=112
+FAIXA ESCOLHA{CLEAR_TO 0x5E}64PB
+
+[gText_KingsRock64BP] d33c16db7b width=112
+PEDRA DO REI{CLEAR_TO 0x5E}64PB
+
+[gText_FocusBand64BP] d2934da5c9 width=112
+FAIXA FOCAL.{CLEAR_TO 0x5E}64PB
+
+[gText_ScopeLens64BP] 61a7889b44 width=112
+LENTE ALCANCE{CLEAR_TO 0x5E}64PB
+
+[gText_Softboiled16BP] 0fcc894542 width=104
+COZIDOS{CLEAR_TO 0x4E}16PB
+
+[gText_SeismicToss24BP] 424c9d68cd width=104
+ARR. SÍSMICO{CLEAR_TO 0x4E}24PB
+
+[gText_DreamEater24BP] f8c31a030a width=104
+DEVOR. SONHO{CLEAR_TO 0x4E}24PB
+
+[gText_MegaPunch24BP] 3bd6a6b399 width=104
+MEGASSOCO{CLEAR_TO 0x4E}24PB
+
+[gText_MegaKick48BP] 7d66aff79f width=104
+MEGACHUTE{CLEAR_TO 0x4E}48PB
+
+[gText_BodySlam48BP] d25e02cd85 width=104
+PANC. CORPO{CLEAR_TO 0x4E}48PB
+
+[gText_RockSlide48BP] 7a8f1e6c0b width=104
+DESL. PEDRAS{CLEAR_TO 0x4E}48PB
+
+[gText_Counter48BP] 26798e46bf width=104
+CONTRA-ATAC.{CLEAR_TO 0x4E}48PB
+
+[gText_ThunderWave48BP] 06b48a2584 width=104
+ONDA TROVÃO{CLEAR_TO 0x4E}48PB
+
+[gText_SwordsDance48BP] d9c31d8e1f width=104
+DANÇA ESPADA{CLEAR_TO 0x4E}48PB
+
+[gText_DefenseCurl16BP] 9c69a4f067 width=104
+ESPIRAL DEF.{CLEAR_TO 0x4E}16PB
+
+[gText_Snore24BP] 77352af3d1 width=104
+RONCO{CLEAR_TO 0x4E}24PB
+
+[gText_MudSlap24BP] f0e6ec61ea width=104
+TAPA DE LAMA{CLEAR_TO 0x4E}24PB
+
+[gText_Swift24BP] 97b2dc07a7 width=104
+ATAQUE VELOZ{CLEAR_TO 0x4E}24PB
+
+[gText_IcyWind24BP] 13f3348e06 width=104
+VENTO GELADO{CLEAR_TO 0x4E}24PB
+
+[gText_Endure48BP] f3875fb2c0 width=104
+RESISTÊNCIA{CLEAR_TO 0x4E}48PB
+
+[gText_PsychUp48BP] 0bd353b6ec width=104
+CARGA PSÍQ.{CLEAR_TO 0x4E}48PB
+
+[gText_IcePunch48BP] 75a469c6b9 width=104
+SOCO DE GELO{CLEAR_TO 0x4E}48PB
+
+[gText_ThunderPunch48BP] 87a0e32a19 width=104
+SOCO TROVÃO{CLEAR_TO 0x4E}48PB
+
+[gText_FirePunch48BP] 5166801d61 width=104
+SOCO DE FOGO{CLEAR_TO 0x4E}48PB
+
+# Outras listas de field_specials.c, com a largura da janela de cada uma
+
+# (tiles × 8, menos a seta).
+
+[gText_BlueFlute] f846f4bd34 width=70
+FLAUTA AZUL
+
+[gText_YellowFlute] e7455c6875 width=70
+FLAUTA AMAR.
+
+[gText_RedFlute] dc2ff90d20 width=70
+FLAUTA VERM.
+
+[gText_WhiteFlute] 96801c2c4d width=70
+FL. BRANCA
+
+[gText_BlackFlute] 7b34ba411f width=70
+FLAUTA PRETA
+
+[gText_PrettyChair] 92c6e87bee width=70
+CADEIRA BELA
+
+[gText_PrettyDesk] 40fb5c4655 width=70
+MESA BELA
+
+[gText_Exit] bb1b38004d width=40
+SAIR
+
+[gText_BattleTower2] fbd1b89e76 width=80
+TORRE
+
+[gText_BattleDome] 5a1f22c3a9 width=80
+CÚPULA
+
+[gText_BattlePalace] 8ce19449a1 width=80
+PALÁCIO
+
+[gText_BattleArena] a923af42b7 width=80
+ARENA
+
+[gText_BattleFactory] 396c12a193 width=80
+FÁBRICA
+
+[gText_BattlePike] 4afea876c4 width=80
+PICO
+
+[gText_BattlePyramid] 15dd7c6ba8 width=80
+PIRÂMIDE
+
+[gText_RankingHall] b7992ef40e width=80
+SALÃO RANKING
+
+[gText_ExchangeService] 65294744cc width=80
+TROCAS
+
+[gText_SlateportCity] 071676fc3b width=81
+SLATEPORT
+
+[gText_BattleFrontier] 50cfeb960e width=81
+FRONTEIRA
+
+[gText_SouthernIsland] 900820999a width=81
+ILHA DO SUL
+
+[gText_NavelRock] 5deb0fc318 width=81
+ROCHA UMBIGO
+
+[gText_BirthIsland] 8d9285fdd2 width=81
+ILHA NATAL
+
+[gText_FarawayIsland] 527c87e057 width=81
+ILHA DISTANTE
+
+[gText_BattleTrainers] f7862320da width=88
+TREINADORES
+
+[gText_BattleBasics] e7c18fd53e width=88
+O BÁSICO
+
+[gText_PokemonNature] 77995bdec9 width=88
+NATUREZA
+
+[gText_PokemonMoves] 7c5b3fa46a width=88
+GOLPES
+
+[gText_Underpowered] dd93d78204 width=88
+SEM FORÇA
+
+[gText_WhenInDanger] 560059efbd width=88
+EM APUROS
+
+# Tempo e contagem em mensagens ({STR_VAR}), o porte do LOTAD/SEEDOT e o
+
+# elevador (centrado em 64 px).
+
+[gText_99TimesPlus] 69ae35cf09 width=80
+99 vezes ou +
+
+[gText_1MinutePlus] 9b1241bbd4 width=80
+1 minuto ou +
+
+[gText_SpaceSeconds] 3e441fc593 width=80
+ segundos
+
+[gText_SpaceTimes] 2e6eefd076 width=80
+ vez(es)
+
+[gText_BigGuy] 19a0107a2c width=60
+Grandão
+
+[gText_BigGirl] 4b1c4fd77e width=60
+Grandona
+
+[gText_ElevatorNowOn] 8d638146e9 width=64
+Andar:
+
+[gText_1F] e2e11f3bee width=24
+1º
+
+[gText_2F] 44cc8040ac width=24
+2º
+
+[gText_3F] 5bab17fb39 width=24
+3º
+
+[gText_4F] 162b1d940f width=24
+4º
+
+[gText_5F] 6da79561d1 width=24
+5º
+
+[gText_6F] 80bdd38fb8 width=24
+6º
+
+[gText_7F] ca90b2acb4 width=24
+7º
+
+[gText_8F] e88958cb93 width=24
+8º
+
+[gText_9F] 9c172585d6 width=24
+9º
+
+[gText_10F] 4ea72b9f99 width=24
+10º
+
+[gText_11F] 168050a1e4 width=24
+11º
+
+[gText_B1F] d081c1f3e0 width=24
+S1
+
+[gText_B2F] ec2e144a8d width=24
+S2
+
+[gText_B3F] 304c1a62ad width=24
+S3
+
+[gText_B4F] 2511a75ea7 width=24
+S4
+
+[gText_Rooftop] 5367e8919c width=64
+TERRAÇO
+
+[gText_BP] 03b8a126d8
+PB
