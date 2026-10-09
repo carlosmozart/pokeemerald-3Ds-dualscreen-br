@@ -1217,3 +1217,154 @@ Jogar fora este\n
 
 [gText_WhichMoveToForget] a3022e39f0 width=208
 Qual golpe deve ser esquecido?{PAUSE_UNTIL_PRESS}
+
+# A tela da POKéDEX (src/pokedex.c). Na busca, o parâmetro escolhido fica
+# numa caixa de x=45 a 136 e a lista à direita a partir de x=152; as
+# explicações, na caixa de baixo, de x=8. Na página do POKéMON, ALT. e PESO
+# vão de x=96 até o valor, em x=129.
+
+[gText_DexHoennTitle] 189f13db4c width=88
+DEX HOENN
+
+[gText_DexNatTitle] eeb6969c19 width=88
+DEX NACIONAL
+
+[gText_DexSearchColorBlack] a9414ab04c width=88
+PRETO
+
+[gText_DexSearchColorBlue] c4f8490d87 width=88
+AZUL
+
+[gText_DexSearchColorBrown] 6eef516af6 width=88
+MARROM
+
+[gText_DexSearchColorGray] 037cb3e3ea width=88
+CINZA
+
+[gText_DexSearchColorGreen] 5becf070a5 width=88
+VERDE
+
+[gText_DexSearchColorPink] 1228b178c7 width=88
+ROSA
+
+[gText_DexSearchColorPurple] d41b9248b4 width=88
+ROXO
+
+[gText_DexSearchColorRed] bb4e68e797 width=88
+VERMELHO
+
+[gText_DexSearchColorWhite] 40d23f3b3a width=88
+BRANCO
+
+[gText_DexSearchColorYellow] f83a0e5447 width=88
+AMARELO
+
+[gText_DexSearchDontSpecify] ae7a602126 width=88
+QUALQUER
+
+[gText_DexSearchTypeNone] 0654a028e5 width=88
+NENHUM
+
+[gText_DexSortAtoZTitle] b6fcf8960a width=88
+MODO A A Z
+
+[gText_DexSortHeaviestTitle] 37a789ce5e width=88
+MAIS PESADOS
+
+[gText_DexSortLightestTitle] 4b8929b5c7 width=88
+MAIS LEVES
+
+[gText_DexSortNumericalTitle] 970220f6f9 width=88
+MODO NUMÉRICO
+
+[gText_DexSortSmallestTitle] 3f4b6c9491 width=88
+MENORES
+
+[gText_DexSortTallestTitle] b50b603473 width=88
+MAIORES
+
+[gText_DexHoennDescription] 9dd941de07 width=216
+POKéDEX da região de HOENN
+
+[gText_DexNatDescription] 202732749b width=216
+POKéDEX da edição nacional
+
+[gText_DexSortAtoZDescription] ad86dadb9a width=216
+POKéMON vistos e capturados em\n
+ordem alfabética.
+
+[gText_DexSortHeaviestDescription] 732158d41e width=216
+POKéMON capturados do mais\n
+pesado ao mais leve.
+
+[gText_DexSortLightestDescription] 1a5dcad21e width=216
+POKéMON capturados do mais\n
+leve ao mais pesado.
+
+[gText_DexSortNumericalDescription] b185da23b5 width=216
+POKéMON listados pelo\n
+número.
+
+[gText_DexSortSmallestDescription] 35d27d6836 width=216
+POKéMON capturados do menor\n
+ao maior.
+
+[gText_DexSortTallestDescription] 33b6466f15 width=216
+POKéMON capturados do maior\n
+ao menor.
+
+[gText_ExecuteSearchSwitch] 929abb925a width=216
+Fazer a busca ou a troca.
+
+[gText_ListByBodyColor] 32ca70b97f width=216
+Listar pela cor do corpo.\n
+Só POKéMON vistos.
+
+[gText_ListByFirstLetter] 196e5ea9a6 width=216
+Listar pela primeira letra do nome.\n
+Só POKéMON vistos.
+
+[gText_ListByType] 8e4d40e4dc width=216
+Listar pelo tipo.\n
+Só POKéMON capturados.
+
+[gText_NoMatchingPkmnWereFound] 85438f3721 width=216
+Nenhum POKéMON foi encontrado.
+
+[gText_ReturnToPokedex] a0d861db54 width=216
+Voltar à POKéDEX.
+
+[gText_SearchCompleted] 1c0cbd1bf8 width=216
+Busca concluída.
+
+[gText_SearchForPkmnBasedOnParameters] 1714e20097 width=216
+Buscar POKéMON pelos\n
+parâmetros escolhidos.
+
+[gText_SearchingPleaseWait] 4cfb176f29 width=216
+Buscando…\n
+Aguarde.
+
+[gText_SelectPokedexListingMode] 8c16081cf0 width=216
+Escolha como listar a POKéDEX.
+
+[gText_SelectPokedexMode] 63a7de27d0 width=216
+Escolha o modo da POKéDEX.
+
+[gText_SwitchPokedexListings] fa79abc5a0 width=216
+Trocar a lista da POKéDEX.
+
+[gText_HTHeight] 64c38cf29a width=33
+ALT.
+
+[gText_WTWeight] 404e0bbdbc width=33
+PESO
+
+[gText_CryOf] 62eb07e0ce width=100
+GRITO DE
+
+[gText_SizeComparedTo] 4e98a5f99d width=160
+TAMANHO COMPARADO A 
+
+[gText_PokedexRegistration] c315ab8879 width=208
+Registro na POKéDEX concluído.

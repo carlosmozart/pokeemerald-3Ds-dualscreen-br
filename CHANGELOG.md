@@ -63,6 +63,9 @@
 - Portuguese: the POKéMON summary (INFO POKéMON, ATRIBUTOS, GOLPES DE
   LUTA, the nature and where it was met, the EGG notes) and the party
   menu's messages (healing, items, MAIL, learning moves).
+- Portuguese: the POKéDEX screens: DEX HOENN and DEX NACIONAL, the search
+  (colors, NENHUM, QUALQUER) and its listing modes (MODO NUMÉRICO, MODO A A
+  Z, MAIS PESADOS…), ALT. and PESO, GRITO DE and TAMANHO COMPARADO A.
 - Portuguese: all 386 POKéDEX descriptions (and the unknown species'),
   translated from the Emerald's own texts in 4 lines and up to 224 px, with
   metric units.
