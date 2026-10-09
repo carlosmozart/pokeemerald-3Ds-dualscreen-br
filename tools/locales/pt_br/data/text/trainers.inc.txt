@@ -2395,3 +2395,498 @@ Ué, o que aconteceu aqui?$
 
 [Route121_Text_MarcelPostBattle] 9fe55ace0a
 Talvez eu tenha que treinar mais a\nminha turma antes de um CONCURSO.$
+
+[Route123_Text_WendyIntro] 010e9ac476
+Quer saber o quanto você é forte?\nEu sou o teste!$
+
+[Route123_Text_WendyDefeat] 1db324f755
+Você passou com louvor!$
+
+[Route123_Text_WendyPostBattle] 5dba748e1c
+Superar até a mim…\nA sua força é maravilhosa!$
+
+[Route123_Text_BraxtonIntro] 0de3e11b9d
+Parece que você tem uma bela coleção\nde INSÍGNIAS.\pDeixa eu ver se você merece mesmo\nessas INSÍGNIAS!$
+
+[Route123_Text_BraxtonDefeat] fc27ae06d2
+Ah, você merece, sim!$
+
+[Route123_Text_BraxtonPostBattle] f6750ecc36
+Você honrou as suas INSÍGNIAS nessa\nbatalha!$
+
+[Route123_Text_VioletIntro] 235d3a26ca
+Dizem que os bons momentos são\ncheios de bons aromas.$
+
+[Route123_Text_VioletDefeat] a607309e51
+Ah…\nSinto o cheiro amargo da tristeza…$
+
+[Route123_Text_VioletPostBattle] 95753b8a8b
+O jardim do MESTRE DAS FRUTAS é cheio\nde fragrâncias revigorantes.$
+
+[Route123_Text_CameronIntro] 5d6fc45a69
+Ser médium é questão de força de\nvontade.\pDecidi não perder pra ninguém.\nIsso me faz forte!$
+
+[Route123_Text_CameronDefeat] 02fdb82f18
+Que tristeza…$
+
+[Route123_Text_CameronPostBattle] 8e808d0731
+Ser médium é questão de força de\nvontade. Achei que não ia perder…$
+
+[Route123_Text_CameronRegister] bbd56e7ef8
+Estou sentindo!\nVamos batalhar de novo!\lSó não sei se vou ganhar…\pDeixa eu ver o seu POKéNAV.$
+
+[Route123_Text_CameronRematchIntro] 22c663a607
+Me convenci de que não vou perder\nmais. Isso me faz forte!$
+
+[Route123_Text_CameronRematchDefeat] 02fdb82f18
+Que tristeza…$
+
+[Route123_Text_CameronPostRematch] ca5751edf8
+Devia treinar no MONTE PYRE…\nAssim nunca vou te vencer…$
+
+[Route123_Text_JackiIntro] 0ef728b61f
+Não se empolgue se os seus POKéMON\ndesenvolverem poderes psíquicos.\pTem que aperfeiçoar esses poderes\npra eles serem úteis de verdade.$
+
+[Route123_Text_JackiDefeat] 55a3672cae
+Arrasada!$
+
+[Route123_Text_JackiPostBattle] 4e856062b6
+Todos temos poderes psíquicos.\nSó esquecemos como usá-los.$
+
+[Route123_Text_JackiRegister] a82e171489
+Quero te enfrentar de novo.\nTudo bem pra você?$
+
+[Route123_Text_JackiRematchIntro] 38186776c8
+Você despertou os poderes psíquicos\naí dentro?$
+
+[Route123_Text_JackiRematchDefeat] cf40a68ac7
+Impressionante!$
+
+[Route123_Text_JackiPostRematch] 046ca06795
+O seu poder com os POKéMON…\nIsso também pode ser poder psíquico.$
+
+[Route123_Text_MiuIntro] 4555a8db7c
+MIU: Olá, TREINADOR. Espero que os seus\nPOKéMON não chorem quando perderem.$
+
+[Route123_Text_MiuDefeat] a04c5341c7
+MIU: Ih, perdemos.$
+
+[Route123_Text_MiuPostBattle] 4532423fb8
+MIU: Os seus POKéMON são fortes\nporque vocês são amigos.$
+
+[Route123_Text_MiuNotEnoughMons] 290bc706f9
+MIU: Não tem graça batalhar se você\nnão tem dois POKéMON.$
+
+[Route123_Text_YukiIntro] 9408ebe803
+YUKI: Certo!\nVamos vencer os POKéMON do TREINADOR!$
+
+[Route123_Text_YukiDefeat] a6dc43669a
+YUKI: Ih, perdemos.$
+
+[Route123_Text_YukiPostBattle] b857238fd3
+YUKI: Por que você é tão forte?\nA gente nunca tinha perdido.$
+
+[Route123_Text_YukiNotEnoughMons] 0081c84e18
+YUKI: Não tem graça batalhar se você\nnão tem dois POKéMON.$
+
+[Route123_Text_KindraIntro] c93dd93501
+O MONTE PYRE…\nOnde dormem os espíritos dos POKéMON…\lSerá que os seus POKéMON vão dormir?$
+
+[Route123_Text_KindraDefeat] c059e904b5
+Transbordando vitalidade…$
+
+[Route123_Text_KindraPostBattle] 35168748e6
+O MONTE PYRE…\nOnde dormem os espíritos dos POKéMON…\pDeve transbordar um poder que\nacalma os espíritos…$
+
+[Route123_Text_FernandoIntro] 3cc8d30ec9
+Vou apagar as suas luzes enquanto\ndetono esta música!$
+
+[Route123_Text_FernandoDefeat] ac16a1c15c
+Ei, pera aí!\nEu ainda estava na introdução!$
+
+[Route123_Text_FernandoPostBattle] 7b5f30990a
+Você é firme como rocha.\nQueria compor uma música sobre você.$
+
+[Route123_Text_FernandoRegister] cf563fcba9
+Da próxima vez, ouça a música\ninteira, tá?$
+
+[Route123_Text_FernandoRematchIntro] 99d79ce7d0
+Hoje é o dia!\nVou apagar as suas luzes antes de\lterminar a minha música!$
+
+[Route123_Text_FernandoRematchDefeat] ee6190339f
+Ei, pera aí!\nNem cheguei no refrão!$
+
+[Route123_Text_FernandoPostRematch] 67690ca371
+Achei que a música ia te encantar\ntanto que você ia perder.$
+
+[Route123_Text_DavisIntro] aafcccc3c1
+Este é o meu POKéMON INSETO incrível!\nO meu irmão mais velho que me deu.$
+
+[Route123_Text_DavisDefeat] 36e10a8872
+Buááá!\nQue chatice!$
+
+[Route123_Text_DavisPostBattle] 217906ed1d
+Não conta pro meu irmão que perdi.\nTem que ser segredo!$
+
+[Route123_Text_JazmynIntro] 9aa09cf96e
+Vou ganhar confiança vencendo\nalguém que é claramente forte!$
+
+[Route123_Text_JazmynDefeat] bb6da6e8fd
+Lá se vai a minha confiança…$
+
+[Route123_Text_JazmynPostBattle] ff65772699
+Dizem que não se julga uma pessoa\npela aparência.\pMas muitas vezes a aparência não\nmente…$
+
+[Route123_Text_FrederickIntro] cbbe21af9b
+Olá, criança!\nTem um tempinho?$
+
+[Route123_Text_FrederickDefeat] 1cff6c2806
+Ah, uma criança muito capaz!\nDeixe-me ajudar na sua mesada.$
+
+[Route123_Text_FrederickPostBattle] ff33344eaf
+Ajudar na sua mesada?\nO prêmio em dinheiro não bastou?$
+
+[Route123_Text_AlbertoIntro] baf3c1b5ba
+Tenho que te contar: POKéMON\nPÁSSAROS são a minha obsessão!\pPássaros são demais!\nSão os melhores!$
+
+[Route123_Text_AlbertoDefeat] e50caccce2
+Mesmo perdendo, POKéMON PÁSSAROS\nsão demais!$
+
+[Route123_Text_AlbertoPostBattle] 111edb331a
+Junto as penas de POKéMON PÁSSAROS\nque voam nas batalhas.\pVou fazer um chapéu com penas\nde POKéMON PÁSSAROS.$
+
+[Route123_Text_EdIntro] 318ba212f4
+Quando não tem TREINADOR por perto,\ndeixo os meus POKéMON batalharem\lentre si. Fico assistindo.$
+
+[Route123_Text_EdDefeat] a24ca285b2
+Até que gostei dos seus POKéMON.$
+
+[Route123_Text_EdPostBattle] cc5d637d5c
+Hehe, vou roubar as suas ideias de\nbatalha! Acho que vão me fazer melhor.$
+
+[Route123_Text_JonasIntro] d0269d3f64
+Fiz uma emboscada, e um TREINADOR\ncaiu na minha armadilha!$
+
+[Route123_Text_JonasDefeat] 551c356226
+Se você não perde, como vou me\ndivertir brincando de ninja?$
+
+[Route123_Text_JonasPostBattle] f7ccd63c76
+Da próxima vez, vou emboscar um\nTREINADOR com cara de mais fraco.$
+
+[Route123_Text_KayleyIntro] ff6b7ceb34
+Acabei de comprar esta sombrinha.\nA minha fofura deve subir um terço!$
+
+[Route123_Text_KayleyDefeat] 1c6d540acb
+Você é umas cinco vezes melhor\nque eu!$
+
+[Route123_Text_KayleyPostBattle] 691dfb332d
+Usar bem os acessórios é o segredo\npra arrasar na moda.$
+
+[Route124_Text_SpencerIntro] 9b80539f07
+Ei, você se perdeu no mar?\pSe vencer os meus POKéMON, posso\nser o seu guia.$
+
+[Route124_Text_SpencerDefeat] f268765fb4
+Perdi o rumo na batalha!$
+
+[Route124_Text_SpencerPostBattle] 16ecef7f17
+Muita gente perde o rumo no mar.\pSe for o seu caso, consulte o MAPA\ndo POKéNAV.$
+
+[Route124_Text_RolandIntro] 2a807a43f8
+Hum! Você vai montado num POKéMON\nem vez de nadar…\pQue inveja!$
+
+[Route124_Text_RolandDefeat] 28396d05d1
+Ah!\nNão consigo…$
+
+[Route124_Text_RolandPostBattle] 4016930a94
+Estou com frio…\nFiquei tempo demais na água…\pQueria poder montar num POKéMON\ncomo você…$
+
+[Route124_Text_JennyIntro] 17a7834b17
+Se você só boia no mar assim, os\nPOKéMON vêm brincar.$
+
+[Route124_Text_JennyDefeat] ca4ac344c1
+Ah, droga.\nAcabei perdendo.$
+
+[Route124_Text_JennyPostBattle] 11adad168b
+Nadando, percebi que alguns POKéMON\natacam e outros só olham.\pAcho que os POKéMON têm\npersonalidade própria.$
+
+[Route124_Text_JennyRegister] d8d7f7b233
+É só um capricho, mas talvez eu peça\npra você me registrar no POKéNAV.$
+
+[Route124_Text_JennyRematchIntro] b1b9944027
+Se você só boia no mar assim, os\nTREINADORES te desafiam!$
+
+[Route124_Text_JennyRematchDefeat] e00e1bbdfe
+Que estranho…\nPerdi de novo…$
+
+[Route124_Text_JennyPostRematch] 86dd6f718f
+Não tem nada a ver, mas talvez\neu visite a CASA DOS TRUQUES.$
+
+[Route124_Text_GraceIntro] d2832a39d7
+Estou cansando de nadar…\nQue tal uma batalha?$
+
+[Route124_Text_GraceDefeat] d71cb7be6d
+Não fazia ideia de que você era\ntão forte!$
+
+[Route124_Text_GracePostBattle] c3b2662de0
+Todo o esforço que você fez deve ter\nte deixado forte assim.$
+
+[Route124_Text_ChadIntro] ad8ed0d04e
+Fufufufu… Mergulho fundo pra ficar\nbem escondido.\lExplorar as profundezas é comigo!$
+
+[Route124_Text_ChadDefeat] 56cff228d1
+Glub, glub, glub…\nEstou afundando…$
+
+[Route124_Text_ChadPostBattle] cdfd7e274a
+Sei de fonte segura que tem um ponto\nde MERGULHO por aqui.\pDá vontade de ir fundo de novo…$
+
+[Route124_Text_LilaIntro] 7878bced11
+LILA: Ai…\pEstou no mar, e quem está comigo?\nO meu irmão mais novo!\pVamos batalhar pra eu não ficar\npensando nisso!$
+
+[Route124_Text_LilaDefeat] f0c51559af
+LILA: ROY! A culpa é sua!\nDepois você vai ver!$
+
+[Route124_Text_LilaPostBattle] 3ad41b1113
+LILA: Ai…\pSe ao menos do meu lado estivesse um\nnamorado legal, e não o meu irmão…$
+
+[Route124_Text_LilaNotEnoughMons] 77116b4f73
+LILA: Quer batalhar com a gente?\nSó se tiver dois POKéMON.$
+
+[Route124_Text_RoyIntro] 2ef0344751
+ROY: A minha irmã é fera em POKéMON!\pNão chora quando perder!$
+
+[Route124_Text_RoyDefeat] 98d1a40611
+ROY: Ih…\nA minha irmã vai brigar comigo…$
+
+[Route124_Text_RoyPostBattle] e18f8dd27b
+ROY: A minha irmã dá muito medo\nquando fica brava.\pÉ por isso que ela não tem\nnamorado.$
+
+[Route124_Text_LilaRoyRegister] d510868f81
+ROY: Batalha com a gente de novo?\nMas pega leve da próxima vez, tá?$
+
+[Route124_Text_RoyNotEnoughMons] b11269783e
+ROY: Queria batalhar com a gente?\nEntão traga dois POKéMON.$
+
+[Route124_Text_LilaRematchIntro] f6fd85d09b
+LILA: Ai…\pEstou no mar, e quem está comigo?\nO meu irmão mais novo!\pAh, oi, quanto tempo. Vamos batalhar\npra eu não ficar pensando nisso!$
+
+[Route124_Text_LilaRematchDefeat] 5f81b1be05
+LILA: ROY!\nA culpa é sua de novo!\pDepois vamos ter treino!$
+
+[Route124_Text_LilaPostRematch] 794e3c170e
+LILA: Ai…\pCom um namorado legal, a gente\nvenceria qualquer um em dupla…$
+
+[Route124_Text_LilaRematchNotEnoughMons] 77116b4f73
+LILA: Quer batalhar com a gente?\nSó se tiver dois POKéMON.$
+
+[Route124_Text_RoyRematchIntro] 27f919d013
+ROY: Se a gente perder, eu me ferro.\nVou com tudo!$
+
+[Route124_Text_RoyRematchDefeat] 46a429fc7e
+ROY: Ih…\nA minha irmã vai brigar comigo de novo.$
+
+[Route124_Text_RoyPostRematch] 03760b54bb
+ROY: A minha irmã dá muito medo\nquando fica brava.\pDepois ela vai me fazer treinar\npesado com os POKéMON…$
+
+[Route124_Text_RoyRematchNotEnoughMons] b11269783e
+ROY: Queria batalhar com a gente?\nEntão traga dois POKéMON.$
+
+[Route124_Text_DeclanIntro] 7bab119e2e
+Aqui estou, nadando sozinho neste\nmar imenso e lindo.\pNão tem outra palavra.\nQue coisa patética!$
+
+[Route124_Text_DeclanDefeat] 68e8de5a3a
+Fiquei na fossa.\nAzul como o céu…$
+
+[Route124_Text_DeclanPostBattle] 68a8b4a6d4
+Eu devia puxar papo com as NADADORAS\ne convidar pra um nado longo.$
+
+[Route124_Text_IsabellaIntro] 3e2cd6f70f
+Não vou perder pra um TREINADOR\nsurfista qualquer.$
+
+[Route124_Text_IsabellaDefeat] 2b89604aea
+É só suor nos meus olhos!\nNão estou chorando!$
+
+[Route124_Text_IsabellaPostBattle] df8857c81b
+Dá pra achar uns cacos coloridos\nbonitos por aqui.$
+
+[Route125_Text_NolenIntro] 8e905deacc
+Ouvi você chegando, então fiquei\nte esperando!$
+
+[Route125_Text_NolenDefeat] 4770c63c6e
+Eu me rendo!$
+
+[Route125_Text_NolenPostBattle] 6f2ac0a81a
+O som viaja mais rápido na água\ndo que no ar.$
+
+[Route125_Text_StanIntro] 0d5f7cd0ec
+E aí!\nOlha os meus POKéMON maneiros!$
+
+[Route125_Text_StanDefeat] dce1082e03
+Me afoguei…$
+
+[Route125_Text_StanPostBattle] 2883d55893
+Fiquei encantado com o charme do\nHORSEA, então comecei a nadar também.$
+
+[Route125_Text_TanyaIntro] 69314ca93d
+Cansei de nadar.\nTopa uma batalha comigo?$
+
+[Route125_Text_TanyaDefeat] d314eaac7a
+Você é demais!$
+
+[Route125_Text_TanyaPostBattle] e386f9b168
+Ufa…\nPra que lado fica MOSSDEEP?$
+
+[Route125_Text_SharonIntro] 36106d86c7
+Que tal enfrentar os POKéMON de\nÁGUA que eu criei?$
+
+[Route125_Text_SharonDefeat] 8aa34973ae
+Perdi…$
+
+[Route125_Text_SharonPostBattle] 409fc443a3
+A sua força… Você é fera de verdade.\nEstou impressionada!$
+
+[Route125_Text_ErnestIntro] 76bd67d90d
+Ahoy! Sou um MARINHEIRO forte e\nmusculoso! Já enfrentei os mares do\lmundo!$
+
+[Route125_Text_ErnestDefeat] ba21d7333e
+Grrroooar!\nNão consegui ganhar!$
+
+[Route125_Text_ErnestPostBattle] 4dfae1430d
+A maré sobe e desce dentro da\nCAVERNA DO BANCO DE AREIA.\pAliás, são umas seis horas da maré\nalta até a baixa. Sabia?$
+
+[Route125_Text_ErnestRegister] 5d387816a2
+Me registre no seu POKéNAV, e eu\nte conto uma coisa boa.$
+
+[Route125_Text_ErnestRematchIntro] 38c8e4e9a5
+Já passou da hora de eu ir à forra!\nVamos, vamos batalhar!$
+
+[Route125_Text_ErnestRematchDefeat] 4089346fb7
+Não consegui ganhar!\nNão consegui de jeito nenhum!$
+
+[Route125_Text_ErnestRematchPostBattle] 7d176302a6
+A CAVERNA DO BANCO DE AREIA…\pTem lugares que dá ou não dá pra\nchegar conforme a maré sobe e\ldesce.\pAliás, são umas seis horas da maré\nalta até a baixa. Não esqueça!$
+
+[Route125_Text_KimIntro] 5d9a9847e7
+KIM: Um velho engraçado mora na\nCAVERNA DO BANCO DE AREIA, dizem.\lVocê vai lá ver ele também?$
+
+[Route125_Text_KimDefeat] d232d494e9
+KIM: Achei que a gente ia ganhar.$
+
+[Route125_Text_KimPostBattle] e41a544b53
+KIM: Um velho engraçado mora na\nCAVERNA DO BANCO DE AREIA, né?\pVamos ver ele, IRIS!$
+
+[Route125_Text_KimNotEnoughMons] 80c36d875f
+KIM: Não, não, não! Você precisa de\ndois POKéMON, senão não dá!$
+
+[Route125_Text_IrisIntro] 5ca5feca01
+IRIS: KIM, me diz o que a gente está\nprocurando aqui?$
+
+[Route125_Text_IrisDefeat] 95621f02ab
+IRIS: Ah, quase conseguimos.$
+
+[Route125_Text_IrisPostBattle] 9cab45a9d8
+IRIS: KIM, a gente vai mesmo entrar\nna CAVERNA DO BANCO DE AREIA?\lVamos ficar encharcadas.$
+
+[Route125_Text_IrisNotEnoughMons] a74337aafc
+IRIS: Ah, a gente nunca, jamais faria\numa batalha de 2 contra 1.$
+
+[Route125_Text_PresleyIntro] 832776ec27
+Por que um CRIADOR DE PÁSSAROS como\neu viria pro mar?$
+
+[Route125_Text_PresleyDefeat] 6f7014f9cb
+Tá bom.\nVou contar por que estou aqui.$
+
+[Route125_Text_PresleyPostBattle] 1de4438f80
+Pus uma mensagem numa garrafa e\njoguei no mar.\pTenho certeza de que uma NADADORA\nvai achar!$
+
+[Route125_Text_AuronIntro] d0489e800b
+Ei! Foi você que jogou lixo no mar?$
+
+[Route125_Text_AuronDefeat] 85ee3a695c
+Ah, não era você que estava jogando\nlixo no mar.$
+
+[Route125_Text_AuronPostBattle] ee2e8824ec
+Achei uma garrafa feia boiando nas\nondas agora há pouco.\pMe dá raiva que alguém polua\no mar!$
+
+[Route126_Text_BarryIntro] 59cb80c033
+Nadar exercita o corpo todo!\nVocê vai entrar em forma!$
+
+[Route126_Text_BarryDefeat] 9f422e0575
+Admito!\nVocê venceu!$
+
+[Route126_Text_BarryPostBattle] 1c09c6f677
+Graças à minha natação diária…\nOlha! Admire este físico!$
+
+[Route126_Text_DeanIntro] d7568ca540
+Esta montanha branca de rocha é a\nCIDADE DE SOOTOPOLIS.$
+
+[Route126_Text_DeanDefeat] 6abfe8c8d4
+Acabaram comigo?$
+
+[Route126_Text_DeanPostBattle] 355f09b5e8
+Não acho a entrada de SOOTOPOLIS.\nOnde será que fica?$
+
+[Route126_Text_NikkiIntro] 9bcf8602b3
+Ufufufufu!\nSou uma sereia!$
+
+[Route126_Text_NikkiDefeat] 4a1e000cbd
+A minha fantasia estourou feito bolha!\nBlub, blub, blub…$
+
+[Route126_Text_NikkiPostBattle] 54e247bfeb
+Você me arrasou… Quero sumir numa\nonda de desespero…$
+
+[Route126_Text_BrendaIntro] c4d12903d8
+Olá, criança!\nQuer batalhar comigo?$
+
+[Route126_Text_BrendaDefeat] ff0fc57c74
+Ah, nããão!$
+
+[Route126_Text_BrendaPostBattle] 7831bd473e
+Adoro brincar com os POKéMON no\nmar assim!$
+
+[Route126_Text_PabloIntro] 8f4e296e5b
+Olha este corpo esculpido!\nSou mais definido que um FAIXA-PRETA!$
+
+[Route126_Text_PabloDefeat] 4a57bae7b2
+Opa! Forte demais!\nNada mal! Nada mal mesmo!$
+
+[Route126_Text_PabloPostBattle] 297741e693
+Perder pra você me acendeu!\nVou treinar a mim e aos POKéMON mais!$
+
+[Route126_Text_PabloRegister] 0cc6b7dd23
+É, você não é nada mal!\nQuero te conhecer melhor!$
+
+[Route126_Text_PabloRematchIntro] 075c2b9428
+Olha este corpo lindo!\nTenho mais forma que um NADADOR!$
+
+[Route126_Text_PabloRematchDefeat] abbde0b912
+Opa! Forte demais mesmo!\nNada mal! Nada mal mesmo!$
+
+[Route126_Text_PabloPostRematch] cf226dbe92
+Vou treinar ainda mais!\nVocê me motiva demais!\lVocê tem que voltar!$
+
+[Route126_Text_LeonardoIntro] 2faa75cd99
+Ano passado eu nem sabia nadar, mas\nagora sou um NADADOR decente.\pAcho que agora consigo qualquer\ncoisa.$
+
+[Route126_Text_LeonardoDefeat] 50dd75b177
+Aff, querer demais não me ajudou\nem um pouco.$
+
+[Route126_Text_LeonardoPostBattle] 53d5489bc3
+Se você pratica uma coisa, melhora\nnela.\pVocê é jovem: não tenha medo de\ntentar de tudo!$
+
+[Route126_Text_IsobelIntro] b82b0689cc
+Quando entra água do mar no nariz,\nnão é horrível?$
+
+[Route126_Text_IsobelDefeat] caffe0a26c
+Ack! Você…\nGlub!$
+
+[Route126_Text_IsobelPostBattle] bc37b88ac2
+Ui, engasguei com água!\nAmarga! Salgada!!$
+
+[Route126_Text_SiennaIntro] 08196a6764
+Estou pondo todo o meu coração\nnisto!$
+
+[Route126_Text_SiennaDefeat] c61e31e293
+Você teve mais coração!$
+
+[Route126_Text_SiennaPostBattle] 38ccc078cc
+Preciso esfriar agora…\nAcho que vou dar um mergulho.$
