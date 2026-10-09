@@ -273,7 +273,9 @@ O maior volume do projeto, sem equivalente no wiki.
         ESCONDERIJO AQUA, ROTA 124, MOSSDEEP com o GINÁSIO e o CENTRO
         ESPACIAL, CAMINHO SUBMARINO, ROTA 128, SOOTOPOLIS com o GINÁSIO,
         CAVERNA DA ORIGEM, PILAR CELESTE, ESTRADA DA VITÓRIA, EVER
-        GRANDE e a LIGA POKéMON; as ROTAS 125 a 127 e 129 a 134
+        GRANDE, a LIGA POKéMON, PACIFIDLOG, ROTA 123, NAVIO ABANDONADO,
+        S.S. TIDAL, NOVA MAUVILLE, TORRE MIRAGEM e CAVERNA DO BANCO DE
+        AREIA: todos os mapas da história estão feitos; as ROTAS 125 a 127 e 129 a 134
         não têm falas nos arquivos dos mapas)
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
