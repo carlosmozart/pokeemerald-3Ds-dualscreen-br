@@ -72,13 +72,13 @@ Para não pisar no trabalho do outro PC:
   conflitos. Mudança em outra fase (uma decisão, um risco), num commit
   próprio e combinada com o usuário.
 
-**Divisão atual** (09/10/2026, revista no mesmo dia; o usuário diz qual PC é qual ao abrir a
+**Divisão atual** (09/10/2026, revista no mesmo dia e de novo com os treinadores e os `data/scripts` para o PC dos mapas; o usuário diz qual PC é qual ao abrir a
 sessão, ou pergunte):
 
 | PC | Fica com | Arquivos do catálogo |
 |---|---|---|
 | Menus | Os menus e mensagens de `src/strings.c`, incluindo os textos da tela da POKéDEX (busca, ordem, HT/WT), que também estão nele | `src/strings.c.txt` |
-| Mapas | Os diálogos dos mapas na ordem do jogo, a partir de PETALBURG: ROTA 102, PETALBURG (cidade, casa, GINÁSIO), ROTA 104, BOSQUE PETALBURG, RUSTBORO… (as 386 descrições da POKéDEX ficaram prontas em 09/10) | `data/maps/<Mapa>/scripts.inc.txt`, um por mapa |
+| Mapas | Os diálogos dos mapas (todos os `data/maps` com texto ficaram prontos em 09/10, com a FRONTEIRA DE BATALHA); agora as falas de mundo fora dos mapas: os treinadores comuns, a ZONA DE SAFÁRI e os scripts compartilhados (LIQUIDIFICADOR, CENTRO DE CUIDADOS, homem de MAUVILLE, moça de LILYCOVE, salão de concursos, BASES SECRETAS, árvores de FRUTA, golpes de campo…) | `data/maps/<Mapa>/scripts.inc.txt`, `data/text/trainers.inc.txt` e `data/scripts/*.inc.txt` |
 
 Ao terminar uma parte, combine a próxima com o usuário e atualize esta
 tabela num commit próprio.
