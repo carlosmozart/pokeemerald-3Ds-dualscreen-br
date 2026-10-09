@@ -146,6 +146,9 @@ Os nomes dos POKéMON não se traduzem.
 | Submarine Explorer 1 | EXPLORADOR SUBMARINO 1 | |
 | Full Restore | RESTAURAÇÃO TOTAL | RESTAURAÇÃO no nome do item |
 | inches (tamanho do SEEDOT/LOTAD) | polegadas | o número vem do código em polegadas; trocar por cm exige um patch |
+| Victory Road | ESTRADA DA VITÓRIA | |
+| Hall of Fame | HALL DA FAMA | |
+| "become the Champion" dito ao jogador | chegar ao topo da LIGA | CAMPEÃO/CAMPEÃ flexiona |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
