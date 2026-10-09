@@ -137,6 +137,9 @@ Os nomes dos POKéMON não se traduzem.
 | Time Attack / Time Board | Contra o Tempo / Quadro de Tempos | COLINA DOS TREINADORES |
 | Faraway Island | ILHA DISTANTE | |
 | Mimic Circle | CLUBE DA MÍMICA | treinadores da ROTA 119 |
+| Altering Cave | CAVERNA MUTANTE | sem nome oficial no Brasil; os POKéMON dela mudam com o evento |
+| Stamp Card / Battle Count Card / Wonder Card | CARTÃO DE SELOS / CARTÃO DE BATALHAS / CARTÃO MARAVILHA | PRESENTE MISTERIOSO |
+| Mystery Event Club | CLUBE DO EVENTO MISTERIOSO | homem dos perfis |
 | Safari Game / Pokéblock Feeder / Rest House | Jogo do SAFÁRI / COMEDOURO DE {POKEBLOCK} / CASA DE DESCANSO | ZONA DE SAFÁRI |
 | Jagged Pass | TRILHA ESCARPADA | |
 | Cable Car | TELEFÉRICO | |
