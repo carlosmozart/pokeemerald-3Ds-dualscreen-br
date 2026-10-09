@@ -334,7 +334,7 @@ Se destacou tanto quanto\napresentações especiais.$
 Se destacou tanto quanto\n{STR_VAR_1}.$
 
 [gText_JammedAppealsMadeEvenLessNoticeable] 4ebd979be3
-As apresentações atrapalhadas\nchamaram menos atenção.$
+Apresentações atrapalhadas\nchamaram menos atenção.$
 
 [gText_EveryonesAppealsMadeSame] c8b4a51afb
 As apresentações de todos\nficaram iguais.$
