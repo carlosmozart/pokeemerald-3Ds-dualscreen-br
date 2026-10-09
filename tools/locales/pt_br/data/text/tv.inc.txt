@@ -414,3 +414,336 @@ Da próxima vez que eu capturar um\nPOKéMON, vou dar o nome {STR_VAR_2}.\pMANO:
 
 [gTVPokemonTodaySuccessfulText11] 89355464e6
 MANA: Ah, não!\nOlha a hora!\pBom, pessoal, por hoje é só.\nAté a próxima!\pMANO: Lembre: da próxima vez, o seu\nPOKéMON pode estar em destaque!$
+
+[SmartShopper_Text_Intro] 3e207d085c
+Olá!\pÉ hora das COMPRAS ESPERTAS DE HOJE.\pENTREVISTADOR: Tudo bem, gente?\pHoje estamos numa loja\nem {STR_VAR_2}.\pVamos ver o que anda vendendo\nmais ultimamente.$
+
+[SmartShopper_Text_ClerkNormal] 21b82acb66
+Vamos entrevistar o vendedor pra\nsaber das novidades.\pOi, como vão os negócios?\pVENDEDOR: Ah, estamos ótimos.\pUltimamente, {STR_VAR_2} tem\nvendido muito bem.\pAinda outro dia, {STR_VAR_1}\ncomprou {STR_VAR_3}.$
+
+[SmartShopper_Text_RandomComment1] 34f6de16e3
+ENTREVISTADOR: Comprou {STR_VAR_3}\n{STR_VAR_2}? Que compra!\pSe me permite, {STR_VAR_1} devia\nestar se abastecendo pra uma longa\lviagem a lugares distantes.\pPra viajar, {STR_VAR_2} é muito\nimportante!$
+
+[SmartShopper_Text_RandomComment2] d2eb520e5b
+ENTREVISTADOR: Falando no item\n{STR_VAR_2}, eu comprei {STR_VAR_3}\lhá pouco tempo.\pAfinal, {STR_VAR_2} é um ótimo item!$
+
+[SmartShopper_Text_RandomComment3] 0ea5be1d08
+ENTREVISTADOR: {STR_VAR_2}?!\nMas {STR_VAR_3} de uma vez?!\pNão achei que alguém comprasse\ntanto assim.\pMinha nossa, eu só posso comprar\num ou dois de cada vez…$
+
+[SmartShopper_Text_RandomComment4] 57e4d5956f
+ENTREVISTADOR: Uma vez, comprei\num montão do item {STR_VAR_2}.\pMas acabou sendo demais.\nMe arrependi…\pDesde então, só compro o que\npreciso de verdade…\pOpa!\pNão adianta falar de mim!$
+
+[SmartShopper_Text_SecondItem] c54e2c4253
+VENDEDOR: {STR_VAR_1} também comprou\n{STR_VAR_2} no atacado: {STR_VAR_3}.\pENTREVISTADOR: Ah, que esperto.\n{STR_VAR_2} também é muito bom.$
+
+[SmartShopper_Text_ThirdItem] 59ec0ac4c5
+VENDEDOR: E também levou\n{STR_VAR_3} do item {STR_VAR_2}.$
+
+[SmartShopper_Text_DuringSale] ea97893371
+VENDEDOR: E foi numa grande liquidação.\nIsso é que é comprar com esperteza.$
+
+[SmartShopper_Text_OutroNormal] 1de455c288
+ENTREVISTADOR: Hmm… {STR_VAR_1} sabe\nmesmo caçar uma pechincha!\pNo total, as compras de\n{STR_VAR_1} deram…\p…{STR_VAR_2}?!\nQue valor incrível!\pOpa! Nosso tempo acabou!\nAté o próximo programa!$
+
+[SmartShopper_Text_IsVIP] 5aa1d17a6d
+VENDEDOR: {STR_VAR_1} é cliente VIP,\nsem dúvida nenhuma.$
+
+[SmartShopper_Text_ClerkMax] 0d3320a45d
+Vamos entrevistar o vendedor pra\nsaber das novidades.\pOi, como vão os negócios?\pVENDEDOR: Ah, estão incríveis.\nÉ quase demais pra dar conta.\pHá pouco, {STR_VAR_1} comprou\n{STR_VAR_2} no atacado.\pQuase zerou o nosso estoque\nde {STR_VAR_2}.\pNunca imaginei que alguém fosse\nprecisar de tanto {STR_VAR_2}.\lÉ inédito!\pENTREVISTADOR: Tipo, vendeu\nuns 100 ou 200?\pVENDEDOR: Ah, não, bem mais que isso!\pENTREVISTADOR: Minha nossa!\n{STR_VAR_1} é cliente especial!\pVENDEDOR: {STR_VAR_1} é cliente VIP,\nsem dúvida nenhuma.$
+
+[SmartShopper_Text_OutroMax] 83ba553b09
+ENTREVISTADOR: Hmm…\nIsso é incrível.\pMas pra que comprar\ntanto assim?\p… …\pO mistério aumenta, mas nosso\ntempo de hoje acabou.\lAté o próximo programa!\pMas {STR_VAR_1} é mesmo um enigma…$
+
+[gTVWorldOfMastersText00] f82e7af47d
+O MUNDO DOS MESTRES\pOlá, espectadores.\pTalvez você conheça quem atende\npelo nome de {STR_VAR_1}.\p{STR_VAR_1} tem fama de mestre\nem capturar POKéMON.\pA busca de {STR_VAR_1} por POKéMON\ndepende só de procurar a pé.\pNum dia memorável, foram\nuns {STR_VAR_2} passos.\pO total de POKéMON capturados\nnaquele dia chegou a {STR_VAR_3}!$
+
+[gTVWorldOfMastersText01] c189d079da
+Essa façanha só deve ter sido\npossível pela confiança entre\lquem treina e {STR_VAR_1}.$
+
+[gTVWorldOfMastersText02] 25f946f88e
+O último {STR_VAR_3} do dia foi\ncapturado perto de {STR_VAR_2}.\pEsse POKéMON parece ter um status\nespecial de recordista.\pQuem treina bem deve tentar\nbater essa bela marca.\pPor hoje é só.\nAté a próxima.$
+
+[gTVTodaysRivalTrainerText00] a5841716b1
+O RIVAL DO DIA!\pOlá, colegas TREINADORES POKéMON!\nComo estamos hoje?\pHoje, como todo dia, vamos\nanalisar um dos nossos rivais!$
+
+[gTVTodaysRivalTrainerText07] cda50ab8ee
+O rival do dia é {STR_VAR_1},\nque está por {STR_VAR_3} agora.\pAté agora, {STR_VAR_1} registrou\n{STR_VAR_2} POKéMON na POKéDEX.$
+
+[gTVTodaysRivalTrainerText08] 22e560815f
+O rival do dia é {STR_VAR_1},\nque está numa BASE SECRETA agora.\pAté agora, {STR_VAR_1} registrou\n{STR_VAR_2} POKéMON na POKéDEX.$
+
+[gTVTodaysRivalTrainerText09] f8cd4aff9e
+O rival do dia é {STR_VAR_1}.\pAté agora, {STR_VAR_1} registrou\n{STR_VAR_2} POKéMON na POKéDEX.$
+
+[gTVTodaysRivalTrainerText10] 574c15e750
+O rival do dia é {STR_VAR_1},\nque está numa balsa agora.\pAté agora, {STR_VAR_1} registrou\n{STR_VAR_2} POKéMON na POKéDEX.$
+
+[gTVTodaysRivalTrainerText01] 5f1bd4a5ab
+E quantas INSÍGNIAS o nosso rival\ntem? São {STR_VAR_1}!$
+
+[gTVTodaysRivalTrainerText02] 46fd988d26
+Mas o nosso rival ainda não tem\nnenhuma INSÍGNIA!$
+
+[gTVTodaysRivalTrainerText03] 594bdce5a5
+O nosso rival ainda não tem nenhum\nSímbolo da FRONTEIRA DE BATALHA.$
+
+[gTVTodaysRivalTrainerText04] ed5c916d4c
+Vamos ver quantos Símbolos da\nFRONTEIRA DE BATALHA o rival tem.\pSímbolos de Ouro: {STR_VAR_1}!\nSímbolos de Prata: {STR_VAR_2}!$
+
+[gTVTodaysRivalTrainerText05] 3705d7d208
+O nosso rival juntou {STR_VAR_1} PONTO(S)\nDE BATALHA na FRONTEIRA DE BATALHA.$
+
+[gTVTodaysRivalTrainerText06] 02ca496618
+E aí, como você se saiu em\ncomparação com {STR_VAR_1}?\pA aventura continua!\pColegas TREINADORES!\pVamos todos seguir em frente\ne passar dos nossos rivais!$
+
+[TrendWatcher_Text_Intro] 5541405e82
+REDE CAÇA-MODAS DE DEWFORD!\pAPRESENTADOR: Qual é que é?\nTrazemos o que tá na moda\le bombando em DEWFORD.\pO convidado de hoje é este\nvelhinho, a maior autoridade\lem tudo de DEWFORD.\pVelhinho: Que bom estar aqui.\pAPRESENTADOR: Vamos direto ao ponto.\pQual é a sua aposta sobre o que\nanima o povo de DEWFORD?\pVelhinho: {STR_VAR_1} {STR_VAR_2}.\pAPRESENTADOR:\n{STR_VAR_1} {STR_VAR_2}?\pVelhinho: Não.\p{STR_VAR_1} {STR_VAR_2} nunca\nfez sucesso nenhum.\pQuer ouvir a história?\pAPRESENTADOR: Hã, não. A gente\nquer saber o que tá na moda agora…$
+
+[TrendWatcher_Text_MaleTaughtMePhrase] e5abaf5fcc
+Velhinho: {STR_VAR_1} {STR_VAR_2}\nfoi o que {STR_VAR_3}, de LITTLEROOT,\lme ensinou como moda…$
+
+[TrendWatcher_Text_FemaleTaughtMePhrase] e5abaf5fcc
+Velhinho: {STR_VAR_1} {STR_VAR_2}\nfoi o que {STR_VAR_3}, de LITTLEROOT,\lme ensinou como moda…$
+
+[TrendWatcher_Text_PhraseWasHopeless] 91e1fd0728
+Mas não teve jeito nenhum.\pFestival de\n{STR_VAR_1} {STR_VAR_2}!\pConcurso de\n{STR_VAR_1} {STR_VAR_2}!\pTentei ensinar a todo mundo\ndo melhor jeito, mas…\pVai ver a parte {STR_VAR_1} é que\nnão tava certa…\pAPRESENTADOR: Hã, com licença, meu\nchapa, quero saber o que tá na moda…$
+
+[TrendWatcher_Text_MaleTellMeBigger] c366717774
+Velhinho: {STR_VAR_3}!\nPor favor, me conte algo maior que\lesse {STR_VAR_1} {STR_VAR_2}!$
+
+[TrendWatcher_Text_FemaleTellMeBigger] c366717774
+Velhinho: {STR_VAR_3}!\nPor favor, me conte algo maior que\lesse {STR_VAR_1} {STR_VAR_2}!$
+
+[TrendWatcher_Text_Outro] d27275638c
+APRESENTADOR: …Hã… Então é isso,\ngalera antenada aí de casa!\p{STR_VAR_1} {STR_VAR_2}… hã…\nNão bombou em DEWFORD!\pMeu tempo acabou. Até a próxima!\pVelhinho: {STR_VAR_1} {STR_VAR_2}!$
+
+[gTVHoennTreasureInvestigatorsText00] 3e3f502802
+CAÇADORES DE TESOUROS DE HOENN!\pOi, galera!\nAcharam algum item secreto?\pComo sempre, vamos ver relatos de\ntestemunhas de segredos de todo lado!\pVamos começar com uma carta.\nEla diz: “{STR_VAR_1} descoberto!”$
+
+[gTVHoennTreasureInvestigatorsText01] 02afe6bed8
+Uau, vamos ver essa carta!\nVou ler pra vocês.\p“Queridos CAÇADORES,\nespero que estejam bem.\pVi {STR_VAR_2} há pouco tempo\nlá por {STR_VAR_3}.\pAchou o item {STR_VAR_1}.\nFiquei com inveja.”\pBoa, {STR_VAR_2}!\pEspectadores, que isso anime vocês a\nligar o ACHADOR DE ITENS e procurar!\pVou ficar esperando notícias\nemocionantes de todos vocês!$
+
+[gTVHoennTreasureInvestigatorsText02] f2ce91b98f
+Uau, vamos ver essa carta!\nVou ler pra vocês.\p“Queridos CAÇADORES,\nespero que estejam bem.\pVi {STR_VAR_2} numa balsa há pouco.\pAchou o item {STR_VAR_1}.\nFiquei com inveja.”\pBoa, {STR_VAR_2}!\pEspectadores, que isso anime vocês a\nligar o ACHADOR DE ITENS e procurar!\pVou ficar esperando notícias\nemocionantes de todos vocês!$
+
+[gTVFindThatGamerText00] e6766a6fa0
+ACHE ESSE JOGADOR!\pE aí, jogadores!\nComo tá girando o seu {STR_VAR_2}?\pComo sempre, vamos destacar alguém\nraro que visitou o\lSALÃO DE JOGOS!\pHoje, o nº 1 dos jogadores é…\n{STR_VAR_1}!$
+
+[gTVFindThatGamerText01] 57bd14999c
+{STR_VAR_1} jogou {STR_VAR_2}\ne ganhou incríveis {STR_VAR_3} FICHAS.\p“Quando {STR_VAR_1} chega, precisamos\nter FICHAS suficientes.”\pÉ o que os funcionários do SALÃO\nDE JOGOS murmuram nessas horas!\pEspectadores, cuidem das FICHAS\ncomo {STR_VAR_1} ao visitar o SALÃO\lDE JOGOS e jogar {STR_VAR_2}.\pAo vivo do SALÃO DE JOGOS,\nonde a emoção rola solta!\pPor hoje é só!$
+
+[gTVFindThatGamerText02] 209bd6abe3
+{STR_VAR_1} jogou {STR_VAR_2}\ne perdeu {STR_VAR_3} FICHAS.\p“Quando {STR_VAR_1} chega, a venda\nde FICHAS parece aumentar.”\pÉ o que dizem os funcionários do\nSALÃO DE JOGOS nessas horas!$
+
+[gTVFindThatGamerText03] d85688c5a9
+Espectadores, cuidem das FICHAS\ncomo {STR_VAR_1} ao visitar o SALÃO\lDE JOGOS e jogar {STR_VAR_2}.\pAo vivo do SALÃO DE JOGOS,\nonde a emoção rola solta!\pPor hoje é só!$
+
+[gTVBreakingNewsText00] 463e9fda97
+PLANTÃO DE NOTÍCIAS!$
+
+[gTVBreakingNewsText01] ad99be04e0
+{STR_VAR_2} raro capturado por\n{STR_VAR_1}!\pEstamos ao vivo dos arredores de\n{STR_VAR_3}!\pFoi aqui que {STR_VAR_1} capturou\num {STR_VAR_2} raro!$
+
+[gTVBreakingNewsText02] d1efe11ec8
+Ao encontrar o {STR_VAR_2} raro,\n{STR_VAR_1} mandou pra luta\lo POKéMON {STR_VAR_3}.$
+
+[gTVBreakingNewsText03] 3678925280
+Na batalha, foram lançadas\n{STR_VAR_1} POKé BOLAS.\pNo fim, o POKéMON raro foi\ncapturado pela {STR_VAR_2} usada por último.$
+
+[gTVBreakingNewsText04] e3b7cb80fa
+Naquele instante, {STR_VAR_2}\necoou com os gritos de alegria\lde {STR_VAR_1}.\pConfesso que invejo um pouco\n{STR_VAR_1}. Também queria gritar.\p…Fim da transmissão ao vivo\ndesta cena feliz!$
+
+[gTVBreakingNewsText05] 849b242386
+{STR_VAR_1} não consegue capturar\n{STR_VAR_2} raro!\pEstamos ao vivo dos arredores de\n{STR_VAR_3}!\pFoi aqui que {STR_VAR_1} falhou\nao capturar um {STR_VAR_2} raro!$
+
+[gTVBreakingNewsText06] d1efe11ec8
+Ao encontrar o {STR_VAR_2} raro,\n{STR_VAR_1} mandou pra luta\lo POKéMON {STR_VAR_3}.$
+
+[gTVBreakingNewsText07] f1e3136c47
+O {STR_VAR_2} recebeu a ordem\nde usar o golpe {STR_VAR_1}.\pSem querer, o POKéMON raro\nacabou desmaiando…$
+
+[gTVBreakingNewsText12] 5071232faa
+Mas {STR_VAR_1} entrou em pânico\nao ver o {STR_VAR_2} raro.\pNa confusão, mandou {STR_VAR_3}\natacar.\pSem querer, o POKéMON raro\nacabou desmaiando.$
+
+[gTVBreakingNewsText08] e70875f151
+Naquele instante, {STR_VAR_2}\necoou com os gritos de frustração\lde {STR_VAR_1}…$
+
+[gTVBreakingNewsText09] e12d269785
+Mas parece que as POKé BOLAS\nde {STR_VAR_1} acabaram.\pFoi preciso desistir da batalha\ncom o {STR_VAR_2} raro.\pNaquele instante, {STR_VAR_3}\necoou com os gritos de frustração\lde {STR_VAR_1}…$
+
+[gTVBreakingNewsText10] 5981b60bd4
+Mas o {STR_VAR_2} fugiu sem\naviso.\pNaquele instante, {STR_VAR_3}\necoou com os gritos de frustração\lde {STR_VAR_1}…$
+
+[gTVBreakingNewsText11] c426f77dc7
+Confesso que entendo {STR_VAR_1}.\nDá até vontade de gritar também.\p…Fim da transmissão ao vivo\ndesta cena triste!$
+
+[gTVSecretBaseVisitText00] 722b339c50
+Olá, pessoal!\nÉ hora de mais uma\lVISITA À BASE SECRETA.\pHoje, visitamos a BASE SECRETA\nde {STR_VAR_1}.\pComo {STR_VAR_1} personalizou\na BASE SECRETA?\pVamos descobrir!\n… … … … … …$
+
+[gTVSecretBaseVisitText01] 377569a3e2
+Oh!\nQue maravilha!\pEste {STR_VAR_2}…\nNinguém esperaria encontrar\lisso aqui!$
+
+[gTVSecretBaseVisitText02] 796dc1b24e
+Oh!\nQue notável!\pNão tem nem um móvel nem\nobjeto de decoração!\pMeros mortais não conseguiriam\nimitar uma declaração tão ousada!\pÉ simples, mas transborda, sim,\ntransborda de ousadia!\pTiro o chapéu, {STR_VAR_1}.\nSó podia ser você!$
+
+[gTVSecretBaseVisitText03] 98408acc67
+Ah! Entendi!\nCom toda a clareza, entendi!\pEste {STR_VAR_2} aqui…\nPassa uma mensagem e tanto!$
+
+[gTVSecretBaseVisitText04] f20e60cc4c
+Ah! Entendi!\nCom toda a clareza, entendi!\pEste espaço fica de propósito\nsem decoração nenhuma!\pPassa uma mensagem e tanto!$
+
+[gTVSecretBaseVisitText05] 00ff02b7e5
+Uaaau!\pA combinação de {STR_VAR_2}\ncom {STR_VAR_3}!\pÉ uma combinação dos sonhos,\nsem dúvida!$
+
+[gTVSecretBaseVisitText06] e379ce1fdc
+Uaaau!\pA posição deste {STR_VAR_2}\nbem aqui…\pTem uma presença que enche\na BASE SECRETA inteira!$
+
+[gTVSecretBaseVisitText07] ea6a784365
+Uaaau!\pNão tem nada aqui.\pEste espaço vazio faz efeito\nna BASE SECRETA inteira.$
+
+[gTVSecretBaseVisitText08] e676f0223e
+Oh!\nLá vem {STR_VAR_1}!\lVamos desafiar!\p… … … … … …\n… … … … … …$
+
+[gTVSecretBaseVisitText09] c459d7b1f3
+Ai, ai…\n{STR_VAR_1} é fera, tenho\lque reconhecer.\pOs POKéMON dessa pessoa eram mesmo\ndignos de quem chega ao topo da LIGA.\pDeram prova de sobra da força\nde {STR_VAR_1} pra treinar.\pO {STR_VAR_2} saber o golpe\n{STR_VAR_3}…\pIsso mostra o tipo de TREINADOR\nque é {STR_VAR_1}.\pSem dúvida, foi uma bela lição!$
+
+[gTVSecretBaseVisitText10] c4b87da1fd
+Aiii!\n{STR_VAR_1} é fera, tenho\lque reconhecer.\pOs POKéMON dessa pessoa eram\nmonstruosamente fortes!\pDeram prova de sobra da garra\nde {STR_VAR_1} pra treinar.\pO {STR_VAR_2} saber o golpe\n{STR_VAR_3}…\pIsso mostra o tipo de TREINADOR\nque é {STR_VAR_1}.\pSem dúvida, foi uma bela lição!$
+
+[gTVSecretBaseVisitText11] f6c0b2deef
+Uaaau!\n{STR_VAR_1} é fera, tenho\lque reconhecer.\pOs POKéMON dessa pessoa foram\ncriados de forma bem equilibrada.\pDeram prova de sobra do cuidado\nde {STR_VAR_1} pra treinar.\pO {STR_VAR_2} saber o golpe\n{STR_VAR_3}…\pIsso mostra o tipo de TREINADOR\nque é {STR_VAR_1}.\pSem dúvida, foi uma bela lição!$
+
+[gTVSecretBaseVisitText12] 45afa1b0dc
+Ora, ora!\n{STR_VAR_1} é fera, tenho\lque reconhecer.\pOs POKéMON dessa pessoa mostraram\nmuito potencial de crescimento.\pRepresentavam os sonhos e as\nesperanças de {STR_VAR_1}.\pO {STR_VAR_2} saber o golpe\n{STR_VAR_3}…\pIsso mostra o tipo de TREINADOR\nque é {STR_VAR_1}.\pSem dúvida, foi uma bela lição!$
+
+[gTVSecretBaseVisitText13] b77cff8e6e
+Devo dizer: que BASE SECRETA\nmagnífica!\pEspectadores, se tiverem a chance,\nvisitem a BASE de {STR_VAR_1}.\pAté a próxima, eu me despeço!$
+
+[gTVPokemonLotteryWinnerFlashReportText00] b08474f8a2
+É emocionante!\nÉ dramático!\pÉ o PLANTÃO DA\nLOTERIA POKéMON!\pOlá! Estamos ao vivo do\nCANTO DA LOTERIA POKéMON, no\ltérreo da LOJA DE DEPARTAMENTOS\lde LILYCOVE!\pComo sempre acontece, mais\numa pessoa sortuda apareceu hoje!\pO nome dela…\n{STR_VAR_1}!\p{STR_VAR_1} ganhou o\n{STR_VAR_2} prêmio e levou\lpra casa {STR_VAR_3}!\p{STR_VAR_1}!\nParabéns!\pEspectadores, não fiquem só\nassistindo, participem!\pToda a LOJA DE DEPARTAMENTOS de\nLILYCOVE espera a sua visita!\pFoi uma transmissão ao vivo da\nLOJA DE DEPARTAMENTOS de LILYCOVE,\lcom a maior variedade\lde toda HOENN!$
+
+[gTVThePokemonBattleSeminarText00] e8be685735
+SEMINÁRIO DE BATALHAS POKéMON!\pAnalisamos batalhas pra ver que\nlições podemos aprender.\pO caso de hoje é a batalha\nde {STR_VAR_1}.\pO {STR_VAR_2} de {STR_VAR_1} estava\nlutando com um {STR_VAR_3}…$
+
+[gTVThePokemonBattleSeminarText01] 7f4c9ae431
+E usou o golpe {STR_VAR_3}\nno {STR_VAR_2}…\pHmm… {STR_VAR_1}!\nIsso foi um erro!$
+
+[gTVThePokemonBattleSeminarText02] 0e3196c861
+Além do golpe fatídico, o\n{STR_VAR_1} também sabia$
+
+[gTVThePokemonBattleSeminarText03] f58c6005b7
+os golpes {STR_VAR_1}, {STR_VAR_2}\ne {STR_VAR_3}.$
+
+[gTVThePokemonBattleSeminarText04] d769d91a12
+os golpes {STR_VAR_1} e\n{STR_VAR_2}.$
+
+[gTVThePokemonBattleSeminarText05] a812be87b2
+o golpe {STR_VAR_2}.$
+
+[gTVThePokemonBattleSeminarText06] 26040856c0
+Então, nessa situação, o que\ndevia ter sido usado?\p… … … … … …\nO golpe {STR_VAR_1}!\pO golpe {STR_VAR_1} teria sido\nmuito melhor que {STR_VAR_2}.\pEspectadores, aprendam com este\ncaso e batalhem com inteligência!\pAté a próxima, adeus!$
+
+[gTVTrainerFanClubText00] 382e1e8dcc
+Todos juntos!\nFÃ-CLUBE DOS TREINADORES!\pAPRESENTADOR: Como tá todo mundo?\nHoje, juntamos os fãs de quem\lestá bombando: {STR_VAR_1}!\pFÃS: Uooooooaaaaah!\pFÃS: {STR_VAR_1}!\pAPRESENTADOR: Pessoal!\nO que acham de {STR_VAR_1}?!\pFÃS: A gente ama {STR_VAR_1}!\pAPRESENTADOR: O que vocês amam\nem {STR_VAR_1}?!$
+
+[gTVTrainerFanClubText01] 7aac0b0ed3
+FÃS: O jeito estiloso de lançar\nPOKé BOLAS!$
+
+[gTVTrainerFanClubText02] 50a8124c4d
+FÃS: O jeito fofo de correr!$
+
+[gTVTrainerFanClubText03] b26623a6fd
+FÃS: Como encara firme quando\na coisa aperta!$
+
+[gTVTrainerFanClubText04] d7c287dc2c
+FÃS: Quanto sabe sobre\nPOKéMON!$
+
+[gTVTrainerFanClubText05] 6c4193114a
+FÃS: O carinho com todos\nos POKéMON!$
+
+[gTVTrainerFanClubText06] df60f2380c
+FÃS: As manobras incríveis\nde BICICLETA!$
+
+[gTVTrainerFanClubText07] 9725af02c3
+FÃS: O jeito impressionante\nde comprar itens!$
+
+[gTVTrainerFanClubText08] d4336ef721
+FÃS: O jeito charmoso de dar\napelidos aos POKéMON!$
+
+[gTVTrainerFanClubText09] fe231ba831
+FÃS: O estilo bacana de decorar\na BASE SECRETA!$
+
+[gTVTrainerFanClubText10] be44d4cda4
+FÃS: O jeito ousado de\nusar MTs!$
+
+[gTVTrainerFanClubText11] 7ffd57ae05
+APRESENTADOR: Como vocês viram,\n{STR_VAR_1} tá em alta! Pegando fogo!\pEntre os FÃS de {STR_VAR_1},\ntem um lema especial!\pAPRESENTADOR: Quando eu digo\n{STR_VAR_1}, vocês dizem…\pFÃS: {STR_VAR_2}!\pFÃS: {STR_VAR_3}!\pFÃS: {STR_VAR_2}!\pFÃS: {STR_VAR_3}!\pAPRESENTADOR: Isso aí, quando\nalguém disser “{STR_VAR_1}…”\pResponda: “{STR_VAR_2}\n{STR_VAR_3}!”\pTem um som tão único!\nDá pra entender por que tanta\lgente é FÃ de {STR_VAR_1}!\pCerto, você aí na frente da TV,\nentre nessa! Todos juntos!\pAPRESENTADOR: Quando eu digo\n{STR_VAR_1}, vocês dizem…\pFÃS: {STR_VAR_2}!\pFÃS: {STR_VAR_3}!\pFÃS: {STR_VAR_2}!\pFÃS: {STR_VAR_3}!\pAPRESENTADOR: Valeu por participar,\nFÃS de {STR_VAR_1}!\lÉ isso! Até a próxima!\pAPRESENTADOR: Quando eu digo\n{STR_VAR_1}, vocês dizem…\pFÃS: {STR_VAR_2}!\pFÃS: {STR_VAR_3}!$
+
+[TVSpotTheCuties_Text_Intro] 41556a3e4f
+CAÇA ÀS FOFURAS!\nPOKéMON DE FITAS!\pOlá, meus queridos espectadores!\pTenho certeza que concordam: um\nPOKéMON usando FITAS é divino!\pHoje, quero mostrar um POKéMON\nlindo que vi passeando\lpela cidade.\pO POKéMON fofo de hoje é\no {STR_VAR_2} de {STR_VAR_1}.$
+
+[TVSpotTheCuties_Text_RibbonsLow] 2d0c21fa73
+O número de FITAS que\n{STR_VAR_2} usa é {STR_VAR_3}.\pIsso diz muito sobre o quanto\n{STR_VAR_1} adora o POKéMON.$
+
+[TVSpotTheCuties_Text_RibbonsMid] b9a11d98a6
+{STR_VAR_2} usa incríveis\n{STR_VAR_3} FITAS!\pIsso mostra a dedicação de\n{STR_VAR_1} ao POKéMON!$
+
+[TVSpotTheCuties_Text_RibbonsHigh] fed008d42a
+{STR_VAR_2} usa inacreditáveis\n{STR_VAR_3} FITAS!\pIsso mostra a dedicação total\nde {STR_VAR_1} às coleções!$
+
+[TVSpotTheCuties_Text_RibbonIntro] a51cd388ec
+Vamos olhar de perto as muitas\nFITAS que {STR_VAR_2} usa.$
+
+[TVSpotTheCuties_Text_RibbonChampion] f725c38d04
+A FITA DE CAMPEÃO é especialmente\nencantadora.\p{STR_VAR_2} ganhou ao entrar\nno HALL DA FAMA.\pRealça mesmo a bravura\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DE CAMPEÃO!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonCool] 6c42d5925a
+A FITA DE ESTILO é especialmente\nencantadora.\p{STR_VAR_2} ganhou ao vencer\num CONCURSO DE ESTILO.\pRealça mesmo o estilo\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DE ESTILO!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonBeauty] a9bb7fd4bd
+A FITA DE BELEZA é especialmente\nencantadora.\p{STR_VAR_2} ganhou ao vencer\num CONCURSO DE BELEZA.\pRealça mesmo a beleza\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DE BELEZA!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonCute] 135adb269e
+A FITA DE FOFURA é especialmente\nencantadora.\p{STR_VAR_2} ganhou ao vencer\num CONCURSO DE FOFURA.\pRealça mesmo a fofura\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DE FOFURA!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonSmart] d45d6955c8
+A FITA DE ESPERTEZA é especialmente\nencantadora.\p{STR_VAR_2} ganhou ao vencer\num CONCURSO DE ESPERTEZA.\pRealça mesmo a esperteza\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DE ESPERTEZA!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonTough] 4d5aabb399
+A FITA DE FORÇA é especialmente\nencantadora.\p{STR_VAR_2} ganhou ao vencer\num CONCURSO DE FORÇA.\pRealça mesmo a força\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DE FORÇA!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonWinning] 2e468ab3f2
+A FITA DA VITÓRIA é especialmente\nencantadora.\p{STR_VAR_2} ganhou pelas façanhas\nna TORRE DE BATALHA.\pRealça mesmo o poder\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DA VITÓRIA!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonVictory] 4050d76742
+A FITA DO TRIUNFO é especialmente\nencantadora.\p{STR_VAR_2} ganhou pelas façanhas\nna TORRE DE BATALHA.\pRealça mesmo o poder incrível\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DO TRIUNFO!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonArtist] de137acfce
+A FITA DE ARTISTA é especialmente\nencantadora.\p{STR_VAR_2} ganhou por posar\npra um artista.\pRealça mesmo o charme de estrela\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DE ARTISTA!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_RibbonEffort] a41f68f7f9
+A FITA DO ESFORÇO é\nespecialmente encantadora.\p{STR_VAR_2} ganhou por ter\nmuita dedicação.\pRealça mesmo a determinação\nde {STR_VAR_2}.\p{STR_VAR_2} e a FITA DO ESFORÇO!\nA combinação é supereficaz!$
+
+[TVSpotTheCuties_Text_Outro] 8042c681b3
+…Ai, ai…\pFITAS e POKéMON…\nCombinam tão bem!\pAntes que eu desmaie,\nme despeço de todos!$
+
+[gTVPokemonNewsBattleFrontierText00] 63f7cdde29
+Saudações!\nÉ hora das NOTÍCIAS POKéMON.\pTemos notícias animadoras\nda FRONTEIRA DE BATALHA.$
+
+[gTVPokemonNewsBattleFrontierText01] 4797675530
+{STR_VAR_1} bateu um novo recorde\nde {STR_VAR_2} vitórias seguidas no\ldesafio da SALA DE BATALHA\lINDIVIDUAL da TORRE DE BATALHA.\pUm brinde a {STR_VAR_1}!$
+
+[gTVPokemonNewsBattleFrontierText02] ad6a26be3d
+{STR_VAR_1} bateu um novo recorde\nde {STR_VAR_2} vitórias seguidas no\ldesafio da SALA DE BATALHA\lDUPLA da TORRE DE BATALHA.\pUm brinde a {STR_VAR_1}!$
+
+[gTVPokemonNewsBattleFrontierText03] d378756bb4
+{STR_VAR_1} bateu um novo recorde\nde {STR_VAR_2} vitórias seguidas no\ldesafio da SALA DE BATALHA\lMÚLTIPLA da TORRE DE BATALHA.\pUm brinde a {STR_VAR_1}!$
+
+[gTVPokemonNewsBattleFrontierText04] 04a517df2c
+{STR_VAR_1} bateu um novo recorde\nde {STR_VAR_2} vitórias seguidas no\ldesafio da SALA DE BATALHA MÚLTIPLA\lPOR CONEXÃO da TORRE DE BATALHA.\pUm brinde a {STR_VAR_1}!$
+
+[gTVPokemonNewsBattleFrontierText05] 2f7b363bfd
+{STR_VAR_1} bateu um novo recorde\nde {STR_VAR_2} títulos seguidos nos\lTorneios de BATALHA INDIVIDUAL\lda CÚPULA DE BATALHA.\pUm brinde a {STR_VAR_1}!$
+
+[gTVPokemonNewsBattleFrontierText06] cef90f266b
+{STR_VAR_1} bateu um novo recorde\nde {STR_VAR_2} títulos seguidos nos\lTorneios de BATALHA DUPLA\lda CÚPULA DE BATALHA.\pUm brinde a {STR_VAR_1}!$
