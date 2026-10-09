@@ -236,7 +236,8 @@ O maior volume do projeto, sem equivalente no wiki.
   - [x] Rustboro, Dewford, Slateport (até o 3º ginásio): ROTA 104, BOSQUE
         DE PETALBURG, RUSTBORO, ROTA 116, TÚNEL RUSTURF, DEWFORD, CAVERNA
         GRANITO, ROTAS 105 a 109 e SLATEPORT inteira
-  - [ ] Mauville até Fortree (4º ao 6º ginásio)
+  - [ ] Mauville até Fortree (4º ao 6º ginásio) (feitos: ROTA 110 com a
+        CASA DOS TRUQUES, MAUVILLE inteira com o GINÁSIO)
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
