@@ -126,6 +126,15 @@ Os nomes dos POKéMON não se traduzem.
 | Grunt | CAPANGA | |
 | Bird Pokémon | POKéMON PÁSSARO | |
 | Super Repel | SUPER REPELENTE | REPELENTE SUP no nome do item |
+| Contest Hall / Master Rank | SALÃO DE CONCURSOS / NÍVEL MESTRE | concursos: CONCURSO DE ESTILO, BELEZA, FOFURA, ESPERTEZA, FORÇA |
+| Department Store | LOJA DE DEPARTAMENTOS | andares: T, 1º, 2º… como no Brasil |
+| Move Deleter | APAGADOR DE GOLPES | |
+| Berry Blender | LIQUIDIFICADOR DE FRUTAS | |
+| Sky Pillar | PILAR CELESTE | |
+| Trainer Fan Club | FÃ-CLUBE DOS TREINADORES POKéMON | |
+| Curator / Art Dealer | CURADOR / NEGOCIANTE DE ARTE | |
+| Ferry S.S. Tidal | balsa S.S. TIDAL | |
+| Mt. Pyre Pier | PÍER DO MONTE PYRE | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
