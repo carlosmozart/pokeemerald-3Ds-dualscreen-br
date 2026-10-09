@@ -194,7 +194,7 @@ Mas!\nVocê tem que me ajudar!\pNão me deixa na saudade!\nSeja meu sensei, de v
 Certo, {STR_VAR_1}, você me diz!\nVou encarar e ser feliz!\pSe um conselho eu precisar,\n{PLAYER}, sua palavra vou escutar!$
 
 [gText_ApprenticePleaseTeach12] 6c016ef129
-Ei, olha, você não é {PLAYER}?\nO que eu faço? Falo com você?\lPor que não? Já tô falando, pô!\p{PLAYER}, se espantou comigo?\nDeixa eu te contar quem eu sou, amigo!\pPode me chamar de {STR_VAR_1}.\nA estrela mais brilhante da guitarra,\lsou eu, na marra!\pTá me ouvindo?\nTá me ouvindo, sim!\pMinha sorte tá no auge,\nvou te fazer um pedido, que charme!\p{PLAYER}, quero ser seu pupilo!\nQuero aprender tudo, tim-tim por tim-tim!$
+Ei, olha, você não é {PLAYER}?\nO que eu faço? Falo com você?\lPor que não? Já tô falando, pô!\p{PLAYER}, se espantou comigo?\nDeixa eu te contar quem eu sou, amigo!\pPode me chamar de {STR_VAR_1}.\nA estrela mais brilhante da guitarra,\lsou eu, na marra!\pTá me ouvindo?\nTá me ouvindo, sim!\pMinha sorte tá no auge,\nvou te fazer um pedido, que charme!\p{PLAYER}, quero ser seu pupilo!\nQuero aprender tudo,\ltim-tim por tim-tim!$
 
 [gText_ApprenticeRejectTeaching12] fbbcf26b52
 Tá me recusando, então?\nVou ter que pedir de novo, irmão!\p{PLAYER}, imploro pra ser seu pupilo!\nQuero aprender tudo,\ltim-tim por tim-tim!$
