@@ -2316,3 +2316,158 @@ O CARTÃO MARAVILHA foi jogado fora.
 
 [gText_WonderNewsThrownAway] bc00dde047 width=216
 NOTÍCIAS MARAVILHA jogadas fora.
+
+# Quadros de resultados da FRONTEIRA e dos CONCURSOS por conexão
+
+# (frontier_util.c), numa janela de 28 tiles: título centrado (216 px);
+
+# rótulos ATUAL/RECORDE/ANTER./TOTAL em x=64 até a sequência (46 px); as
+
+# categorias de CONCURSO em x=6 até os números, em x=64 (56 px).
+
+[gText_Cool] 2991fd24ef width=56
+ESTILO
+
+[gText_Beauty] bed48404f8 width=56
+BELEZA
+
+[gText_Cute] 4b766bb69f width=56
+FOFURA
+
+[gText_Smart] a4969f2088 width=56
+ESPERTEZA
+
+[gText_Tough] 1c4ae12ec4 width=56
+FORÇA
+
+[gText_FacilitySingle] 7d3c3bdf6d
+{STR_VAR_1} INDIV.
+
+[gText_FacilityDouble] 628cab4b37
+{STR_VAR_1} DUPLA
+
+[gText_FacilityMulti] b7e45595b4
+{STR_VAR_1} MÚLT.
+
+[gText_FacilityLink] 703ec4081b
+{STR_VAR_1} LINK
+
+[gText_LinkContestResults] cacd20c22d width=216
+Resultados dos CONCURSOS de {PLAYER}
+
+[gText_1st] efc920c5fc width=38
+1º
+
+[gText_2nd] 008413d5e7 width=38
+2º
+
+[gText_3rd] a120779984 width=38
+3º
+
+[gText_4th] e1e535b650 width=38
+4º
+
+[gText_SingleBattleRoomResults] b56eb26302 width=216
+{PLAYER}: Sala de Batalha Individual
+
+[gText_DoubleBattleRoomResults] 3c2c9d4021 width=216
+{PLAYER}: Sala de Batalha Dupla
+
+[gText_MultiBattleRoomResults] 3aa0070d45 width=216
+{PLAYER}: Sala de Batalha Múltipla
+
+[gText_LinkMultiBattleRoomResults] 296fa7a404 width=216
+{PLAYER}: Sala Múltipla por Conexão
+
+[gText_SingleBattleTourneyResults] 0708f35e46 width=216
+{PLAYER}: Torneio Individual
+
+[gText_DoubleBattleTourneyResults] b531d0c6a2 width=216
+{PLAYER}: Torneio Duplo
+
+[gText_SingleBattleHallResults] b6c5879a0f width=216
+{PLAYER}: Salão Individual
+
+[gText_DoubleBattleHallResults] d3c6a0b275 width=216
+{PLAYER}: Salão Duplo
+
+[gText_BattleChoiceResults] da48b8a540 width=216
+{PLAYER}: Escolha de Batalha
+
+[gText_SetKOTourneyResults] 0e7441c44d width=216
+{PLAYER}: Torneio de Nocaute
+
+[gText_BattleSwapSingleResults] bd03e2a31f width=216
+{PLAYER}: Troca de Batalha Individual
+
+[gText_BattleSwapDoubleResults] 714d601150 width=216
+{PLAYER}: Troca de Batalha Dupla
+
+[gText_BattleQuestResults] cc718bdbf7 width=216
+{PLAYER}: Missão de Batalha
+
+[gText_Lv502] 13f0a8a25c width=46
+NV. 50
+
+[gText_OpenLv] 28a9cbc9b2 width=46
+LIVRE
+
+[gText_WinStreak] ff17f35fac
+Seguidas: {STR_VAR_1}
+
+[gText_Current] e6303ccf1c width=46
+ATUAL
+
+[gText_Record] 31355a2868 width=46
+RECORDE
+
+[gText_Prev] ff9162ff2f width=46
+ANTER.
+
+[gText_RentalSwap] 7b61efc72d
+Alug./Troca
+
+[gText_Total] b25928c699 width=46
+TOTAL
+
+[gText_ClearStreak] 66b2964e4d
+Seguidas: {STR_VAR_1}
+
+[gText_Championships] bd7a720e95
+Títulos: {STR_VAR_1}
+
+[gText_RoomsCleared] 25411c0835
+Salas: {STR_VAR_1}
+
+[gText_TimesCleared] fc2b464289
+Vencidas:{CLEAR 0x05}{STR_VAR_1}
+
+[gText_KOsInARow] acfe0733f8
+Nocautes: {STR_VAR_1}
+
+[gText_TimesVar1] 242fb85534
+Total: {STR_VAR_1}
+
+[gText_FloorsCleared] bc8dc48986
+Andares: {STR_VAR_1}
+
+[gText_RecordsLv50] 13f0a8a25c width=46
+NV. 50
+
+[gText_RecordsOpenLevel] 32c7557ca3
+NV. LIVRE
+
+[gText_FrontierFacilityWinStreak] 301aaa757f
+Seguidas: {STR_VAR_2}
+
+[gText_FrontierFacilityClearStreak] 47c32b07d6
+Seguidas: {STR_VAR_2}
+
+[gText_FrontierFacilityRoomsCleared] 92135d94f9
+Salas: {STR_VAR_2}
+
+[gText_FrontierFacilityKOsStreak] 4db8b49b80
+Nocautes: {STR_VAR_2}
+
+[gText_FrontierFacilityFloorsCleared] 52585dd772
+Andares: {STR_VAR_2}
