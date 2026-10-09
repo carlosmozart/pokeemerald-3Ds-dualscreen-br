@@ -199,11 +199,18 @@ Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
 
 Ordem sugerida, do que o jogador vê mais para o que vê menos:
 
-- [ ] Menus de `src/strings.c` (387 de 1762 textos em 09/10): menu
+- [ ] Menus de `src/strings.c` (468 de 1762 textos em 09/10): menu
       principal, CONTINUAR, opções (patches `0044` e `0045`), menu START com
       as janelas de salvar e do SAFARI, BOLSA, a fala do Prof. Birch, as
-      mensagens do save. Faltam batalhas especiais, POKéNAV, BOLSO DAS
+      mensagens do save, a caixa SIM/NÃO dos scripts, o POKéNAV com as
+      CHAMADAS, a janela de subida de nível e POKé BOLAS no plural. Faltam a
+      FRONTEIRA DE BATALHA (nomes das instalações a decidir), BOLSO DAS
       FRUTAS, concursos e textos soltos do mundo.
+- [ ] FRUTAS no plural: o jogo monta "ORAN BERRIES"; em português o nome vem
+      depois ("FRUTAS ORAN"), o que pede um patch como o `0031` do espanhol.
+- [ ] Janela de subida de nível na batalha (port, `3ds_video.c`): fica na
+      cena ampliada 1,5×, atrás da caixa de mensagem, que esconde AT. ESP.,
+      DEF. ESP. e VELOC. Conferir se a versão em inglês tem o mesmo corte.
 - [x] Mensagens de batalha (`src/battle_message.c`, patch `0041` para a
       ordem “ZIGZAGOON selvagem”); conferir larguras com a
       referência do patch `0034`.
@@ -245,7 +252,8 @@ O maior volume do projeto, sem equivalente no wiki.
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
 - [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON,
-      vendedor do POKé MART e o PC; faltam as placas comuns).
+      vendedor do POKé MART, o PC e os itens recebidos, `obtain_item.inc`;
+      faltam as placas comuns).
 - [ ] Frases de treinador (intro, derrota, revanche).
 - [ ] Cartas, Easy Chat e vocabulário (decidir se ficam em inglês: o Easy Chat
       é trocado entre saves e jogos).
