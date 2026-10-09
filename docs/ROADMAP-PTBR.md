@@ -286,8 +286,10 @@ O maior volume do projeto, sem equivalente no wiki.
         data/maps com texto têm catálogo)
   - [x] Treinadores comuns das rotas (`data/text/trainers.inc`, 1.142
         textos) e a ZONA DE SAFÁRI (`data/scripts/safari_zone.inc`), 09/10
-  - [ ] Os outros `data/scripts` compartilhados (homem de MAUVILLE, salão
-        de concursos, moça de LILYCOVE, LIQUIDIFICADOR, CENTRO DE CUIDADOS…)
+  - [x] Os outros `data/scripts` compartilhados (homem de MAUVILLE, salão
+        de concursos, moça de LILYCOVE, LIQUIDIFICADOR, CENTRO DE CUIDADOS,
+        BASES SECRETAS, árvores de FRUTA, golpes de campo, ROLETA e os
+        PRESENTES MISTERIOSOS: 22 arquivos, cerca de 470 textos), 09/10
 - [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON,
       vendedor do POKé MART, o PC e os itens recebidos, `obtain_item.inc`;
       faltam as placas comuns).
