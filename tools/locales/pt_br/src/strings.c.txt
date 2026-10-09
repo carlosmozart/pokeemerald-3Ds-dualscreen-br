@@ -3702,3 +3702,281 @@ Trocando:
 
 [gText_WirelessCommStatus] 10fe56ca0c width=200
 Status da Comunicação Sem Fio
+
+# FALA FÁCIL (easy_chat.c): só a interface; as palavras continuam em inglês
+
+# até a decisão do roadmap. Título centrado em 144 px; instruções e
+
+# perguntas numa janela de 24 tiles (184 px); nomes dos grupos em colunas
+
+# de 84 px (72 px de texto).
+
+[gText_CombineFourWordsOrPhrases] cf03e0d33f width=184
+Junte quatro palavras ou frases
+
+[gText_AndMakeYourProfile] 11a027f53f width=184
+e monte o seu perfil.
+
+[gText_CombineSixWordsOrPhrases] a40f33bb1b width=184
+Junte seis palavras ou frases
+
+[gText_AndMakeAMessage] 43efeb2b23 width=184
+e monte uma mensagem.
+
+[gText_FindWordsThatDescribeYour] 4b7285f026 width=184
+Ache palavras que descrevam
+
+[gText_FeelingsRightNow] 02eeeecf49 width=184
+o que você sente agora.
+
+[gText_CombineNineWordsOrPhrases] 2da22ca690 width=184
+Junte nove palavras ou frases
+
+[gText_AndMakeAMessage2] 43efeb2b23 width=184
+e monte uma mensagem.
+
+[gText_ChangeJustOneWordOrPhrase] 8150fa44e4 width=184
+Troque só uma palavra ou frase
+
+[gText_AndImproveTheBardsSong] 54270deca0 width=184
+e melhore a canção do BARDO.
+
+[gText_YourProfile] c1c9cbe699 width=144
+Seu perfil
+
+[gText_YourFeelingAtTheBattlesStart] 62b14b15a2 width=184
+O que sente no começo da batalha
+
+[gText_WhatYouSayIfYouWin] 5c4b375e7f width=184
+O que diz se ganhar a batalha
+
+[gText_WhatYouSayIfYouLose] d775f2becf width=184
+O que diz se perder a batalha
+
+[gText_TheAnswer] 7011b1a621 width=144
+A resposta
+
+[gText_TheMailMessage] 996acf0231 width=144
+A mensagem da CARTA
+
+[gText_TheBardsSong2] 7aae18451e width=144
+A canção nova
+
+[gText_CombineTwoWordsOrPhrases] 85141b0c29 width=184
+Junte duas palavras ou frases
+
+[gText_AndMakeATrendySaying] 8cdaaee2cf width=184
+e monte uma frase da moda.
+
+[gText_TheTrendySaying] dde8ccdae8 width=144
+A frase da moda
+
+[gText_IsAsShownOkay] f616d55360 width=184
+está assim. Tudo bem?
+
+[gText_CombineTwoWordsOrPhrases2] 85141b0c29 width=184
+Junte duas palavras ou frases
+
+[gText_ToTeachHerAGoodSaying] 237290257e width=184
+pra ensinar um bom ditado a ela.
+
+[gText_FindWordsWhichFit] 4d0647abef width=184
+Ache palavras que combinem
+
+[gText_TheTrainersImage] fe61827ffe width=184
+com a imagem do TREINADOR.
+
+[gText_TheImage] abef2f6210 width=144
+A imagem:
+
+[gText_OutOfTheListedChoices] 1586179b80 width=184
+Entre as opções da lista,
+
+[gText_SelectTheAnswerToTheQuiz] 9663cb00f9 width=184
+escolha a resposta do quiz!
+
+[gText_AndCreateAQuiz] d1208bca9c width=184
+e crie um quiz!
+
+[gText_PickAWordOrPhraseAnd] fd0d531c51 width=184
+Escolha uma palavra ou frase e
+
+[gText_SetTheQuizAnswer] 9f5bb98cf3 width=184
+defina a resposta do quiz.
+
+[gText_TheAnswerColon] 87e681d3a1 width=144
+A resposta:
+
+[gText_ApprenticePhrase] 5d494af039 width=144
+Frase do aprendiz:
+
+[gText_QuitEditing] fea09776b1 width=184
+Parar de editar?
+
+[gText_StopGivingPkmnMail] 365dacb4a3 width=184
+Parar de dar a CARTA ao POKéMON?
+
+[gText_AndFillOutTheQuestionnaire] 6eff9089c9 width=184
+e preencha o questionário.
+
+[gText_LetsReplyToTheInterview] 0efcca9880 width=184
+Vamos responder à entrevista!
+
+[gText_AllTextBeingEditedWill] 03d3b8cdff width=184
+Todo o texto em edição
+
+[gText_BeDeletedThatOkay] e6963b5023 width=184
+vai ser apagado. Tudo bem?
+
+[gText_OnlyOnePhrase] 24e37a7426 width=184
+Só dá pra trocar uma frase.
+
+[gText_OriginalSongWillBeUsed] 48970358a8 width=184
+A canção original vai ser usada.
+
+[gText_CombineTwoWordsOrPhrases3] b74e2def82 width=184
+Junte duas palavras ou frases.
+
+[gText_Profile] 79799fc6ec width=144
+PERFIL
+
+[gText_AtTheBattlesStart] 7fa72007ad width=144
+No começo da batalha:
+
+[gText_UponWinningABattle] b1ef1bab08 width=144
+Ao ganhar a batalha:
+
+[gText_UponLosingABattle] 67114674c3 width=144
+Ao perder a batalha:
+
+[gText_TheBardsSong] 8d241611e3 width=144
+A canção do BARDO
+
+[gText_WhatsHipAndHappening] ffc297ac07 width=144
+O que tá na moda?
+
+[gText_Interview] 19ad8ec723 width=144
+Entrevista
+
+[gText_GoodSaying] 66586533ac width=144
+Bom ditado
+
+[gText_FansQuestion] c09606d1bf width=144
+Pergunta do fã
+
+[gText_ApprenticesPhrase] d5306569bb width=144
+Frase do aprendiz
+
+[gText_Questionnaire] de4b1837fb width=144
+QUESTIONÁRIO
+
+[gText_YouCannotQuitHere] 1ed118e56a width=184
+Não dá pra sair aqui.
+
+[gText_SectionMustBeCompleted] 459b670a73 width=184
+Esta parte precisa ser completada.
+
+[gText_F700sQuiz] abcdf14cf1 width=144
+Quiz de {DYNAMIC 0}
+
+[gText_Lady] fc40dd4181
+Moça
+
+[gText_AfterYouHaveReadTheQuiz] e9a8ac573b width=184
+Depois de ler a pergunta
+
+[gText_QuestionPressTheAButton] 6e1f59958a width=184
+do quiz, aperte o botão A.
+
+[gText_TheQuizAnswerIs] bf1fb1963b width=184
+A resposta do quiz é?
+
+[gText_LikeToQuitQuiz] 50e3e30268 width=184
+Quer desistir deste desafio
+
+[gText_ChallengeQuestionMark] 85a4644a39 width=184
+de quiz?
+
+[gText_IsThisQuizOK] 4936593f59 width=184
+Este quiz está OK?
+
+[gText_CreateAQuiz] e8ed502ef0 width=144
+Crie um quiz!
+
+[gText_SelectTheAnswer] 04bcf0836e width=144
+Escolha a resposta!
+
+[gText_LyricsCantBeDeleted] 430e7a987d width=184
+Não dá pra apagar a letra.
+
+[gEasyChatGroupName_Trainer] 6df205ccba width=72
+TREINADOR
+
+[gEasyChatGroupName_Status] 7168833cc8 width=72
+ESTADO
+
+[gEasyChatGroupName_Battle] ce9e1aaf32 width=72
+BATALHA
+
+[gEasyChatGroupName_Greetings] e2c3787421 width=72
+SAUDAÇÕES
+
+[gEasyChatGroupName_People] 04c1b69737 width=72
+PESSOAS
+
+[gEasyChatGroupName_Voices] 36ea3bfd03 width=72
+VOZES
+
+[gEasyChatGroupName_Speech] 4ab47d93a1 width=72
+FALA
+
+[gEasyChatGroupName_Endings] 73c16912b6 width=72
+FINAIS
+
+[gEasyChatGroupName_Feelings] d4de2fae6d width=72
+SENTIMENTOS
+
+[gEasyChatGroupName_Conditions] c8ae8eb068 width=72
+CONDIÇÕES
+
+[gEasyChatGroupName_Actions] bbb86bcb94 width=72
+AÇÕES
+
+[gEasyChatGroupName_Lifestyle] 3ec595e8e6 width=72
+ESTILO VIDA
+
+[gEasyChatGroupName_Hobbies] fe0561fe64 width=72
+HOBBIES
+
+[gEasyChatGroupName_Time] 64269f9bd2 width=72
+TEMPO
+
+[gEasyChatGroupName_Misc] 367b0006c4 width=72
+OUTROS
+
+[gEasyChatGroupName_Adjectives] 0415474144 width=72
+ADJETIVOS
+
+[gEasyChatGroupName_Events] c5f548a22c width=72
+EVENTOS
+
+[gEasyChatGroupName_Move1] cd50cefcee width=72
+GOLPE 1
+
+[gEasyChatGroupName_Move2] f5450e0c29 width=72
+GOLPE 2
+
+[gEasyChatGroupName_TrendySaying] d0026a5b0f width=72
+FRASE MODA
+
+[gText_DelAll] 02edf59c87
+APAGAR
+
+[gText_Cancel5] 1507c40f04
+VOLTAR
+
+[gText_Quiz] c3e61f52b9
+QUIZ
+
+[gText_Answer] 64b080ec54
+RESP.
