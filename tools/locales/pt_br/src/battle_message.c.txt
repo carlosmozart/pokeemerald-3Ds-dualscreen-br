@@ -1667,6 +1667,16 @@ a confusão
 [gText_Love] 9f2feb0f1e
 a paixão
 
+# Montam "OVOS e MEW são proibidos." na FRONTEIRA (frontier_util.c).
+[gText_SpaceAndSpace] 4f413364b4
+ e 
+
+[gText_Are] 5f9e5802bb
+são
+
+[gText_Are2] 5f9e5802bb
+são
+
 [gText_BadEgg] 048d4bbc1b
 OVO Ruim
 
