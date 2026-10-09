@@ -70,6 +70,13 @@ Os nomes dos POKéMON não se traduzem.
 | Frontier Brain | CÉREBRO DA FRONTEIRA | Bulbapedia pt_br |
 | Battle Points (BP) | PONTOS DE BATALHA (PB) | |
 | Silver / Gold Symbol | SÍMBOLO DE PRATA / DE OURO | |
+| Frontier Pass | PASSE DA FRONTEIRA | |
+| Ranking Hall / Exchange Service Corner | SALÃO DO RANKING / CENTRAL DE TROCAS | |
+| Battle Tourney / Set KO Tourney / Battle Swap / Battle Choice / Battle Quest | Torneio de Batalha / Torneio de Nocaute / Troca de Batalha / Escolha de Batalha / Missão de Batalha | nomes de evento, em caixa normal como no inglês |
+| Level 50 / Open Level | Nível 50 / Nível Livre | |
+| Battle Room / Battle Hall / Battle Salon | SALA DE BATALHA / SALÃO DE BATALHA | |
+| Dome Ace | ÁS DA CÚPULA | |
+| Berry Pocket | BOLSO DE FRUTAS | |
 | Littleroot Town e as outras cidades | CIDADE DE LITTLEROOT | o nome fica, a parte genérica se traduz |
 | Pokémon Wireless Club | CLUBE SEM FIO POKéMON | |
 | Trainer Card (Gold/Silver) | CARTÃO DE OURO / DE PRATA | |
