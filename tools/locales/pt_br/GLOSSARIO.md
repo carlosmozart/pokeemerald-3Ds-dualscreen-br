@@ -103,6 +103,7 @@ Os nomes dos POKéMON não se traduzem.
 | Game Corner / Roulette / Slots | SALÃO DE JOGOS / ROLETA / CAÇA-NÍQUEIS | as FICHAS ficam na SACOLA DE MOEDAS (o item) |
 | Record Corner / Colosseum | CANTO DOS RECORDES / COLISEU | nomes de menus de `strings.c`: o PC dos menus deve usar os mesmos |
 | + Control Pad | Botão Direcional | |
+| Pokémon Day Care | CENTRO DE CUIDADOS POKéMON | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
