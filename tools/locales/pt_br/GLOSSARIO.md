@@ -30,6 +30,7 @@ houver um, e registre a escolha na segunda tabela.
 | Mom | MAMÃE | |
 | Money | POKÉMOEDA | dinheiro do jogo |
 | Nature | NATUREZA | |
+| Natures (Hardy … Quirky) | ESFORÇADA, CARENTE, VALENTE, FIRME, SAPECA, AUDACIOSA, DÓCIL, RELAXADA, REBELDE, NEGLIGENTE, TÍMIDA, AGITADA, SÉRIA, ALEGRE, INGÊNUA, MODESTA, TRANQUILA, QUIETA, ENVERGONHADA, RABUGENTA, CALMA, GENTIL, ATREVIDA, CUIDADOSA, PECULIAR | Bulbapedia `pt_br`, no feminino; Relaxed é RELAXADA (alternativo oficial) para não repetir TRANQUILA (Mild); Bashful (TÍMIDA no Brasil, como Timid) é ENVERGONHADA, escolha do projeto |
 | Nickname | APELIDO | |
 | Poké Ball | POKé BOLA | |
 | Great Ball | GRANDE BOLA | |
