@@ -270,8 +270,10 @@ O maior volume do projeto, sem equivalente no wiki.
         INSTITUTO DO CLIMA e FORTREE
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
         (feitos: ROTAS 120 e 121, MONTE PYRE, LILYCOVE inteira,
-        ESCONDERIJO AQUA, ROTA 124 e MOSSDEEP com o GINÁSIO e o CENTRO
-        ESPACIAL)
+        ESCONDERIJO AQUA, ROTA 124, MOSSDEEP com o GINÁSIO e o CENTRO
+        ESPACIAL, CAMINHO SUBMARINO, ROTA 128, SOOTOPOLIS com o GINÁSIO,
+        CAVERNA DA ORIGEM e PILAR CELESTE; as ROTAS 125 a 127 e 129 a 134
+        não têm falas nos arquivos dos mapas)
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
 - [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON,
