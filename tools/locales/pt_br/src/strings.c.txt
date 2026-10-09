@@ -2649,3 +2649,244 @@ Ranking de Rapidez
 
 [gText_Var1Players] 8887654ede width=180
 {STR_VAR_1} JOGADORES
+
+# DECORAÇÃO (decoration.c): o menu se ajusta ao texto (até 18 tiles); as
+
+# categorias, numa janela de 12 tiles; as mensagens, na caixa de mensagem.
+
+[gText_Decorate] 95bf030e34
+DECORAR
+
+[gText_PutAway] 17efaae8bd
+GUARDAR
+
+[gText_Toss2] 4e8ae1245c width=48
+JOGAR
+
+[gText_PutOutSelectedDecorItem] 33ddec06a2 width=208
+Coloca a decoração escolhida.
+
+[gText_StoreChosenDecorInPC] 6e7aa2e95e width=208
+Guarda a decoração escolhida no PC.
+
+[gText_ThrowAwayUnwantedDecors] 3d5d0ef5df width=208
+Joga fora as decorações que não quer.
+
+[gText_NoDecorations] 110da31c1b width=208
+Não há decorações.{PAUSE_UNTIL_PRESS}
+
+[gText_Desk] a780d2f83d width=88
+MESA
+
+[gText_Chair] 442793e2d0 width=88
+CADEIRA
+
+[gText_Plant] 61728f6dd4 width=88
+PLANTA
+
+[gText_Ornament] 65753a5fda width=88
+ENFEITE
+
+[gText_Mat] 0a9e7cdadc width=88
+TAPETE
+
+[gText_Poster] 4406244e30 width=88
+PÔSTER
+
+[gText_Doll] 8fb1d9815e width=88
+BONECO
+
+[gText_Cushion] 0b716742ca width=88
+ALMOFADA
+
+[gText_PlaceItHere] 5b4cdcf39f width=208
+Colocar aqui?
+
+[gText_CantBePlacedHere] aee9035b15 width=208
+Não dá pra colocar aqui.
+
+[gText_CancelDecorating] 7d7070f5c3 width=208
+Parar de decorar?
+
+[gText_InUseAlready] cf44934928 width=208
+Já está em uso.
+
+[gText_NoMoreDecorations] 444f6b0cfd
+Não cabe mais nenhuma decoração.\nO máximo é {STR_VAR_1}.
+
+[gText_NoMoreDecorations2] 444f6b0cfd
+Não cabe mais nenhuma decoração.\nO máximo é {STR_VAR_1}.
+
+[gText_CantPlaceInRoom] 71dcf23225 width=208
+Esta decoração não pode ficar\nno seu quarto.
+
+[gText_CantThrowAwayInUse] 446ca01281 width=208
+Esta decoração está em uso.\nNão dá pra jogar fora.
+
+[gText_DecorationWillBeDiscarded] 4e9feca156 width=208
+{STR_VAR_1} vai ser descartado.\nTudo bem?
+
+[gText_DecorationThrownAway] 71311841f3 width=208
+A decoração foi jogada fora.
+
+[gText_StopPuttingAwayDecorations] aec9d50483 width=208
+Parar de guardar decorações?
+
+[gText_NoDecorationHere] 8857de86c2 width=208
+Não tem decoração aqui.
+
+[gText_ReturnDecorationToPC] 2f2de60480 width=208
+Devolver esta decoração ao PC?
+
+[gText_DecorationReturnedToPC] 09ce242829 width=208
+A decoração voltou pro PC.
+
+[gText_NoDecorationsInUse] 2cbae1db93 width=208
+Não há decorações em uso.{PAUSE_UNTIL_PRESS}
+
+# Bate-papo da SALA UNIÃO (union_room_chat.c): os botões do teclado e as
+
+# frases prontas ficam na largura do inglês; as mensagens, numa janela
+
+# larga como a caixa de mensagem.
+
+[gText_Upper] 1dacd1c358
+ABC
+
+[gText_Lower] 346e3ee198
+abc
+
+[gText_Symbols] fab167e9c6
+SÍMB.
+
+[gText_Register2] 0391d22030
+REGIST.
+
+[gText_Exit2] bb1b38004d
+SAIR
+
+[gText_QuitChatting] 7bf3eb33a7 width=208
+Sair do bate-papo?
+
+[gText_RegisterTextWhere] 29697a73b1 width=208
+Registrar o texto onde?
+
+[gText_RegisterTextHere] ef3e59ab63 width=208
+Registrar o texto aqui?
+
+[gText_InputText] 746797b583 width=208
+Digite o texto.
+
+[gText_F700JoinedChat] ba470f4934 width=208
+{DYNAMIC 0} entrou no bate-papo!
+
+[gText_F700LeftChat] 544cbad235 width=208
+{DYNAMIC 0} saiu do bate-papo.
+
+[gText_ExitingChat] 39c625e858 width=208
+Saindo do bate-papo…
+
+[gText_LeaderLeftEndingChat] 5196cea648 width=208
+O LÍDER, {DYNAMIC 0}, saiu,\ne o bate-papo acabou.
+
+[gText_RegisteredTextChangedOKToSave] 760623f7f5 width=208
+O texto registrado mudou.\nPode salvar o jogo?
+
+[gText_AlreadySavedFile_Chat] 3780954e28 width=208
+Já existe um jogo salvo.\nPode substituir?
+
+[gText_SavingDontTurnOff_Chat] 30607f964d width=208
+SALVANDO…\nNÃO DESLIGUE O APARELHO.
+
+[gText_PlayerSavedGame_Chat] e20b4c8e53 width=208
+{DYNAMIC 0} salvou o jogo.
+
+[gText_IfLeaderLeavesChatEnds] 8cbaf78361 width=208
+Se o LÍDER sair, o bate-papo\nacaba. Tudo bem?
+
+[gText_Hello] c65f99f8c5
+OLÁ
+
+[gText_Trade] 91e044d0ff
+TROCA
+
+[gText_Battle] ce9e1aaf32
+LUTA
+
+[gText_Lets] d3a071cb2e
+BORA
+
+[gText_Sorry] 08b4b7de83
+OPS!
+
+[gText_YaySmileEmoji] 17f452ce35
+EBA{EMOJI_BIGSMILE}
+
+[gText_ThankYou] 04209ee721
+VALEU
+
+[gText_ByeBye] a8b4aff084
+TCHAU!
+
+# CARTÃO DE TREINADOR (trainer_card.c): na frente, os rótulos à esquerda
+
+# e o valor à direita; no verso, o rótulo em x=16 e o valor alinhado à
+
+# direita em 216 px.
+
+[gText_TrainerCardName] fec4d1213b width=54
+NOME:
+
+[gText_TrainerCardIDNo] 8b9d3d695a width=54
+Nº ID
+
+[gText_TrainerCardMoney] 6bfef49ec2 width=54
+DINHEIRO
+
+[gText_TrainerCardTime] 64269f9bd2 width=54
+TEMPO
+
+[gText_Var1sTrainerCard] 0188cfa2d9 width=200
+CARTÃO DE TREINADOR de {STR_VAR_1}
+
+[gText_HallOfFameDebut] 16bb7391dd width=130
+ESTREIA NO HALL DA FAMA
+
+[gText_LinkBattles] 81e4aef41f width=120
+BATALHAS LINK
+
+[gText_LinkCableBattles] da1091b12a width=120
+BATALHAS POR CABO
+
+[gText_WinsLosses] 8d026c5a16
+V:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}  D:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_2}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}
+
+[gText_PokemonTrades] 1e484846cd width=120
+TROCAS POKéMON
+
+[gText_UnionTradesAndBattles] eccd2db1f7 width=130
+TROCAS/LUTAS UNIÃO
+
+[gText_BerryCrush] 8d9e34e09d width=120
+TRITURA FRUTAS
+
+[gText_WaitingTrainerFinishReading] 0756383354 width=208
+Esperando o outro TREINADOR terminar\nde ler o seu CARTÃO DE TREINADOR.
+
+[gText_PokeblocksWithFriends] c0e40651a3 width=120
+{POKEBLOCK}S C/ AMIGOS
+
+[gText_WonContestsWFriends] 20925139e0 width=130
+CONCURSOS C/ AMIGOS
+
+[gText_BattlePtsWon] e709f2b950 width=120
+PONTOS DE BATALHA
+
+[gText_NumBP] ad8a75f866
+{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}PB
+
+[gText_BattleTower] fbd1b89e76 width=120
+TORRE DE BATALHA
+
+[gText_WinsStraight] 301814f651
+V/{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}  SEG./{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_2}
