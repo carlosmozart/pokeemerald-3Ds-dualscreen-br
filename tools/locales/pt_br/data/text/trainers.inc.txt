@@ -901,3 +901,534 @@ Você não tem compaixão nem dó?$
 
 [Route110_Text_KalebPostBattle] 38a1ac7b7b
 Tá bom, tá bom, vocês fizeram o\nmelhor que podiam, meus lindinhos.$
+
+[Route111_Text_DrewIntro] 0b85fe3493
+Ei! Esses DESERTÓCULOS ficam bem em\nvocê. Mas acho que ficam melhor em mim.\pVamos decidir em quem ficam melhor\nnuma batalha!$
+
+[Route111_Text_DrewDefeat] 1dbeb9fec9
+Não vi o que acontecia dos lados\npor causa dos DESERTÓCULOS.$
+
+[Route111_Text_DrewPostBattle] 272ed4a162
+Com os DESERTÓCULOS dá pra passar\npelas tempestades de areia.\lIsso me deixa feliz!$
+
+[Route111_Text_HeidiIntro] e44b2b9688
+Faço um piquenique no deserto.\pSempre tem algum TREINADOR, então\ndá pra curtir uma batalha também!$
+
+[Route111_Text_HeidiDefeat] 9838530cc4
+Ahhh! Que maldade!$
+
+[Route111_Text_HeidiPostBattle] 1dc1855510
+Batalhando numa tempestade de areia,\nfique de olho nos PS dos POKéMON.\pEles podem desmaiar se você não\nprestar atenção!$
+
+[Route111_Text_BeauIntro] 7282a61e45
+Com estes DESERTÓCULOS me sinto um\nsuper-herói.\lAgora ninguém me vence!$
+
+[Route111_Text_BeauDefeat] 709cbb434c
+Só com atitude não dá pra ganhar…$
+
+[Route111_Text_BeauPostBattle] 00f2613fc4
+Um dia vou ser um herói de verdade.\nVou me esforçar pra deixar a mim e\los meus POKéMON mais fortes.$
+
+[Route111_Text_BeckyIntro] 2942ea29bf
+Ouvi dizer que tem fósseis no\ndeserto. Onde será que estão?$
+
+[Route111_Text_BeckyDefeat] 5152062eb0
+Não deu…$
+
+[Route111_Text_BeckyPostBattle] f761fb4220
+Se acham fósseis no deserto, aqui\ndeve ter sido mar antigamente.$
+
+[Route111_Text_DustyIntro] 761af39827
+Há trinta anos procuro ruínas antigas!\nE agora vou ser desafiado?$
+
+[Route111_Text_DustyDefeat] d897bca60b
+Procurei ruínas, mas não procurei\nPOKéMON fortes.$
+
+[Route111_Text_DustyPostBattle] ae41507c1e
+Há trinta anos procuro ruínas antigas!\pNão, espera, eram quarenta anos?\nQual era mesmo?$
+
+[Route111_Text_DustyRegister] 1c0770bb61
+Não ando procurando POKéMON fortes.\pMas, sei lá por quê, adoro\nPOKéNAVS.$
+
+[Route111_Text_DustyRematchIntro] fdc67d430b
+Há trinta anos procuro ruínas antigas!\pNão, espera, eram quarenta anos?\nEnfim, vou ser desafiado?$
+
+[Route111_Text_DustyRematchDefeat] 46930a537f
+Não achei ruínas, nem achei\nPOKéMON fortes…$
+
+[Route111_Text_DustyPostRematch] 98a845a6ba
+Há trinta anos procuro ruínas antigas!\pNão, espera, eram quarenta anos?\pHum… Podem até ser cinquenta…\nHá quanto tempo estou nisso?$
+
+[Route111_Text_TravisIntro] 6fd5b313fb
+Estou cheio de pique!\nE o meu POKéMON também!$
+
+[Route111_Text_TravisDefeat] 42b974aa35
+O meu POKéMON perdeu o pique…$
+
+[Route111_Text_TravisPostBattle] e374003eb4
+Quando vejo um TREINADOR cheio de\npique, não consigo parar de olhar.$
+
+[Route111_Text_IreneIntro] d095bfe6eb
+Não sei pra onde você vai, mas\nquer batalhar?$
+
+[Route111_Text_IreneDefeat] a7873e3641
+Ah, você manda bem demais, que raiva!$
+
+[Route111_Text_IrenePostBattle] 4fd288b7db
+Estou pensando em ir ao MONTE\nCHIMNEY, mas a vista daqui também\lé muito bonita.$
+
+[Route111_Text_DaisukeIntro] 948845b1cc
+Pra treinar, desafio todos que\nencontro!$
+
+[Route111_Text_DaisukeDefeat] 898ca3c03a
+Chega! Desisto!$
+
+[Route111_Text_DaisukePostBattle] 326dc5e3c5
+Só me resta treinar até conseguir\nvencer TREINADORES fortes como você.$
+
+[Route111_Text_WiltonIntro] 631e05ebe9
+Mostre o quanto você fortaleceu os\nseus POKéMON.$
+
+[Route111_Text_WiltonDefeat] baf8817717
+Entendo, você fortaleceu bastante\nos seus POKéMON.$
+
+[Route111_Text_WiltonPostBattle] c3728eaf61
+POKéMON e TREINADORES aprendem muito\nbatalhando.\pO importante é nunca desistir,\nmesmo perdendo.$
+
+[Route111_Text_WiltonRegister] 6fcea394c7
+Há muito a aprender com o seu jeito\nde treinar.\pPeço uma revanche, se for do seu\nagrado.$
+
+[Route111_Text_WiltonRematchIntro] d310af41cd
+Estamos treinando aqui pra subir\nde nível.\lFique e treine com a gente!$
+
+[Route111_Text_WiltonRematchDefeat] 1c43490be5
+Uh, mandou bem!$
+
+[Route111_Text_WiltonPostRematch] dcabb486fa
+Forte desse jeito, você devia mirar\nna LIGA POKéMON.$
+
+[Route111_Text_BrookeIntro] 9ab9ac80ee
+Ah, os seus POKéMON parecem atores\nsérios.\lTenho que te chamar pra um trabalho.$
+
+[Route111_Text_BrookeDefeat] 5759769798
+Não só pareciam fortes:\neles são fortes!$
+
+[Route111_Text_BrookePostBattle] 161d1432ad
+Achei que criava os meus POKéMON com\ndedicação, mas, ai, ainda tem muito\lpra fazer.$
+
+[Route111_Text_BrookeRegister] 13dfdbe015
+Queria fazer amizade com mais gente\nforte como você!$
+
+[Route111_Text_BrookeRematchIntro] 49795039aa
+Dá pra deixar os POKéMON mais fortes\nou mais fracos com os golpes que\lvocê ensina.\pQue golpes os seus POKéMON sabem?$
+
+[Route111_Text_BrookeRematchDefeat] 9218f5ac68
+Você ensinou golpes bons!$
+
+[Route111_Text_BrookePostRematch] 744dd7a2a0
+Talvez eu devesse ter impedido os meus\nPOKéMON de evoluir até aprenderem\lgolpes melhores…$
+
+[Route111_Text_CeliaIntro] 0442db53ad
+Eu não devia ter vindo fazer\npiquenique num lugar desses!$
+
+[Route111_Text_CeliaDefeat] ad04b35cff
+Ah!\nNão devia mesmo ter vindo!$
+
+[Route111_Text_CeliaPostBattle] 45e9754ad7
+Numa tempestade de areia dessas, não\nconsigo arrumar o piquenique nem\lcom os DESERTÓCULOS…$
+
+[Route111_Text_BryanIntro] 614c5554a3
+Quão forte você é?\nVamos revelar esse segredo!$
+
+[Route111_Text_BryanDefeat] 8910ff33a0
+Oh! A sua força!\nÉ envolta em mistério!$
+
+[Route111_Text_BryanPostBattle] ff75133fce
+Este deserto esconde mistérios nas\nsuas areias movediças!$
+
+[Route111_Text_BrandenIntro] 69729270c6
+Te dou um pedaço do meu sanduíche\nse você perder.$
+
+[Route111_Text_BrandenDefeat] 7279e80fef
+Tsc! Achei que um sanduíche fosse\nsuborno suficiente…$
+
+[Route111_Text_BrandenPostBattle] eba4bdd97f
+O meu SANDSHREW adora comer os\nmeus sanduíches.$
+
+[Route111_Text_TyronIntro] e52f975acc
+Este é o meu tipo de POKéMON favorito!$
+
+[Route111_Text_TyronDefeat] 1adcdd17af
+Pera!\nVocê olhou bem o meu POKéMON?$
+
+[Route111_Text_TyronPostBattle] 9b726a707c
+Nas batalhas, eu adoro exibir os\nmeus POKéMON.\pAposto que todo mundo sente isso\nquando entra numa batalha!$
+
+[Route111_Text_CelinaIntro] 5e1895871c
+Me mostre como pôr um pouco de\nemoção na minha vida.$
+
+[Route111_Text_CelinaDefeat] 6feb75f8c1
+Ai… Nossa…\nFoi emoção demais.$
+
+[Route111_Text_CelinaPostBattle] 3a8f5f519a
+O meu coração ainda está disparado.\nVocê é um TREINADOR fabuloso.$
+
+[Route111_Text_HaydenIntro] 461d4ed62c
+Quando se está faminto como eu,\nnão tem espaço pra dó!$
+
+[Route111_Text_HaydenDefeat] c45054d69d
+Aff…$
+
+[Route111_Text_HaydenPostBattle] 0c39f3a701
+A minha barriga está roncando!\nTalvez eu possa assar umas FRUTAS…$
+
+[Route111_Text_BiancaIntro] cf669c0f33
+Você veio de MAUVILLE?\nEntão deve ter energia de sobra!$
+
+[Route111_Text_BiancaDefeat] 0294643825
+Uh-lá-lá!\nFoi demais pra mim!$
+
+[Route111_Text_BiancaPostBattle] 25ab645d0f
+Esta estrada…\nVocê ainda tem um bom caminho pela\lfrente.$
+
+[Route112_Text_BriceIntro] 5fb6825490
+Hahahaha!\nQue tal uma batalha?\lEu e você!\lHahahaha!$
+
+[Route112_Text_BriceDefeat] c6e6732ece
+Perdi!\nHahahaha!$
+
+[Route112_Text_BricePostBattle] 3399a78b4b
+Hahahahaha! Entrou alguma coisa no\nmeu nariz! Hahahaha-atchim!$
+
+[Route112_Text_TrentIntro] 5751271a2f
+As minhas pernas são firmes de tanto\nsubir e descer montanha.\pElas não vão ceder fácil,\namigo!$
+
+[Route112_Text_TrentDefeat] 38c186c8ec
+Ai! Deu cãibra nas pernas!$
+
+[Route112_Text_TrentPostBattle] 44e16d8436
+Tente fazer trilha, e digo trilha\nde verdade, nestas montanhas com\luma mochila de dezenas de quilos.\pIsso, meu amigo, deixa o corpo\nem forma de verdade.$
+
+[Route112_Text_TrentRegister] bfe7dd9927
+Ai, deu cãibra nas pernas.\nPode pegar uns curativos na\lminha mochila?\pNão, esse é o meu POKéNAV!\nAh, tá, vou te registrar.$
+
+[Route112_Text_TrentRematchIntro] 6f22325c09
+Ando em forma de tanto fazer trilha.\nForça é o que não me falta!$
+
+[Route112_Text_TrentRematchDefeat] 9a0d5ab05a
+Perdi na força?$
+
+[Route112_Text_TrentRematchPostBattle] 8012019e03
+Ouvi dizer que tem TREINADORES muito\nfortes no topo do MONTE CHIMNEY.\pPretendo subir lá e desafiar\neles!$
+
+[Route112_Text_LarryIntro] 51d8ee5571
+Eu sou forte.\nNão vou chorar se perder.$
+
+[Route112_Text_LarryDefeat] 8a173e213f
+Buááá!$
+
+[Route112_Text_LarryPostBattle] f2ce54b41a
+Não estou chorando de saudade da\nminha mãe! Snif…$
+
+[Route112_Text_CarolIntro] 777c434413
+Num piquenique, a gente tem que\ncantar, ora!\lVem, canta comigo!$
+
+[Route112_Text_CarolDefeat] 0a0c36ecb4
+Ah, que força!$
+
+[Route112_Text_CarolPostBattle] a795b18fb8
+Não importa se você manda bem ou\nmal no canto ou nos POKéMON.\pQuem se diverte mais é que ganha!$
+
+[Route112_Text_BryantIntro] 1c4b79100b
+Peguei POKéMON quentes no CAMINHO\nFLAMEJANTE! Olha só!$
+
+[Route112_Text_BryantDefeat] b8befcd572
+Que viagem turbulenta!$
+
+[Route112_Text_BryantPostBattle] 5cf7669543
+Gosto do seu jeito de batalhar.\nTem um certo estilo.$
+
+[Route112_Text_ShaylaIntro] 034f7cfae1
+Ai, que TREINADOR adorável!\nPor favor, quero uma batalha romântica!\lAté que sou decente!$
+
+[Route112_Text_ShaylaDefeat] 6d3122f6dd
+Ai, que força!\nVocê me deu um susto!$
+
+[Route112_Text_ShaylaPostBattle] f4b369d1b1
+Tem compromisso agora?\nPensei que talvez a gente pudesse\lter uma revanche agora…\lMas tudo bem se tiver compromisso.$
+
+[Route113_Text_JaylenIntro] b89fdc549a
+Adivinha por que é tão fresco\npor aqui?$
+
+[Route113_Text_JaylenDefeat] c42fd0da92
+Eca!\nQue fedor!$
+
+[Route113_Text_JaylenPostBattle] 6a7d785417
+A cinza do vulcão tapa o sol, então\nnão esquenta muito.\pPra mim é ótimo: odeio calor!$
+
+[Route113_Text_DillonIntro] 3cb4617504
+A erupção do vulcão é prova de que\na Terra está viva.$
+
+[Route113_Text_DillonDefeat] eaea4e7b86
+Você é forte pra caramba!$
+
+[Route113_Text_DillonPostBattle] b7b6964d9b
+Ai! Uiii! Não enxergo!\nEntrou cinza no meu olho!\pSacou? Cinza… cílios… Sei lá.\pTá, essa foi ruim, desculpa…$
+
+[Route113_Text_MadelineIntro] 11265aeedd
+Uso esta sombrinha pra proteger o\nmeu querido NUMEL desta cinza\lvulcânica suja e nojenta.$
+
+[Route113_Text_MadelineDefeat] c03a73f6fe
+Uf, uf…\nEstou exausta…$
+
+[Route113_Text_MadelinePostBattle] 43e36bbb8a
+Você manda muito bem nisso.\nDevo dizer que estou impressionada!$
+
+[Route113_Text_MadelineRegister] fda9191035
+Venha, fique debaixo da sombrinha.\nVou te registrar no meu POKéNAV.$
+
+[Route113_Text_MadelineRematchIntro] 58a6350a2b
+Ah, olá, quanto tempo, não?\nPosso te convidar pra uma batalha?$
+
+[Route113_Text_MadelineRematchDefeat] 50a3785044
+Ai, que demais!$
+
+[Route113_Text_MadelinePostRematch] d06d8f5d53
+Você continua mandando muito bem.\nDevo dizer que estou impressionada!$
+
+[Route113_Text_LaoIntro] 062aff797a
+Das cinzas eu salto! Hiá!\nEu te desafio!$
+
+[Route113_Text_LaoDefeat] f9035aca68
+Com honra, admito a derrota!$
+
+[Route113_Text_LaoPostBattle] 9e2f7e1b88
+Preciso aperfeiçoar a arte de me\nesconder. Adeus.$
+
+[Route113_Text_LaoRegister] ff2c3a25d5
+Iiiiá! Contemple a antiga técnica\nninja do registro no POKéNAV!$
+
+[Route113_Text_LaoRematchIntro] 062aff797a
+Das cinzas eu salto! Hiá!\nEu te desafio!$
+
+[Route113_Text_LaoRematchDefeat] f9035aca68
+Com honra, admito a derrota!$
+
+[Route113_Text_LaoPostRematch] dcc5d6cd77
+O meu disfarce perfeito foi traído\npela minha técnica imatura…\pAdeus.$
+
+[Route113_Text_LungIntro] b8ae240176
+Obrigado por me achar!\nMas ainda temos que batalhar!$
+
+[Route113_Text_LungDefeat] 8e32f13068
+Vou usar o meu ninjutsu em você…\n“MANTO DO REDEMOINHO DE CINZAS”!\p…O quê?\nJá acabou?$
+
+[Route113_Text_LungPostBattle] 0edd0165c1
+Sabe o que é chato de se esconder?\nFica solitário se ninguém aparece.$
+
+[Route113_Text_ToriIntro] bdb207bdf5
+TORI: Nós duas juntamos cinza.\nE batalhamos com POKéMON também.$
+
+[Route113_Text_ToriDefeat] 3eb8f8bc2b
+TORI: Perdemos… Que chato, vou\njuntar mais cinza.$
+
+[Route113_Text_ToriPostBattle] 54cbe2aea7
+TORI: Quanta cinza a gente tem?\nEspero que dê pra uma FLAUTA BRANCA.$
+
+[Route113_Text_ToriNotEnoughMons] b99139e381
+TORI: A gente quer batalhar 2 contra 2.\nSenão a gente perde!$
+
+[Route113_Text_TiaIntro] 2ffa41a223
+TIA: Nós duas juntamos cinza.\nE batalhamos com POKéMON também.$
+
+[Route113_Text_TiaDefeat] 3ff430d9dc
+TIA: Não ganhamos… Que chato,\nvou juntar mais cinza.$
+
+[Route113_Text_TiaPostBattle] e36d1f5a58
+TIA: A gente tem muita cinza!\nAcho que dá pra uma FLAUTA BRANCA!$
+
+[Route113_Text_TiaNotEnoughMons] 6a40d0b6fb
+TIA: A gente quer batalhar 2 contra 2.\nSenão a gente não ganha!$
+
+[Route113_Text_CobyIntro] 71c851c1a1
+Pff, com estas asas eu te jogo\npra longe!$
+
+[Route113_Text_CobyDefeat] f08c5cfffb
+Q… Quê?$
+
+[Route113_Text_CobyPostBattle] 95509938d9
+Não sei o que dizer quando perco\ntão fácil assim…$
+
+[Route113_Text_SophieIntro] 3a26ca9f01
+O calor daqui me dá sono.\nBatalhe comigo pra eu ficar acordada.$
+
+[Route113_Text_SophieDefeat] 6e0ddab1c3
+Isto é um sonho.\nTenho certeza…$
+
+[Route113_Text_SophiePostBattle] fe357e57f9
+Perder me deixa furiosa…\nVou dormir aqui mesmo!\lZzz!$
+
+[Route113_Text_LawrenceIntro] 99073c73e2
+Você por acaso estava juntando\ncinza vulcânica?$
+
+[Route113_Text_LawrenceDefeat] c4a86ce791
+Ehehe.\nPerdemos feio.$
+
+[Route113_Text_LawrencePostBattle] c4aff1193c
+Eu também devia me esconder debaixo\nda cinza.$
+
+[Route113_Text_WyattIntro] adc75c682d
+V-você quer batalhar comigo?\nMesmo eu tendo acabado de pegar\lo meu POKéMON?$
+
+[Route113_Text_WyattDefeat] d141abaa13
+V-você fica feliz assim por ganhar?\nMesmo sendo só eu?$
+
+[Route113_Text_WyattPostBattle] 6a442d2511
+Ah, então agora quer falar com o\nperdedor?\pVocê se acha o máximo, né?\nHunf!$
+
+[Route114_Text_LennyIntro] 408ec30704
+Iodelei-iiuuu!\p… …\pVocê tem que gritar “iodelei-iiuuu”\nporque aqui não tem eco!$
+
+[Route114_Text_LennyDefeat] 8e68cb8766
+Iodelei-iiuuu!$
+
+[Route114_Text_LennyPostBattle] e424794fc9
+Quando eu era pequenininho, achava\nque alguém me imitava e gritava de\lvolta: “Iodelei-iiuuu.”$
+
+[Route114_Text_LucasIntro] 9c37ce7fe4
+Se não está preparado, não devia\nestar nas montanhas!$
+
+[Route114_Text_LucasDefeat] 3393a8fb43
+As montanhas não perdoam…$
+
+[Route114_Text_LucasPostBattle] b665eed3b9
+No inverno, as montanhas ficam mortais\ncom nevascas e avalanches.$
+
+[Route114_Text_ShaneIntro] 295e1ed850
+Acampar é divertido! Dá pra pescar,\nassar marshmallow e contar histórias\lde terror!\pMas o melhor são as batalhas\nPOKéMON!$
+
+[Route114_Text_ShaneDefeat] 3ac8dadc6a
+Forte demais!$
+
+[Route114_Text_ShanePostBattle] eed8464236
+Acho ótimo poder acampar com os\nmeus POKéMON.$
+
+[Route114_Text_NancyIntro] dcc02105b6
+Preciso me exercitar depois de comer.\nVamos batalhar!$
+
+[Route114_Text_NancyDefeat] e31e834c1b
+Ah, não!$
+
+[Route114_Text_NancyPostBattle] 59b0331075
+Acabei de comer uma delícia.\nEstou ficando com sono…$
+
+[Route114_Text_SteveIntro] c9089fe377
+Ufufufufufu…\nQuer batalhar com os meus POKéMON?$
+
+[Route114_Text_SteveDefeat] 186e3714a7
+O-os meus POKéMON…$
+
+[Route114_Text_StevePostBattle] 239f07f196
+Um corpo grande, todo duro e cheio\nde calombos, chifres enormes e\lpresas ferozes…\pUfufufufu…\nQueria ter um POKéMON assim…$
+
+[Route114_Text_SteveRegister] 5647019459
+Não esqueça o que fez comigo!\nVou garantir que não esqueça!$
+
+[Route114_Text_SteveRematchIntro] b213bc63a5
+Ufufufufufu…\nVem, batalha com os meus POKéMON…$
+
+[Route114_Text_SteveRematchDefeat] a231376c1f
+Que sorte poder ver os seus\nPOKéMON…$
+
+[Route114_Text_StevePostRematch] 7bd9bf48dd
+Ufufufufufu…\pQuando vejo POKéMON batalhando, fico\ntodo arrepiado e tremendo…$
+
+[Route114_Text_BernieIntro] 4897f0f3bf
+Se for acender uma fogueira, tenha\nágua por perto.$
+
+[Route114_Text_BernieDefeat] ee8fb19e60
+Obrigado por apagar o meu fogo!$
+
+[Route114_Text_BerniePostBattle] a94aeb5462
+É preciso tomar muito cuidado com\nqualquer fogo na floresta.\pNunca subestime o poder do fogo.$
+
+[Route114_Text_BernieRegister] 4666f7b6f6
+Você acendeu o meu espírito.\nVamos nos registrar!$
+
+[Route114_Text_BernieRematchIntro] 32221078d9
+Aprendeu a deixar água por perto\nnas fogueiras?$
+
+[Route114_Text_BernieRematchDefeat] 7cbcc8f134
+Acho que levei um balde de água\nantes de pegar fogo.$
+
+[Route114_Text_BerniePostRematch] a94aeb5462
+É preciso tomar muito cuidado com\nqualquer fogo na floresta.\pNunca subestime o poder do fogo.$
+
+[Route114_Text_ClaudeIntro] d8156a762c
+Se fosse pesca, você não teria chance\ncontra mim.\lEntão, manda os seus POKéMON!$
+
+[Route114_Text_ClaudeDefeat] e71f6ac1fd
+Se fosse pesca, eu teria ganhado…$
+
+[Route114_Text_ClaudePostBattle] d1967b7d02
+Acho que vou tentar fisgar um peixão\nna CATARATA DOS METEOROS.\pTem que ter alguma coisa lá.\nEu sei que tem.$
+
+[Route114_Text_NolanIntro] fa64d3a31e
+Gosto de pescar. Mas também gosto\nde batalhar!\pSe alguém me desafia, eu topo,\nmesmo pescando.$
+
+[Route114_Text_NolanDefeat] 9be196b4b8
+Gosto de batalhar, mas isso não quer\ndizer que eu seja bom…$
+
+[Route114_Text_NolanPostBattle] ac0bdaa6a3
+Desta vez eu consigo!\pSempre penso isso, por isso não\nlargo nem a pesca nem os POKéMON.$
+
+[Route114_Text_TyraIntro] adf2bc2d7f
+TYRA: Bom, claro.\nEstou com vontade.\lVou te ensinar um pouco de POKéMON.$
+
+[Route114_Text_TyraDefeat] d3adc0a659
+TYRA: Que estilo de batalha incrível!$
+
+[Route114_Text_TyraPostBattle] 5d09fbd59f
+TYRA: Eu estava ensinando POKéMON\npra minha caloura IVY.$
+
+[Route114_Text_TyraNotEnoughMons] 4e82482285
+TYRA: Hihi…\nSe quiser batalhar com a gente, um\lPOKéMON só não basta!$
+
+[Route114_Text_IvyIntro] 88b535b373
+IVY: Quem te ensinou sobre POKéMON?$
+
+[Route114_Text_IvyDefeat] 03f1d3d544
+IVY: Que estilo de batalha incrível!$
+
+[Route114_Text_IvyPostBattle] b804100d82
+IVY: Comecei a treinar POKéMON porque\na TYRA, a minha veterana, me\lensinou!$
+
+[Route114_Text_IvyNotEnoughMons] 6ae336f576
+IVY: Você só tem um POKéMON?\nAcho que ele deve se sentir sozinho.$
+
+[Route114_Text_KaiIntro] 8174d3dee2
+Pesquei um grandão!\nUm enorme, juro!$
+
+[Route114_Text_KaiDefeat] 7192a10cd7
+O que foi isso?\nO meu perdeu no tamanho?$
+
+[Route114_Text_KaiPostBattle] be1f50cfe9
+Tá bom!\nVou pescar um maior ainda!$
+
+[Route114_Text_CharlotteIntro] 349bcf1596
+Eu!\nNão sou só um rostinho bonito!$
+
+[Route114_Text_CharlotteDefeat] 80eed2f5d6
+Isso não foi nada fofo!$
+
+[Route114_Text_CharlottePostBattle] b5dccaac63
+Não quero um POKéMON que seja só\nfofo.\pAdoro os fofos que têm uma ou duas\nmanias!$
+
+[Route114_Text_AngelinaIntro] 545fb10dd8
+Você já fez os seus POKéMON\nevoluírem bastante?$
+
+[Route114_Text_AngelinaDefeat] 3fee8942af
+Ah, entendo.\nBom saber.$
+
+[Route114_Text_AngelinaPostBattle] cb4364c0ad
+Alguns POKéMON mudam tanto quando\nevoluem que chega a assustar!$
