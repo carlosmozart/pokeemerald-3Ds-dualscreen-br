@@ -236,11 +236,10 @@ O maior volume do projeto, sem equivalente no wiki.
   - [x] Rustboro, Dewford, Slateport (até o 3º ginásio): ROTA 104, BOSQUE
         DE PETALBURG, RUSTBORO, ROTA 116, TÚNEL RUSTURF, DEWFORD, CAVERNA
         GRANITO, ROTAS 105 a 109 e SLATEPORT inteira
-  - [ ] Mauville até Fortree (4º ao 6º ginásio) (feitos: ROTA 110 com a
-        CASA DOS TRUQUES, MAUVILLE inteira com o GINÁSIO, ROTA 117 e
-        VERDANTURF, ROTAS 111 e 112, MONTE CHIMNEY e TELEFÉRICO,
-        TRILHA ESCARPADA, LAVARIDGE com o GINÁSIO, ROTA 113, FALLARBOR e
-        CATARATA DOS METEOROS)
+  - [x] Mauville até Fortree (4º ao 6º ginásio): ROTA 110 com a CASA DOS
+        TRUQUES, MAUVILLE, ROTAS 111 a 119, VERDANTURF, MONTE CHIMNEY,
+        LAVARIDGE, FALLARBOR, CATARATA DOS METEOROS, ESCONDERIJO MAGMA,
+        INSTITUTO DO CLIMA e FORTREE
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
