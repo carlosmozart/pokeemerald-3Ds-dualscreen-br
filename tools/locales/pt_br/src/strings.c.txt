@@ -1368,3 +1368,12 @@ TAMANHO COMPARADO A
 
 [gText_PokedexRegistration] c315ab8879 width=208
 Registro na POKéDEX concluído.
+
+# A altura e o peso de uma espécie ainda não capturada, nas unidades do
+# patch 0046 (metros e quilos, com vírgula).
+
+[gText_UnkHeight] 38ef2c688d width=55
+{CLEAR_TO 0x0C}??,? m
+
+[gText_UnkWeight] bb6f6700f8 width=55
+???,? kg

@@ -66,6 +66,9 @@
 - Portuguese: the POKéDEX screens: DEX HOENN and DEX NACIONAL, the search
   (colors, NENHUM, QUALQUER) and its listing modes (MODO NUMÉRICO, MODO A A
   Z, MAIS PESADOS…), ALT. and PESO, GRITO DE and TAMANHO COMPARADO A.
+- Portuguese: the POKéDEX shows meters and kilograms with the decimal comma
+  (0,7 m, 6,9 kg), reusing the Spanish metric code of patch 0035 (patch
+  0046); English keeps feet and pounds.
 - Portuguese: all 386 POKéDEX descriptions (and the unknown species'),
   translated from the Emerald's own texts in 4 lines and up to 224 px, with
   metric units.
