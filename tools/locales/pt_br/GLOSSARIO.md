@@ -96,6 +96,13 @@ Os nomes dos POKéMON não se traduzem.
 | Berry Powder / Berry Crush / Direct Corner | PÓ DE FRUTA / TRITURA FRUTAS / CANTO DIRETO | os dois últimos são menus de `strings.c`: o PC dos menus deve usar os mesmos |
 | Weather Institute / Hideout | INSTITUTO DO CLIMA / ESCONDERIJO | |
 | MC / Contest Judge | APRESENTADOR / JUIZ DE CONCURSO | |
+| Trick House / Trick Master / Mechadoll | CASA DOS TRUQUES / MESTRE DOS TRUQUES / ROBONECO | |
+| Cycling Road / Rydel's Cycles | ESTRADA DE BICICLETA / BICICLETARIA DO RYDEL | |
+| Dynamo Badge | INSÍGNIA DÍNAMO | |
+| New Mauville / Generator | NOVA MAUVILLE / GERADOR | |
+| Game Corner / Roulette / Slots | SALÃO DE JOGOS / ROLETA / CAÇA-NÍQUEIS | as FICHAS ficam na SACOLA DE MOEDAS (o item) |
+| Record Corner / Colosseum | CANTO DOS RECORDES / COLISEU | nomes de menus de `strings.c`: o PC dos menus deve usar os mesmos |
+| + Control Pad | Botão Direcional | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
