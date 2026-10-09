@@ -424,3 +424,480 @@ Por acaso você pegou leve comigo?$
 
 [Route106_Text_KylaPostBattle] bec2aedcf2
 Ir à deriva com as ondas…\nEu adoro! Por que não experimenta?$
+
+[Route107_Text_DarrinIntro] c4b771bec3
+Uaaah…\pAcho que peguei no sono enquanto\nboiava nas ondas.$
+
+[Route107_Text_DarrinDefeated] a9a24994aa
+Ahaha, perdi…\nAcho que vou tirar um cochilo…$
+
+[Route107_Text_DarrinPostBattle] 781527bb52
+Boiar e ser embalado pelas ondas…\nÉ como dormir numa cama macia\le gostosa.$
+
+[Route107_Text_TonyIntro] ad99ebd57c
+O mar é o meu quintal.\nVamos batalhar!$
+
+[Route107_Text_TonyDefeated] a194602a01
+Perdi em casa…\nEstou em choque!$
+
+[Route107_Text_TonyPostBattle] eb72a661f3
+Nado pelos mares com o coração cheio\nde sonhos…\pÉ uma canção!\nEnfim, vou nadar mais um pouco.$
+
+[Route107_Text_TonyRegister] 444598ccb3
+Você me deixou em choque!\nEntão, pra não se esquecer de mim…$
+
+[Route107_Text_TonyRematchIntro] 6399d4ed31
+Nadando no mar imenso, o meu\nPOKéMON ficou mais forte!$
+
+[Route107_Text_TonyRematchDefeated] 49e1773c99
+Que choque!\pO meu POKéMON ficou mais forte, mas\neu continuei fraco como TREINADOR!$
+
+[Route107_Text_TonyRematchPostBattle] f690cc3d0b
+O que se aprende batalhando deixa\no TREINADOR mais forte.\lForam as ondas que me ensinaram.$
+
+[Route107_Text_DeniseIntro] fa47d1f38c
+Conhece uma cidadezinha chamada\nDEWFORD?$
+
+[Route107_Text_DeniseDefeated] f18c550a05
+Que ódio!$
+
+[Route107_Text_DenisePostBattle] a42fe3aadb
+Tem uma frase esquisita virando moda\nno SALÃO DE DEWFORD.$
+
+[Route107_Text_BethIntro] f36cbb478d
+Queria batalhar comigo?\nClaro, eu topo!$
+
+[Route107_Text_BethDefeated] 2b59e3acf0
+Não fui boa o bastante pra você.$
+
+[Route107_Text_BethPostBattle] 6f05bbfcf9
+Acho que você vai continuar\nmelhorando. Eu também vou com tudo!$
+
+[Route107_Text_LisaIntro] 504f4b0159
+LISA: Desafiamos você como irmã\ne irmão!$
+
+[Route107_Text_LisaDefeated] 7e792986a4
+LISA: Incrível.\nVocê é forte de outro nível.$
+
+[Route107_Text_LisaPostBattle] 4d85a5bf2d
+LISA: Você tem amigos que iriam\nà praia com você?$
+
+[Route107_Text_LisaNotEnoughPokemon] 507c4f3d8d
+LISA: Se quiser batalhar com a gente,\ntraga mais POKéMON.$
+
+[Route107_Text_RayIntro] 3f0ab3f6cd
+RAY: Eu e a minha irmã sempre\nbatalhamos.\pEu sempre perco, mas em dupla a\ngente te vence!$
+
+[Route107_Text_RayDefeated] dd1beb2c9b
+RAY: Uau, o seu nível é mais alto\nque o nosso!$
+
+[Route107_Text_RayPostBattle] e751cee919
+RAY: A minha irmã me deu o meu POKéMON.\nEu treinei ele, e agora é o meu\lparceiro importante!$
+
+[Route107_Text_RayNotEnoughPokemon] 4e80ee591b
+RAY: Se quiser batalhar com a gente,\nvá buscar mais POKéMON!$
+
+[Route107_Text_CamronIntro] efb76a3e11
+Estou no meio de um triatlo, mas\nnem um pouco cansado!$
+
+[Route107_Text_CamronDefeated] 4736c6dec2
+Isso me cansou…$
+
+[Route107_Text_CamronPostBattle] 8a2b8ec00e
+Depois disto ainda tenho natação e\ncorrida pela frente.\pSerá que vou aguentar?$
+
+[Route108_Text_JeromeIntro] 4d0886444f
+O meu sonho é nadar pelos sete mares\ndo mundo!$
+
+[Route108_Text_JeromeDefeated] a33e0309a4
+Assim não vou conseguir nadar pelos\nsete mares…$
+
+[Route108_Text_JeromePostBattle] 51950b45ee
+Brincar com POKéMON marinhos é um\ndos prazeres de nadar!$
+
+[Route108_Text_MatthewIntro] 15f8f0bf24
+Ahoy! Também vai pro NAVIO\nABANDONADO?$
+
+[Route108_Text_MatthewDefeated] d41f2a7ad9
+Estou afundando!\nGlub… Glub…$
+
+[Route108_Text_MatthewPostBattle] 05bc7a6d47
+Tem gente que até entra naquele\nNAVIO ABANDONADO.$
+
+[Route108_Text_TaraIntro] 8e89bb388d
+O mentiroso do meu namorado disse\nque eu fico ótima de biquíni…$
+
+[Route108_Text_TaraDefeated] 715f3af60d
+Ah, que chato!$
+
+[Route108_Text_TaraPostBattle] 99c11310df
+Mesmo sendo mentira, adoro ouvir\nque estou ótima…\lA gente é tão complicada…$
+
+[Route108_Text_MissyIntro] 23fc906225
+Eu amo o mar!\nNadando, esqueço as preocupações!$
+
+[Route108_Text_MissyDefeated] b701d190a1
+Quando perco uma batalha, fico toda\nestressada!$
+
+[Route108_Text_MissyPostBattle] 8f5ce7dce6
+Descarregue o estresse nadando!\nÉ tão saudável!$
+
+[Route108_Text_CoryIntro] d7e51a88fb
+Eu amo POKéMON de ÁGUA.\nE amo os outros POKéMON também!$
+
+[Route108_Text_CoryDefeated] 97574d3252
+Buááá! Perdi!\nBuááá! Buááá!$
+
+[Route108_Text_CoryPostBattle] 82b4d92632
+Gritar me faz bem!\nMe anima!$
+
+[Route108_Text_CoryRegister] 9cf0ac388a
+Também amo TREINADORES fortes!\nMe registre no seu POKéNAV!$
+
+[Route108_Text_CoryRematchIntro] 366974b6a2
+Ganhando ou perdendo, amo batalhar\nno mar!$
+
+[Route108_Text_CoryRematchDefeated] 661f99b835
+Buááá! Perdi de novo!\nBuááá! Buááá!$
+
+[Route108_Text_CoryRematchPostBattle] d4c67d1874
+Se tiver um desafio pela frente,\ntente gritar pro mar!$
+
+[Route108_Text_CarolinaIntro] d168974978
+Tenho muito orgulho dos meus POKéMON.\nVamos te mostrar uma batalha veloz!$
+
+[Route108_Text_CarolinaDefeated] 32ed8c5527
+Isso não foi nada fofo.$
+
+[Route108_Text_CarolinaPostBattle] 0d21722343
+Já que estou no mar, não ligaria de\nusar um maiô rosa cheio de babados…$
+
+[Route109_Text_DavidIntro] 312454372b
+Hiá! Olha o meu tanquinho!\nIsso é que é “definido”!$
+
+[Route109_Text_DavidDefeated] 3d6d817006
+Aiá!\nVacilei!$
+
+[Route109_Text_DavidPostBattle] da3027845d
+Hiá!\pO meu tanquinho não tem nada a ver\ncom batalha POKéMON!$
+
+[Route109_Text_AliceIntro] a724d9e357
+Você se protegeu do sol\ndireitinho?$
+
+[Route109_Text_AliceDefeated] afcfdfb515
+Ai, ai, ai!$
+
+[Route109_Text_AlicePostBattle] 957875b10d
+As bochechas são as que mais queimam!$
+
+[Route109_Text_HueyIntro] 004aa3c855
+Já ancorei em portos do mundo todo,\nmas SLATEPORT é o melhor.$
+
+[Route109_Text_HueyDefeated] 74663b6097
+Você é demais!$
+
+[Route109_Text_HueyPostBattle] 56d2f8f4a8
+No melhor porto estava o melhor\nTREINADOR…$
+
+[Route109_Text_EdmondIntro] f06687c199
+Uuurgh…\nBatalha? Comigo?$
+
+[Route109_Text_EdmondDefeated] fa112b293a
+Urgh… Ooooooh…\nUuurgh…$
+
+[Route109_Text_EdmondPostBattle] 870ae3afaf
+Normalmente sou mais forte!\nÉ que estou enjoado demais!\pSou MARINHEIRO, mas…$
+
+[Route109_Text_RickyIntro] 98f6539437
+Que sede… Eu tomaria um REFRIGERANTE\nna CASA DE PRAIA…$
+
+[Route109_Text_RickyDefeated] c45054d69d
+Aff…$
+
+[Route109_Text_RickyPostBattle] ce59330579
+Estou morrendo de fome… A minha boia\nparece uma rosca gigante…$
+
+[Route109_Text_RickyRegister] 93c385c46e
+Batalha comigo de novo quando eu não\nestiver com tanta sede?$
+
+[Route109_Text_RickyRematchIntro] aa69148761
+Estou com fome, mas tenho pique pra\numa batalha!$
+
+[Route109_Text_RickyRematchDefeated] 6d0f0047f6
+Perdi…\nÉ porque estou com fome…$
+
+[Route109_Text_RickyRematchPostBattle] 20e78884ff
+Comendo na praia, tudo parece um\npouquinho mais gostoso.$
+
+[Route109_Text_LolaIntro] 38fe3db676
+O guarda-sol não parece uma flor\ngigante?$
+
+[Route109_Text_LolaDefeated] c442a6213c
+Mamãe!$
+
+[Route109_Text_LolaPostBattle] 368c023a1e
+Vista do céu, a praia parece um\njardim cheio de flores!$
+
+[Route109_Text_LolaRegister] 224a0b791a
+Eu?\nEstou aqui todo dia!$
+
+[Route109_Text_LolaRematchIntro] 3bae95999f
+Não vou perder de novo!\nPor isso trouxe a minha boia!$
+
+[Route109_Text_LolaRematchDefeated] c442a6213c
+Mamãe!$
+
+[Route109_Text_LolaRematchPostBattle] a85b9fa92a
+Com a boia, a minha fofura e a do\nmeu POKéMON vão lá pra cima!$
+
+[Route109_Text_AustinaIntro] a1bde247e4
+Não sei nadar sem a boia, mas não\nvou perder na batalha POKéMON!$
+
+[Route109_Text_AustinaDefeated] ecd613082a
+Será que perdi por causa da boia?$
+
+[Route109_Text_AustinaPostBattle] 64ce49a046
+A minha boia é um acessório de moda.\nNão posso ser vista sem ela.$
+
+[Route109_Text_GwenIntro] 3fdf430e1a
+Oi, TREINADOR grande.\nBatalha comigo?$
+
+[Route109_Text_GwenDefeated] d06782e59e
+Ah, você é forte.$
+
+[Route109_Text_GwenPostBattle] 746a057222
+Como você ficou tão forte?$
+
+[Route109_Text_CarterIntro] 9f3596bb50
+Wahahah! Este cara vai pegar um\npeixão!$
+
+[Route109_Text_CarterDefeated] 6e3aafa21c
+Este cara acabou de perder um…$
+
+[Route109_Text_CarterPostBattle] 62104fc28e
+Este cara acha que você é um peixão.\nNão, você vai ser um peixão!$
+
+[Route109_Text_PaulIntro] 0428aa78d2
+PAUL: Pronto, acabou o clima.\pQueria que você não atrapalhasse o\nnosso tempo precioso juntos.$
+
+[Route109_Text_PaulDefeated] ef05e25076
+PAUL: Tá bom, desisto.$
+
+[Route109_Text_PaulPostBattle] b705e68370
+PAUL: Bom, não conte pra ninguém que\na gente está aqui.\lÉ o nosso mundinho a dois!$
+
+[Route109_Text_PaulNotEnoughPokemon] b92e2b8cf2
+PAUL: A gente está apaixonado de\nverdade. Por isso os nossos POKéMON\lbatalham juntos.$
+
+[Route109_Text_MelIntro] 781e779861
+MEL: A gente está, tipo, apaixonado.\nO nosso romance esquenta HOENN!$
+
+[Route109_Text_MelDefeated] 9634b3851e
+MEL: Perdemos, e a culpa é minha!\nO PAUL vai me odiar!$
+
+[Route109_Text_MelPostBattle] e6337ddb75
+MEL: Hã, PAUL, você está bravo comigo?\nPor favor, não fica bravo.$
+
+[Route109_Text_MelNotEnoughPokemon] aabd401ce5
+MEL: A gente está, tipo, apaixonado de\nverdade. Por isso os nossos POKéMON\lbatalham juntos.$
+
+[Route109_Text_ChandlerIntro] de9c6e941f
+Tcharam! Viu?\nA minha boia é redonda!$
+
+[Route109_Text_ChandlerDefeated] f26c66e002
+Ah, ah!\nQue pena!$
+
+[Route109_Text_ChandlerPostBattle] fe5fde608e
+E eu que te mostrei a minha boia\nredonda…$
+
+[Route109_Text_HaileyIntro] 3197588821
+Não sei nadar, então finjo que\nestou nadando.$
+
+[Route109_Text_HaileyDefeated] 369ffe3585
+Eu sabia!\nNão achei que a gente ia ganhar.$
+
+[Route109_Text_HaileyPostBattle] a44169d9e5
+Quando eu aprender a nadar, acho que\nos meus POKéMON vão ficar mais fortes.$
+
+[Route109_Text_ElijahIntro] 933f0758e6
+Pra um cara machão como eu, este tipo\nde POKéMON é a combinação perfeita!$
+
+[Route109_Text_ElijahDefeated] 772adcf717
+Até perdendo eu sou estiloso, hein?$
+
+[Route109_Text_ElijahPostBattle] 50668267b9
+Pra um cara machão como eu, um porto\né o cenário perfeito!\pAcho que vou pra SLATEPORT.$
+
+[Route110_Text_JacobIntro] 10a0b77bc8
+Opa! Cuidado!\nPelo jeito, correr de BICICLETA\lainda é novidade pra você.$
+
+[Route110_Text_JacobDefeated] 91e5c5924c
+Opa!\nO freio falhou!$
+
+[Route110_Text_JacobPostBattle] 37425f9ecd
+Pneu furado e freio ruim podem\ncausar acidentes graves!\lRevise a sua BICICLETA!$
+
+[Route110_Text_AnthonyIntro] 57d503dbd5
+E aí, você!\nAguenta a minha velocidade?$
+
+[Route110_Text_AnthonyDefeated] 982abc890a
+Capotei!$
+
+[Route110_Text_AnthonyPostBattle] c9cf8ba7b2
+Só velocidade não ganha batalha\nPOKéMON. Preciso repensar isso…$
+
+[Route110_Text_BenjaminIntro] c5b961fd75
+Não entre em pânico se a BICICLETA\nestiver rápida!$
+
+[Route110_Text_BenjaminDefeated] 46d5a1ab9b
+Não devia entrar em pânico nas\nbatalhas POKéMON…$
+
+[Route110_Text_BenjaminPostBattle] a018ee2d7a
+Não precisa de pânico nem estresse.\nVai com calma. Tem tempo de sobra.$
+
+[Route110_Text_BenjaminRegister] d5d7819edd
+Vou seguir pedalando sem estresse.\nMe chame se estiver afim.$
+
+[Route110_Text_BenjaminRematchIntro] c2cfab6b67
+Não está indo rápido demais?\nVai com calma e vamos batalhar.$
+
+[Route110_Text_BenjaminRematchDefeated] b22f2649b7
+Não entrei em pânico, mas perdi\nmesmo assim…$
+
+[Route110_Text_BenjaminRematchPostBattle] a018ee2d7a
+Não precisa de pânico nem estresse.\nVai com calma. Tem tempo de sobra.$
+
+[Route110_Text_AbigailIntro] 4da8e3d343
+O triatlo é dificílimo.\pTem que completar as três provas:\nnatação, ciclismo e corrida.$
+
+[Route110_Text_AbigailDefeated] 3899a690b0
+As batalhas POKéMON também são\ndifíceis!$
+
+[Route110_Text_AbigailPostBattle] 23e1ab58f2
+Estou exausta, preciso de uma pausa.\nDescansar direito é importante.$
+
+[Route110_Text_AbigailRegister] 491f6a1931
+Sabe, gostei de você!\nVamos ter uma revanche na ESTRADA\lDE BICICLETA.$
+
+[Route110_Text_AbigailRematchIntro] af495acad1
+Não é legal batalhar enquanto\npedala?$
+
+[Route110_Text_AbigailRematchDefeated] 9b1db90c44
+Uau…\nComo você pode ser tão forte?$
+
+[Route110_Text_AbigailRematchPostBattle] 3d169ec3f2
+Você estava atrás de um recorde?\pDesculpa se te atrasei!$
+
+[Route110_Text_JasmineIntro] 5e5160a65f
+Pedalo sem parar.\nAs coxas estão duras feito pedra!$
+
+[Route110_Text_JasmineDefeated] 4ff21acfb9
+Estou com medo de cãibra…$
+
+[Route110_Text_JasminePostBattle] ab282b908f
+Ah, você tem INSÍGNIAS?\nNão é à toa que é tão forte!$
+
+[Route110_Text_EdwardIntro] f04c4ee708
+Previ as suas intenções!\nNão tenho como perder!$
+
+[Route110_Text_EdwardDefeated] c1025004a4
+Não previ a minha própria derrota!$
+
+[Route110_Text_EdwardPostBattle] 5e6dceb5a6
+Vejo o seu futuro…\pHum…\nVejo uma luz brilhante…$
+
+[Route110_Text_JaclynIntro] b546819c0b
+Ahahahaha!\nVou te deslumbrar com as minhas\lmaravilhas!$
+
+[Route110_Text_JaclynDefeated] 3346775bb4
+Perdi maravilhosamente!$
+
+[Route110_Text_JaclynPostBattle] 36a66d7a6a
+Você só ganhou porque foi uma\nmaravilha! Sim, uma maravilha!\lNão pense que vai ganhar sempre!$
+
+[Route110_Text_EdwinIntro] 51f70b3366
+Posso ver os seus POKéMON?\nSó uma olhadinha, por favor?$
+
+[Route110_Text_EdwinDefeated] f0f0a64e32
+Eu queria completar\na minha coleção…$
+
+[Route110_Text_EdwinPostBattle] e9bd40a97a
+Quando vejo um POKéMON que não\nconheço, a minha paixão de\lcolecionador pega fogo!$
+
+[Route110_Text_EdwinRegister] f034205e35
+Também gosto de colecionar registros\nno sistema de CHAMADAS…$
+
+[Route110_Text_EdwinRematchIntro] a248cf8299
+Oi, pegou algum POKéMON novo?\pPosso ver os seus POKéMON?\nSó uma olhadinha, por favor?$
+
+[Route110_Text_EdwinRematchDefeated] 37dfa1f056
+Os seus POKéMON…\nQue inveja.$
+
+[Route110_Text_EdwinRematchPostBattle] 4fa3a1b7b5
+Ah, como eu queria ter todos os\nPOKéMON raros!$
+
+[Route110_Text_DaleIntro] 68b7901ac1
+Ei!\nNão chegue por trás assim!$
+
+[Route110_Text_DaleDefeated] 0542697a29
+Perdi!\nDroga!$
+
+[Route110_Text_DalePostBattle] b101a91d7e
+Pescar é questão de concentração.\nTem que focar na boia.$
+
+[Route110_Text_IsabelIntro] f25319ea8d
+Ahahaha! Eu iria a qualquer lugar\npra exibir os meus POKéMON lindos.$
+
+[Route110_Text_IsabelDefeated] e5f71e8211
+Ai, ai, assim não dá.$
+
+[Route110_Text_IsabelPostBattle] f63c30ef07
+Em vez de batalhar, talvez eu devesse\nexibir os meus POKéMON no FÃ-CLUBE.$
+
+[Route110_Text_IsabelRegister] 7ce6966d53
+Isso não chegou nem perto do que\nposso fazer pra exibir os meus POKéMON.\pVou ter você como plateia sempre\nque possível!$
+
+[Route110_Text_IsabelRematchIntro] 9c4b87f2fc
+Ahahahaha! Vou adorar exibir os\nmeus POKéMON quantas vezes quiser!$
+
+[Route110_Text_IsabelRematchDefeated] e5f71e8211
+Ai, ai, assim não dá.$
+
+[Route110_Text_IsabelRematchPostBattle] 0bee7444ed
+Acho que nunca vou conseguir parar\nde exibir os meus POKéMON.\pMas também gosto de batalhar!$
+
+[Route110_Text_TimmyIntro] f3f6561bfd
+Achei uns POKéMON legais no mato\naqui perto!$
+
+[Route110_Text_TimmyDefeated] 195888dc16
+Ser legal não basta pra ganhar…$
+
+[Route110_Text_TimmyPostBattle] 6e46c98b90
+É difícil batalhar com POKéMON que\nvocê acabou de pegar.$
+
+[Route110_Text_AlyssaIntro] 3c0974b5ad
+Caí da ESTRADA DE BICICLETA…\pVou esquecer o vexame batalhando\ncom você!$
+
+[Route110_Text_AlyssaDefeated] d22ac1b4d4
+Ops!\nAcabei perdendo!$
+
+[Route110_Text_AlyssaPostBattle] 293e2d85e7
+Cair… Perder…\nQue humilhação!$
+
+[Route110_Text_JosephIntro] c6ab1e6ea7
+Certo! Hora de acelerar tudo! Quem\nnão entra no ritmo fica pra trás!$
+
+[Route110_Text_JosephDefeated] 6dc187eb47
+Você entrou no ritmo direitinho…$
+
+[Route110_Text_JosephPostBattle] cdf09db7c1
+Isso não vai me derrubar!\nPerder me fez um homem melhor!$
+
+[Route110_Text_KalebIntro] 10ef7df752
+Quando POKéMON fofos se ajudam…\nNão existe cena mais adorável!$
+
+[Route110_Text_KalebDefeated] 7fd9efc4ea
+Você não tem compaixão nem dó?$
+
+[Route110_Text_KalebPostBattle] 38a1ac7b7b
+Tá bom, tá bom, vocês fizeram o\nmelhor que podiam, meus lindinhos.$
