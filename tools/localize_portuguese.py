@@ -378,6 +378,19 @@ def localize(tree: Path, relative: str, charset: Charset, write: bool) -> Result
     return Result(relative, len(entries), len(edits), problems)
 
 
+# Made by `make generated` (from region_map_sections.json): staged once it
+# exists, as bootstrap.py --make does after the generated includes.
+GENERATED = {"src/data/region_map/region_map_entries.h"}
+
+
+def present(tree: Path) -> list[str]:
+    """The catalogs whose source is in the tree; a generated one may not be yet."""
+    missing = [r for r in catalogs() if r in GENERATED and not (tree / r).exists()]
+    for relative in missing:
+        print("localize_portuguese: %s not generated yet, left for the build" % relative)
+    return [r for r in catalogs() if r not in missing]
+
+
 def catalogs() -> list[str]:
     # referencia/ holds material to translate from, not catalogs.
     return sorted(str(p.relative_to(CATALOG).with_suffix("")).replace("\\", "/")
@@ -428,7 +441,7 @@ def main() -> int:
     charset = Charset(tree)
     if "ã" not in charset.codes:
         raise SystemExit("localize_portuguese: the charmap has no ã; apply patch 0040 first")
-    results = [localize(tree, relative, charset, write=False) for relative in catalogs()]
+    results = [localize(tree, relative, charset, write=False) for relative in present(tree)]
     problems = [p for r in results for p in r.problems]
     if problems:
         print("\n".join(problems), file=sys.stderr)
@@ -438,7 +451,7 @@ def main() -> int:
               % (sum(r.applied for r in results), len(results)))
         return 0
     # Validate everything before changing anything.
-    for relative in catalogs():
+    for relative in present(tree):
         localize(tree, relative, charset, write=True)
     (tree / ".emerald3ds-locale").write_text(MARKER + "\n")
     print("localize_portuguese: %d texts staged from %d files"

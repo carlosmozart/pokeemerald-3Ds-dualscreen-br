@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Portuguese: the place names on the map popup, the region map and the summary:
+  the towns by their own name (LITTLEROOT), ROTA 101 and the rest within 16
+  characters. localize_portuguese.py stages the generated
+  region_map_entries.h once `make generated` has made it.
 - Portuguese: BERRIES read FRUTA ORAN and FRUTAS ORAN, with the word first as
   in Spanish (patch 0047). The game built "ORAN BERRIES" in English.
 - Battle: the level-up box (the six stats and how much each rose) shows

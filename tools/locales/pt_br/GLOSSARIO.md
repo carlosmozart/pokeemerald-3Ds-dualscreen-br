@@ -96,6 +96,7 @@ Os nomes dos POKéMON não se traduzem.
 | Rental Pokémon | POKéMON de aluguel | |
 | Referee / Tourney tree / Round | JUIZ / Chave do Torneio / fase (Fase 1, Fase 2, Semifinal, Final) | as fases vêm de `battle_message.c` |
 | Littleroot Town e as outras cidades | CIDADE DE LITTLEROOT | o nome fica, a parte genérica se traduz |
+| Nomes de lugares no mapa (placa ao entrar, mapa da região, resumo) | as cidades só com o nome próprio (LITTLEROOT, EVER GRANDE), ROTA 101; até 16 caracteres, abreviando: CAT. METEOROS, ESTR. DA VITÓRIA, CAV. BANCO AREIA, CAM. SUBMARINO, CAV. DA ORIGEM, BOSQUE PETALBURG, ESCOND. AQUA / MAGMA, FRONT. BATALHA, COL. TREINADORES, PASS. DO DESERTO; e CAMINHO ARDENTE, RUÍNAS DESERTO, TUMBA ANTIGA, CÂMARA SELADA, LAJE CHAMUSCADA, CAVERNA DA ILHA, CAVERNA ARTESÃ / MARINHA / TERRA, FUNDO DO MAR, NO CAMINHÃO | opção (a), decidida em 09/10; nos diálogos valem as formas inteiras |
 | Pokémon Wireless Club | CLUBE SEM FIO POKéMON | |
 | Trainer Card (Gold/Silver) | CARTÃO DE OURO / DE PRATA | |
 | Key Items | ITENS CHAVE | só "Objeto Chave", num manual; sem hífen para caber no bolso da BOLSA |
