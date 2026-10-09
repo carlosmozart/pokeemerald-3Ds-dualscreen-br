@@ -229,7 +229,8 @@ O maior volume do projeto, sem equivalente no wiki.
   - [x] Littleroot, Oldale, Route 101–103, Petalburg (caminhão,
         LITTLEROOT inteira, ROTAS 101 a 103, OLDALE, PETALBURG inteira
         com o GINÁSIO)
-  - [ ] Rustboro, Dewford, Slateport (até o 3º ginásio)
+  - [ ] Rustboro, Dewford, Slateport (até o 3º ginásio) (feitos: ROTA
+        104, BOSQUE DE PETALBURG, RUSTBORO inteira com a DEVON e o GINÁSIO)
   - [ ] Mauville até Fortree (4º ao 6º ginásio)
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
   - [ ] Ever Grande e Liga
