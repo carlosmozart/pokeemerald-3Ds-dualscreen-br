@@ -216,8 +216,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
 - [x] Decorações nas listas de prêmios da FRONTEIRA: os bonecos, o pôster
       e a almofada KISS entraram no glossário com a CENTRAL DE TROCAS
       (09/10).
-- [ ] FRUTAS no plural: o jogo monta "ORAN BERRIES"; em português o nome vem
-      depois ("FRUTAS ORAN"), o que pede um patch como o `0031` do espanhol.
+- [x] FRUTAS no singular e no plural: "FRUTA ORAN", "FRUTAS ORAN", com a
+      palavra antes do nome, como no espanhol (patch `0047`, 09/10).
 - [x] Janela de subida de nível na batalha (port, `3ds_video.c`, corrigido
       e conferido no 3DS em 09/10): ficava na
       cena ampliada 1,5×, atrás da caixa de mensagem, que esconde AT. ESP.,

@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Portuguese: BERRIES read FRUTA ORAN and FRUTAS ORAN, with the word first as
+  in Spanish (patch 0047). The game built "ORAN BERRIES" in English.
 - Battle: the level-up box (the six stats and how much each rose) shows
   whole, against the right edge over the message box, as on the GBA. The
   port drew it in the magnified battle scene, cut by the screen's edge and
