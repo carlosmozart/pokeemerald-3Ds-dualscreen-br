@@ -199,14 +199,18 @@ Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
 
 Ordem sugerida, do que o jogador vê mais para o que vê menos:
 
-- [ ] Menus e BOLSA (`src/strings.c`): menu principal, menu START, SIM/NÃO e
-      a BOLSA feitos (100 de 1762 textos).
+- [ ] Menus de `src/strings.c` (387 de 1762 textos em 09/10): menu
+      principal, CONTINUAR, opções (patches `0044` e `0045`), menu START com
+      as janelas de salvar e do SAFARI, BOLSA, a fala do Prof. Birch, as
+      mensagens do save. Faltam batalhas especiais, POKéNAV, BOLSO DAS
+      FRUTAS, concursos e textos soltos do mundo.
 - [x] Mensagens de batalha (`src/battle_message.c`, patch `0041` para a
       ordem “ZIGZAGOON selvagem”); conferir larguras com a
       referência do patch `0034`.
-- [ ] Resumo do Pokémon, Pokédex e unidades (o patch `0035` do espanhol já
-      mostra metros e quilos).
-- [ ] PC, Centro Pokémon, loja, opções e salvamento.
+- [x] Resumo do POKéMON (natureza, origem, OVO), tela da equipe com as
+      mensagens, telas da POKéDEX (busca, ordem, ALT./PESO) e unidades:
+      metros e quilos com vírgula (patch `0046`, sobre o código do `0035`).
+- [x] PC do jogador, sistema de CAIXAS, loja, opções e salvamento.
 - [ ] Concursos (títulos, patch `0032`), Battle Frontier, Trainer Hill e
       Secret Base.
 - [ ] Gráficos com texto em inglês (logo, "THE END", alguns menus): continuam
@@ -215,8 +219,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       fundo do ícone original (resumo, Pokédex, relembrar golpes).
 - [ ] Atributos: localizar onde são texto (janela de subida de nível) e onde
       são gráfico (página de resumo) e gerar os gráficos no builder.
-- [ ] Atributos: conferir a largura de `ATAQUE ESP.` e `VELOCIDADE` ou usar as
-      abreviações do Glossário.
+- [x] Atributos: larguras conferidas; no resumo, AT.ESP e DEF.ESP (centralizados
+      em 36 px), na equipe e nas mensagens, AT. ESP. e DEF. ESP.
 
 ## Fase 7 — Diálogos e scripts do mundo
 
@@ -236,8 +240,8 @@ O maior volume do projeto, sem equivalente no wiki.
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
-- [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON e
-      vendedor do POKé MART; faltam placas e PC).
+- [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON,
+      vendedor do POKé MART e o PC; faltam as placas comuns).
 - [ ] Frases de treinador (intro, derrota, revanche).
 - [ ] Cartas, Easy Chat e vocabulário (decidir se ficam em inglês: o Easy Chat
       é trocado entre saves e jogos).
