@@ -1,0 +1,416 @@
+# TV: as entrevistas e os programas (nomes no glossário).
+# Quem aparece na TV pode ser de qualquer gênero: as falas não usam adjetivos que marquem gênero.
+
+[LilycoveCity_ContestLobby_Text_InterviewRequest] 1e7e26d92f
+Ah, olá! Você participou de um\nCONCURSO POKéMON, não foi?\lDá pra ver pelos seus POKéMON.\pSou repórter. Tô fazendo uma matéria\nsobre os CONCURSOS POKéMON.\pSe puder, toparia responder\numas perguntinhas?$
+
+[LilycoveCity_ContestLobby_Text_DescribeContest] f269c1fedb
+Ah, topa?\nObrigado.\pEm poucas palavras, como você\ndescreveria o CONCURSO de agora?$
+
+[LilycoveCity_ContestLobby_Text_WhatImageWhenYouHearX] 39a20bb693
+Ah, entendi.\nÉ um comentário bem revelador.\pDá pra sentir como foi\no CONCURSO.\pSó mais uma pergunta.\pQuando você ouve a palavra\n“{STR_VAR_2}”, o que vem à cabeça?$
+
+[LilycoveCity_ContestLobby_Text_ThatsAllForInterview] 72e405572a
+Entendi!\pEntão é assim que você imagina\n“{STR_VAR_2}”.\pObrigado!\nVocê me deu umas ótimas ideias.\pAcho que agora consigo escrever uma\nboa matéria sobre CONCURSOS POKéMON.\pQuem sabe essa matéria até vai\npassar na televisão.\lFique de olho!$
+
+[LilycoveCity_ContestLobby_Text_PleaseDoShareStoryWithMe] 1a7094b611
+Ah, que pena…\pBom, se souber de uma boa história,\nme conte, por favor.$
+
+[LilycoveCity_ContestLobby_Text_LookingForwardToNextContest] 1e87e41d1e
+Vou ficar esperando o seu próximo\nCONCURSO POKéMON.$
+
+[gTVBravoTrainerText00] c044523ffc
+Isso aí!\nÉ hora do DESTAQUE DO DIA!\pHoje, vamos conhecer um POKéMON\nde {STR_VAR_1}.\pEle tem o NÍVEL {STR_VAR_3}\nna categoria {STR_VAR_2}.$
+
+[gTVBravoTrainerText01] 9aa6662ff2
+Apresentamos {STR_VAR_2}, o\n{STR_VAR_1}!\pO apelido {STR_VAR_2}…\pAté o apelido tem um ar que\nproclama “{STR_VAR_3}”!$
+
+[gTVBravoTrainerText02] e5a1919a77
+Quando {STR_VAR_1} inscreveu o\nPOKéMON num CONCURSO, a gente\lconseguiu umas frases apaixonadas\lsobre esse parceiro fiel.$
+
+[gTVBravoTrainerText03] e676e089b1
+Perguntado sobre o CONCURSO depois,\n{STR_VAR_1} respondeu com um sorrisão:\l“{STR_VAR_2}!”\pPois é, o POKéMON de {STR_VAR_1} ficou\nem {STR_VAR_3}º lugar no CONCURSO.\pEssa frase combina direitinho com\n{STR_VAR_1} agora, eu diria!$
+
+[gTVBravoTrainerText04] 9e6b9ff68f
+Perguntado sobre o CONCURSO depois,\n{STR_VAR_1} respondeu com um pouco\lde amargura: “{STR_VAR_2}.”\pPois é, o POKéMON de {STR_VAR_1} ficou\nem {STR_VAR_3}º lugar no CONCURSO.\pA decepção de {STR_VAR_1} fica\nbem clara, eu diria!$
+
+[gTVBravoTrainerText05] 85bb96899f
+Você também não queria saber o que\n{STR_VAR_1} imagina por {STR_VAR_2}?\pPois a gente queria!\nEntão, claro, perguntamos!\pA resposta resume tudo:\n“{STR_VAR_3}!”\pÉ isso que {STR_VAR_2}\nrepresenta pra {STR_VAR_1}!$
+
+[gTVBravoTrainerText06] 6a9f7b0241
+O último golpe, {STR_VAR_2}, usado\npelo {STR_VAR_1}, tem tudo a ver\lcom “{STR_VAR_3}”!$
+
+[gTVBravoTrainerText07] b890084b50
+Bravo, {STR_VAR_1}!\nBravo, {STR_VAR_2}!\pTomara que a gente veja {STR_VAR_1}\nchegar ainda mais longe!\pNosso tempo acabou!\nAté a próxima!$
+
+[gTVBravoTrainerText08] 72523c7302
+Apresentamos o {STR_VAR_1} da dupla!$
+
+[BattleFrontier_BattleTowerLobby_Text_InterviewRequest] 5a74b1d00b
+Olá! Você acabou de ter uma\nbatalha, né?\pTô entrevistando TREINADORES\npor todo canto.\pPosso ouvir umas palavras suas\nsobre as suas impressões da batalha?$
+
+[BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut] eaa4692bd9
+Topa? Sério?\nObrigado!\lEntão, hã…\pComo foi hoje na\nTORRE DE BATALHA?\pCurtiu a batalha?\nOu ficou na bronca?$
+
+[BattleFrontier_BattleTowerLobby_Text_SorryWeDisturbedYou] 51b1aa9003
+Ah…\nDesculpe o incômodo.\pDá uma entrevista pra gente na próxima\nvisita à TORRE DE BATALHA.$
+
+[BattleFrontier_BattleTowerLobby_Text_ObviousYouHadGreatBattle] ac92b24d20
+Mas é claro!\pEssa cara de satisfação não\nengana ninguém…\pDá pra ver que foi uma ótima\nbatalha.$
+
+[BattleFrontier_BattleTowerLobby_Text_DifficultToMakeBattleTurnOutAsPlanned] 4387ba2d1a
+Ah, entendi…\pBom, é difícil mesmo uma batalha\nsair exatamente como planejado.$
+
+[BattleFrontier_BattleTowerLobby_Text_DescribeYourBattle] 2a02c1eb0a
+Ah, ah, posso fazer só mais uma\npergunta?\pSe fosse resumir as suas\nimpressões desta batalha numa\lfrase, qual seria?$
+
+[BattleFrontier_BattleTowerLobby_Text_ThatsGreatLine] e96de921e6
+Ah, isso é muito estiloso!\pQue frase ótima!\nTomara que se dê bem na próxima também.\pEspero te ver de novo!$
+
+[BattleFrontier_BattleTowerLobby_Text_SilentType] e3ca94f7b1
+Ah, entendi…\pMas ficar na sua também tem\nseu estilo, né?\pEspero ter outra chance de\nouvir o que você pensa!$
+
+[BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle] 51fd16fb89
+Vou ficar esperando a sua\npróxima batalha!$
+
+[BravoTrainerBattleTower_Text_Intro] 8171365abe
+Isso aí!\nÉ hora do DESTAQUE DO DIA!\pHoje, vamos conhecer {STR_VAR_1},\nque encarou a TORRE DE BATALHA!\pNo desafio, {STR_VAR_1} usou\num {STR_VAR_2} de respeito.$
+
+[BravoTrainerBattleTower_Text_NewRecord] 6721c0726d
+A dupla bateu um recorde de {STR_VAR_2}\nvitórias seguidas no {STR_VAR_1}!\lBravo!$
+
+[BravoTrainerBattleTower_Text_Lost] 57a480e7cf
+A dupla enfim caiu diante de\n{STR_VAR_1} na luta nº {STR_VAR_2}.\lBoa tentativa!\pMas, ó, foi azar topar com\n{STR_VAR_1} tão cedo no desafio.\pPedimos as impressões sobre\na luta com {STR_VAR_1}.$
+
+[BravoTrainerBattleTower_Text_Won] 16cd1be8eb
+A dupla levou tudo, derrotando de\nvez o {STR_VAR_2} de {STR_VAR_1}.\lBravo!\pVencer até {STR_VAR_1}…\nÉ inacreditável! Simplesmente incrível!\pPedimos as impressões sobre\no momento de glória.$
+
+[BravoTrainerBattleTower_Text_LostFinal] da3421303f
+Depois de várias vitórias, a dupla\nenfim caiu diante do {STR_VAR_2} de\l{STR_VAR_1}, o último obstáculo.\pBoa tentativa!\pMas tem que reconhecer: não se\nvê muita dupla famosa como\l{STR_VAR_1} e {STR_VAR_2}.\pPedimos as impressões sobre\na batalha com a dupla famosa.$
+
+[BravoTrainerBattleTower_Text_Satisfied] 19a09f359d
+Foi isso que nos disseram:\n“Que satisfação!”\pNão é uma resposta revigorante?\nBravo!\pNão é demais poder batalhar\ncom plena satisfação?\pSoube o tamanho da satisfação\nquando ouvi esta frase:$
+
+[BravoTrainerBattleTower_Text_Unsatisfied] a03b69313b
+Foi isso que nos disseram:\n“Faltou alguma coisa…”\pDava pra ver o desânimo\nnessa hora.\pMas não é fácil batalhar com\ntotal satisfação, não é mesmo?\pEnfim, soube o tamanho da\ninsatisfação quando ouvi esta frase:$
+
+[BravoTrainerBattleTower_Text_None1] e980d81336
+Nada$
+
+[BravoTrainerBattleTower_Text_None2] e980d81336
+Nada$
+
+[BravoTrainerBattleTower_Text_None3] e980d81336
+Nada$
+
+[BravoTrainerBattleTower_Text_None4] e980d81336
+Nada$
+
+[BravoTrainerBattleTower_Text_Response] 82bf816a76
+“{STR_VAR_1}.”$
+
+[BravoTrainerBattleTower_Text_ResponseSatisfied] 9e60c42dda
+“{STR_VAR_1}.”\nNão é ótimo?\pExpressa bem a alegria de\n{STR_VAR_2}, eu diria.\pAquela batalha com {STR_VAR_3} no\nfinal… Foi mesmo o que se\lchama de “{STR_VAR_1}”!$
+
+[BravoTrainerBattleTower_Text_ResponseUnsatisfied] 9d07c3a02e
+“{STR_VAR_1}.”\nNão combina bem?\pAquela batalha com {STR_VAR_3} no\nfinal… Não dá pra descrever de\loutro jeito senão “{STR_VAR_1}”!\pA decepção de {STR_VAR_2} fica\nbem clara, eu diria!$
+
+[BravoTrainerBattleTower_Text_Outro] b890084b50
+Bravo, {STR_VAR_1}!\nBravo, {STR_VAR_2}!\pTomara que a gente veja {STR_VAR_1}\nchegar ainda mais longe!\pNosso tempo acabou!\nAté a próxima!$
+
+[SlateportCity_PokemonFanClub_Text_InterviewRequestHasName] dfa054e7e6
+Nossa!\pDá pra ver que você enche o seu\n{STR_VAR_1} de carinho.\pCerto, o nome é {STR_VAR_2}.\pPosso te pedir um favor?\pSou repórter de TV e tô fazendo\numa pesquisa sobre POKéMON.\pVocê toparia responder umas\nperguntas simples?$
+
+[SlateportCity_PokemonFanClub_Text_HereGoesQuickAnswers] 86ae1d8e15
+Ótimo! Obrigado!\pCerto, lá vai.\nSó preciso de respostas rápidas, tá?$
+
+[SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon] df29498103
+Quando você conheceu {STR_VAR_1},\no que sentiu?\pComo você descreveria o que\nsentiu na hora?$
+
+[SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike] a1fa60f971
+O seu {STR_VAR_1} é bem tratado.\pSe fosse comparar ele com algo\nde que você gosta, o que seria?$
+
+[SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon] ebe34572ea
+Esta pergunta também é sobre o\nseu querido {STR_VAR_1}.\pO que em {STR_VAR_1} chamou\na sua atenção?$
+
+[SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou] efec2c042c
+Certo, faz sentido.\pA próxima pergunta pode ser\num pouquinho difícil.\pLá vai…\pO que os POKéMON são pra você?$
+
+[SlateportCity_PokemonFanClub_Text_ThatsAllForInterview] e2ad601090
+Entendi!\pHmhm…\pCerto!\nObrigado pela ajuda.\pFoi divertido e esclarecedor\nconversar com você.\pPode ser que a entrevista vá\nparar na TV. Fique de olho!\pCerto, é isso.\nTchauzinho!$
+
+[SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe] ab7171b119
+Ah, tudo bem…\pBom, se der vontade de me contar\nsobre POKéMON, tô aqui!$
+
+[SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews] aed0eda18d
+Eu curto esse trabalho: a gente\naprende sobre POKéMON entrevistando.$
+
+[SlateportCity_PokemonFanClub_Text_InterviewRequest] cd71c47368
+Oi, você parece ter um laço forte\ncom o seu {STR_VAR_1}.\pSabe de uma coisa?\nSou repórter de TV.\pViajo por aí entrevistando gente\nsobre POKéMON.\pSerá que você me contaria um\npouco sobre o seu {STR_VAR_1}?$
+
+[SlateportCity_PokemonFanClub_Text_TellMeAnythingAboutYourMon] daa1aa5a0c
+Nossa, obrigado!\pEntão, me conte o que quiser\nsobre o seu {STR_VAR_1}.$
+
+[SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2] 84f8eaaef5
+Nossa…\nQue relato interessante.\pVocê e {STR_VAR_1} são mesmo\nunha e carne, né?\pSinto que o seu relato vai virar\numa ótima matéria de TV.\pPrometo transformar isso num\nprograma divertido.\lFique de olho.\pCerto, é isso.\nTchauzinho!$
+
+[gTVFanClubOpinionsText00] a090f33284
+NÓS SOMOS O FÃ-CLUBE POKéMON!\pEstamos no ar!\pNeste programa, a gente pega a sua\nopinião e eu grito por você!\lNão é uma ideia fantástica?\pHoje, trazemos a reportagem do\nnosso repórter, que mandamos ao\lFÃ-CLUBE POKéMON.\pE quem é o fã de POKéMON\nem destaque hoje?\p… … … … … … … …\p{STR_VAR_1}!\pVamos ouvir o que {STR_VAR_1} tem a\ndizer sobre {STR_VAR_3}, o {STR_VAR_2}.\pE eu vou gritar essas palavras\nde amor bem alto na TV!\pUhuul!\pVamos gritar!$
+
+[gTVFanClubOpinionsText01] deaa6fde08
+Perguntamos a {STR_VAR_1}: “Quando\nviu o seu {STR_VAR_2} pela primeira\lvez, o que pensou?”\p“{STR_VAR_3}!”\pIêêê! Que grito bonito!\pNão traz lembranças daqueles\ndias que já se foram?$
+
+[gTVFanClubOpinionsText02] 99fdf2cfe3
+Perguntamos a {STR_VAR_1}: “Se fosse\ncomparar o seu {STR_VAR_2} com algo,\lseria…”\p… … … … … … … …\p“{STR_VAR_3}!”\pUoou, que ideia original!\pDá pra sentir a intensidade do\nque o TREINADOR sente por\l{STR_VAR_2}.$
+
+[gTVFanClubOpinionsText03] 500ec35be4
+E vejamos…\nO que nesse {STR_VAR_2} encantou\ltanto {STR_VAR_1}?\p… … … … … … … …\p“{STR_VAR_3}!”\pUau! Que declaração espetacular!\pO amor pelo {STR_VAR_2}\nfica claríssimo!$
+
+[gTVFanClubOpinionsText04] f5afa9f9bd
+Hã? Ah, ainda tem mais.\nVamos ver!\pDeixa eu ver…\pPerguntamos a {STR_VAR_1}: “O que os\nPOKéMON são pra você?”\p… … … … … …\p“{STR_VAR_3}!”\pBravo!\pÉ o melhor grito do dia!\p“{STR_VAR_3}!”\pDá vontade de gritar de novo\ne de novo!\pDepois desse grito, é hora de\ndizer tchau até a próxima!\pEntão, um último grito!\nTodos juntos…\p“{STR_VAR_3}!”$
+
+[gTVFanClubText00] 2b343be1c4
+NÓS SOMOS O FÃ-CLUBE POKéMON!\pEstamos no ar!\pHoje, começamos com o CANTINHO\nDA PESQUISA POKéMON.\pDe todas as histórias de POKéMON\ne TREINADORES, que drama novo\lvai chamar a atenção hoje?\pDeixa eu ver…\pEsta!\pVamos começar com esta carta!\pÉ uma carta de {STR_VAR_1} sobre\num querido {STR_VAR_2}.\pVamos ver com quanta paixão\nfalam do {STR_VAR_2}!\lHmhm…$
+
+[gTVFanClubText01] 96c6d2be05
+Uau!\nQue carta incrível!$
+
+[gTVFanClubText02] 182fa0403c
+Adorei, então lá vai de novo!$
+
+[gTVFanClubText03] 013b2ee0b2
+Uma carta boa merece ser lida\nde novo e de novo!$
+
+[gTVFanClubText04] d3995ef7de
+O trecho “{STR_VAR_3}” dá\num impacto emocional e tanto!\pÉ uma ótima carta, com uma\nprofundidade sincera!$
+
+[gTVFanClubText05] 2c83683432
+Ainda mais o trecho\n“{STR_VAR_3}”!\pAdoro como usaram “{STR_VAR_3}”!$
+
+[gTVFanClubText06] 01a4b22fc3
+Aliás, nada a ver, mas\n“{STR_VAR_3}” é um ótimo ditado.\pAndo usando “{STR_VAR_3}” direto\nnas conversas.$
+
+[gTVFanClubText07] 73daa66b02
+Se eu fosse dar nota pra esta carta,\ndaria {STR_VAR_3} pontos.\pDa próxima vez, quero uma carta\nainda melhor, {STR_VAR_1}!\pOpa, olha a hora!\nÉ hora de dizer tchau até a próxima!$
+
+[SlateportCity_OceanicMuseum_1F_Text_InterviewRequest] 171ae9374a
+Opa?\nVocê gosta de POKéMON?\pTô trabalhando pra emissora de TV.\pTô juntando histórias recentes\nde POKéMON e TREINADORES.\pSe não se importar, pode me\ncontar algo sobre você?$
+
+[SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort] 3608a61002
+Tô juntando histórias recentes\nde POKéMON e TREINADORES.\pSe não se importar, pode me\ncontar algo sobre você?$
+
+[SlateportCity_OceanicMuseum_1F_Text_TellMeExperienceInvolvingPokemon] 569ffd9cd3
+Ah, topa?\nObrigado!\pEntão me conte qualquer coisa\ninteressante que aconteceu com\lvocê e os POKéMON há pouco.$
+
+[SlateportCity_OceanicMuseum_1F_Text_LetMeKnowIfYouHaveStory] a334f722c6
+Ah, entendi…\pBom, se tiver uma história\ninteressante, me avise.$
+
+[SlateportCity_OceanicMuseum_1F_Text_ThatsAllForInterview] 4a07b7ec09
+Ah, que história animadora!\pVou fazer a sua história passar\nna televisão.\pDeve ir ao ar qualquer hora,\nentão fique de olho.$
+
+[SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory] 64b9f8f857
+Hmmm…\nTenho uma boa história pra TV.\pÉ melhor escrever isso correndo!$
+
+[gTVRecentHappeningsText00] 748dca3d3d
+Olá, é hora do ACONTECEU POR AÍ.\pPros TREINADORES POKéMON, todo dia\né uma história de livro.\pO que a gente quer é te apresentar\numas dessas histórias de POKéMON.\pHoje, trazemos a história de\n{STR_VAR_1}.\pO que aconteceu com {STR_VAR_1}?\nVamos descobrir.\pVejamos…$
+
+[gTVRecentHappeningsText01] 941308f79e
+Não foi esclarecedor?\pA história dá uma ideia clara do\nque {STR_VAR_1} viveu há pouco.\lÉ como se a gente estivesse lá!$
+
+[gTVRecentHappeningsText02] 03e6c64c95
+“{STR_VAR_3}.” Isso\ndestaca a história e dá profundidade.$
+
+[gTVRecentHappeningsText03] 982e4b3df7
+“{STR_VAR_3}.”\nIsso dá um cenário à história.\lDá pra imaginar onde tudo se passa.$
+
+[gTVRecentHappeningsText04] e34dc78db1
+O trecho “{STR_VAR_3}”\nda história é muito expressivo.$
+
+[gTVRecentHappeningsText05] c1d01881c6
+{STR_VAR_1} contou uma história\nmaravilhosa com POKéMON.\pE agora a história de {STR_VAR_1}\nficou gravada na sua alma também.\pPor hoje é só.\nAté a próxima.$
+
+[gTVMassOutbreakText00] d68200c8e6
+Saudações!\nÉ hora das NOTÍCIAS POKéMON.\pAcabamos de receber notícia de\num acontecimento muito raro.\pHá relatos de uma aparição em\nmassa de {STR_VAR_2} nos arredores\lde {STR_VAR_1}.\p{STR_VAR_2}, como você deve saber,\né um POKéMON raro e difícil\lde encontrar.\pÉ uma chance rara de ver essa\naparição misteriosa de\l{STR_VAR_2} na natureza.\pEssas foram as NOTÍCIAS POKéMON.$
+
+[gTV3CheersForPokeblocksText00] 3ea58316f5
+APRESENTADOR: Com muita animação,\nchegou o “3 VIVAS PROS {POKEBLOCK}S”!\pHoje, avaliamos o {POKEBLOCK} feito\npor {STR_VAR_1} e companhia.\pSem demora, vou dar ele pro\nmeu POKéMON gourmet, o GULPIN.\p… … … … … …\n… … … … … …$
+
+[gTV3CheersForPokeblocksText01] d860d947f4
+GULPIN: Gubi! Gubii!\pAPRESENTADOR: Veredito: muito\n{STR_VAR_1}! O GULPIN diz:\l“{STR_VAR_2}!”\pMuito obrigado, {STR_VAR_3}!$
+
+[gTV3CheersForPokeblocksText02] 06fb825be3
+A mistura de {STR_VAR_1}\ndeixou a desejar.\pCom uma mistura melhor, o {POKEBLOCK}\nficaria muito mais gostoso.$
+
+[gTV3CheersForPokeblocksText03] 904ddc3dbc
+GULPIN: Gubi! Gubii!\pAPRESENTADOR: Hmm…\nFicou {STR_VAR_1} demais.\lO GULPIN diz: “{STR_VAR_2}!”\pParece que os erros de {STR_VAR_3}\nprejudicaram a mistura…$
+
+[gTV3CheersForPokeblocksText04] 5fc3a6137f
+Que pena que o esforço de\n{STR_VAR_1} foi em vão.\pTomara que {STR_VAR_2} se saia\nmelhor da próxima vez!$
+
+[gTV3CheersForPokeblocksText05] 6f056fa1e7
+Até a próxima!\nNosso lema é “3 VIVAS PROS {POKEBLOCK}S!”$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer] 294ef9da93
+Oi!\pSou muito fã de {STR_VAR_1}.\nO que você acha de {STR_VAR_1}?$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_ThatsWhatYouThink] ac3fa9389b
+Entendi, entendi. É isso que você\npensa sobre essa pessoa.$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer] 3e62230fe4
+Você esqueceu completamente\nde {STR_VAR_1}?$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2] 50916b2230
+Sou muito fã de {STR_VAR_1}.\nO que você acha de {STR_VAR_1}?$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer] 9716a0384e
+De zero a cem, que nota você dá\npra força de {STR_VAR_1}?$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer2] 3e62230fe4
+Você esqueceu completamente\nde {STR_VAR_1}?$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_YouShouldMeetTrainer] f28450aa83
+Ah, entendi!\nVocê devia conhecer {STR_VAR_1}.\lAposto que vai virar fã também!$
+
+[LilycoveCity_PokemonTrainerFanClub_Text_ThankYouIllShareThisInfo] 3d18636aa8
+Entendi, entendi.\pObrigado!\nÉ muito útil saber disso.\pVou dividir isso com outros fãs\nde {STR_VAR_1} e a gente discute.$
+
+[LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial] 9dd521c803
+Logo vai ter um especial de TV\nsobre {STR_VAR_1}.\pTomara que você assista!$
+
+[gTVTrainerFanClubSpecialText00] e8eb221767
+ESPECIAL FÃ-CLUBE DOS TREINADORES:\n{STR_VAR_1}!\pEsta é uma apresentação especial\npros fãs de {STR_VAR_1} em toda HOENN!\pHoje, a pergunta é: “O que as\npessoas acham de {STR_VAR_1}?”\pFizemos a pergunta a {STR_VAR_2},\nrepresentando os TREINADORES.\pPerguntamos: “Numa palavra, como\nvocê descreveria {STR_VAR_1}?”\pA resposta: “{STR_VAR_3}.”\pParabéns, {STR_VAR_2}!\nQue opinião perspicaz!\p“{STR_VAR_3} {STR_VAR_1}.”\nSoa tão bem!\p{STR_VAR_2} também deu nota de 0 a 100\npra força de {STR_VAR_1}.$
+
+[gTVTrainerFanClubSpecialText01] 84b130523c
+A nota foi {STR_VAR_3} pontos!\nUma nota altíssima!\p{STR_VAR_2} com certeza tem\n{STR_VAR_1} em altíssima conta.$
+
+[gTVTrainerFanClubSpecialText02] cd5a87e8fb
+A nota foi {STR_VAR_3} pontos!\nÉ uma nota bem boa.\p{STR_VAR_2} deve ver\n{STR_VAR_1} como rival.$
+
+[gTVTrainerFanClubSpecialText03] 9219349ac5
+A nota foi {STR_VAR_3} pontos!\nÉ uma nota meio fraca.\p{STR_VAR_2} deve ver\n{STR_VAR_1} só como ajudante.$
+
+[gTVTrainerFanClubSpecialText04] 3cfc9dd002
+A nota foi {STR_VAR_3} ponto(s)!\nÉ uma nota péssima.\p{STR_VAR_2} deve ver\n{STR_VAR_1} como alguém de segunda.$
+
+[gTVTrainerFanClubSpecialText05] 2f3c055323
+É isso, pessoal!\pAcho que todo mundo aprendeu algo\nnovo sobre {STR_VAR_1}.\pPra fechar, deixo vocês com as\npalavras de {STR_VAR_2}:\p{STR_VAR_3} {STR_VAR_1}!$
+
+[gTVNameRaterText00] d8944e0657
+E agora, é hora do…\nSHOW DO AVALIADOR DE NOMES.\pEu leio a sorte do seu POKéMON\npelo apelido que você deu.\pConselho é o que eu tenho pra dar,\ne são conselhos muito úteis.\pHoje, vou fazer a leitura do\napelido {STR_VAR_3}, do POKéMON\l{STR_VAR_2} de {STR_VAR_1}.\pHmhm…\pHmm…\nEste apelido é…$
+
+[gTVNameRaterText01] b170f563e4
+Um apelido que sugere talento\nde muitas formas.\pAconselho coragem pra encarar\nmuitos desafios.$
+
+[gTVNameRaterText02] 9db0dccc03
+Um apelido que combina perfeitamente\ncom {STR_VAR_1}, quem treina.\pSugere uma bela parceria,\ncom sintonia perfeita.$
+
+[gTVNameRaterText03] 54640f0902
+Um apelido digno de um POKéMON\nmuito singular!\pSe for bem criado, a singularidade\ndeste POKéMON vai florescer demais!$
+
+[gTVNameRaterText04] 946cd64542
+Um apelido que vai cultivar o lado\ncarinhoso e compassivo do POKéMON.\pSe for bem criado, este POKéMON\nvai mostrar um calor verdadeiro!$
+
+[gTVNameRaterText05] 234f504ad5
+Um ótimo apelido, que sugere\ngrandeza no futuro.\pEstou curioso pra saber o que o\nfuturo reserva pra este POKéMON.$
+
+[gTVNameRaterText06] 870518591b
+Um bom apelido, que deve deixar o\nPOKéMON forte e saudável!\pEste POKéMON deve ficar em forma\npor muito, muito tempo.$
+
+[gTVNameRaterText07] 22301cdec8
+Um bom apelido, que deve deixar o\nPOKéMON muito ativo!\pAcho que este POKéMON vai ter\num ótimo desempenho nas batalhas.$
+
+[gTVNameRaterText08] bbac77e55c
+Um apelido cativante, que deve deixar\no POKéMON muito charmoso!\pNão duvido que este POKéMON vá\nencantar nos CONCURSOS POKéMON.$
+
+[gTVNameRaterText09] c712040695
+O apelido {STR_VAR_1} tem raiz\nna letra “{STR_VAR_3}”.\pEssa letra é sustentada pela\nprimeira letra, “{STR_VAR_2}”, que dá ao\lapelido uma presença sólida.$
+
+[gTVNameRaterText10] 034df743c1
+O apelido {STR_VAR_1} tem uma\nforma muito agradável.\pA presença das letras “{STR_VAR_2}” e\n“{STR_VAR_3}”… isso é muito bom!$
+
+[gTVNameRaterText11] 8510eccdc7
+O apelido {STR_VAR_1}… tem uma\nfluidez sublime.\pA passagem da letra “{STR_VAR_2}” para\n“{STR_VAR_3}” é especialmente linda.$
+
+[gTVNameRaterText12] ce67531d57
+Vamos ver outros exemplos de\nbons apelidos, que tal?$
+
+[gTVNameRaterText13] 2c53e4f6dd
+Veja este exemplo. Pegue uma parte\ndo nome de {STR_VAR_1} e chegue\lao belo apelido {STR_VAR_2}{STR_VAR_3}.$
+
+[gTVNameRaterText14] cec2d21010
+O apelido {STR_VAR_2}{STR_VAR_3} também\nficaria muito bom.$
+
+[gTVNameRaterText15] 14c84119de
+O nome da espécie do POKéMON,\n{STR_VAR_2}, poderia servir de base\lpro apelido {STR_VAR_1}{STR_VAR_3}.$
+
+[gTVNameRaterText16] 1ead8232dc
+{STR_VAR_1}{STR_VAR_3} também seria\num apelido eficaz.$
+
+[gTVNameRaterText17] 2d69177cff
+O que se deve sempre evitar é usar\no nome de outra espécie de POKéMON.\pPor exemplo, evite pegar o nome de\n{STR_VAR_2} pra fazer o apelido {STR_VAR_1}{STR_VAR_3}.\lIsso é inaceitável.$
+
+[gTVNameRaterText18] 5f696926c9
+Devo dizer que {STR_VAR_1} é um\nótimo apelido.\pEspero que {STR_VAR_1} continue\nsendo tratado com amor.\pÉ isso por hoje.\nAté a próxima.$
+
+[gTVPokemonAnglerText00] 394e60229f
+PESCANDO {STR_VAR_2}\pLOCUTOR: Olá! Hoje, vamos ter dicas\npra pescar {STR_VAR_2}.\pGURU, que conselho você dá pra\ncapturar {STR_VAR_2}?\pGURU: Hã? Capturar {STR_VAR_2}?\nBom, vou te dizer: paciência e\lespera. É isso que importa.\pEstá vendo {STR_VAR_1} ali?\nÉ um bom exemplo.\pJá deixou escapar {STR_VAR_3}\nPOKéMON.\pMas {STR_VAR_1} continua esperando.\nSem desistir. Essa é a lei pra {STR_VAR_2}.\pLOCUTOR: Entendi…\pAh! {STR_VAR_1} finalmente fisgou\num {STR_VAR_2} arisco!\pParece até que vai chorar\nde tanta alegria!\pVendo essa felicidade, me deu\nvontade de pescar também!\pE você, que tal aproveitar a deixa\ne pescar uns {STR_VAR_2}?\pAté o próximo programa, adeus\ne boa pescaria a todos!$
+
+[gTVPokemonAnglerText01] bae4c347a5
+PESCANDO {STR_VAR_2}\pLOCUTOR: Olá! Hoje, vamos ter dicas\npra pescar {STR_VAR_2}.\pGURU, que conselho você dá pra\ncapturar {STR_VAR_2}?\pGURU: Hã? Capturar {STR_VAR_2}?\nBom, vou te dizer: use a VARA\lcom vontade!\pEstá vendo {STR_VAR_1} ali?\nVê como segura a VARA?\pJá pescou {STR_VAR_3}\nseguidos.\pLOCUTOR: É incrível!\nParece uma tempestade…\pVendo uma técnica dessas, me deu\nvontade de pescar também.\pE você, que tal aproveitar a deixa\ne pescar uns {STR_VAR_2}?\pAté o próximo programa, adeus\ne boa pescaria a todos!$
+
+[gTVPokemonTodayFailedText00] cd0c285093
+Olá!\pÉ hora do POKéMON HOJE!\pMANA: Oi! Todo mundo animado\ne feliz hoje?\pHoje, vamos ver o POKéMON\n{STR_VAR_2} de {STR_VAR_1}!\pMANO: Isso! É isso que a gente\nvai fazer!$
+
+[gTVPokemonTodayFailedText01] 8de7b3f267
+Ah!\nFalando em {STR_VAR_1}…\pMANA, eu vi essa pessoa com\nos meus próprios olhos!\pMANA: Ah, e o que você viu?\pMANO: Bom, eu tive que viajar\npra {STR_VAR_2}.\pFoi aí que topei com {STR_VAR_1},\ntentando capturar o\lPOKéMON {STR_VAR_3}, mas…$
+
+[gTVPokemonTodayFailedText02] 47548a61be
+O POKéMON conseguiu fugir!\pForam desperdiçadas estas\nPOKé BOLAS: {STR_VAR_2}!\pVocê tinha que ver a cara de\nfrustração de {STR_VAR_1} quando\lo POKéMON fugiu!$
+
+[gTVPokemonTodayFailedText03] 69fcfc93f0
+Mas {STR_VAR_1} vacilou e fez o\nPOKéMON desmaiar!\pForam desperdiçadas estas\nPOKé BOLAS: {STR_VAR_2}!\pVocê tinha que ver a cara de\nchoque de {STR_VAR_1} quando\lo POKéMON desmaiou!$
+
+[gTVPokemonTodayFailedText04] 282e311e7b
+MANA: Ei!\nIsso não é legal!\pNão se ri da desgraça\ndos outros!\pAh, pobre {STR_VAR_1}.\nQue pena!\pMANO: É verdade!\nDesculpe por rir.$
+
+[gTVPokemonTodayFailedText05] bc4f08239c
+MANA: Bufufu…\pMANO: Ei!\nVocê também riu!\pMANA: Hã?!\pEu não ri!\nSério, não ri!\pAh, pobre {STR_VAR_1}.\nQue pena!\pMANO: …$
+
+[gTVPokemonTodayFailedText06] f370f1fde6
+MANA: Chega de bobeira!\nVamos ver o POKéMON de hoje…\pHã?\nO tempo já acabou?\pAhh!\nHoje não deu pra mostrar\nnenhum POKéMON!\pMANO: Até a próxima!\pMANA: Ei, não termina o programa\nsem mim!$
+
+[gTVPokemonTodaySuccessfulText00] cd0c285093
+Olá!\pÉ hora do POKéMON HOJE!\pMANA: Oi! Todo mundo animado\ne feliz hoje?\pHoje, vamos ver o POKéMON\n{STR_VAR_2} de {STR_VAR_1}!\pMANO: Isso! É isso que a gente\nvai fazer!$
+
+[gTVPokemonTodaySuccessfulText01] d55a4eec4a
+MANA: {STR_VAR_1} deu o apelido\n{STR_VAR_3} ao {STR_VAR_2}!\pParece que {STR_VAR_3} recebe\nmuito carinho e cuidado!$
+
+[gTVPokemonTodaySuccessfulText02] 8a8b436c94
+MANO: Pra capturar, foram usadas\nestas POKé BOLAS: {STR_VAR_3}!\pNo fim, bastou uma {STR_VAR_2}\npra capturar!$
+
+[gTVPokemonTodaySuccessfulText03] e41e30dbc9
+MANA: Se foi tão fácil capturar,\ndeve ter sido o destino que uniu\l{STR_VAR_1} e o {STR_VAR_2}!$
+
+[gTVPokemonTodaySuccessfulText04] fe3c5cca2c
+MANA: Nossa! Que legal!\pMas, como dizem, o POKéMON que dá\nmuito trabalho pra capturar\lconquista o amor de quem treina!$
+
+[gTVPokemonTodaySuccessfulText05] f7dec01f3a
+MANA: O {STR_VAR_2} de {STR_VAR_1}\né um POKéMON memorável, porque precisou\lde uma preciosa MASTER BALL!\pMANO: Uau! Isso é megaincrível!\pMANA: {STR_VAR_1} devia querer muito\nesse {STR_VAR_2}, com certeza!$
+
+[gTVPokemonTodaySuccessfulText06] d85e3535a7
+MANO: E ainda dar o apelido\n{STR_VAR_3} a esse {STR_VAR_2}…\pDá pra ter uma boa ideia do\nestilo de {STR_VAR_1} pra treinar.\pMANA: Concordo plenamente!$
+
+[gTVPokemonTodaySuccessfulText07] e0aa5f1ea0
+Se fosse eu, daria esse apelido\npra algo como este {STR_VAR_3}!\pMANO: Uau! Isso pode ser o começo\nde algo novo!$
+
+[gTVPokemonTodaySuccessfulText08] b1f91fdf1f
+{STR_VAR_2}, o {STR_VAR_1}?\nNão soa perfeito?\pAs letras e tudo… combinam\ndireitinho com o POKéMON\l{STR_VAR_1}!\pMANO: É, verdade, isso!$
+
+[gTVPokemonTodaySuccessfulText09] 0a8191e799
+Que eu saiba, nenhum TREINADOR\njá deu o apelido {STR_VAR_2} pro seu\l{STR_VAR_1}!\pMANO: Isso mostra o bom gosto\npra escolher apelidos!$
+
+[gTVPokemonTodaySuccessfulText10] a6864fc9b1
+Da próxima vez que eu capturar um\nPOKéMON, vou dar o nome {STR_VAR_2}.\pMANO: Hã? Eu também!\nTambém vou usar {STR_VAR_2}!$
+
+[gTVPokemonTodaySuccessfulText11] 89355464e6
+MANA: Ah, não!\nOlha a hora!\pBom, pessoal, por hoje é só.\nAté a próxima!\pMANO: Lembre: da próxima vez, o seu\nPOKéMON pode estar em destaque!$
