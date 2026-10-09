@@ -84,6 +84,11 @@ Os nomes dos POKéMON não se traduzem.
 | Balance Badge | INSÍGNIA DO EQUILÍBRIO | |
 | Mr. Briney / Capt. Stern | SR. BRINEY / CAP. STERN | |
 | Pretty Petal Flower Shop | FLORICULTURA PÉTALA BONITA | |
+| Stone Badge | INSÍGNIA DA PEDRA | |
+| Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
+| Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
+| Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
+| Wallpaper “FRIENDS” (PC) | “AMIGOS” | o pai da WALDA cita o nome: o menu do PC (`gPCText_Friends`, em `strings.c`) deve usar o mesmo |
 
 ## Nomes de itens
 
