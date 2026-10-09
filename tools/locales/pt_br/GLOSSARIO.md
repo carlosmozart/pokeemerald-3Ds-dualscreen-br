@@ -148,6 +148,14 @@ Os nomes dos POKéMON não se traduzem.
 | inches (tamanho do SEEDOT/LOTAD) | polegadas | o número vem do código em polegadas; trocar por cm exige um patch |
 | Victory Road | ESTRADA DA VITÓRIA | |
 | Hall of Fame | HALL DA FAMA | |
+| Abandoned Ship / S.S. Cactus | NAVIO ABANDONADO / S.S. CACTUS | |
+| New Mauville | NOVA MAUVILLE | |
+| Shoal Cave | CAVERNA DO BANCO DE AREIA | |
+| Desert Underpass | PASSAGEM DO DESERTO | |
+| Mirage Island | ILHA MIRAGEM | |
+| Berry Master | MESTRE DAS FRUTAS | |
+| Cleanup Brothers | IRMÃOS DA FAXINA | |
+| Gentleman | CAVALHEIRO | |
 | "become the Champion" dito ao jogador | chegar ao topo da LIGA | CAMPEÃO/CAMPEÃ flexiona |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
