@@ -208,7 +208,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       FRUTAS, concursos e textos soltos do mundo.
 - [ ] FRUTAS no plural: o jogo monta "ORAN BERRIES"; em português o nome vem
       depois ("FRUTAS ORAN"), o que pede um patch como o `0031` do espanhol.
-- [ ] Janela de subida de nível na batalha (port, `3ds_video.c`): fica na
+- [x] Janela de subida de nível na batalha (port, `3ds_video.c`, corrigido
+      em 09/10; falta conferir no 3DS): fica na
       cena ampliada 1,5×, atrás da caixa de mensagem, que esconde AT. ESP.,
       DEF. ESP. e VELOC. A versão original em inglês tem o mesmo corte
       (conferido no 3DS em 09/10): é um bug do port, não da tradução.

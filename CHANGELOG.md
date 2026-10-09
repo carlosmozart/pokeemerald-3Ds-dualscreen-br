@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Battle: the level-up box (the six stats and how much each rose) shows
+  whole, against the right edge over the message box, as on the GBA. The
+  port drew it in the magnified battle scene, cut by the screen's edge and
+  under the message box; it is now composed with the text box while the game
+  brings BG1 in front of BG0. In the original English port too.
 - Brazilian Portuguese, step 1: `PORT_LANG=pt_br` (`bootstrap.py
   --port-lang pt_br`) shows the port's own interface in Portuguese over the
   English game: the bottom screen's labels, the OPTIONS tabs and extras, and
