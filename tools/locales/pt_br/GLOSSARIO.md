@@ -141,6 +141,7 @@ Os nomes dos POKéMON não se traduzem.
 | Stamp Card / Battle Count Card / Wonder Card | CARTÃO DE SELOS / CARTÃO DE BATALHAS / CARTÃO MARAVILHA | PRESENTE MISTERIOSO |
 | Mystery Event Club | CLUBE DO EVENTO MISTERIOSO | homem dos perfis |
 | Favor Lady / Quiz Lady / Contest Lady | MOÇA DOS FAVORES / MOÇA DO QUIZ / MOÇA DOS CONCURSOS | CENTRO POKéMON de LILYCOVE |
+| Trader / Storyteller / Bard / Hipster | NEGOCIANTE / CONTADOR DE HISTÓRIAS / BARDO / DESCOLADO | homem de MAUVILLE; GIDDY fica como está |
 | Safari Game / Pokéblock Feeder / Rest House | Jogo do SAFÁRI / COMEDOURO DE {POKEBLOCK} / CASA DE DESCANSO | ZONA DE SAFÁRI |
 | Jagged Pass | TRILHA ESCARPADA | |
 | Cable Car | TELEFÉRICO | |
