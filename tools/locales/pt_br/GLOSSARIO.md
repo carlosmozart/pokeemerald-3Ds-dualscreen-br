@@ -87,6 +87,7 @@ Os nomes dos POKéMON não se traduzem.
 | Luck Symbol | Símbolo da Sorte | símbolo do PICO |
 | Brave Symbol | Símbolo da Coragem | símbolo da PIRÂMIDE |
 | Battle Bag | BOLSA DE BATALHA | |
+| X Doll / Kiss Poster / Kiss Cushion | BONECO X / PÔSTER BEIJO / ALMOFADA BEIJO | nas falas da CENTRAL DE TROCAS; o PC dos menus confirma ao traduzir as decorações |
 | "young explorer" (BRANDON) | jovem | neutro, para não marcar o gênero do jogador |
 | Mind / Skill / Body (juízes da ARENA) | Mente / Técnica / Físico | como em `battle_message.c` |
 | Rental Pokémon | POKéMON de aluguel | |
