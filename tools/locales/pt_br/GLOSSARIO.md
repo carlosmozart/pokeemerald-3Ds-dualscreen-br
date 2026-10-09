@@ -104,6 +104,13 @@ Os nomes dos POKéMON não se traduzem.
 | Record Corner / Colosseum | CANTO DOS RECORDES / COLISEU | nomes de menus de `strings.c`: o PC dos menus deve usar os mesmos |
 | + Control Pad | Botão Direcional | |
 | Pokémon Day Care | CENTRO DE CUIDADOS POKéMON | |
+| Mirage Tower | TORRE MIRAGEM | |
+| Old Lady's Rest Stop | CANTINHO DA VOVÓ | |
+| Trainer Hill | COLINA DOS TREINADORES | |
+| Jagged Pass | TRILHA ESCARPADA | |
+| Cable Car | TELEFÉRICO | |
+| Macho Brace | PULSEIRA MACHO | PULS. MACHO no nome do item |
+| Orb | ORBE | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
