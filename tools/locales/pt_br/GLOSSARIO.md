@@ -77,6 +77,7 @@ Os nomes dos POKéMON não se traduzem.
 | Cancel (menus) | VOLTAR | mesma largura de CANCEL, que algumas janelas têm exata |
 | Toss | DESCARTAR | |
 | Box (PC) | CAIXA | oficial |
+| Someone's PC | PC DE ALGUÉM | o PC de BILL/LANETTE antes de conhecê-los |
 | Coins | FICHAS | |
 | Team Aqua / Team Magma | EQUIPE AQUA / EQUIPE MAGMA | anime |
 | Match Call (POKéNAV) | sistema de CHAMADAS | |
