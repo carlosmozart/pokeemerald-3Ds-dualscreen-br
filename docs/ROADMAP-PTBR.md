@@ -238,7 +238,9 @@ O maior volume do projeto, sem equivalente no wiki.
         GRANITO, ROTAS 105 a 109 e SLATEPORT inteira
   - [ ] Mauville até Fortree (4º ao 6º ginásio) (feitos: ROTA 110 com a
         CASA DOS TRUQUES, MAUVILLE inteira com o GINÁSIO, ROTA 117 e
-        VERDANTURF, ROTAS 111 e 112, MONTE CHIMNEY e TELEFÉRICO)
+        VERDANTURF, ROTAS 111 e 112, MONTE CHIMNEY e TELEFÉRICO,
+        TRILHA ESCARPADA, LAVARIDGE com o GINÁSIO, ROTA 113, FALLARBOR e
+        CATARATA DOS METEOROS)
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
