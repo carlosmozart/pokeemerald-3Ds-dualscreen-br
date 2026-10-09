@@ -212,9 +212,6 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
   - [ ] `pokedex_rating.inc` (25): a avaliação da POKéDEX pelo Prof. Birch.
   - [ ] `contest_strings.inc` (200), `contest_painting.inc` (27),
         `contest_link.inc` (11): os concursos.
-  - [ ] `apprentice.inc` (288), `battle_dome.inc` (114),
-        `frontier_brain.inc` (28): a FRONTEIRA DE BATALHA, depois de decidir
-        os nomes das instalações.
   - [ ] `trick_house_mechadolls.inc` (45), `mauville_man.inc` (18),
         `cable_club.inc` (13), `pokemon_news.inc` (12),
         `secret_base_trainers.inc` (10), `questionnaire.inc` (8),
@@ -288,6 +285,9 @@ O maior volume do projeto, sem equivalente no wiki.
         de concursos, moça de LILYCOVE, LIQUIDIFICADOR, CENTRO DE CUIDADOS,
         BASES SECRETAS, árvores de FRUTA, golpes de campo, ROLETA e os
         PRESENTES MISTERIOSOS: 22 arquivos, cerca de 470 textos), 09/10
+  - [ ] `apprentice.inc` (288), `battle_dome.inc` (114) e
+        `frontier_brain.inc` (28): a FRONTEIRA DE BATALHA, passados da Fase 6
+        em 09/10
   - [x] `match_call.inc` (317, as ligações no POKéNAV) e `tv.inc` (401,
         os programas de TV), passados da Fase 6 e concluídos em 09/10
   - [x] Os `data/text` que não estavam em nenhuma fase: TENDAS DE BATALHA,
