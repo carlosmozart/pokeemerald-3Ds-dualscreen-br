@@ -3099,3 +3099,204 @@ Receber este POKéMON?
 
 [gText_SamePkmnInPartyAlready] af9ba48934 width=156
 {PKMN} igual já na equipe.
+
+# PIRÂMIDE DE BATALHA no menu START (start_menu.c): o andar, numa janela
+
+# pequena, na largura do inglês.
+
+[gText_BattlePyramidFloor] 668b9bc258 width=76
+PIRÂMIDE\n{STR_VAR_1}
+
+[gText_Floor1] b9649fdb12 width=76
+1º andar
+
+[gText_Floor2] e6d1e5547f width=76
+2º andar
+
+[gText_Floor3] c428479823 width=76
+3º andar
+
+[gText_Floor4] 1055fe8520 width=76
+4º andar
+
+[gText_Floor5] 908ff97dc0 width=76
+5º andar
+
+[gText_Floor6] a86aa5cd30 width=76
+6º andar
+
+[gText_Floor7] e867ea542f width=76
+7º andar
+
+[gText_Peak] c83dbbd3e6 width=76
+Topo
+
+# Menus de escolha dos scripts (script_menu.c): a janela se ajusta ao
+
+# texto mais largo.
+
+[gText_SomeonesPC] 21d7e2c03b width=100
+PC DE ALGUÉM
+
+[gText_LanettesPC] dd7e4fca96 width=100
+PC DA LANETTE
+
+[gText_PlayersPC] f9bea2d0e2 width=100
+PC de {PLAYER}
+
+[gText_HallOfFame] 32065dbe94 width=100
+HALL DA FAMA
+
+[gText_LogOff] a9edf59524 width=100
+DESLIGAR
+
+[gText_MenuOptionBag] 332c000cf7 width=100
+BOLSA
+
+[gText_MenuOptionSave] 508156a39b width=100
+SALVAR
+
+[gText_MenuOptionOption] 5b8ec92558 width=100
+OPÇÕES
+
+[gText_MenuOptionExit] bb1b38004d width=100
+SAIR
+
+# PULO POKéMON (pokemon_jump.c): recordes e mensagens em janelas largas.
+
+[gText_SpacePoints2] 027f4971dd width=45
+ pontos
+
+[gText_SpaceTimes3] 2e6eefd076 width=45
+ vez(es)
+
+[gText_PkmnJumpRecords] 8f71669de8 width=200
+RECORDES DO PULO POKéMON
+
+[gText_JumpsInARow] e5e6a04a54 width=100
+Pulos seguidos:
+
+[gText_BestScore2] 57c0f9e921 width=100
+Melhor placar:
+
+[gText_ExcellentsInARow] 796980d981 width=110
+EXCELENTES seg.:
+
+[gText_AwesomeWonF701F700] 9867013f94 width=200
+Placar incrível! Você\nganhou {DYNAMIC 1} {DYNAMIC 0}!
+
+[gText_FilledStorageSpace2] 38d280c7e3 width=200
+Encheu o espaço de guardar.
+
+[gText_CantHoldMore] 7e83a5603b width=200
+Não cabe mais nada!
+
+[gText_WantToPlayAgain2] d838573301 width=150
+Jogar de novo?
+
+[gText_SomeoneDroppedOut2] abc83f72ed width=200
+Alguém saiu.\nA conexão vai ser cancelada.
+
+[gText_CommunicationStandby4] 795a08e0b9 width=200
+Aguardando comunicação…
+
+# COLINA DOS TREINADORES (trainer_hill.c): o quadro de tempos.
+
+[gText_NormalTagMatch] d61fd459c7 width=110
+DESAFIO NORMAL
+
+[gText_VarietyTagMatch] f59472223c width=110
+DESAFIO VARIADO
+
+[gText_UniqueTagMatch] 5195bf2fd5 width=110
+DESAFIO ÚNICO
+
+[gText_ExpertTagMatch] 1056754f9b width=110
+DESAFIO EXPERT
+
+[gText_TimeBoard] 986fd13ef0 width=80
+TEMPOS
+
+[gText_TimeCleared] 804a3163a6 width=80
+TEMPO
+
+[gText_XMinYDotZSec] 67b734ba10
+{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} s
+
+[gText_TrainerHill1F] e2e11f3bee
+1º
+
+[gText_TrainerHill2F] 44cc8040ac
+2º
+
+[gText_TrainerHill3F] 5bab17fb39
+3º
+
+[gText_TrainerHill4F] 162b1d940f
+4º
+
+# Acerto do relógio (reset_rtc_screen.c): janelas de mensagem.
+
+[gText_ResetRTCConfirmCancel] 110eb06074 width=150
+Acertar o relógio?\nA: Confirmar, B: Voltar
+
+[gText_PresentTime] 433aa750fa width=150
+Hora atual do jogo
+
+[gText_PreviousTime] 512a833f19 width=150
+Hora anterior do jogo
+
+[gText_PleaseResetTime] 24bfe1e8f7 width=200
+Acerte a hora.
+
+[gText_ClockHasBeenReset] c73754a724 width=200
+O relógio foi acertado.\nSalvando os dados. Aguarde.
+
+[gText_SaveCompleted] dc4ce62bcc width=150
+Salvo.
+
+[gText_SaveFailed] acdf8f4140 width=150
+Não deu pra salvar…
+
+[gText_NoSaveFileCantSetTime] 8b43b41587 width=200
+Não há jogo salvo, então não\ndá pra acertar a hora.
+
+[gText_Day] 9d1fece7b6
+DIA
+
+[gText_Confirm2] f6fda10d33 width=60
+CONFIRMAR
+
+# Etiqueta da FRUTA e uso de {POKEBLOCK} (berry_tag_screen.c,
+
+# use_pokeblock.c): a NATUREZA no quadro; as melhorias, em mensagens.
+
+[gText_NatureSlash] f2ffd8c6a0 width=60
+NATUR./
+
+[gText_GetsAPokeBlockQuestion] d52a13e58f width=100
+ ganha um {POKEBLOCK}?
+
+[gText_Coolness] d8b69bdec6 width=80
+O ESTILO
+
+[gText_Beauty3] 43834164d5 width=80
+A BELEZA
+
+[gText_Cuteness] a993d4ad0f width=80
+A FOFURA
+
+[gText_Smartness] 021fd70718 width=80
+A ESPERTEZA
+
+[gText_Toughness] e7651a149e width=80
+A FORÇA
+
+[gText_WasEnhanced] d85e61a9cf width=100
+melhorou!
+
+[gText_NothingChanged] 0ab429eeda width=120
+Nada mudou!
+
+[gText_WontEatAnymore] 5b6966c844 width=150
+Não quer comer mais…
