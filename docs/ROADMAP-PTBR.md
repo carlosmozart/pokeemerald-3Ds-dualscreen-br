@@ -206,6 +206,25 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       CHAMADAS, a janela de subida de nível e POKé BOLAS no plural. Faltam a
       FRONTEIRA DE BATALHA (nomes das instalações a decidir), BOLSO DAS
       FRUTAS, concursos e textos soltos do mundo.
+- [ ] Arquivos comuns de `data/text` (feitos em 09/10: `save.inc`, `pc.inc`,
+      `surf.inc`, `pc_transfer.inc` com a pergunta do apelido,
+      `obtain_item.inc`). Pendentes, por ordem sugerida:
+  - [ ] `pokedex_rating.inc` (25): a avaliação da POKéDEX pelo Prof. Birch.
+  - [ ] `match_call.inc` (312): as ligações dos treinadores no POKéNAV.
+  - [ ] `tv.inc` (354): os programas de TV.
+  - [ ] `contest_strings.inc` (200), `contest_painting.inc` (27),
+        `contest_link.inc` (11): os concursos.
+  - [ ] `apprentice.inc` (288), `battle_dome.inc` (114),
+        `frontier_brain.inc` (28): a FRONTEIRA DE BATALHA, depois de decidir
+        os nomes das instalações.
+  - [ ] `trick_house_mechadolls.inc` (45), `mauville_man.inc` (18),
+        `cable_club.inc` (13), `pokemon_news.inc` (12),
+        `secret_base_trainers.inc` (10), `questionnaire.inc` (8),
+        `abnormal_weather.inc` (2).
+- [ ] FRONTEIRA DE BATALHA: decidir os nomes das instalações (proposta: TORRE,
+      CÚPULA, FÁBRICA, PALÁCIO, ARENA, CAMINHO e PIRÂMIDE DE BATALHA; SÍMBOLO
+      DA…; PONTOS DE BATALHA, PB) e se os nomes das decorações (bonecos,
+      móveis) vêm antes das listas de prêmios.
 - [ ] FRUTAS no plural: o jogo monta "ORAN BERRIES"; em português o nome vem
       depois ("FRUTAS ORAN"), o que pede um patch como o `0031` do espanhol.
 - [x] Janela de subida de nível na batalha (port, `3ds_video.c`, corrigido
