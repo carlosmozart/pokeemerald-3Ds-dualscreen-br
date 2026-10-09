@@ -141,7 +141,7 @@ Os nomes dos POKéMON não se traduzem.
 | Navel Rock / Birth Island / Southern Island | ROCHA UMBIGO / ILHA NATAL / ILHA DO SUL | destinos do S.S. TIDAL; sem nome oficial conferido |
 | Mimic Circle | CLUBE DA MÍMICA | treinadores da ROTA 119 |
 | Altering Cave | CAVERNA MUTANTE | sem nome oficial no Brasil; os POKéMON dela mudam com o evento |
-| Stamp Card / Battle Count Card / Wonder Card | CARTÃO DE SELOS / CARTÃO DE BATALHAS / CARTÃO MARAVILHA | PRESENTE MISTERIOSO |
+| Stamp Card / Battle Count Card / Wonder Card / Wonder News / Stamp | CARTÃO DE SELOS / CARTÃO DE BATALHAS / CARTÃO MARAVILHA / NOTÍCIAS MARAVILHA / SELO | PRESENTE MISTERIOSO |
 | Mystery Event Club | CLUBE DO EVENTO MISTERIOSO | homem dos perfis |
 | Favor Lady / Quiz Lady / Contest Lady | MOÇA DOS FAVORES / MOÇA DO QUIZ / MOÇA DOS CONCURSOS | CENTRO POKéMON de LILYCOVE |
 | Trader / Storyteller / Bard / Hipster | NEGOCIANTE / CONTADOR DE HISTÓRIAS / BARDO / DESCOLADO | homem de MAUVILLE; GIDDY fica como está |
