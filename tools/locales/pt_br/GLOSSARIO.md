@@ -85,6 +85,8 @@ Os nomes dos POKéMON não se traduzem.
 | Mr. Briney / Capt. Stern | SR. BRINEY / CAP. STERN | |
 | Pretty Petal Flower Shop | FLORICULTURA PÉTALA BONITA | |
 | Stone Badge | INSÍGNIA DA PEDRA | |
+| Knuckle Badge | INSÍGNIA DO PUNHO | |
+| Dewford Hall | SALÃO DE DEWFORD | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
