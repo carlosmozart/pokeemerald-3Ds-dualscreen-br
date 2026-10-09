@@ -1635,3 +1635,144 @@ VELOC.
 
 [gText_PokeBalls] 45a1d46176
 POKé BOLAS
+
+# ---------------------------------------------------------------- PC dos mapas (09/10)
+
+# Daqui para baixo, o PC dos mapas assumiu o resto de `strings.c`, só os
+
+# textos que o jogo usa (os sem referência no código ficam de fora). A
+
+# largura vem da janela de cada texto, conferida no código; sem medida,
+
+# fica a do inglês.
+
+#
+
+# Menu principal: a janela de erro tem a largura da tela (208 px).
+
+[gText_WirelessNotConnected] 7156760f70
+O Adaptador Sem Fio não\nestá conectado.
+
+[gText_MysteryGiftCantUse] a0d6dfa734 width=208
+O PRESENTE MISTERIOSO não funciona\ncom o Adaptador Sem Fio ligado.
+
+[gText_MysteryEventsCantUse] bfe1dd2cd5 width=208
+Os EVENTOS MISTERIOSOS não funcionam\ncom o Adaptador Sem Fio ligado.
+
+# HALL DA FAMA: a barra de cima é larga e usa a fonte pequena; as
+
+# mensagens vão na janela 0 (208 px).
+
+[gText_PickNextCancel] ee4b32b3b3 width=150
+{DPAD_UPDOWN}ESCOLHER {A_BUTTON}SEGUIR {B_BUTTON}VOLTAR
+
+[gText_PickCancel] 0442ed283c width=150
+{DPAD_UPDOWN}ESCOLHER {A_BUTTON}{B_BUTTON}VOLTAR
+
+[gText_AButtonExit] 1f4f7c68c6 width=150
+{A_BUTTON}SAIR
+
+[gText_WelcomeToHOF] 71947ec1b4 width=208
+Boas-vindas ao HALL DA FAMA!
+
+[gText_HOFCorrupted] 48a7f2ff21 width=208
+Dados do HALL DA FAMA corrompidos.
+
+[gText_HOFNumber] 88859bf04a
+HALL DA FAMA Nº {STR_VAR_1}
+
+[gText_LeagueChamp] 244113cd88
+TOPO DA LIGA!\nPARABÉNS!
+
+[gText_Number] 29b315d116
+Nº
+
+[gText_Level] f60a5bd08f
+Nv.
+
+[gText_Name] a9d371451b
+NOME
+
+# Mapa: a janela "VOAR pra onde?" tem 14 tiles.
+
+[gText_FlyToWhere] 34929c4d1f width=108
+VOAR pra onde?
+
+# FICHAS: alinhadas à direita em 64 px; 4 dígitos e FICHAS cabem.
+
+[gText_Coins] 39fff1288b width=111
+{STR_VAR_1} FICHAS
+
+# Etiqueta da FRUTA: TAM. e DUREZA numa janela de 18 tiles; o título
+
+# centrado em 8 tiles.
+
+[gText_SizeSlash] 91b0c6cb72 width=40
+TAM. /
+
+[gText_FirmSlash] 3c16f92e00 width=40
+DUR. /
+
+[gBerryFirmnessString_VerySoft] 074796cc04 width=80
+Bem mole
+
+[gBerryFirmnessString_Soft] 968c009e49 width=80
+Mole
+
+[gBerryFirmnessString_Hard] 20a89915f1 width=80
+Dura
+
+[gBerryFirmnessString_VeryHard] 5017214025 width=80
+Bem dura
+
+[gBerryFirmnessString_SuperHard] c793f1b89e width=80
+Duríssima
+
+[gText_BerryTag] 2f0b2185ea width=64
+ETIQUETA
+
+# Cores dos {POKEBLOCK}S na lista do ESTOJO (14 tiles, com o nome
+
+# {POKEBLOCK} na frente).
+
+[gText_RedPokeblock] 38d495a5c5 width=56
+{POKEBLOCK} VERMELHO
+
+[gText_BluePokeblock] ab9fe07226 width=56
+{POKEBLOCK} AZUL
+
+[gText_PinkPokeblock] a82920ad41 width=56
+{POKEBLOCK} ROSA
+
+[gText_GreenPokeblock] f91322ec77 width=56
+{POKEBLOCK} VERDE
+
+[gText_YellowPokeblock] 0701269aeb width=56
+{POKEBLOCK} AMARELO
+
+[gText_PurplePokeblock] cc150e58c7 width=56
+{POKEBLOCK} ROXO
+
+[gText_IndigoPokeblock] 0d6f06be89 width=56
+{POKEBLOCK} ANIL
+
+[gText_BrownPokeblock] 5e15826525 width=56
+{POKEBLOCK} MARROM
+
+[gText_LiteBluePokeblock] 572b766263 width=56
+{POKEBLOCK} AZUL-CL.
+
+[gText_OlivePokeblock] 6e8c156ee9 width=56
+{POKEBLOCK} OLIVA
+
+[gText_GrayPokeblock] ec1a104197 width=56
+{POKEBLOCK} CINZA
+
+[gText_BlackPokeblock] f57f40c55d width=56
+{POKEBLOCK} PRETO
+
+[gText_WhitePokeblock] 1e0b750413 width=56
+{POKEBLOCK} BRANCO
+
+[gText_GoldPokeblock] 6c098d2ac8 width=56
+{POKEBLOCK} DOURADO
