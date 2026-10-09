@@ -111,6 +111,14 @@ Os nomes dos POKéMON não se traduzem.
 | Cable Car | TELEFÉRICO | |
 | Macho Brace | PULSEIRA MACHO | PULS. MACHO no nome do item |
 | Orb | ORBE | |
+| Heat Badge | INSÍGNIA DO CALOR | |
+| Herb Shop | LOJA DE ERVAS | |
+| Glass Workshop | OFICINA DE VIDRO | |
+| Move Tutor | TUTOR DE GOLPES | |
+| Fossil Maniac | MANÍACO POR FÓSSEIS | |
+| Meteor Falls | CATARATA DOS METEOROS | |
+| Pokémon Storage System | Sistema de Armazenamento POKéMON | |
+| Super Rank | NÍVEL SUPER | como NÍVEL NORMAL |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
