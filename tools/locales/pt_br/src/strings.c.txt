@@ -2890,3 +2890,212 @@ TORRE DE BATALHA
 
 [gText_WinsStraight] 301814f651
 V/{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}  SEG./{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_2}
+
+# ESTOJO {POKEBLOCK} (pokeblock.c): sabores no quadro do {POKEBLOCK},
+
+# mensagens na janela de pergunta.
+
+[gText_Spicy] 234b920b28 width=40
+APIM.
+
+[gText_Dry] 1feeb060cd width=40
+SECO
+
+[gText_Sweet] 23bf6d6c7a width=40
+DOCE
+
+[gText_Bitter] 33c904d6a3 width=40
+AMARGO
+
+[gText_Sour] 239faf8848 width=40
+AZEDO
+
+[gText_StowCase] e6304e3884
+Guardar.
+
+[gText_ThrowAwayVar1] 01986e3d9d
+Jogar fora\n{STR_VAR_1}?
+
+[gText_Var1ThrownAway] 30747094c2
+{STR_VAR_1}\nfoi jogado fora.
+
+# TV (tv.c): pedaços que entram nas frases dos programas ({STR_VAR}).
+
+[gText_Dad] 22338f0423 width=40
+PAPAI
+
+[gText_Mom] 3c93964ebb width=40
+MAMÃE
+
+[gText_Lv50] 13f0a8a25c width=80
+NV. 50
+
+[gText_OpenLevel] 32c7557ca3 width=80
+NÍVEL LIVRE
+
+[gText_Slots] 11944395bb width=80
+CAÇA-NÍQUEIS
+
+[gText_Roulette] 255b1a1211 width=80
+ROLETA
+
+[gText_Good] 61dedcf053 width=80
+Bom
+
+[gText_VeryGood] f5babd3920 width=80
+Muito bom
+
+[gText_Excellent] 1aafbf548b width=80
+Excelente
+
+[gText_SoSo] 1b06044bc6 width=80
+Mais ou menos
+
+[gText_Bad] be7e10d1c5 width=80
+Ruim
+
+[gText_TheWorst] 1b3a0049ab width=80
+O pior
+
+[gText_Spicy2] 680c1e02bc width=80
+apimentado
+
+[gText_Dry2] ef926a8521 width=80
+seco
+
+[gText_Sweet2] 457774c6f0 width=80
+doce
+
+[gText_Bitter2] 23fda791fa width=80
+amargo
+
+[gText_Sour2] 000b4b94cb width=80
+azedo
+
+[gText_Single] 36fb236688 width=80
+INDIVIDUAL
+
+[gText_Double] 097274c5c7 width=80
+DUPLA
+
+[gText_Jackpot] 3c72d419af width=80
+máximo
+
+[gText_First] e0996a37c1 width=80
+primeiro
+
+[gText_Second] 352f7829a2 width=80
+segundo
+
+[gText_Third] 34fb3300b9 width=80
+terceiro
+
+# COLHEITA DO DODRIO (dodrio_berry_picking.c): recordes e mensagens em
+
+# janelas de 28 tiles; o anúncio dos resultados, de 19 a 22.
+
+[gText_BerryPickingRecords] 98c6dc125e width=200
+RECORDES DA COLHEITA DO DODRIO
+
+[gText_BerriesPicked] 69053d298b width=100
+FRUTAS colhidas:
+
+[gText_BestScore] 57c0f9e921 width=100
+Melhor placar:
+
+[gText_BerriesInRowFivePlayers] 5bb43f3b62 width=200
+FRUTAS seguidas com\ncinco jogadores:
+
+[gText_BerryPickingResults] 23e977b4db width=200
+Resultados da COLHEITA!
+
+[gText_AnnouncingRankings] 560eb56159 width=150
+Classificação!
+
+[gText_AnnouncingPrizes] 49aa686dfa width=150
+Prêmios!
+
+[gText_FirstPlacePrize] 3d7539abaf width=200
+Quem ficou em primeiro ganha\neste {DYNAMIC 0}!
+
+[gText_CantHoldAnyMore] 7e83a5603b width=200
+Não cabe mais nada!
+
+[gText_FilledStorageSpace] 38d280c7e3 width=200
+Encheu o espaço de guardar.
+
+[gText_WantToPlayAgain] d838573301 width=150
+Jogar de novo?
+
+[gText_SomeoneDroppedOut] abc83f72ed width=200
+Alguém saiu.\nA conexão vai ser cancelada.
+
+[gText_SpacePoints] 027f4971dd width=45
+ pontos
+
+[gText_CommunicationStandby3] 795a08e0b9 width=200
+Aguardando comunicação…
+
+# FÁBRICA DE BATALHA (battle_factory_screen.c): título em 12 tiles,
+
+# informação em 20, opções em 8 (aluguel) ou 9 (troca).
+
+[gText_RentalPkmn2] 755d279110 width=92
+ALUGUEL
+
+[gText_SelectFirstPkmn] c02de4c96b width=156
+Escolha o 1º POKéMON.
+
+[gText_SelectSecondPkmn] c348a25019 width=156
+Escolha o 2º POKéMON.
+
+[gText_SelectThirdPkmn] 47e5dd10b2 width=156
+Escolha o 3º POKéMON.
+
+[gText_Rent] 5d0389d350 width=56
+ALUGAR
+
+[gText_Summary] 1450844d24 width=56
+RESUMO
+
+[gText_Others2] dee9889ad6 width=56
+OUTROS
+
+[gText_TheseThreePkmnOkay] c8732fb14c width=156
+Esses três POKéMON estão OK?
+
+[gText_CantSelectSamePkmn] f3391bdf16 width=156
+Não dá pra repetir {PKMN}.
+
+[gText_PkmnSwap] 6d1cf16f39 width=92
+TROCA
+
+[gText_SelectPkmnToSwap] ff0df0d42d width=156
+Escolha o POKéMON pra trocar.
+
+[gText_SelectPkmnToAccept] 87a2efb44c width=156
+Escolha o POKéMON novo.
+
+[gText_Swap] 04841d4fdb width=64
+TROCAR
+
+[gText_Summary2] 1450844d24 width=64
+RESUMO
+
+[gText_Rechoose] 571527727b width=64
+VOLTAR
+
+[gText_QuitSwapping] 862130517b width=156
+Parar de trocar?
+
+[gText_PkmnForSwap] 22331219fa width=64
+{PKMN} P/ TROCA
+
+[gText_Cancel3] 1507c40f04 width=64
+VOLTAR
+
+[gText_AcceptThisPkmn] 97203d3cd9 width=156
+Receber este POKéMON?
+
+[gText_SamePkmnInPartyAlready] af9ba48934 width=156
+{PKMN} igual já na equipe.
