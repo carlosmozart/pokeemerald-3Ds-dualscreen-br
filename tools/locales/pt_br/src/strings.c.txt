@@ -3300,3 +3300,405 @@ Nada mudou!
 
 [gText_WontEatAnymore] 5b6966c844 width=150
 Não quer comer mais…
+
+# Textos soltos de várias telas. As mensagens vão na caixa de mensagem ou
+
+# numa janela da mesma largura (208 px); os rótulos ficam na largura do
+
+# inglês, salvo onde a nota diz outra coisa.
+
+[gText_Give] fbefae1e96
+Dar
+
+[gText_NoNeed] e4ba461c8a
+Nada
+
+[gText_PlayersBattleResults] cf32a2793a width=208
+RESULTADOS DE {PLAYER}
+
+[gText_TotalRecordWLD] e9ce9c9546
+TOTAL V:{STR_VAR_1} D:{STR_VAR_2} E:{STR_VAR_3}
+
+[gText_WinLoseDraw] 42b2d6214d
+{CLEAR_TO 0x53}VIT.{CLEAR_TO 0x80}DER.{CLEAR_TO 0xB0}EMP.
+
+[gText_234Players] fdf8c7d8e0
+2 JOGAD.\n3 JOGAD.\n4 JOGAD.
+
+[gText_BlenderMaxSpeedRecord] 766105252a width=180
+LIQUIDIFICADOR\nRECORDE DE VELOCIDADE!
+
+[gText_SavingDontTurnOff2] 30607f964d width=208
+SALVANDO…\nNÃO DESLIGUE O APARELHO.
+
+[gText_Powder] dc70ffc05d
+PÓ
+
+[gText_BronzeCard] 264d71b402
+BRONZE
+
+[gText_CopperCard] 8eaf0145c8
+COBRE
+
+[gText_GoldCard] 81ff70acd7 width=36
+OURO
+
+[gText_SilverCard] 462e8399a4
+PRATA
+
+[gText_NumPlayerLink] ae40f89f3f
+{STR_VAR_1}P LINK
+
+[gText_ClearAllSaveData] 2978bb4f35 width=208
+Apagar todos os dados salvos?
+
+[gText_ClearingData] e1bcf17623 width=208
+Apagando os dados…\nAguarde.
+
+[gText_AnnouncingResults] 32dddfd736 width=208
+O resultado!
+
+[gText_CommunicationStandby] 795a08e0b9 width=208
+Aguardando comunicação…
+
+[gText_ContestantsMonWon] 96251a66d8 width=208
+{STR_VAR_2} de {STR_VAR_1} venceu!
+
+[gText_PreliminaryResults] 8c371957aa width=208
+O resultado da primeira fase!
+
+[gText_Round2Results] 083e319f4a width=208
+O resultado da segunda fase!
+
+[gDaycareText_DontLikeOther] b9190d9a20 width=208
+Os dois não parecem se dar\nmuito bem.
+
+[gDaycareText_GetAlong] cc3f94185d width=208
+Os dois parecem se dar bem.
+
+[gDaycareText_GetAlongVeryWell] 82b7744f02 width=208
+Os dois parecem se dar\nmuito bem.
+
+[gDaycareText_PlayOther] b02a6dbcd4 width=208
+Os dois preferem brincar com outros\nPOKéMON a brincar juntos.
+
+[gText_Exit4] bb1b38004d
+SAIR
+
+[gText_DexNational] f949d8c363
+NACIONAL
+
+[gText_PokedexDiploma] 6f3ff93d8d
+JOGADOR: {CLEAR 0x10}{COLOR RED}{SHADOW LIGHT_RED}{PLAYER}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n\nEste documento certifica\nque você completou\ncom sucesso a\nPOKéDEX {STR_VAR_1}.\n\n{CLEAR_TO 0x42}{COLOR RED}{SHADOW LIGHT_RED}GAME FREAK
+
+[gText_HatchedFromEgg] e3342a99db width=208
+{STR_VAR_1} saiu do OVO!
+
+[gText_NicknameHatchPrompt] 57b47399b7 width=208
+Quer dar um apelido ao\n{STR_VAR_1} que acabou de nascer?
+
+[gText_CommunicationStandby5] 795a08e0b9 width=208
+Aguardando comunicação…
+
+[gText_ItGotAway] bbe5013e57 width=208
+Escapou…{PAUSE_UNTIL_PRESS}
+
+[gText_NotEvenANibble] 9ece9fcfba width=208
+Nem uma beliscada…{PAUSE_UNTIL_PRESS}
+
+[gText_OhABite] 49f0becf52 width=208
+Opa! Fisgou!
+
+[gText_PokemonOnHook] afba777d72 width=208
+Tem um POKéMON no anzol!{PAUSE_UNTIL_PRESS}
+
+[gText_PkmnFainted_FldPsn] 8e9f3ba62f width=208
+{STR_VAR_1} desmaiou…\p\n
+
+[gText_0Pts] d7d0653ee0 width=48
+0 pts
+
+[gText_10Pts] d9f1abbd7f width=48
+10 pts
+
+[gText_20Pts] a530453732 width=48
+20 pts
+
+[gText_30Pts] 4455c5fd16 width=48
+30 pts
+
+[gText_40Pts] 7d312c9828 width=48
+40 pts
+
+[gText_50Pts] 29822be3a0 width=48
+50 pts
+
+[gText_60Pts] 4a8a95d7b2 width=48
+60 pts
+
+[gText_70Pts] 8e2c75f492 width=48
+70 pts
+
+[gText_80Pts] d8cba4ae6b width=48
+80 pts
+
+[gText_90Pts] 1b9779cc16 width=48
+90 pts
+
+[gText_100Pts] c48369f30b width=48
+100 pts
+
+[gText_Gold] 81ff70acd7 width=36
+OURO
+
+[gText_Silver] 462e8399a4
+PRATA
+
+[gText_CantBeUsedOnPkmn] b675e7f468 width=208
+Não dá pra usar\nnesse POKéMON.{PAUSE_UNTIL_PRESS}
+
+[gText_Time] 64269f9bd2 width=30
+TEMPO
+
+[gText_IDNumber] 8b9d3d695a
+Nº ID
+
+[gText_Berries] 4aec2f3375 width=40
+FRUTAS
+
+[gText_Berry] ed2d80e442 width=40
+FRUTA
+
+[gText_QuizLady_Lady] fc40dd4181
+Moça
+
+[gText_ABtnRegistrationCounter] f7520bf96f width=208
+Botão A: Balcão de Inscrição
+
+[gText_ABtnTitleScreen] 26077dbc6a width=208
+Botão A: Tela de Título
+
+[gText_CommErrorCheckConnections] 92f7fd4389 width=208
+Erro de comunicação…\nConfira todas as conexões e\ndesligue e ligue o aparelho.
+
+[gText_CommErrorEllipsis] d00807d859 width=208
+Erro de comunicação…
+
+[gText_MoveCloserToLinkPartner] 0dbb401407 width=208
+Chegue mais perto dos parceiros.\nEvite obstáculos entre vocês.
+
+[gText_FromSpace] 6e9b4e1652
+De
+
+[gText_Friend] 2394299d6f
+Amigo
+
+[gText_MoveRelearnerAccuracy] 1019a88d18
+PRECISÃO/
+
+[gText_MoveRelearnerAppeal] e1a476f66b width=50
+IMPACTO
+
+[gText_MoveRelearnerBattleMoves] 0e54668249 width=120
+GOLPES DE BATALHA
+
+[gText_MoveRelearnerContestMovesTitle] fba5a778b9 width=120
+GOLPES DE CONCURSO
+
+[gText_MoveRelearnerJam] 18951a64f6 width=40
+ATRAP.
+
+[gText_MoveRelearnerPower] d7c4809515
+PODER/
+
+[gText_MoveRelearnerAndPoof] c5b394e24b width=208
+{PAUSE 32}1, {PAUSE 15}2, e {PAUSE 15}… {PAUSE 15}… {PAUSE 15}… {PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Puf!\p
+
+[gText_MoveRelearnerGiveUp] fcc93ff85a width=208
+Desistir de ensinar um golpe\nnovo a {STR_VAR_1}?
+
+[gText_MoveRelearnerPkmnForgotMoveAndLearnedNew] eae286b1d3 width=208
+{STR_VAR_1} esqueceu {STR_VAR_3}.\pE…\p{STR_VAR_1} aprendeu {STR_VAR_2}.
+
+[gText_MoveRelearnerPkmnLearnedMove] d7bee1210f width=208
+{STR_VAR_1} aprendeu\n{STR_VAR_2}!
+
+[gText_MoveRelearnerPkmnTryingToLearnMove] 0e8c2591ff width=208
+{STR_VAR_1} quer aprender\n{STR_VAR_2}.\pMas {STR_VAR_1} não pode saber mais\nque quatro golpes.\pApagar um golpe antigo pra\nabrir espaço pra {STR_VAR_2}?
+
+[gText_MoveRelearnerStopTryingToTeachMove] b8c99ebeb0 width=208
+Parar de ensinar\n{STR_VAR_2}?
+
+[gText_MoveRelearnerTeachMoveConfirm] 4f2999c7bd width=208
+Ensinar {STR_VAR_2}?
+
+[gText_MoveRelearnerWhichMoveToForget] a9aa99130d width=208
+Qual golpe deve ser\nesquecido?\p
+
+[gText_TeachWhichMoveToPkmn] d6ad8d9e6b width=208
+Que golpe ensinar a {STR_VAR_1}?
+
+[gText_DontRemoveCableTurnOff] 6e023dbb7c width=208
+Não tire o cabo Game Link.\nNão desligue o aparelho.
+
+[gText_EventSafelyLoaded] bf0c58e8fd width=208
+O evento foi carregado.
+
+[gText_LinkStandby2] 92c0cd8345 width=208
+Aguardando conexão…\n… … Botão B: Cancelar
+
+[gText_LoadErrorEndingSession] dd8ae66bce width=208
+Erro ao carregar.\nEncerrando a sessão.
+
+[gText_LoadingEvent] 8f122ad7d5 width=208
+Carregando o evento…
+
+[gText_PressAToLoadEvent] faa49070e5 width=208
+Aperte o botão A pra carregar.\n… … Botão B: Cancelar
+
+[gText_InGameClockUsable] 609f2c871f width=208
+O acerto do relógio do jogo\nagora pode ser usado.
+
+[gText_BoxName] da42769045
+NOME?
+
+[gText_MoveOkBack] 98ce8808e0 width=100
+{DPAD_NONE}MOVER  {A_BUTTON}OK  {B_BUTTON}VOLTAR
+
+[gText_PkmnsNickname] cd7efa00f7 width=160
+Apelido de {STR_VAR_1}?
+
+[gText_TellHimTheWords] 371d137596 width=160
+Diga as palavras.
+
+[gText_YourName] 192c6610a8
+SEU NOME?
+
+[gText_ButtonTypeNormal] 835d9b0597
+{COLOR GREEN}{SHADOW LIGHT_GREEN}NORMAL
+
+[gText_Var1AteTheVar2] 8540712ddf width=208
+{STR_VAR_1} comeu o\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+
+[gText_Var1DisdainfullyAteVar2] 33464235b1 width=208
+{STR_VAR_1} comeu com desdém o\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+
+[gText_Var1HappilyAteVar2] df8278682e width=208
+{STR_VAR_1} comeu feliz o\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}
+
+[gText_MixingRecords] fa5b9d21cd width=208
+Misturando registros…
+
+[gText_RecordMixingComplete] ed78553f6c width=208
+Registros misturados.\nObrigado por esperar.
+
+[gText_Ferry] 09d2c81b84
+BALSA
+
+[gText_Hideout] 7d0108498f width=80
+ESCONDERIJO
+
+[gText_PokemonCenter] 9b055d9fe7 width=90
+CENTRO POKéMON
+
+[gText_PokemonLeague] 1a11998b67
+LIGA POKéMON
+
+[gText_SecretBase] ff13338a1b width=80
+BASE SECRETA
+
+[gText_BackupMemoryDamaged] e2e93a6d8e width=208
+A memória de backup está danificada,\nou a bateria interna acabou.\nDá pra jogar, mas não salvar.
+
+[gText_CheckCompleted] 8ee89ec673 width=208
+Verificação concluída.\nTentando salvar de novo.\nAguarde.
+
+[gText_GamePlayCannotBeContinued] 74ad34c353 width=208
+{COLOR RED}“O jogo não pode continuar.\nVoltando à tela de título…”
+
+[gText_SaveCompleteGameCannotContinue] 938c60b5ad width=208
+Salvo.\n{COLOR RED}“O jogo não pode continuar.\nVoltando à tela de título.”
+
+[gText_SaveCompletePressA] 7750f851c2 width=208
+Salvo.\n{COLOR RED}“Aperte o botão A.”
+
+[gText_SaveFailedCheckingBackup] 64519b1a71 width=208
+Falha ao salvar. Verificando a\nmemória de backup… Aguarde.\n{COLOR RED}“Tempo necessário: cerca de 1 minuto”
+
+[gText_ApostropheSBase] 9eb737e3e6
+ BASE
+
+[gText_DelRegist] f71f86cf40
+APAGAR
+
+[gText_NoRegistry] 0527d87a93 width=208
+Não há REGISTRO.{PAUSE_UNTIL_PRESS}
+
+[gText_OkayToDeleteFromRegistry] a9b1011a2d width=208
+Pode apagar {STR_VAR_1}\ndo REGISTRO?
+
+[gText_RegisteredDataDeleted] bc0b5ea811 width=208
+Os dados registrados foram apagados.{PAUSE_UNTIL_PRESS}
+
+[gText_QuitTheGame] 993fdc1f69 width=208
+Sair do jogo?
+
+[gText_ReelTimeHelp] ccc731cdf7
+HORA DO GIRO\nÉ a sua chance de mirar\ne acertar os símbolos!\nO giro dura pelo número\nde voltas ganhas.\nTermina num Grande Bônus.
+
+[gText_YouDontHaveThreeCoins] 586258c465 width=208
+Você não tem três FICHAS.
+
+[gText_YouveGot9999Coins] 27841b18fd width=208
+Você tem 9.999 FICHAS.
+
+[gText_YouveRunOutOfCoins] 506eae46df width=208
+Suas FICHAS acabaram.\nFim de jogo!
+
+[gText_ByeByeVar1] 0c0e6d99e6 width=208
+Tchau, {STR_VAR_2}!
+
+[gText_TakeGoodCareOfX] cac06a8223 width=208
+Cuide bem de {STR_VAR_3}!
+
+[gText_XSentOverY] 37b2a0e7b5 width=208
+{STR_VAR_1} mandou {STR_VAR_3}.
+
+[gText_XWillBeSentToY] 26dbde91ef width=208
+{STR_VAR_2} vai ser\nenviado a {STR_VAR_1}.
+
+[gText_BattleWasRefused] 3b1ac7a2be width=208
+A batalha foi recusada.{PAUSE 60}
+
+[gText_CommStandbyAwaitingOtherPlayer] de2a67f940 width=208
+Aguardando comunicação…\nEsperando o outro jogador escolher.
+
+[gText_RefusedBattle] 7322c99ee1 width=208
+Recusou a batalha.{PAUSE 60}
+
+[gText_Peekaboo] 01b7103b18
+ACHOU!
+
+[gText_Cancel4] 1507c40f04
+VOLTAR
+
+[gText_Confirm3] f6fda10d33
+OK
+
+[gText_IsThisTheCorrectTime] 784b662b37 width=208
+Esta é a hora certa?
+
+[gText_PeopleBattling] 7b3c9203c6 width=130
+Batalhando:
+
+[gText_PeopleCommunicating] ea1cceae46 width=130
+Comunicando:
+
+[gText_PeopleInUnionRoom] 0b9c99530e width=150
+Na SALA UNIÃO:
+
+[gText_PeopleTrading] a356095f3c width=130
+Trocando:
+
+[gText_WirelessCommStatus] 10fe56ca0c width=200
+Status da Comunicação Sem Fio
