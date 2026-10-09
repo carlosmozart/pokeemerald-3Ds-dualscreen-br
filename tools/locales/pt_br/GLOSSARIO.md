@@ -134,6 +134,8 @@ Os nomes dos POKéMON não se traduzem.
 | Mirage Tower | TORRE MIRAGEM | |
 | Old Lady's Rest Stop | CANTINHO DA VOVÓ | |
 | Trainer Hill | COLINA DOS TREINADORES | |
+| Time Attack / Time Board | Contra o Tempo / Quadro de Tempos | COLINA DOS TREINADORES |
+| Faraway Island | ILHA DISTANTE | |
 | Jagged Pass | TRILHA ESCARPADA | |
 | Cable Car | TELEFÉRICO | |
 | Macho Brace | PULSEIRA MACHO | PULS. MACHO no nome do item |
