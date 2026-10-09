@@ -84,6 +84,7 @@ Os nomes dos POKéMON não se traduzem.
 | Tactics Symbol | Símbolo da Tática | símbolo da CÚPULA |
 | Knowledge Symbol | Símbolo do Saber | símbolo da FÁBRICA |
 | Spirits Symbol / Guts Symbol | Símbolo do Espírito / Símbolo da Garra | símbolos do PALÁCIO e da ARENA |
+| Luck Symbol | Símbolo da Sorte | símbolo do PICO |
 | Mind / Skill / Body (juízes da ARENA) | Mente / Técnica / Físico | como em `battle_message.c` |
 | Rental Pokémon | POKéMON de aluguel | |
 | Referee / Tourney tree / Round | JUIZ / Chave do Torneio / fase (Fase 1, Fase 2, Semifinal, Final) | as fases vêm de `battle_message.c` |
