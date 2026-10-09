@@ -272,7 +272,8 @@ O maior volume do projeto, sem equivalente no wiki.
         (feitos: ROTAS 120 e 121, MONTE PYRE, LILYCOVE inteira,
         ESCONDERIJO AQUA, ROTA 124, MOSSDEEP com o GINÁSIO e o CENTRO
         ESPACIAL, CAMINHO SUBMARINO, ROTA 128, SOOTOPOLIS com o GINÁSIO,
-        CAVERNA DA ORIGEM e PILAR CELESTE; as ROTAS 125 a 127 e 129 a 134
+        CAVERNA DA ORIGEM, PILAR CELESTE, ESTRADA DA VITÓRIA, EVER
+        GRANDE e a LIGA POKéMON; as ROTAS 125 a 127 e 129 a 134
         não têm falas nos arquivos dos mapas)
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
