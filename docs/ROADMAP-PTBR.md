@@ -269,7 +269,9 @@ O maior volume do projeto, sem equivalente no wiki.
         LAVARIDGE, FALLARBOR, CATARATA DOS METEOROS, ESCONDERIJO MAGMA,
         INSTITUTO DO CLIMA e FORTREE
   - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
-        (feitos: ROTAS 120 e 121, MONTE PYRE e LILYCOVE inteira)
+        (feitos: ROTAS 120 e 121, MONTE PYRE, LILYCOVE inteira,
+        ESCONDERIJO AQUA, ROTA 124 e MOSSDEEP com o GINÁSIO e o CENTRO
+        ESPACIAL)
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
 - [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON,
