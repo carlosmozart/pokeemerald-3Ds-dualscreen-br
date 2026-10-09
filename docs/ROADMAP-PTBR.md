@@ -173,10 +173,12 @@ Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
 - [ ] **Bagas:** o nome fica no limite de 6 de `BERRY_NAME_LENGTH`, que faz
       parte do save e **não pode mudar**; traduzir o "BERRY" que o código
       acrescenta (como o patch `0031` fez no espanhol).
-- [ ] **Lugares:** a parte genérica (`CITY`, `TOWN`, `MT.`, `CAVE`, `ROUTE`)
-      em `region_map_sections.json` e nas placas.
-- [ ] Naturezas (25), categorias de concurso, decorações da Secret Base e
-      palavras do Easy Chat.
+- [x] **Lugares:** no mapa, na placa e no resumo, as cidades só com o nome
+      próprio (LITTLEROOT) e o resto em até 16 caracteres (ROTA 101, CAT.
+      METEOROS), pelo cabeçalho gerado `region_map_entries.h` (09/10).
+- [ ] Naturezas (25, nomes `pt_br` do Bulbapedia), classes de treinador (66),
+      FITAS (66) e decorações da BASE SECRETA (120 nomes e 120 descrições)
+      feitas em 09/10. Falta decidir as palavras da FALA FÁCIL.
 - [ ] Os limites de golpe, item e habilidade não estão no save e podem
       aumentar; antes, conferir as janelas que mostram esses nomes. Se não
       couber, abreviar (Princípio 2).
