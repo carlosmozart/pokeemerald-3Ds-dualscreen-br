@@ -1609,3 +1609,29 @@ FITAS {DYNAMIC 0}
 
 [gText_Unknown] 25ba44ec3b width=48
 DESCONH.
+
+# A janela de subida de nível (src/menu_specialized.c): o nome até x=56, onde
+# começa o +.
+
+[gText_MaxHP] 3042aaf698 width=54
+PS MÁX.
+
+[gText_Attack] df86d4b6db width=54
+ATAQUE
+
+[gText_Defense] d4f6d85456 width=54
+DEFESA
+
+[gText_SpAtk] 4881ee79a1 width=54
+AT. ESP.
+
+[gText_SpDef] 3b0727a5ad width=54
+DEF. ESP.
+
+[gText_Speed] 265ffc5673 width=54
+VELOC.
+
+# POKé BOLAS no plural, quando se recebe mais de uma (src/item.c).
+
+[gText_PokeBalls] 45a1d46176
+POKé BOLAS
