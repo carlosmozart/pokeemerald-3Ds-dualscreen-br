@@ -77,6 +77,9 @@ Os nomes dos POKéMON não se traduzem.
 | Battle Room / Battle Hall / Battle Salon | SALA DE BATALHA / SALÃO DE BATALHA | |
 | Dome Ace | ÁS DA CÚPULA | |
 | Berry Pocket | BOLSO DE FRUTAS | |
+| Salon Maiden / Dome Ace / Factory Head / Pike Queen / Arena Tycoon / Palace Maven / Pyramid King | DAMA DO SALÃO / ÁS DA CÚPULA / CHEFE DA FÁBRICA / RAINHA DO PICO / MAGNATA DA ARENA / SÁBIO DO PALÁCIO / REI DA PIRÂMIDE | títulos dos CÉREBROS DA FRONTEIRA |
+| Frontier Maniac | MANÍACO DA FRONTEIRA | |
+| Pokémon Breeder / Beauty / Swimmer / Youngster (classes) | CRIADOR POKéMON / BELDADE / NADADOR(A) / JOVEM | provisório até as classes de treinador serem traduzidas |
 | Littleroot Town e as outras cidades | CIDADE DE LITTLEROOT | o nome fica, a parte genérica se traduz |
 | Pokémon Wireless Club | CLUBE SEM FIO POKéMON | |
 | Trainer Card (Gold/Silver) | CARTÃO DE OURO / DE PRATA | |
