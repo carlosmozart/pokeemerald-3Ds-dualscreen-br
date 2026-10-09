@@ -63,7 +63,7 @@ Ai, ai! É uma crise!\n
 Não posso perder tempo!$
 
 [PetalburgWoods_Text_YoureLoadedWithItems] 5e06127f5f
-Você está cheio de itens.\n
+A sua BOLSA está cheia de itens.\n
 Não dá pra te dar esta GRANDE BOLA.$
 
 [PetalburgWoods_Text_GoBugPokemonTeam] 79a1725625

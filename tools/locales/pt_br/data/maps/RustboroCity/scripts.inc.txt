@@ -107,7 +107,7 @@ Já sei! Como agradecimento, vou te\n
 dar mais uma GRANDE BOLA!$
 
 [RustboroCity_Text_YoureLoadedWithItems] 5e06127f5f
-Você está cheio de itens.\n
+A sua BOLSA está cheia de itens.\n
 Não dá pra te dar esta GRANDE BOLA.$
 
 [RustboroCity_Text_PleaseComeWithMe] b4ac49faaa
