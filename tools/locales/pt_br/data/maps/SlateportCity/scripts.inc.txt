@@ -246,8 +246,8 @@ pra TV. Que nervoso.$
 [SlateportCity_Text_OhPlayerWeMadeDiscovery] fea9b399e1
 Ah! {PLAYER}{KUN}!\n
 Você está com ótima cara!\p
-Fizemos uma grande descoberta na nossa\n
-última exploração do fundo do mar.\p
+Fizemos uma grande descoberta na\n
+nossa última exploração submarina.\p
 Achamos uma caverna submarina\n
 na ROTA 128.\p
 Achamos que é o lar de um POKéMON que\n
