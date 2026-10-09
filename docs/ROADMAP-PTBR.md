@@ -206,8 +206,9 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       CHAMADAS, a janela de subida de nível e POKé BOLAS no plural. Faltam a
       FRONTEIRA DE BATALHA (nomes das instalações a decidir), BOLSO DAS
       FRUTAS, concursos e textos soltos do mundo.
-- [ ] Arquivos comuns de `data/text`: passados ao PC dos mapas (Fase 7) em
-      09/10.
+- [x] Arquivos comuns de `data/text` (feitos em 09/10: `save.inc`, `pc.inc`,
+      `surf.inc`, `pc_transfer.inc` com a pergunta do apelido,
+      `obtain_item.inc`). O resto passou ao PC dos mapas (Fase 7) em 09/10.
 - [x] FRONTEIRA DE BATALHA: nomes das instalações decididos em 09/10 (ver o
       glossário: TORRE, CÚPULA, FÁBRICA, PALÁCIO, ARENA, PICO e PIRÂMIDE DE
       BATALHA; CÉREBRO DA FRONTEIRA; PONTOS DE BATALHA, PB).
