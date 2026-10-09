@@ -130,6 +130,7 @@ Os nomes dos POKéMON não se traduzem.
 | New Mauville / Generator | NOVA MAUVILLE / GERADOR | |
 | Game Corner / Roulette / Slots | SALÃO DE JOGOS / ROLETA / CAÇA-NÍQUEIS | as FICHAS ficam na SACOLA DE MOEDAS (o item) |
 | Record Corner / Colosseum | CANTO DOS RECORDES / COLISEU | nomes de menus de `strings.c`: o PC dos menus deve usar os mesmos |
+| Cable Club / Union Room / Pokémon Jump / Dodrio Berry-Picking | CLUBE DO CABO POKéMON / SALA UNIÃO / PULO POKéMON / COLHEITA DO DODRIO | `cable_club.inc`; o PC dos menus deve usar os mesmos |
 | + Control Pad | Botão Direcional | |
 | Pokémon Day Care | CENTRO DE CUIDADOS POKéMON | |
 | Mirage Tower | TORRE MIRAGEM | |
