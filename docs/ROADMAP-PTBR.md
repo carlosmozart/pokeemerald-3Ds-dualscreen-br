@@ -210,7 +210,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       depois ("FRUTAS ORAN"), o que pede um patch como o `0031` do espanhol.
 - [ ] Janela de subida de nível na batalha (port, `3ds_video.c`): fica na
       cena ampliada 1,5×, atrás da caixa de mensagem, que esconde AT. ESP.,
-      DEF. ESP. e VELOC. Conferir se a versão em inglês tem o mesmo corte.
+      DEF. ESP. e VELOC. A versão original em inglês tem o mesmo corte
+      (conferido no 3DS em 09/10): é um bug do port, não da tradução.
 - [x] Mensagens de batalha (`src/battle_message.c`, patch `0041` para a
       ordem “ZIGZAGOON selvagem”); conferir larguras com a
       referência do patch `0034`.

@@ -66,6 +66,11 @@ Para não pisar no trabalho do outro PC:
   de catálogo geram conflito.
 - **Decisões** (glossário, roadmap) entram num commit próprio e são
   enviadas na hora, antes de traduzir com base nelas.
+- **Roadmap: cada PC só edita a sua fase** em `docs/ROADMAP-PTBR.md` e na
+  cópia interativa: o PC dos menus, a Fase 6; o PC dos mapas, a Fase 7.
+  Os dois PCs marcando o roadmap a cada lote, em linhas vizinhas, geraram
+  conflitos. Mudança em outra fase (uma decisão, um risco), num commit
+  próprio e combinada com o usuário.
 
 **Divisão atual** (09/10/2026, revista no mesmo dia; o usuário diz qual PC é qual ao abrir a
 sessão, ou pergunte):
