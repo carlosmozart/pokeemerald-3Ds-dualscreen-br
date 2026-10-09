@@ -210,8 +210,6 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       `surf.inc`, `pc_transfer.inc` com a pergunta do apelido,
       `obtain_item.inc`). Pendentes, por ordem sugerida:
   - [ ] `pokedex_rating.inc` (25): a avaliação da POKéDEX pelo Prof. Birch.
-  - [ ] `match_call.inc` (312): as ligações dos treinadores no POKéNAV.
-  - [ ] `tv.inc` (354): os programas de TV.
   - [ ] `contest_strings.inc` (200), `contest_painting.inc` (27),
         `contest_link.inc` (11): os concursos.
   - [ ] `apprentice.inc` (288), `battle_dome.inc` (114),
@@ -290,6 +288,8 @@ O maior volume do projeto, sem equivalente no wiki.
         de concursos, moça de LILYCOVE, LIQUIDIFICADOR, CENTRO DE CUIDADOS,
         BASES SECRETAS, árvores de FRUTA, golpes de campo, ROLETA e os
         PRESENTES MISTERIOSOS: 22 arquivos, cerca de 470 textos), 09/10
+  - [ ] `match_call.inc` (317, as ligações no POKéNAV) e `tv.inc` (401,
+        os programas de TV), passados da Fase 6 em 09/10
   - [x] Os `data/text` que não estavam em nenhuma fase: TENDAS DE BATALHA,
         quem dá FRUTAS, tutores de golpes, CANTO DA LOTERIA, MESTRE DO
         LIQUIDIFICADOR, CAVERNA SHOAL, bilhetes de evento, móveis e
