@@ -2132,3 +2132,187 @@ TERRAÇO
 
 [gText_BP] 03b8a126d8
 PB
+
+# PRESENTE MISTERIOSO (mystery_gift_menu.c): o título vai no alto a x=4
+
+# e as dicas de botão, na fonte pequena, alinhadas à direita em 222 px; o
+
+# menu de opções tem 19 tiles; as mensagens, uma janela de 28 tiles (216
+
+# px). Perguntas de SIM/NÃO vão numa janela de 20 tiles (152 px) quando o
+
+# inglês cabe nela.
+
+[gText_MysteryGift] 38d1678325 width=112
+PRESENTE MISTERIOSO
+
+[gText_PickOKExit] f70f1959bf width=120
+{DPAD_UPDOWN}ESCOLHER {A_BUTTON}OK {B_BUTTON}SAIR
+
+[gText_PickOKCancel] 2525ce1992 width=120
+{DPAD_UPDOWN}ESCOLHER {A_BUTTON}OK {B_BUTTON}VOLTAR
+
+[gText_WonderCards] c53334ee7f width=144
+CARTÕES MARAVILHA
+
+[gText_WonderNews] 7eb690423f width=144
+NOTÍCIAS MARAVILHA
+
+[gText_WirelessCommunication] bf0ea8cab2 width=144
+COMUNICAÇÃO SEM FIO
+
+[gText_Friend2] 1ea03fc165 width=104
+AMIGO
+
+[gText_Exit3] bb1b38004d width=104
+SAIR
+
+[gText_Receive] a0efd10a50 width=104
+RECEBER
+
+[gText_Send] a2469c4782 width=104
+ENVIAR
+
+[gText_VarietyOfEventsImportedWireless] ea9ea3f786 width=216
+Vários eventos vão ser importados\npor Comunicação Sem Fio.
+
+[gText_WonderCardsInPossession] 8680b5925f width=216
+Leia os CARTÕES MARAVILHA que\nvocê tem.
+
+[gText_ReadNewsThatArrived] 206ad874c7 width=216
+Leia as NOTÍCIAS que chegaram.
+
+[gText_ReturnToTitle] 0f9a26e755 width=216
+Voltar à tela de título.
+
+[gText_DontHaveCardNewOneInput] 7160f6f85f width=216
+Você não tem CARTÃO MARAVILHA,\nentão um CARTÃO novo vai entrar.
+
+[gText_DontHaveNewsNewOneInput] 520826725a width=216
+Você não tem NOTÍCIAS MARAVILHA,\nentão NOTÍCIAS novas vão entrar.
+
+[gText_WhereShouldCardBeAccessed] df10177dee width=216
+Por onde acessar o\nCARTÃO MARAVILHA?
+
+[gText_WhereShouldNewsBeAccessed] ece5672a57 width=216
+Por onde acessar as\nNOTÍCIAS MARAVILHA?
+
+[gText_Communicating] 0ded7a66ec width=216
+Comunicando…
+
+[gText_CommunicationCompleted] 8e1a24d486 width=216
+Comunicação concluída.
+
+[gText_CommunicationError] 7956729d4c width=216
+Erro de comunicação.
+
+[gText_CommunicationCanceled] bbbf3d42bd width=216
+A comunicação foi cancelada.
+
+[gText_ThrowAwayWonderCard] a348ada5b6 width=152
+Jogar fora o CARTÃO\nMARAVILHA e pôr um novo?
+
+[gText_HaventReceivedCardsGift] 2550985aaf width=216
+Você não recebeu o presente do\nCARTÃO. Pôr um novo mesmo assim?
+
+[gText_WonderCardReceivedFrom] 06c70669b9 width=216
+Chegou um CARTÃO MARAVILHA\nde {STR_VAR_1}.
+
+[gText_WonderNewsReceivedFrom] 9673a6736e width=216
+Chegaram NOTÍCIAS MARAVILHA\nde {STR_VAR_1}.
+
+[gText_WonderCardReceived] 5d1187ea6e width=216
+Chegou um CARTÃO MARAVILHA\nnovo.
+
+[gText_WonderNewsReceived] aa3c084196 width=216
+Chegaram NOTÍCIAS MARAVILHA\nnovas.
+
+[gText_NewStampReceived] 0971816afa width=216
+Chegou um SELO novo.
+
+[gText_NewTrainerReceived] 69ef8fc761 width=216
+Chegou um TREINADOR novo.
+
+[gText_AlreadyHadCard] 3dfac4d4f5 width=216
+Você já tinha esse\nCARTÃO MARAVILHA.
+
+[gText_AlreadyHadNews] 8d56c7fd2b width=216
+Você já tinha essas\nNOTÍCIAS MARAVILHA.
+
+[gText_AlreadyHadStamp] 250700d6c9 width=216
+Você já tinha esse\nSELO.
+
+[gText_NoMoreRoomForStamps] 4bfba71a40 width=216
+Não tem mais espaço pra\nSELOS.
+
+[gText_RecordUploadedViaWireless] af9743bd43 width=216
+O seu registro foi enviado pela\nCOMUNICAÇÃO SEM FIO.
+
+[gText_CantAcceptCardFromTrainer] c9879413dd width=216
+Não dá pra aceitar CARTÃO\nMARAVILHA desse TREINADOR.
+
+[gText_CantAcceptNewsFromTrainer] 2d7dc4a7d3 width=216
+Não dá pra aceitar NOTÍCIAS\nMARAVILHA desse TREINADOR.
+
+[gText_NothingSentOver] a4973a0048 width=216
+Nada foi enviado…
+
+[gText_WhatToDoWithCards] 89771744e2 width=216
+O que você quer fazer com os\nCARTÕES MARAVILHA?
+
+[gText_WhatToDoWithNews] a5400d9068 width=216
+O que você quer fazer com as\nNOTÍCIAS MARAVILHA?
+
+[gText_SendingWonderCard] ec0a9a71d9 width=216
+Enviando o seu CARTÃO MARAVILHA…
+
+[gText_SendingWonderNews] 99a5ca21b2 width=216
+Enviando as suas NOTÍCIAS MARAVILHA…
+
+[gText_WonderCardSentTo] a9c702d96b width=216
+O seu CARTÃO MARAVILHA foi enviado\npara {STR_VAR_1}.
+
+[gText_WonderNewsSentTo] e4fbc80a90 width=216
+As suas NOTÍCIAS MARAVILHA foram\nenviadas para {STR_VAR_1}.
+
+[gText_StampSentTo] 6ff93ba248 width=216
+SELO enviado para {STR_VAR_1}.
+
+[gText_GiftSentTo] 98aae62f3a width=216
+PRESENTE enviado para {STR_VAR_1}.
+
+[gText_OtherTrainerHasCard] 7b7079037a width=216
+O outro TREINADOR já tem o mesmo\nCARTÃO MARAVILHA.
+
+[gText_OtherTrainerHasNews] 4339a8b479 width=216
+O outro TREINADOR já tem as mesmas\nNOTÍCIAS MARAVILHA.
+
+[gText_OtherTrainerHasStamp] b548aee198 width=216
+O outro TREINADOR já tem o mesmo\nSELO.
+
+[gText_OtherTrainerCanceled] acd51435a3 width=216
+O outro TREINADOR cancelou\na comunicação.
+
+[gText_CantSendGiftToTrainer] 02168062f9 width=216
+Não dá pra mandar PRESENTE\nMISTERIOSO pra esse TREINADOR.
+
+[gText_IfThrowAwayCardEventWontHappen] 7b97ec4823 width=156
+Sem o CARTÃO, o evento não\nvai acontecer. Tudo bem?
+
+[gText_OkayToDiscardNews] 170c005bae width=152
+Pode descartar estas\nNOTÍCIAS?
+
+[gText_HaventReceivedGiftOkayToDiscard] 2474dd5f35 width=152
+Você não recebeu o PRESENTE.\nPode descartar mesmo assim?
+
+[gText_DataWillBeSaved] 14ebe3d1a3 width=216
+Os dados vão ser salvos.\nAguarde.
+
+[gText_SaveCompletedPressA] 809d93e81c width=216
+Salvo.\nAperte o botão A.
+
+[gText_WonderCardThrownAway] 82c2888ea7 width=216
+O CARTÃO MARAVILHA foi jogado fora.
+
+[gText_WonderNewsThrownAway] bc00dde047 width=216
+NOTÍCIAS MARAVILHA jogadas fora.
