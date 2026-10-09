@@ -87,6 +87,7 @@ Os nomes dos POKéMON não se traduzem.
 | Stone Badge | INSÍGNIA DA PEDRA | |
 | Knuckle Badge | INSÍGNIA DO PUNHO | |
 | Dewford Hall | SALÃO DE DEWFORD | |
+| Seashore House / Mr. Sea | CASA DE PRAIA / SR. MAR | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
