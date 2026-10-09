@@ -199,25 +199,27 @@ Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
 
 Ordem sugerida, do que o jogador vê mais para o que vê menos:
 
-- [ ] Menus de `src/strings.c` (468 de 1762 textos em 09/10): menu
-      principal, CONTINUAR, opções (patches `0044` e `0045`), menu START com
-      as janelas de salvar e do SAFARI, BOLSA, a fala do Prof. Birch, as
-      mensagens do save, a caixa SIM/NÃO dos scripts, o POKéNAV com as
-      CHAMADAS, a janela de subida de nível e POKé BOLAS no plural. Faltam a
-      FRONTEIRA DE BATALHA (nomes das instalações a decidir), BOLSO DAS
-      FRUTAS, concursos e textos soltos do mundo.
+- [x] Menus de `src/strings.c` (1205 de 1762 textos em 09/10): menu
+      principal, CONTINUAR, opções (patches `0044` e `0045`), menu START,
+      BOLSA, PC e CAIXAS, resumo, equipe, POKéDEX, POKéNAV, a caixa SIM/NÃO
+      dos scripts, a janela de subida de nível; o resto (FRONTEIRA,
+      concursos, PRESENTE MISTERIOSO, cartão de treinador, decorações,
+      jogos sem fio, interface da FALA FÁCIL…) pelo PC dos mapas (Fase 7).
+      Os que faltam não mudam (nomes, símbolos, números), não têm uso no
+      código ou são o japonês do jogo original.
 - [x] Arquivos comuns de `data/text` (feitos em 09/10: `save.inc`, `pc.inc`,
       `surf.inc`, `pc_transfer.inc` com a pergunta do apelido,
       `obtain_item.inc`). O resto passou ao PC dos mapas (Fase 7) em 09/10.
 - [x] FRONTEIRA DE BATALHA: nomes das instalações decididos em 09/10 (ver o
       glossário: TORRE, CÚPULA, FÁBRICA, PALÁCIO, ARENA, PICO e PIRÂMIDE DE
       BATALHA; CÉREBRO DA FRONTEIRA; PONTOS DE BATALHA, PB).
-- [ ] Se os nomes das decorações (bonecos, móveis) vêm antes das listas de
-      prêmios da FRONTEIRA.
+- [x] Decorações nas listas de prêmios da FRONTEIRA: os bonecos, o pôster
+      e a almofada KISS entraram no glossário com a CENTRAL DE TROCAS
+      (09/10).
 - [ ] FRUTAS no plural: o jogo monta "ORAN BERRIES"; em português o nome vem
       depois ("FRUTAS ORAN"), o que pede um patch como o `0031` do espanhol.
 - [x] Janela de subida de nível na batalha (port, `3ds_video.c`, corrigido
-      em 09/10; falta conferir no 3DS): fica na
+      e conferido no 3DS em 09/10): ficava na
       cena ampliada 1,5×, atrás da caixa de mensagem, que esconde AT. ESP.,
       DEF. ESP. e VELOC. A versão original em inglês tem o mesmo corte
       (conferido no 3DS em 09/10): é um bug do port, não da tradução.
@@ -228,8 +230,10 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       mensagens, telas da POKéDEX (busca, ordem, ALT./PESO) e unidades:
       metros e quilos com vírgula (patch `0046`, sobre o código do `0035`).
 - [x] PC do jogador, sistema de CAIXAS, loja, opções e salvamento.
-- [ ] Concursos (títulos, patch `0032`), Battle Frontier, Trainer Hill e
-      Secret Base.
+- [x] Concursos, FRONTEIRA DE BATALHA, COLINA DOS TREINADORES e BASES
+      SECRETAS (textos de `src/strings.c` e de `data/text`, 09/10). Falta
+      conferir no 3DS os títulos dos concursos (o espanhol precisou do patch
+      `0032`).
 - [ ] Gráficos com texto em inglês (logo, "THE END", alguns menus): continuam
       em inglês nesta fase. Avaliar depois se vale desenhar versões próprias.
 - [ ] Ícones de tipo em PT: o builder desenha o nome com a fonte da ROM sobre o
@@ -243,10 +247,10 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
 
 O maior volume do projeto, sem equivalente no wiki.
 
-- [ ] Inventário dos textos de `data/text/*.inc` e
-      `data/maps/*/scripts.inc`, com contagem por mapa, para o relatório de
-      cobertura.
-- [ ] Traduzir **na ordem do jogo**, para cada bloco ser testável jogando:
+- [x] Inventário e cobertura: `localize_portuguese.py --status` conta por
+      arquivo. Em 09/10, 8621 de 9178 textos de `data/text`, dos mapas e de
+      `src/strings.c`; 11922 textos aplicados no total.
+- [x] Traduzir **na ordem do jogo**, para cada bloco ser testável jogando:
   - [x] Littleroot, Oldale, Route 101–103, Petalburg (caminhão,
         LITTLEROOT inteira, ROTAS 101 a 103, OLDALE, PETALBURG inteira
         com o GINÁSIO)
@@ -257,7 +261,7 @@ O maior volume do projeto, sem equivalente no wiki.
         TRUQUES, MAUVILLE, ROTAS 111 a 119, VERDANTURF, MONTE CHIMNEY,
         LAVARIDGE, FALLARBOR, CATARATA DOS METEOROS, ESCONDERIJO MAGMA,
         INSTITUTO DO CLIMA e FORTREE
-  - [ ] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
+  - [x] Lilycove, Mossdeep, Sootopolis, Team Magma/Aqua
         (feitos: ROTAS 120 e 121, MONTE PYRE, LILYCOVE inteira,
         ESCONDERIJO AQUA, ROTA 124, MOSSDEEP com o GINÁSIO e o CENTRO
         ESPACIAL, CAMINHO SUBMARINO, ROTA 128, SOOTOPOLIS com o GINÁSIO,
@@ -266,8 +270,9 @@ O maior volume do projeto, sem equivalente no wiki.
         S.S. TIDAL, NOVA MAUVILLE, TORRE MIRAGEM e CAVERNA DO BANCO DE
         AREIA: todos os mapas da história estão feitos; as ROTAS 125 a 127 e 129 a 134
         não têm falas nos arquivos dos mapas)
-  - [ ] Ever Grande e Liga
-  - [ ] Pós-jogo e Battle Frontier
+  - [x] Ever Grande e Liga (ESTRADA DA VITÓRIA, EVER GRANDE e a LIGA
+        POKéMON, 09/10)
+  - [x] Pós-jogo e Battle Frontier
         (feita a FRONTEIRA DE BATALHA inteira em 09/10: portão, praças,
         salões, as sete instalações e a CENTRAL DE TROCAS; também a
         COLINA DOS TREINADORES e a ILHA DISTANTE: todos os arquivos
@@ -297,10 +302,9 @@ O maior volume do projeto, sem equivalente no wiki.
         quem dá FRUTAS, tutores de golpes, CANTO DA LOTERIA, MESTRE DO
         LIQUIDIFICADOR, CAVERNA SHOAL, bilhetes de evento, móveis e
         mistura de registros (11 arquivos, 214 textos), 09/10
-- [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON,
-      vendedor do POKé MART, o PC e os itens recebidos, `obtain_item.inc`;
-      faltam as placas comuns).
-- [ ] Frases de treinador (intro, derrota, revanche).
+- [x] Textos comuns aos mapas: todo o `data/text` e os `data/scripts`
+      compartilhados têm catálogo (09/10).
+- [x] Frases de treinador (intro, derrota, revanche): `trainers.inc`, 09/10.
 - [ ] Cartas, Easy Chat e vocabulário (decidir se ficam em inglês: o Easy Chat
       é trocado entre saves e jogos).
 - [ ] Braille das ruínas (o espanhol traduziu; avaliar).
