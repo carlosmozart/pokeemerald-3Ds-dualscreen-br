@@ -206,16 +206,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       CHAMADAS, a janela de subida de nível e POKé BOLAS no plural. Faltam a
       FRONTEIRA DE BATALHA (nomes das instalações a decidir), BOLSO DAS
       FRUTAS, concursos e textos soltos do mundo.
-- [ ] Arquivos comuns de `data/text` (feitos em 09/10: `save.inc`, `pc.inc`,
-      `surf.inc`, `pc_transfer.inc` com a pergunta do apelido,
-      `obtain_item.inc`). Pendentes, por ordem sugerida:
-  - [ ] `pokedex_rating.inc` (25): a avaliação da POKéDEX pelo Prof. Birch.
-  - [ ] `contest_strings.inc` (200), `contest_painting.inc` (27),
-        `contest_link.inc` (11): os concursos.
-  - [ ] `trick_house_mechadolls.inc` (45), `mauville_man.inc` (18),
-        `cable_club.inc` (13), `pokemon_news.inc` (12),
-        `secret_base_trainers.inc` (10), `questionnaire.inc` (8),
-        `abnormal_weather.inc` (2).
+- [ ] Arquivos comuns de `data/text`: passados ao PC dos mapas (Fase 7) em
+      09/10.
 - [x] FRONTEIRA DE BATALHA: nomes das instalações decididos em 09/10 (ver o
       glossário: TORRE, CÚPULA, FÁBRICA, PALÁCIO, ARENA, PICO e PIRÂMIDE DE
       BATALHA; CÉREBRO DA FRONTEIRA; PONTOS DE BATALHA, PB).
@@ -285,6 +277,10 @@ O maior volume do projeto, sem equivalente no wiki.
         de concursos, moça de LILYCOVE, LIQUIDIFICADOR, CENTRO DE CUIDADOS,
         BASES SECRETAS, árvores de FRUTA, golpes de campo, ROLETA e os
         PRESENTES MISTERIOSOS: 22 arquivos, cerca de 470 textos), 09/10
+  - [ ] O resto de `data/text` (concursos, `cable_club`,
+        `secret_base_trainers`, `trick_house_mechadolls`, `pokedex_rating`,
+        `mauville_man`, `pokemon_news`, `questionnaire`, `abnormal_weather`),
+        passado da Fase 6 em 09/10
   - [x] `apprentice.inc` (288), `battle_dome.inc` (114) e
         `frontier_brain.inc` (28): a FRONTEIRA DE BATALHA, passados da Fase 6
         e concluídos em 09/10
