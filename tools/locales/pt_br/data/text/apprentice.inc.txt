@@ -1,0 +1,242 @@
+# FRONTEIRA DE BATALHA: o APRENDIZ e as suas 16 personalidades.
+# O aprendiz chama quem joga de "sensei", que não marca gênero (no inglês, "master", "teacher", "mentor").
+
+[gText_ApprenticeChallenge0] ec7f99fbcf
+Hã, sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}.\nSnif… Que nervoso…$
+
+[gText_ApprenticeChallenge1] 19d12e4f33
+Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}!\nLá vamos nós!$
+
+[gText_ApprenticeChallenge2] bd66627be2
+Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}!\nAceite o meu desafio!$
+
+[gText_ApprenticeChallenge3] 05ab53eb67
+Hã… Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}…\nAcha que alguém como eu pode vencer?$
+
+[gText_ApprenticeChallenge4] 4c2a7ad170
+Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}!\nVou deixar você me desafiar!$
+
+[gText_ApprenticeChallenge5] 8291f575ec
+Tô ocupadíssimo, mas também sou\no aprendiz nº {STR_VAR_2} de {STR_VAR_1}.$
+
+[gText_ApprenticeChallenge6] 81f8b84ebe
+Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}.\nPrazer em conhecer!$
+
+[gText_ApprenticeChallenge7] febb58359c
+Sirvo como aprendiz nº {STR_VAR_2} de {STR_VAR_1}.\nPosso começar?$
+
+[gText_ApprenticeChallenge8] c62ed830c8
+Ai! Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}!\nVou dar o meu melhor!$
+
+[gText_ApprenticeChallenge9] 02d81ff14b
+Iiirrá! Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}!\nEm guarda!$
+
+[gText_ApprenticeChallenge10] 9ad27abae6
+Sou aprendiz nº 1.000 de {STR_VAR_1}!\nMentira, sou o nº {STR_VAR_2}! Lá vai!$
+
+[gText_ApprenticeChallenge11] 9814d57719
+Isso, sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}!\nBora fazer barulho!$
+
+[gText_ApprenticeChallenge12] 6f93457b74
+Iupi! Eu sou o que chamam de\naprendiz nº {STR_VAR_2} de {STR_VAR_1}!$
+
+[gText_ApprenticeChallenge13] c2b914dfee
+Cof! Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1}.\nPrazer! Cof!$
+
+[gText_ApprenticeChallenge14] dd19afff87
+Que nervoso…\nSou aprendiz nº {STR_VAR_2} de {STR_VAR_1}.$
+
+[gText_ApprenticeChallenge15] eda78508ed
+Sou aprendiz nº {STR_VAR_2} de {STR_VAR_1},\ne isso não é mentira.$
+
+[gText_ApprenticePleaseTeach0] 8776952940
+Você é… {PLAYER}?\nAh! Snif… buá…\pAh! D-desculpa…\nTô tão nervoso que não seguro o choro…\pEu sou {STR_VAR_1} e admiro muito\nvocê, {PLAYER}.\pEu… Eu sonhava em te conhecer um dia\ne te perguntar sobre POKéMON.\pPor favor, por favor, {PLAYER}!\nMe ensine sobre POKéMON!$
+
+[gText_ApprenticeRejectTeaching0] 610d459c0e
+Ah… M-mas…\nSnif… Buááááá!\pPor favor!\nEu te imploro, por favor!$
+
+[gText_ApprenticeWhichLevelMode0] 299d8d2937
+Sério? Vai me ensinar?\nDemais! Irado! Uhuuu!\pAh… Desculpa…\nTô tão feliz que tô chorando…\pHã… Então me diga!\nÉ sobre a TORRE DE BATALHA.\pO que é melhor pra mim: Nível 50\nou Nível Livre?$
+
+[gText_ApprenticeLevelModeThanks0] 8f1a60b141
+{STR_VAR_1}?\nBuááááá!\pAh! Desculpa!\nVocê escolheu o nível pra mim, e\lfiquei tão feliz que chorei…\pSnif…\nMuito obrigado!\lConverse comigo de novo!$
+
+[gText_ApprenticePleaseTeach1] 104dcbe4ae
+Uau! Você é {PLAYER}, né?\nVocê é forte demais, né?\pEu sou {STR_VAR_1}!\nAcabei de virar TREINADOR!\pPor favor, {PLAYER}!\nSeja meu sensei e me ensine\ltudo sobre ser TREINADOR!$
+
+[gText_ApprenticeRejectTeaching1] b11663ab3e
+Ah, por quê?\nPor favor? Por favorzinho?\lSeja meu sensei, por favor!$
+
+[gText_ApprenticeWhichLevelMode1] 84ad580e31
+Eba! Demais!\pA primeira coisa que eu queria\nperguntar é sobre a TORRE DE BATALHA!\pAs salas de Nível 50 e Nível Livre…\nQual é perfeita pra mim?$
+
+[gText_ApprenticeLevelModeThanks1] ebbd45d53b
+{STR_VAR_1}, é? É verdade!\nVou dar o meu melhor lá!\pSe a gente se encontrar aqui de novo,\nme ensine outra coisa, sensei!$
+
+[gText_ApprenticePleaseTeach2] 762ad0262c
+Hã… Você é {PLAYER}?\nMeu nome é {STR_VAR_1}.\pQuero ser TREINADOR POKéMON,\nmas não sei o que fazer…\pEntão pensei em te pedir conselhos,\njá que você tem tanta fama.\p{PLAYER}, pode me dar conselhos?$
+
+[gText_ApprenticeRejectTeaching2] 6d3e15c883
+Ah, mas…\pEu quero muito ser TREINADOR\nPOKéMON!\pPor favor, pode responder as\nminhas perguntas?$
+
+[gText_ApprenticeWhichLevelMode2] 8c66548482
+Obrigado!\nLá vai a minha primeira pergunta!\pA TORRE DE BATALHA tem dois níveis,\nNível 50 e Nível Livre, né?\pQual nível você acha mais\nadequado pra mim?$
+
+[gText_ApprenticeLevelModeThanks2] 1099c843dc
+Ah, o desafio de {STR_VAR_1}?\nEntendido!\pSe eu tiver outra pergunta, volto\naqui pra pedir o seu conselho!$
+
+[gText_ApprenticePleaseTeach3] 7c510c074d
+Ué? Hã? Você é…\nNão, não pode ser.\pNão tem como alguém como eu\nconhecer {PLAYER}.\p…Você é {PLAYER} mesmo?\nNão acredito que tô falando com você!\pQuando acontece algo tão bom,\nsó coisa ruim vem depois,\leu sei disso…\p…Desculpa…\nEu sou… {STR_VAR_1}…\pNão tenho nada de especial\nde que me orgulhar…\pNem devia falar de mim,\nporque você vai esquecer…\pEu sonhava que, se um dia te\nconhecesse, {PLAYER}, podia te pedir\lconselhos de TREINADOR.\pMas acho que você não\nconcordaria.\p…Ou você teria a bondade de\nme dar conselhos?$
+
+[gText_ApprenticeRejectTeaching3] bd032694f1
+Eu sabia…\pTinha que acontecer, porque sou\num zé-ninguém sem graça…\pMas pensei que talvez…\nVocê não vai reconsiderar, né?\pMas não posso desistir assim.\nVou pedir enquanto ainda tenho sorte!\pPor favor, teria a bondade de\nme dar conselhos?$
+
+[gText_ApprenticeWhichLevelMode3] e6880c7a95
+Sério? Não acredito!\nNão acredito que vai me aconselhar!\lEu… Tô tão feliz…\pO que eu quero perguntar é bobo,\nmas não consigo decidir…\pNa TORRE DE BATALHA, dá pra\nescolher Nível 50 ou Nível Livre.\pEm qual você acha que até eu\nteria uma chance?$
+
+[gText_ApprenticeLevelModeThanks3] cfa31cb005
+{STR_VAR_1}? Certo!\nMas acha mesmo que alguém como\leu teria uma chance?\pVou dar o meu melhor, mesmo\nachando que não vai dar certo.\pMuito obrigado por perder\ntempo com alguém como eu.$
+
+[gText_ApprenticePleaseTeach4] 8e07d2178f
+Ah! Você é {PLAYER}{KUN}, né?\pOuvi dizer que você é fera\nem POKéMON!\pEu sou {STR_VAR_1}!\nVou ser seu amigo!\pSabia?\pNão dá pra vencer na FRONTEIRA DE\nBATALHA só com o que se aprende\lna ESCOLA DE TREINADORES.\pTô disposto a ouvir os seus conselhos.\nVocê topa, claro?$
+
+[gText_ApprenticeRejectTeaching4] 001f0506c7
+Hã? Por que tá me recusando?\nSou eu que tô pedindo!\lVocê tem que reconsiderar!$
+
+[gText_ApprenticeWhichLevelMode4] 397eab4573
+Certo, então tem uma coisa.\nQuero que você decida pra mim.\pSabe que a TORRE DE BATALHA tem salas\nde Nível 50 e Nível Livre?\pQual você acha que seria boa\npra mim, {PLAYER}{KUN}?$
+
+[gText_ApprenticeLevelModeThanks4] 43be0cbb93
+Certo, {STR_VAR_1} é o certo pra mim?\nObrigado!\pSabendo que foi você que decidiu,\n{PLAYER}{KUN}, não vou ficar tão chateado\lse perder.\pBeleza, vou te pedir conselhos de novo.\nTchau!$
+
+[gText_ApprenticePleaseTeach5] 579fed617f
+Ah, oi! {PLAYER}{KUN}!\nTe conheço porque você tem fama!\lMe chame de {STR_VAR_1}! Prazer!\pSou TRIATLETA, então me mantenho\nem forma enquanto crio POKéMON.\pTambém faço outras coisas, tipo\ntrabalho, cochilo, dança de salão…\pCom tanta coisa, não é fácil\nvirar um bom TREINADOR.\pEntão, tenho uma proposta!\pDeve ter um motivo pra gente se\nconhecer. Então, {PLAYER}{KUN}, que tal\lme passar a sua sabedoria às vezes?$
+
+[gText_ApprenticeRejectTeaching5] 0ec0b96f6c
+Ah, mas, por favor?\nUm cara como eu precisa de alguém\lcomo você, {PLAYER}{KUN}!\pSério, preciso dos seus conselhos!$
+
+[gText_ApprenticeWhichLevelMode5] efbb347467
+Valeu! Assim que é bom!\nEntão, vamos começar com uma fácil!\pSabe dos dois cursos da\nTORRE DE BATALHA, né?\lNível 50 e Nível Livre.\pComo sou um cara ocupado, pra qual\neu devo me preparar?$
+
+[gText_ApprenticeLevelModeThanks5] cad7f8678c
+{STR_VAR_1}, é? Beleza, saquei.\nVou arranjar tempo e tentar!\p…Opa, tenho que ir trabalhar!\nValeu! Até mais!$
+
+[gText_ApprenticePleaseTeach6] 706cfce011
+Não acredito! Nada a ver!\nVocê é {PLAYER} de verdade?\pA-há! Demais! Eu sou {STR_VAR_1},\nmuito prazer!\p{PLAYER}, você é muito forte,\nné?\pTodo mundo fala de você!\pAh! Tive uma ideia genial!\nVou pegar conselhos com você, {PLAYER}!\lCom certeza vou ficar mais forte!\pNão é uma ideia genial?\nPor favor, quero os seus conselhos!$
+
+[gText_ApprenticeRejectTeaching6] 14dbabaabb
+Ahahaha, pode fingir maldade,\nmas não me engana!\lNo fundo quer dizer sim, né?$
+
+[gText_ApprenticeWhichLevelMode6] b53d0578ef
+Eba! Eu sabia que você tinha um\ncoração enorme, {PLAYER}!\pO que eu pergunto primeiro?\n…Ah, pensei numa coisa!\pRufem os tambores!\nA minha pergunta é…\pSe eu fosse encarar a TORRE DE\nBATALHA, que caminho eu sigo?\pNível 50 ou Nível Livre?\nQual combina mais comigo?$
+
+[gText_ApprenticeLevelModeThanks6] a38fe236c7
+Oh-oh-oh!\n{STR_VAR_1}, você diz!\lValeu pela resposta superlegal!\pAcho que era tudo que eu queria\nte perguntar hoje.\pVamos nos ver aqui de novo, tá?\nValeu!$
+
+[gText_ApprenticePleaseTeach7] 2e82a8051b
+Com licença, mas…\nVocê é {PLAYER}?\pEu sou {STR_VAR_1}, e é um prazer\nconhecer você.\pHá muito tempo eu te\nadmiro…\p… … … … … …\pHã… Espero que este pedido não\nseja um fardo, mas…\pPosso ser seu aprendiz,\n{PLAYER}?$
+
+[gText_ApprenticeRejectTeaching7] ac90e2cfa1
+Oh…!\p… … … … … …\n… … … … … …\p…Devo ter desmaiado de susto.\nDesculpe, devo ter ouvido errado.\pPor favor! Diga que vai me aceitar\ncomo seu aprendiz!$
+
+[gText_ApprenticeWhichLevelMode7] b38a6c3d25
+Oh… Que alegria!\pNão quero tomar o seu tempo,\nentão me aconselhe sobre isto.\pPretendo encarar a TORRE DE BATALHA\nem breve.\pMas há dois níveis…\pQual seria o mais adequado pra mim?\nNível 50 ou Nível Livre?$
+
+[gText_ApprenticeLevelModeThanks7] eb9c1d3df2
+Você escolheu {STR_VAR_1}!\nEntendo. Vou dar o meu melhor!\pObrigado, {PLAYER}.\nEspero poder contar com você de novo.\lSe cuide!$
+
+[gText_ApprenticePleaseTeach8] 23afbdc8d8
+Ai! Ai! {PLAYER}!\nVocê falou comigo!\lE… Eu tô nas nuvens!\pEu! Meu nome é {STR_VAR_1}!\nAcabei de começar a treinar!\pQue alegria te conhecer, {PLAYER},\no grande nome do mundo POKéMON!\pOh-oh-oh, já sei!\nPosso te pedir um favorzão, {PLAYER}?\pMe aceite como aprendiz!\nQuero aprender com você!$
+
+[gText_ApprenticeRejectTeaching8] 556a7224c5
+Buááá!\n{PLAYER} me recusou…\lÉ… É uma experiência preciosa!\p{PLAYER}, por favor! Quero ouvir\num sim desta vez!\pEu imploro pela sua orientação!$
+
+[gText_ApprenticeWhichLevelMode8] 6cc5fa29cd
+Iiiih! {PLAYER} disse sim!\n{PLAYER} disse sim!\pNão vou conseguir dormir hoje…\nValeu demais!\pEntão, lá vai a minha pergunta!\pNa TORRE DE BATALHA, o que é melhor\npra mim, Nível 50 ou Nível Livre?$
+
+[gText_ApprenticeLevelModeThanks8] 54c7db2195
+{STR_VAR_1}! Entendido!\nEntendi perfeitamente!\lTô radiante de alegria!\pEspero que você queira me ensinar\nmais outra hora.$
+
+[gText_ApprenticePleaseTeach9] 62270a4332
+Uau! Será que você é…\nSerá que é… {PLAYER}{KUN}?!\lQuem treina com tanta força e fama?\lOra, olá, que sorte a minha!\pOlá, o nome é {STR_VAR_1}!\pEu tava procurando um\nsensei de POKéMON.\pE, na hora certinha,\napareceu você, {PLAYER}{KUN}!\pEntão é isso, {PLAYER}{KUN}!\nMe deixe ser seu aprendiz!$
+
+[gText_ApprenticeRejectTeaching9] d555352e90
+Gwaaaah!\nQuanta frieza…\pNão faça isso, por favor.\nTô te pedindo!$
+
+[gText_ApprenticeWhichLevelMode9] 473e5af770
+Ah, é! Isso é que é resposta!\nExcelente, diria eu!\pEntão, que tal um primeiro conselho\nsobre a TORRE DE BATALHA?\pSe eu fosse, o que seria melhor?\nNível 50 ou Nível Livre?$
+
+[gText_ApprenticeLevelModeThanks9] 859f62ec32
+Aham, {STR_VAR_1} então!\nOK, tudo OK!\lVou mostrar do que sou feito, pá!\pBeleza, vou te seguir como sensei!\nAdiós!$
+
+[gText_ApprenticePleaseTeach10] 6070011014
+Ah, ei, {PLAYER}{KUN}, né?\nA polícia tava te procurando!\p… … …\nÉ claro que é mentira!\pEu sou {STR_VAR_1}. Apesar da cara,\nsou CAMPEÃO da LIGA POKéMON!\l…Isso também é mentira!\pMas isto não é mentira:\nnão sou muito bom em batalhas.\pEntão, que tal você virar o meu\nsensei em tudo sobre POKéMON?$
+
+[gText_ApprenticeRejectTeaching10] 4b72121e02
+Se vai ser frio assim comigo,\nvou te mostrar o que eu faço!\pBuááá! Buááá! Buááá!\nHic!\pHahaha, foi o meu CHORO FALSO!\pVamos, aceita ser o meu\nsensei de POKéMON?$
+
+[gText_ApprenticeWhichLevelMode10] aea50da3e1
+Iupi!\nVou te dar um barco por isso!\pÉ claro que é mentira de novo!\nMas… Obrigado, sensei!\pSabe que tem Nível 50 e\nNível Livre na TORRE DE BATALHA?\pTô com dificuldade pra decidir\nqual nível eu desafio…\pPode decidir por mim, sensei?$
+
+[gText_ApprenticeLevelModeThanks10] 45c52c2d7f
+Certo, então {STR_VAR_1} é melhor!\nVou no outro nível, então!\pBrincadeira!\nVou seguir o seu ensinamento, sensei!\pValeu, sensei!\nEspero que continue me ensinando!$
+
+[gText_ApprenticePleaseTeach11] e48701f879
+O-L-Á!\nSoletrei olá, e quer dizer oi, já!\pEu sou {STR_VAR_1}, o MARINHEIRO\nque rima por aí!\pAgora é a sua vez, fale um pouco\nde você, vai que é sua!\pAham, aham!\n{PLAYER}{KUN} é o seu nome,\le POKéMON é o que te consome!\pE tá numa idade especial,\nem que o mundo é o seu palco total!\pEnfim, só quero dizer\nque você é a décima pessoa\lque falou comigo, pode crer.\pVamos fazer uma celebração!\nSeja meu sensei pra comemoração!$
+
+[gText_ApprenticeRejectTeaching11] 01e80f3c6c
+Mas!\nVocê tem que me ajudar!\pNão me deixa na saudade!\nSeja meu sensei, de verdade!$
+
+[gText_ApprenticeWhichLevelMode11] e2f7e71ffb
+É isso aí!\n{PLAYER}, você tem garra, sim!\pEntão lá vai a primeira questão,\nque pede a sua opinião!\pÉ sobre a TORRE DE BATALHA,\ne o meu poder é o que lá trabalha!\pNível 50 e Nível Livre tem lá,\nqual dos dois pra mim será?$
+
+[gText_ApprenticeLevelModeThanks11] 6ce7594d14
+Certo, {STR_VAR_1}, você me diz!\nVou encarar e ser feliz!\pSe um conselho eu precisar,\n{PLAYER}, sua palavra vou escutar!$
+
+[gText_ApprenticePleaseTeach12] 6c016ef129
+Ei, olha, você não é {PLAYER}?\nO que eu faço? Falo com você?\lPor que não? Já tô falando, pô!\p{PLAYER}, se espantou comigo?\nDeixa eu te contar quem eu sou, amigo!\pPode me chamar de {STR_VAR_1}.\nA estrela mais brilhante da guitarra,\lsou eu, na marra!\pTá me ouvindo?\nTá me ouvindo, sim!\pMinha sorte tá no auge,\nvou te fazer um pedido, que charme!\p{PLAYER}, quero ser seu pupilo!\nQuero aprender tudo, tim-tim por tim-tim!$
+
+[gText_ApprenticeRejectTeaching12] fbbcf26b52
+Tá me recusando, então?\nVou ter que pedir de novo, irmão!\p{PLAYER}, imploro pra ser seu pupilo!\nQuero aprender tudo,\ltim-tim por tim-tim!$
+
+[gText_ApprenticeWhichLevelMode12] d0044d6326
+Que sorte, é, uhuu!\nPosso perguntar pra tu?\pTamos perto da TORRE DE BATALHA,\nentão a pergunta é dela, não falha!\pDas opções que você vê,\nqual é a certa pra mim, me diz você?$
+
+[gText_ApprenticeLevelModeThanks12] c9753ff816
+Se {STR_VAR_1} é o que você sugere,\ndeve ser o melhor, ninguém discute!\pBom, {PLAYER}, tenho que vagar por aí,\nmas não se esqueça de mim.\pAté mais, minha fera esperta!$
+
+[gText_ApprenticePleaseTeach13] 79e3d2f0ed
+Ah, oi! Você aí!\nPode me fazer uma massagem no ombro?\p…Isso, aí! É isso!\nAi, ai! Aaah, que delícia!\pMeu nome é {STR_VAR_1}.\nTreino caratê, mas o meu corpo\lnão aguenta o tranco…\pDecidi batalhar com POKéMON pra\nme fortalecer.\pVocê é {PLAYER}{KUN}, né?\nQuem chegou ao topo da LIGA POKéMON?\pEscuta, pode me dar uns\nconselhos?$
+
+[gText_ApprenticeRejectTeaching13] 0698afe4a9
+Ah, por quê?\pNão vou dar trabalho, prometo!\nPor favor?$
+
+[gText_ApprenticeWhichLevelMode13] 6c0c2c3881
+Obrigado. Muito gentil da sua parte!\n…Cof! Cof!\pUfa, tenho que ficar forte logo…\pVou pra TORRE DE BATALHA agora\nmesmo, mas o que seria melhor\lpra mim? Nível 50 ou Nível Livre?$
+
+[gText_ApprenticeLevelModeThanks13] daceadcbc2
+Hm, certo. É {STR_VAR_1}.\nVou lá agora mesmo.\pEspero poder continuar te pedindo\najuda… afinal, você é meu sensei!$
+
+[gText_ApprenticePleaseTeach14] 3e99ba3798
+Hã… Hum…\n{PLAYER}{KUN}…?\pPor favor, não me olhe assim.\nVocê me deixa sem graça.\pE… Eu sou {STR_VAR_1}.\pTenho vergonha de dizer, mas\nexploro ruínas antigas e tal.\pTenho mais vergonha ainda de admitir\nque me interesso pela FRONTEIRA.\p{PLAYER}{KUN}, você tem fama de\ntreinar com muita força…\pÉ difícil pra mim dizer isso,\nmas quero te pedir uma coisa.\pPode ser meu sensei e me\ndar conselhos?$
+
+[gText_ApprenticeRejectTeaching14] a74d39d735
+Por favor, não me dispense assim!\nNão aguento essa humilhação.\pSeja meu sensei, por favor!\nPreciso dos seus conselhos!$
+
+[gText_ApprenticeWhichLevelMode14] cbb7db6cb9
+O-obrigado…\pMas, por favor, não me olhe assim.\nMe deixa todo atrapalhado.\pPor favor, responda sem olhar\nnos meus olhos.\pNa TORRE DE BATALHA…\nQual nível eu devo tentar?$
+
+[gText_ApprenticeLevelModeThanks14] 77656a668d
+Ah… Certo!\nVou tentar esse.\pEspero fazer um desafio valente\nsem ficar todo atrapalhado…\pObrigado, {PLAYER}{KUN}.\nSe a gente se encontrar de novo,\lespero que me ajude assim.$
+
+[gText_ApprenticePleaseTeach15] ac40df9c5c
+Hm? Você parece ser {PLAYER}{KUN}…\nMas é de verdade mesmo?\pPode me chamar de {STR_VAR_1}.\pVenho pensando em ser aprendiz\nde quem treina com muita força.\pEntão, devo dizer que tive sorte\nde você aparecer!\p…Você é mesmo {PLAYER}{KUN}, certo?\pNão, não, se for de verdade, tudo bem.\nSó quero que me reconheça\lcomo seu aprendiz.$
+
+[gText_ApprenticeRejectTeaching15] d9e07094db
+Oh?\nMas o que te levaria a recusar?\pPeço desculpas por duvidar\nda sua identidade.\pAceite as minhas desculpas e\nme aceite como seu aprendiz.$
+
+[gText_ApprenticeWhichLevelMode15] acbdfdf130
+Está mesmo me aceitando?\nNão quero comemorar antes da hora.\pSe for verdade, peço desculpas.\nMas agora preciso do seu conselho.\pSe eu fosse à TORRE DE BATALHA,\no que seria digno de mim?\lNível 50 ou Nível Livre?$
+
+[gText_ApprenticeLevelModeThanks15] 3bd7abf8a9
+{STR_VAR_1}?\nTem certeza?\pEntendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pSei que posso incomodar, mas me\nalegra que tenha me aceitado.\pAté a próxima!$
