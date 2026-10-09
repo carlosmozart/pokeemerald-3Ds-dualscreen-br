@@ -141,6 +141,11 @@ Os nomes dos POKéMON não se traduzem.
 | Space Center | CENTRO ESPACIAL | |
 | Diving Treasure Hunter | CAÇADOR DE TESOUROS SUBMARINOS | |
 | Warp panel | painel de teletransporte | |
+| Rain Badge | INSÍGNIA DA CHUVA | |
+| Seafloor Cavern | CAMINHO SUBMARINO | |
+| Submarine Explorer 1 | EXPLORADOR SUBMARINO 1 | |
+| Full Restore | RESTAURAÇÃO TOTAL | RESTAURAÇÃO no nome do item |
+| inches (tamanho do SEEDOT/LOTAD) | polegadas | o número vem do código em polegadas; trocar por cm exige um patch |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
