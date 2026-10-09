@@ -136,6 +136,11 @@ Os nomes dos POKéMON não se traduzem.
 | Curator / Art Dealer | CURADOR / NEGOCIANTE DE ARTE | |
 | Ferry S.S. Tidal | balsa S.S. TIDAL | |
 | Mt. Pyre Pier | PÍER DO MONTE PYRE | |
+| Mind Badge | INSÍGNIA DA MENTE | |
+| Aqua Hideout | ESCONDERIJO AQUA | |
+| Space Center | CENTRO ESPACIAL | |
+| Diving Treasure Hunter | CAÇADOR DE TESOUROS SUBMARINOS | |
+| Warp panel | painel de teletransporte | |
 | Devon Corporation / Mr. Stone | CORPORAÇÃO DEVON / SR. STONE | |
 | Pokémon Trainer's School | ESCOLA DE TREINADORES POKéMON | |
 | Fossil Regenerator / Shipyard | REGENERADOR DE FÓSSEIS / ESTALEIRO | |
