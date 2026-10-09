@@ -136,6 +136,7 @@ Os nomes dos POKéMON não se traduzem.
 | Trainer Hill | COLINA DOS TREINADORES | |
 | Time Attack / Time Board | Contra o Tempo / Quadro de Tempos | COLINA DOS TREINADORES |
 | Faraway Island | ILHA DISTANTE | |
+| Mimic Circle | CLUBE DA MÍMICA | treinadores da ROTA 119 |
 | Safari Game / Pokéblock Feeder / Rest House | Jogo do SAFÁRI / COMEDOURO DE {POKEBLOCK} / CASA DE DESCANSO | ZONA DE SAFÁRI |
 | Jagged Pass | TRILHA ESCARPADA | |
 | Cable Car | TELEFÉRICO | |
