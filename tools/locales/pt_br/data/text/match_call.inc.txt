@@ -317,7 +317,7 @@ Eba! Aqui é {STR_VAR_1}!\nE aí?\pPode ser coisa da minha cabeça, mas\nquando 
 E aí! É {STR_VAR_1}.\nTá levando de boa?\pDesde pequeno, sabe, eu\nsempre fui tranquilo, né?\pNunca fui de me estressar\nnem de apressar as coisas.\pMas não é que agora eu\nsou TRIATLETA?\pNunca dá pra saber aonde a vida\nvai te levar, sacou?\pVocê treina POKéMON agora, mas\nquem sabe o que vem por aí, né?\pImagina você dando aula, ou\nsendo artista. Massa, né?\pMas, ó, relaxa. Leva de boa.\nAté mais.$
 
 [MatchCall_PersonalizedText35] 528328aeb4
-Aqui é {STR_VAR_1}!\nTô pedalando agora.\pAdoro nadar e correr, mas\npedalar é o meu primeiro amor!\pMe faz sentir o corpo todo\nem sintonia com o vento.\pMe empolga como se eu\nestivesse voando!\pBeleza! Hoje vou bater o recorde\nda PISTA DE CICLISMO!\pVocê devia tentar também!\nAté mais!$
+Aqui é {STR_VAR_1}!\nTô pedalando agora.\pAdoro nadar e correr, mas\npedalar é o meu primeiro amor!\pMe faz sentir o corpo todo\nem sintonia com o vento.\pMe empolga como se eu\nestivesse voando!\pBeleza! Hoje vou bater o recorde\nda ESTRADA DE BICICLETA!\pVocê devia tentar também!\nAté mais!$
 
 [MatchCall_PersonalizedText36] c478eb34c2
 Fala, aqui é {STR_VAR_1}! Tô bem\nno meio de um triatlo!\pMas, ó, sempre tenho tempo\npra jogar conversa fora!\pTreinar com POKéMON é\nmuito bom!\pSem dizer nada, a gente se entende\ncomo se tivesse um só coração.\pÉ inspirador!\pUf… Falar correndo…\nTô ficando sem fôlego…\lUf… Tenho… que… ir…$
@@ -489,3 +489,237 @@ Ah, olá, {PLAYER}{KUN}!\nAqui é {STR_VAR_1}!\lEspero que esteja tudo bem.\pDiz
 
 [MatchCall_BattleFrontierRecordStreakText14] bc9f9c7054
 Ah, oi, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\lOuvi falar de você!\pVocê não venceu {STR_VAR_3} batalhas\nseguidas em {STR_VAR_2}?\pVocê é uma inspiração!\nTchauzinho!$
+
+[MatchCall_BattleDomeText1] c2516b2e80
+Oi! {PLAYER}?\nOlá, aqui é {STR_VAR_1}!\lFiquei sabendo da novidade!\pVocê ganhou o título em\n{STR_VAR_2} {STR_VAR_3} vezes?\pDemais! Tenho que melhorar!\nAté mais!$
+
+[MatchCall_BattleDomeText2] 292adc3853
+Olá, é {STR_VAR_1}!\nOuvi falar de você!\pDisseram que você ganhou {STR_VAR_3}\ntítulos em {STR_VAR_2}.\pQue incrível! Será que eu consigo\nganhar um título?$
+
+[MatchCall_BattleDomeText3] 7a66b5298c
+E aí, {PLAYER}!\nSou eu, {STR_VAR_1}.\lComo vão as coisas?\pSoube que você venceu {STR_VAR_3} vezes\nem {STR_VAR_2}!\pDa próxima, faça mais uma!\nAté já!$
+
+[MatchCall_BattleDomeText4] cbbef9d2e8
+E aí, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\pSoube que você ganhou o título\nem {STR_VAR_2} {STR_VAR_3} vezes.\pParece que você tá se esforçando.\nVou tentar acompanhar!$
+
+[MatchCall_BattleDomeText5] 7b819932ac
+Oi, {PLAYER}{KUN}!\nÉ {STR_VAR_1}.\pSoube que você venceu\n{STR_VAR_3} vezes em {STR_VAR_2}.\pTambém tenho que me mexer!\nAté já!$
+
+[MatchCall_BattleDomeText6] db7852b70e
+E aí, {PLAYER}{KUN}?\nAqui é {STR_VAR_1}. Como vai?\pAliás, soube que você ganhou\no título {STR_VAR_3} vezes\lem {STR_VAR_2}.\pÉ melhor eu treinar meus POKéMON\nantes que você se distancie mais.$
+
+[MatchCall_BattleDomeText7] 3b91288846
+{PLAYER}{KUN}?\nAqui é {STR_VAR_1}.\pVocê foi em {STR_VAR_2}\ne ganhou o título {STR_VAR_3} vezes?\pLegal. Aliás, capturou algum\nPOKéMON raro ultimamente?\pAh, é mesmo.\nBeleza, tchau.$
+
+[MatchCall_BattleDomeText8] aeb140e04e
+Ah, {PLAYER}{KUN}, como vai?\nQuem fala é {STR_VAR_1}.\lEspero que esteja tudo bem.\lAh, mas está.\pSoube que você ganhou\n{STR_VAR_3} títulos em {STR_VAR_2}.\pPreciso treinar meus POKéMON como\nvocê. Até mais.$
+
+[MatchCall_BattleDomeText9] 1a20942cc2
+Ah, {PLAYER}{KUN}, oi!\nAqui é {STR_VAR_1}!\pFiquei sabendo! Você levou o título\n{STR_VAR_3} vezes em {STR_VAR_2}!\pQue demais!\nTambém tenho que me esforçar!$
+
+[MatchCall_BattleDomeText10] 0b473b0605
+Ah, {PLAYER}{KUN}, olá.\nAqui é {STR_VAR_1}.\pVocê venceu {STR_VAR_3} vezes\nseguidas em {STR_VAR_2}?\pÉ uma conquista e tanto.\nPreciso me esforçar mais.$
+
+[MatchCall_BattleDomeText11] 0d95a20e44
+Ah, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\pDizem que você é o terror\nde {STR_VAR_2}?\pVenceu, o quê, {STR_VAR_3} vezes\nseguidas?\pSerá que um dia eu consigo\nganhar um título?\p…Impossível, né?\nBom, até mais!$
+
+[MatchCall_BattleDomeText12] 3274c78c13
+Olá, {PLAYER}{KUN}.\nSou eu, {STR_VAR_1}.\lTudo bem com você?\pVocê venceu {STR_VAR_3} torneios num\nlugar chamado {STR_VAR_2}?\pQue história, hein.\nAté mais!$
+
+[MatchCall_BattleDomeText13] cf5f22e5b7
+Ah, olá, {PLAYER}{KUN}!\nAqui é {STR_VAR_1}!\lEspero que esteja tudo bem.\pDizem que você venceu {STR_VAR_3}\ntorneios em {STR_VAR_2}?\pAdmiro a sua energia!\nTchau.$
+
+[MatchCall_BattleDomeText14] eb0f0e592b
+Ah, oi, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\lOuvi falar de você!\pVocê não ganhou {STR_VAR_3} títulos\nem {STR_VAR_2}?\pVocê é uma inspiração!\nAté mais!$
+
+[MatchCall_BattlePikeText1] 589f541bab
+Oi! {PLAYER}?\nOlá, aqui é {STR_VAR_1}!\lFiquei sabendo da novidade!\pVocê passou por {STR_VAR_3} salas\nem {STR_VAR_2}!\pDemais!\nAté mais!$
+
+[MatchCall_BattlePikeText2] 080ed62b90
+Olá, é {STR_VAR_1}!\nOuvi falar de você!\pDisseram que você venceu\n{STR_VAR_3} salas em {STR_VAR_2}.\pTenho que me esforçar muito mais!\nTchau!$
+
+[MatchCall_BattlePikeText3] a73d6373e2
+E aí, {PLAYER}!\nSou eu, {STR_VAR_1}.\lComo vão as coisas?\pSoube que você venceu {STR_VAR_3} salas\nem {STR_VAR_2}!\pDa próxima, tente ir mais longe!\nAté já!$
+
+[MatchCall_BattlePikeText4] 36112b79ef
+E aí, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\pSoube que você atravessou {STR_VAR_3}\nsalas em {STR_VAR_2}.\pÉ melhor eu treinar meus POKéMON\npra acompanhar!$
+
+[MatchCall_BattlePikeText5] 6cdd4fe528
+Oi, {PLAYER}{KUN}!\nÉ {STR_VAR_1}.\pSoube que você passou de {STR_VAR_3}\nsalas em {STR_VAR_2}.\pTambém tenho que me mexer!\nAté já!$
+
+[MatchCall_BattlePikeText6] af15b11cae
+E aí, {PLAYER}{KUN}?\nAqui é {STR_VAR_1}. Como vai?\pAliás, soube que você passou por\n{STR_VAR_3} salas em {STR_VAR_2}.\pÉ melhor eu treinar meus POKéMON\nantes que você se distancie mais.$
+
+[MatchCall_BattlePikeText7] 3de9716b32
+{PLAYER}{KUN}?\nAqui é {STR_VAR_1}.\pVocê foi em {STR_VAR_2}\ne venceu {STR_VAR_3} salas?\pQue irado.\pAh, lá vai um POKéMON raro!\nBeleza, tchau.$
+
+[MatchCall_BattlePikeText8] 867473e19c
+Ah, {PLAYER}{KUN}, como vai?\nQuem fala é {STR_VAR_1}.\lEspero que esteja tudo bem.\lAh, mas está.\pSoube que você passou por\n{STR_VAR_3} salas em {STR_VAR_2}.\pÉ muito impressionante!\nPreciso treinar meus POKéMON como\lvocê. Até mais.$
+
+[MatchCall_BattlePikeText9] 0ad5e5d414
+Ah, {PLAYER}{KUN}, oi!\nAqui é {STR_VAR_1}!\pFiquei sabendo! Você venceu\n{STR_VAR_3} salas em {STR_VAR_2}!\pQue demais!\nTambém tenho que me esforçar!$
+
+[MatchCall_BattlePikeText10] c33782aacd
+Ah, {PLAYER}{KUN}, olá.\nAqui é {STR_VAR_1}.\pVocê venceu {STR_VAR_3} salas\nem {STR_VAR_2}?\pÉ uma conquista e tanto.\nPreciso me esforçar mais.$
+
+[MatchCall_BattlePikeText11] d1d9870f3a
+Ah, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\pDizem que você é o terror\nde {STR_VAR_2}?\pPassou por, o quê, {STR_VAR_3} salas?\nIsso tem que valer alguma coisa.\pSerá que um dia eu consigo\nganhar um título?\p…Impossível, né?\nBom, até mais!$
+
+[MatchCall_BattlePikeText12] d756c04675
+Olá, {PLAYER}{KUN}.\nSou eu, {STR_VAR_1}.\lTudo bem com você?\pVocê venceu {STR_VAR_3} salas num\nlugar chamado {STR_VAR_2}?\pQue história, hein.\nAté mais!$
+
+[MatchCall_BattlePikeText13] b9a64f7926
+Ah, olá, {PLAYER}{KUN}!\nAqui é {STR_VAR_1}!\lEspero que esteja tudo bem.\pDizem que você venceu\n{STR_VAR_3} salas em {STR_VAR_2}?\pAdmiro a sua energia!\nTchau.$
+
+[MatchCall_BattlePikeText14] 99199d70ee
+Ah, oi, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\lOuvi falar de você!\pVocê não passou por {STR_VAR_3} salas\nem {STR_VAR_2}?\pVocê é uma inspiração!\nAté mais!$
+
+[MatchCall_BattlePyramidText1] f1467f3ff0
+Oi! {PLAYER}?\nOlá, aqui é {STR_VAR_1}!\lFiquei sabendo da novidade!\pVocê subiu {STR_VAR_3} andares\nem {STR_VAR_2}, né?\pDemais!\nTenho que tentar esse desafio.$
+
+[MatchCall_BattlePyramidText2] e171a2a4cc
+Olá, é {STR_VAR_1}!\nOuvi falar de você!\pDisseram que você venceu\n{STR_VAR_3} andares em {STR_VAR_2}.\pNossa, que fantástico!\nTambém vou treinar meus POKéMON!$
+
+[MatchCall_BattlePyramidText3] 0f124e6de7
+E aí, {PLAYER}!\nSou eu, {STR_VAR_1}.\lComo vão as coisas?\pSoube que você subiu\n{STR_VAR_3} andares em {STR_VAR_2}!\pDa próxima, tente ir mais longe!\nAté já!$
+
+[MatchCall_BattlePyramidText4] 5e9a0fcd65
+E aí, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\pSoube que você escalou {STR_VAR_3}\nandares em {STR_VAR_2}.\pÉ melhor eu me esforçar\npra acompanhar!$
+
+[MatchCall_BattlePyramidText5] da945a058c
+Oi, {PLAYER}{KUN}!\nÉ {STR_VAR_1}.\pSoube que você subiu\n{STR_VAR_3} andares em {STR_VAR_2}.\pTambém tenho que me mexer!\nAté já!$
+
+[MatchCall_BattlePyramidText6] cbd1801f94
+E aí, {PLAYER}{KUN}?\nAqui é {STR_VAR_1}. Como vai?\pAliás, soube que você passou por\n{STR_VAR_3} andares em {STR_VAR_2}.\pÉ melhor eu treinar meus POKéMON\nantes que você se distancie mais.$
+
+[MatchCall_BattlePyramidText7] 7dd9690a4f
+{PLAYER}{KUN}?\nAqui é {STR_VAR_1}.\pVocê foi em {STR_VAR_2}\ne subiu {STR_VAR_3} andares?\pLegal. Tinha algum POKéMON raro\nlá?\pNão, né?\nBeleza, tchau.$
+
+[MatchCall_BattlePyramidText8] 6ff0a6e356
+Ah, {PLAYER}{KUN}, como vai?\nQuem fala é {STR_VAR_1}.\lEspero que esteja tudo bem.\lAh, mas está.\pSoube que você passou por\n{STR_VAR_3} andares em {STR_VAR_2}.\pÉ muito impressionante!\nPreciso treinar meus POKéMON como\lvocê. Até mais.$
+
+[MatchCall_BattlePyramidText9] 7bfc75cccf
+Ah, {PLAYER}{KUN}, oi!\nAqui é {STR_VAR_1}!\pFiquei sabendo! Você venceu\n{STR_VAR_3} andares em {STR_VAR_2}!\pQue demais!\nTambém tenho que me esforçar!$
+
+[MatchCall_BattlePyramidText10] 3604f0bba8
+Ah, {PLAYER}{KUN}, olá.\nAqui é {STR_VAR_1}.\pVocê subiu {STR_VAR_3} andares\nem {STR_VAR_2}?\pÉ uma conquista e tanto.\nPreciso me esforçar mais.$
+
+[MatchCall_BattlePyramidText11] 49b260abcc
+Ah, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\pDizem que você é o terror\nde {STR_VAR_2}?\pSubiu, o quê, {STR_VAR_3} andares?\nIsso tem que valer alguma coisa.\pSerá que um dia eu consigo\nganhar um título?\p…Impossível, né?\nBom, até mais!$
+
+[MatchCall_BattlePyramidText12] 9e96c731bd
+Olá, {PLAYER}{KUN}.\nSou eu, {STR_VAR_1}.\lTudo bem com você?\pVocê venceu {STR_VAR_3} andares num\nlugar chamado {STR_VAR_2}?\pQue história, hein.\nAté mais!$
+
+[MatchCall_BattlePyramidText13] 8165a28385
+Ah, olá, {PLAYER}{KUN}!\nAqui é {STR_VAR_1}!\lEspero que esteja tudo bem.\pDizem que você subiu\n{STR_VAR_3} andares em {STR_VAR_2}?\pAdmiro a sua energia!\nTchau.$
+
+[MatchCall_BattlePyramidText14] 626cbccfea
+Ah, oi, {PLAYER}{KUN}.\nAqui é {STR_VAR_1}.\lOuvi falar de você!\pVocê não passou por {STR_VAR_3} andares\nem {STR_VAR_2}?\pVocê é uma inspiração!\nAté mais!$
+
+[MatchCall_Text_Mom1] dea6666309
+MAMÃE: Seu pai e você…\nTodo mundo é louco por POKéMON.\pQual é o encanto dos POKéMON?\pEu?\nEu adoro os POKéMON que me\lajudam nas tarefas de casa.$
+
+[MatchCall_Text_Mom2] c8eb918f6c
+MAMÃE: Oi, {PLAYER}!\nSeu pai vive trancado no\lGINÁSIO de PETALBURG.\pEle vem pra casa de vez em quando.\nMas volta pro GINÁSIO assim\lque come tudo o que pode.\pAcho que perder pra você foi\num golpe e tanto no orgulho dele!$
+
+[MatchCall_Text_Mom3] ae252a6cdb
+MAMÃE: {PLAYER}…\nNão se preocupe comigo nem com a casa.\pUse esse TÊNIS DE CORRER até\nele se desmanchar, meu bem!$
+
+[MatchCall_Text_Roxanne1] f5def52413
+ROXANNE: Ah, olá, {PLAYER}!\pTenho me dedicado a treinar\nde novo desde que a gente se viu.\pAinda preciso de um tempo\nantes de reabrir o GINÁSIO.\pMas, quando reabrir, venha ao\nmeu GINÁSIO pra uma revanche!$
+
+[MatchCall_Text_Roxanne2] 0d2c878392
+ROXANNE: É {PLAYER}?\nParabéns!\lTenho ouvido falar de você!\pQuanto a mim, ainda preciso de um\ntempo antes de reabrir o GINÁSIO.\pMas, quando reabrir, venha ao\nmeu GINÁSIO pra uma revanche!$
+
+[MatchCall_Text_Roxanne3] e23fa733dc
+ROXANNE: {PLAYER}!\nMeu GINÁSIO está pronto!\pVenha a RUSTBORO sempre\nque puder!$
+
+[MatchCall_Text_Roxanne4] f725696728
+ROXANNE: No GINÁSIO de RUSTBORO,\nter batalhado com você, {PLAYER},\lé motivo de orgulho.$
+
+[MatchCall_Text_Brawly1] e6ba9d6b4f
+BRAWLY: E aí, {PLAYER}{KUN}!\pAprendi muito com a batalha\nque a gente teve.\pPretendo refazer o meu treino\ne depois reabrir o GINÁSIO.\pVai levar um tempo até eu estar\npronto pra cuidar do GINÁSIO de novo.\pMas, se eu reabrir o GINÁSIO,\nquero que você desafie a gente de novo.$
+
+[MatchCall_Text_Brawly2] af8fbe5e2a
+BRAWLY: E aí, {PLAYER}{KUN}!\nParabéns!\pAs notícias das suas façanhas\nchegaram com o vento da maré!\pParece que preciso caprichar\nmais no meu treino.\pVai levar um tempo até eu estar\npronto pra cuidar do GINÁSIO de novo.\pMas, se eu reabrir o GINÁSIO,\nquero que você desafie a gente de novo.$
+
+[MatchCall_Text_Brawly3] f2efd0ded9
+BRAWLY: E aí, {PLAYER}{KUN}!\nMeu GINÁSIO tá pronto pra ação!\pVolte a DEWFORD quando quiser\npra outro desafio!$
+
+[MatchCall_Text_Brawly4] 37bef6ae6f
+BRAWLY: {PLAYER}{KUN}, acho que nunca\nvou cansar de batalhar com você!$
+
+[MatchCall_Text_Wattson1] 8c4e09177f
+WATTSON: Ah, é você!\pDepois que você foi embora, refiz\no meu treino do zero.\pAcho que preciso de mais um\ntempinho pra reabrir o GINÁSIO.\pVai ter que esperar até lá!\nWahahahaha!$
+
+[MatchCall_Text_Wattson2] 8083cb237a
+WATTSON: Wahahahaha!\pVocê conseguiu mesmo, hein?\nTenho ouvido falar de você!\pParece que preciso treinar\nainda mais.\pAcho que preciso de mais um\ntempinho pra reabrir o GINÁSIO.\pVai ter que esperar até lá!\nWahahahaha!$
+
+[MatchCall_Text_Wattson3] 82ecfaf8f5
+WATTSON: Ah, é você!\nMeu GINÁSIO tá pronto!\pVenha a MAUVILLE quando quiser!\nWahahahaha!$
+
+[MatchCall_Text_Wattson4] c8d073321d
+WATTSON: Wahahaha!\pUma batalha com você é sempre\ncarregada de energia chocante!$
+
+[MatchCall_Text_Flannery1] d4414fee76
+FLANNERY: {PLAYER}…\pQuando a gente batalhou, vi\nexatamente o quanto eu era imatura.\pMas eu não acabei ainda!\pVou refazer o meu treino e\nreabrir o GINÁSIO.\pQuando chegar a hora, {PLAYER},\ndesafie a gente de novo.$
+
+[MatchCall_Text_Flannery2] 26e6d39fc3
+FLANNERY: Olá, {PLAYER}?\nParabéns!\pA notícia do seu sucesso chegou\naqui como o calor de um vulcão!\pO nosso treino tá indo muito\nbem por aqui.\pQuando o GINÁSIO estiver pronto, vai\naparecer uma marca do lado do meu\lnome na lista de CHAMADAS.$
+
+[MatchCall_Text_Flannery3] 0fb20e4e94
+FLANNERY: Ah, {PLAYER}?\nNosso GINÁSIO tá pronto!\pVenha a LAVARIDGE pra um banho\nde águas termais e um desafio!$
+
+[MatchCall_Text_Flannery4] a1cfbd6bdb
+FLANNERY: {PLAYER}…\nTenho certeza de que você treina\lcada vez melhor.$
+
+[MatchCall_Text_Winona1] beb28a2c89
+WINONA: Olá, {PLAYER}!\pGraças à nossa batalha, entendi\nos meus pontos fracos!\pQuando eu reabrir o GINÁSIO, não\nvou ser derrotada de novo!$
+
+[MatchCall_Text_Winona2] 7aff66f7bd
+WINONA: Você conseguiu, {PLAYER}!\pA notícia de quem chegou ao topo\nda LIGA chegou aqui em FORTREE!\pMas… Na próxima batalha,\nnão vai terminar do mesmo jeito.$
+
+[MatchCall_Text_Winona3] b8d516fc33
+WINONA: É {PLAYER}?\nNosso GINÁSIO voltou a funcionar!\pEstamos te esperando em FORTREE!$
+
+[MatchCall_Text_Winona4] 15b4ca7e06
+WINONA: {PLAYER}…\nMesmo tendo perdido, as minhas\lasas nunca vão se partir.\pSim, do mesmo jeito que você\nnunca perdeu de vista o seu sonho.$
+
+[MatchCall_Text_TateLiza1] fa2c5e0b30
+TATE: Ah! É você…\nLIZA: {PLAYER}!\pTATE: Estamos treinando de novo…\nLIZA: Pra reabrir o GINÁSIO!\pTATE: Quando o GINÁSIO estiver pronto…\nLIZA: Quando o GINÁSIO estiver pronto…\pTATE: Vai aparecer uma marca…\nLIZA: No nosso nome nas CHAMADAS.$
+
+[MatchCall_Text_TateLiza2] e5215a7c85
+TATE: {PLAYER}, parabéns!\nLIZA: {PLAYER}, parabéns!\pTATE: Nós dois…\nLIZA: Ainda estamos treinando!\pTATE: Precisamos de mais tempo, mas…\nLIZA: Quando o GINÁSIO estiver pronto…\pTATE: Vai aparecer uma marca…\nLIZA: No nosso nome nas CHAMADAS.$
+
+[MatchCall_Text_TateLiza3] f11693d494
+TATE: {PLAYER}!\nLIZA: {PLAYER}!\pTATE: Nosso GINÁSIO tá pronto!\nLIZA: Nosso GINÁSIO tá pronto!\pTATE: Venha visitar…\nLIZA: MOSSDEEP quando quiser!$
+
+[MatchCall_Text_TateLiza4] ec47d624f3
+TATE: {PLAYER}, a nossa batalha…\nLIZA: Foi uma experiência valiosa.\pTATE: Seria bom se…\nLIZA: A gente batalhasse de novo!$
+
+[MatchCall_Text_Juan1] 711e66cf1d
+JUAN: Hmm…\n{PLAYER}{KUN}… Não é?\pA nossa batalha me trouxe\nlembranças de quando conheci\lo WALLACE.\pTalvez você seja um gênio capaz\nde superar até o WALLACE!$
+
+[MatchCall_Text_Juan2] 0ad91a10f8
+JUAN: Fufu… {PLAYER}{KUN}…\nEnfim você alcançou o seu objetivo.\pO meu olho pra talentos não\nse enganou…\pEspero ter outra chance de te\nencontrar, já que você chegou ao\lauge do poder e do prestígio.$
+
+[MatchCall_Text_Juan3] 3d5d166848
+JUAN: Hoho… {PLAYER}{KUN}…\pO nosso GINÁSIO de SOOTOPOLIS\nfinalmente reabriu.\pSe quiser me ver, pode vir\nquando quiser.$
+
+[MatchCall_Text_Juan4] 0d7794f44e
+JUAN: {PLAYER}{KUN}…\pComo a melhor música, as batalhas\nque travamos tocam acordes\lde inspiração no meu coração…\pQuando fecho os olhos, vejo você\nvoando junto com a melodia…$
+
+[MatchCall_Text_Sidney] 76d3077907
+SIDNEY: Fala, {PLAYER}!\pSe quiser batalhar comigo de\nnovo, volte pra LIGA POKéMON\lquando quiser.\pVou estar sempre aqui!\nVou te esperar!$
+
+[MatchCall_Text_Phoebe] fbffbd4d49
+PHOEBE: Oi, {PLAYER}!\pQue tal voltar aqui de novo\nqualquer dia?\pQuero ver o quanto o seu laço\ncom os seus POKéMON\lficou mais forte.$
+
+[MatchCall_Text_Glacia] 954f159c04
+GLACIA: Olá, {PLAYER}.\pEspero que você não tenha se\nacomodado com o seu poder.\pSe sentir vontade de esfriar um\npouco as emoções quentes, venha\là LIGA POKéMON…$
+
+[MatchCall_Text_Drake] 0e8cb1697a
+DRAKE: Essa voz… {PLAYER}, não é?\nVocê parece bem…\pSoube que agora existe um\nlugar chamado FRONTEIRA DE\lBATALHA que testa a habilidade\ldos TREINADORES.\pMas, se você quer batalhas de\nverdade, nada substitui\la LIGA POKéMON!\pNão concorda, {PLAYER}?$
+
+[MatchCall_Text_Wallace] 57d825e0e6
+WALLACE: Olá, {PLAYER}{KUN}.\nJá conheceu o STEVEN?\pEle é…\nNa verdade, incrivelmente habilidoso.\pMas é uma alma estranha que\nquase não batalha.\pEm vez disso, prefere procurar\npedras raras.\pCom certeza está cavando numa\ncaverna ou montanha por aí.\pMas o que é uma pedra rara, afinal?\nSó consigo pensar num METEORITO…$
