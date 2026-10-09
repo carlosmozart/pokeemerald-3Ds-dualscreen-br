@@ -281,8 +281,9 @@ O maior volume do projeto, sem equivalente no wiki.
   - [ ] Ever Grande e Liga
   - [ ] Pós-jogo e Battle Frontier
         (feita a FRONTEIRA DE BATALHA inteira em 09/10: portão, praças,
-        salões, as sete instalações e a CENTRAL DE TROCAS; faltam a
-        COLINA DOS TREINADORES e a ILHA DISTANTE)
+        salões, as sete instalações e a CENTRAL DE TROCAS; também a
+        COLINA DOS TREINADORES e a ILHA DISTANTE: todos os arquivos
+        data/maps com texto têm catálogo)
 - [ ] Textos comuns aos mapas (feitos: enfermeira do CENTRO POKéMON,
       vendedor do POKé MART, o PC e os itens recebidos, `obtain_item.inc`;
       faltam as placas comuns).
