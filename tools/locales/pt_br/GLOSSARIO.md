@@ -65,7 +65,11 @@ Os nomes dos POKéMON não se traduzem.
 
 | Inglês | Português | Motivo |
 | :--- | :--- | :--- |
-| Battle Frontier | FRONTEIRA DE BATALHA | Hoenn não teve localização no Brasil |
+| Battle Frontier | FRONTEIRA DE BATALHA | Hoenn não teve jogo no Brasil; Bulbapedia pt_br: "Fronteira de Batalha" (mangá, PS449); anime "Batalha da Fronteira" |
+| Battle Tower / Dome / Factory / Palace / Arena / Pike / Pyramid | TORRE / CÚPULA / FÁBRICA / PALÁCIO / ARENA / PICO / PIRÂMIDE DE BATALHA | Bulbapedia pt_br (anime/mangá), padronizado com "de Batalha" (lá: Torre e Cúpula "da Batalha"); FÁBRICA sem nome no Brasil; PICO é o nome brasileiro do Pike |
+| Frontier Brain | CÉREBRO DA FRONTEIRA | Bulbapedia pt_br |
+| Battle Points (BP) | PONTOS DE BATALHA (PB) | |
+| Silver / Gold Symbol | SÍMBOLO DE PRATA / DE OURO | |
 | Littleroot Town e as outras cidades | CIDADE DE LITTLEROOT | o nome fica, a parte genérica se traduz |
 | Pokémon Wireless Club | CLUBE SEM FIO POKéMON | |
 | Trainer Card (Gold/Silver) | CARTÃO DE OURO / DE PRATA | |
