@@ -78,7 +78,7 @@ sessão, ou pergunte):
 | PC | Fica com | Arquivos do catálogo |
 |---|---|---|
 | Menus | Os menus e mensagens de `src/strings.c`, incluindo os textos da tela da POKéDEX (busca, ordem, HT/WT), que também estão nele | `src/strings.c.txt` |
-| Mapas | Os diálogos dos mapas (todos os `data/maps` com texto ficaram prontos em 09/10, com a FRONTEIRA DE BATALHA); agora as falas de mundo fora dos mapas: os treinadores comuns, a ZONA DE SAFÁRI e os scripts compartilhados (LIQUIDIFICADOR, CENTRO DE CUIDADOS, homem de MAUVILLE, moça de LILYCOVE, salão de concursos, BASES SECRETAS, árvores de FRUTA, golpes de campo…) | `data/maps/<Mapa>/scripts.inc.txt`, `data/text/trainers.inc.txt` e `data/scripts/*.inc.txt` |
+| Mapas | Os diálogos dos mapas (todos os `data/maps` com texto ficaram prontos em 09/10, com a FRONTEIRA DE BATALHA); agora as falas de mundo fora dos mapas: os treinadores comuns, a ZONA DE SAFÁRI e os scripts compartilhados (LIQUIDIFICADOR, CENTRO DE CUIDADOS, homem de MAUVILLE, moça de LILYCOVE, salão de concursos, BASES SECRETAS, árvores de FRUTA, golpes de campo…), prontos em 09/10; agora os `data/text` que não estavam em nenhuma fase: TENDA DE BATALHA, FRUTAS, tutores de golpes, LOTERIA, mestre do LIQUIDIFICADOR, CAVERNA SHOAL, bilhetes de evento, móveis e mistura de registros | `data/maps/<Mapa>/scripts.inc.txt`, `data/scripts/*.inc.txt` e, em `data/text/`: `trainers`, `battle_tent`, `berries`, `move_tutors`, `lottery_corner`, `blend_master`, `shoal_cave`, `event_ticket_1`, `event_ticket_2`, `check_furniture`, `record_mix` (`.inc.txt`) |
 
 Ao terminar uma parte, combine a próxima com o usuário e atualize esta
 tabela num commit próprio.
