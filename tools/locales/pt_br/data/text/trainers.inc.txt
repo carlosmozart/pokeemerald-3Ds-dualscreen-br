@@ -1936,3 +1936,462 @@ Respondam, POKéMON! Estão bem?\nPOKéMON 1, 2 e 3?!$
 
 [Route118_Text_DeandrePostBattle] ee6b9e67a0
 Não é legal eu ter uma equipe de\nbatalha POKéMON?\pPode me copiar, eu não ligo!$
+
+[Route119_Text_BrentIntro] f73b185c8b
+Somos o CLUBE DA MÍMICA!\nA gente imita o que você faz!$
+
+[Route119_Text_BrentDefeat] 98a481747d
+Opa!\nPerdi!$
+
+[Route119_Text_BrentPostBattle] d49d10bf42
+O que tem de bom em imitar?\pFufufu…\nVocê nunca vai entender…$
+
+[Route119_Text_DonaldIntro] ce3045a586
+Então finalmente nos encontramos!\nOs meus POKéMON INSETO vão te fazer\lcompanhia!$
+
+[Route119_Text_DonaldDefeat] 51c74423ff
+Queria nunca ter te encontrado…$
+
+[Route119_Text_DonaldPostBattle] 5bcf2fa8b8
+Quero te imitar mais.\nPode se mexer logo?$
+
+[Route119_Text_TaylorIntro] 9c0cc89b66
+Se você dá um passo, a gente dá\num passo.\pSe você vira à direita, a gente\nvira também…$
+
+[Route119_Text_TaylorDefeat] 5dfaa2a8f7
+Mas se você ganha, eu perco…$
+
+[Route119_Text_TaylorPostBattle] b6258b6579
+Não dá pra imitar você ganhando.\nÉ impossível…\lIsso me deixa louco…$
+
+[Route119_Text_DougIntro] c15ff7a48e
+É, você finalmente me pegou!\nOu estava tentando me evitar?$
+
+[Route119_Text_DougDefeat] a760d41def
+Opa, que batalha boa!$
+
+[Route119_Text_DougPostBattle] b570ec6ba9
+Somos o CLUBE DA MÍMICA!\nEspero que tenha gostado do show.$
+
+[Route119_Text_GregIntro] 550f4aa63d
+Você não sabe quem eu sou, né?\pMas eu também não sei quem é você.\nEntão vamos batalhar!$
+
+[Route119_Text_GregDefeat] ca3399f683
+Você é bem forte!$
+
+[Route119_Text_GregPostBattle] de15c8ab8d
+Até você ir embora, vamos continuar\nimitando cada movimento seu.$
+
+[Route119_Text_KentIntro] 9b6ad0de0b
+O CLUBE DA MÍMICA foi formado por\ngente que gosta de imitar.\pA batalha começa assim que a gente\nse encontra!$
+
+[Route119_Text_KentDefeat] d99226291c
+Desisto!$
+
+[Route119_Text_KentPostBattle] a765dd63f7
+Não quer entrar pro CLUBE DA MÍMICA?$
+
+[Route119_Text_JacksonIntro] 7587b6984e
+Quem tem conhecimento e técnica\npra sobreviver?\pOs GUARDAS POKéMON, claro!$
+
+[Route119_Text_JacksonDefeat] add943bc7d
+Faltou conhecimento de POKéMON…$
+
+[Route119_Text_JacksonPostBattle] f708fe99ad
+Fugir da civilização e despertar o\nespírito selvagem interior!\pEsse é o nosso ideal.$
+
+[Route119_Text_JacksonRegister] dacdc8fbc3
+Espero que me dê uma revanche sem\nzombar da minha falta de conhecimento.$
+
+[Route119_Text_JacksonRematchIntro] 84a43ca9a9
+Vou recuperar o meu espírito selvagem\nconvivendo com os POKéMON.$
+
+[Route119_Text_JacksonRematchDefeat] 28dd95856c
+Você continua forte!$
+
+[Route119_Text_JacksonPostRematch] ec5b1fba30
+Acredite nos seus POKéMON.\nAcredite em você.\pO caminho vai se revelar.$
+
+[Route119_Text_CatherineIntro] 402201bbe0
+Hã? Olha só.\pPra quem está numa aventura, você\nviaja bem leve.$
+
+[Route119_Text_CatherineDefeat] 32f44b37aa
+Acidentes acontecem quando não se\nestá preparado!$
+
+[Route119_Text_CatherinePostBattle] 71a51a0752
+Você viaja leve, mas tem tudo o que\nprecisa.\pE está em dia de corpo e mente\ntambém.$
+
+[Route119_Text_CatherineRegister] c385d0881e
+Você tem POKéNAV?\nÉ essencial pra qualquer TREINADOR.\pAh, você tem!\nEntão vamos nos registrar!$
+
+[Route119_Text_CatherineRematchIntro] 572e25ab66
+Como vai a sua jornada com os\nPOKéMON?$
+
+[Route119_Text_CatherineRematchDefeat] 1e38bd2bb6
+Ainda me falta alguma coisa…$
+
+[Route119_Text_CatherinePostRematch] b2d0cd3afe
+Assim como você, TREINADOR, conta com\nos seus POKéMON, eles contam com você.$
+
+[Route119_Text_HughIntro] 3702dcc6f6
+O céu imenso guarda promessas sem\nfim!\pNada se compara à emoção de voar!$
+
+[Route119_Text_HughDefeat] b89535e5da
+Derrubado!$
+
+[Route119_Text_HughPostBattle] c6fbaf683f
+Os meus POKéMON PÁSSAROS realizaram\no meu sonho de voar!$
+
+[Route119_Text_PhilIntro] 140836e670
+Vou te mostrar o verdadeiro potencial\nmeu e dos meus POKéMON PÁSSAROS!$
+
+[Route119_Text_PhilDefeat] 27aa34ed91
+Faltou potencial…$
+
+[Route119_Text_PhilPostBattle] 2b25b68f39
+Desde pequeno, sempre admirei os\nPOKéMON PÁSSAROS…$
+
+[Route119_Text_YasuIntro] 5840bf0303
+Espreitar nas sombras e viver na\nescuridão… Esse é o meu destino.\pSurjo pra te desafiar!$
+
+[Route119_Text_YasuDefeat] 59940bf639
+Admito a derrota!$
+
+[Route119_Text_YasuPostBattle] 7371c6c864
+Os derrotados voltam em silêncio\npras sombras.\lIsso também é destino…$
+
+[Route119_Text_TakashiIntro] fdf7274f34
+Se você não estiver em guarda,\nvai se machucar!$
+
+[Route119_Text_TakashiDefeat] 7f3f6757d8
+Que surpresa, você manda bem!$
+
+[Route119_Text_TakashiPostBattle] b8819e0ef1
+O meu ataque surpresa fracassou…$
+
+[Route119_Text_HideoIntro] 5aaebb8f1d
+Pra esconder uma árvore, use uma\nfloresta!$
+
+[Route119_Text_HideoDefeat] 215485efc5
+Curvo-me à sua superioridade.$
+
+[Route119_Text_HideoPostBattle] aafaad1f82
+Pra esconder uma árvore, use uma\nfloresta! Pra esconder um POKéMON,\luse um POKéMON!\pNão tem nenhum sentido profundo\nnisso.$
+
+[Route119_Text_ChrisIntro] 18242756c3
+Você falou comigo…\nEntão quer me desafiar!\pClaro! Vou testar os POKéMON que\npeguei SURFANDO!$
+
+[Route119_Text_ChrisDefeat] de1b84ba58
+Não faço ideia do que é preciso\npra ganhar.$
+
+[Route119_Text_ChrisPostBattle] 1b47103a77
+SURFAR no meu POKéMON…\pDepois pescar nas costas dele…\pÉ um momento de luxo indescritível!$
+
+[Route119_Text_FabianIntro] 3226e70a9f
+Manda um acorde pesado!\nA vitória é minha!\lÉ hora de brilhar, uou, iê!$
+
+[Route119_Text_FabianDefeat] bd118fb3e6
+Você mostrou quem manda!\nVou ter que aceitar, ai, não!$
+
+[Route119_Text_FabianPostBattle] 68a9a720e2
+Manda outro acorde pesado!\nMe deixa em paz!\lA sua vitória ainda vai pagar!$
+
+[Route119_Text_DaytonIntro] 7e17ecb22d
+Hohoho!\nGosto de TREINADORES pequenos!\lVamos fazer uma boa batalha!$
+
+[Route119_Text_DaytonDefeat] 2561f2c8cc
+Você é incrível!\nHohoho!$
+
+[Route119_Text_DaytonPostBattle] 5a084095f4
+Hohoho!\nVou tentar imitar o pique de\lTREINADORES pequenos como você!$
+
+[Route119_Text_RachelIntro] 566db61ddf
+Onde e quando for, estou sempre\ncom a minha sombrinha na mão.$
+
+[Route119_Text_RachelDefeat] b3937658d9
+Ah, mas…\nIsso não é justo.$
+
+[Route119_Text_RachelPostBattle] 039864d56f
+Quer saber se a sombrinha é pesada?\nA sua BOLSA tem mais tralha do que\leu carrego.$
+
+[Route120_Text_ColinIntro] 49ce2f514d
+Você tem golpes que acertam um\nPOKéMON voando?$
+
+[Route120_Text_ColinDefeat] 69c74b37a9
+Você voou acima de mim!$
+
+[Route120_Text_ColinPostBattle] d5fbb375a3
+O golpe VOAR é prático, não acha?\pEnquanto o POKéMON está voando,\nquase nenhum golpe o acerta.$
+
+[Route120_Text_RobertIntro] b1a25b7ff0
+O meu POKéMON é forte!\nE o seu?$
+
+[Route120_Text_RobertDefeat] ee52a922f8
+Os seus POKéMON eram mais fortes…$
+
+[Route120_Text_RobertPostBattle] 0db72f3ffe
+Um POKéMON que cresce aos poucos é\num POKéMON em que se pode confiar.$
+
+[Route120_Text_RobertRegister] a9dc08764a
+Dá pra contar que você vai melhorar.\nQuero te registrar no meu POKéNAV!$
+
+[Route120_Text_RobertRematchIntro] 0db72f3ffe
+Um POKéMON que cresce aos poucos é\num POKéMON em que se pode confiar.$
+
+[Route120_Text_RobertRematchDefeat] ef9e974b16
+Os seus POKéMON são fortes demais.$
+
+[Route120_Text_RobertPostRematch] 8a83efaf0b
+Os meus POKéMON estão ficando mais\nfortes. Eu também tenho que ficar.$
+
+[Route120_Text_LorenzoIntro] c915fad7c8
+Vou ver se os seus POKéMON estão\npreparados pra vida ao ar livre.$
+
+[Route120_Text_LorenzoDefeat] fd1ae10d68
+Com POKéMON fortes assim, você não\nvai precisar de resgate!$
+
+[Route120_Text_LorenzoPostBattle] 8b90af5470
+Viajar pra onde o coração mandar\ncom os POKéMON…\lEssa é a alegria de ser TREINADOR.$
+
+[Route120_Text_JennaIntro] 134b15ed59
+Como vai o seu condicionamento?\nSem preparo, as situações difíceis\lpodem ficar bem complicadas.$
+
+[Route120_Text_JennaDefeat] 59d31f8626
+Estou em plena forma, mas…$
+
+[Route120_Text_JennaPostBattle] 32b7379a02
+Treino físico faz parte da minha\nrotina. Sempre corro com os POKéMON.$
+
+[Route120_Text_JeffreyIntro] ebc6ead2ae
+… … … … … …\n… … … … … …\lQuer batalhar?$
+
+[Route120_Text_JeffreyDefeat] 8aa34973ae
+Perdi…$
+
+[Route120_Text_JeffreyPostBattle] 8785b80466
+… … … … … …\n… … … … … …\lVou me esforçar mais…$
+
+[Route120_Text_JeffreyRegister] ce98067163
+… … … … … …\n… … … … … …\lVocê tem… POKéNAV?$
+
+[Route120_Text_JeffreyRematchIntro] 2a261bffc6
+… … … … … …\n… … … … … …\lQuer batalhar de novo?$
+
+[Route120_Text_JeffreyRematchDefeat] 2a9f87b02c
+… … … … … …\nPerdi de novo…$
+
+[Route120_Text_JeffreyPostRematch] 3cfa6be1b1
+… … … … … …\n… … … … … …\lVou me esforçar mais…\lPelos meus queridos POKéMON INSETO…$
+
+[Route120_Text_JenniferIntro] 6bbbcaa7e8
+Os POKéMON têm muitas habilidades.\nSe quiser ser um TREINADOR de\lprimeira, estude elas.$
+
+[Route120_Text_JenniferDefeat] c6cbb74135
+Dá pra ver que você pensa.$
+
+[Route120_Text_JenniferPostBattle] 367eb1103a
+As habilidades dos POKéMON mudam\no estilo das batalhas.$
+
+[Route120_Text_ChipIntro] 2a37969e10
+Quem seria você?\pPor acaso procura as ruínas antigas\nque, dizem as lendas, talvez existam?$
+
+[Route120_Text_ChipDefeat] 692c785eb5
+Que tropeço vergonhoso…$
+
+[Route120_Text_ChipPostBattle] 96bbfdb944
+Aquela pedra gigante… Quero crer que\nela guarda ruínas antigas. Mas não\lvejo entrada.$
+
+[Route120_Text_ClarissaIntro] e09f292af2
+Por que carrego esta sombrinha?\pConto se você me vencer.$
+
+[Route120_Text_ClarissaDefeat] ccb5d9b948
+Sombrinha não protege de ataque\nde POKéMON…$
+
+[Route120_Text_ClarissaPostBattle] 32d0109523
+Acho que o sol forte não faz bem pros\nmeus POKéMON.\lEntão protejo eles com a sombrinha.$
+
+[Route120_Text_AngelicaIntro] 4fe8dcb860
+Eu, os POKéMON e a minha sombrinha…\pSe faltar qualquer um, o retrato\nda beleza fica arruinado.$
+
+[Route120_Text_AngelicaDefeat] f456f22f00
+Você arruinou a minha beleza…$
+
+[Route120_Text_AngelicaPostBattle] 75b026808c
+Uma sombrinha não combinaria nada\ncom você.\pOra, algo assim só ia te atrapalhar.$
+
+[Route120_Text_KeigoIntro] f44008c1ca
+Vou copiar os movimentos dos POKéMON\ne criar novas técnicas ninja.$
+
+[Route120_Text_KeigoDefeat] 33307eb39f
+Criar novas técnicas ninja é só\num sonho distante…$
+
+[Route120_Text_KeigoPostBattle] c121ca6616
+Talvez eu deva virar aprendiz de\num mestre ninja.$
+
+[Route120_Text_RileyIntro] 1cc8150e57
+Nós, ninjas, nos escondemos sob os\nmantos de camuflagem.\lAposto que você não me viu!$
+
+[Route120_Text_RileyDefeat] 68554ee6e7
+Perdi!\nTenho que camuflar a minha vergonha!$
+
+[Route120_Text_RileyPostBattle] 0cd8acfb60
+Os nossos mantos de camuflagem são\nfeitos à mão.$
+
+[Route120_Text_CallieIntro] eb164d9507
+Se não prestar atenção, você\npode se machucar!$
+
+[Route120_Text_CallieDefeat] b24d59a208
+Ai!\nQuem se machucou fui eu.$
+
+[Route120_Text_CalliePostBattle] 81f584ff47
+Será… Devo evoluir os meus POKéMON?\nMas eles são tão fofos assim…$
+
+[Route120_Text_LeonelIntro] 8cc7d16d63
+Os POKéMON da sua equipe…\nSão de tipos diferentes?$
+
+[Route120_Text_LeonelDefeat] d17588bdbe
+Vi a sua estratégia em ação!$
+
+[Route120_Text_LeonelPostBattle] 04a680e448
+Acho incrível você ser tão forte\nbatalhando com os POKéMON favoritos.$
+
+[Route121_Text_VanessaIntro] 52994fccc3
+Quer brincar com os meus POKéMON\nlindos de morrer?$
+
+[Route121_Text_VanessaDefeat] c0b5e189d8
+Não era isso que eu queria dizer!$
+
+[Route121_Text_VanessaPostBattle] 24ba1e8dec
+Vou a um CONCURSO em LILYCOVE.\pOs meus POKéMON devem arrasar no\nNÍVEL MESTRE sem problema.$
+
+[Route121_Text_WalterIntro] fdaf718c79
+Com os meus POKéMON, viajei pelos\nquatro cantos do mundo.\pDigamos que confio um pouco nas\nminhas habilidades.$
+
+[Route121_Text_WalterDefeat] 457c3be46f
+Ah, bem jogado.$
+
+[Route121_Text_WalterPostBattle] 01a631ac34
+Queria dar a volta ao mundo de novo\ncom os meus POKéMON.$
+
+[Route121_Text_WalterRegister] 25c2368109
+A sua habilidade com POKéMON é notável.\nDeixe-me te registrar de lembrança.$
+
+[Route121_Text_WalterRematchIntro] fdaf718c79
+Com os meus POKéMON, viajei pelos\nquatro cantos do mundo.\pDigamos que confio um pouco nas\nminhas habilidades.$
+
+[Route121_Text_WalterRematchDefeat] 457c3be46f
+Ah, bem jogado.$
+
+[Route121_Text_WalterPostRematch] 2e37bcf7e9
+Você e os seus POKéMON…\pJuntos, seriam considerados fortes\naté no exterior.$
+
+[Route121_Text_TammyIntro] adbbbc45cc
+Há poderes no mundo além da nossa\ncompreensão…$
+
+[Route121_Text_TammyDefeat] 11069441ed
+Perdi…$
+
+[Route121_Text_TammyPostBattle] 087a58a136
+O MONTE PYRE…\nHá um poder misterioso agindo lá…$
+
+[Route121_Text_KateIntro] 9a1f49d7e2
+KATE: Juntas, não temos medo!\nVamos mostrar como somos fortes!$
+
+[Route121_Text_KateDefeat] 487b58fb95
+KATE: Vacilei na frente da minha\ncaloura…$
+
+[Route121_Text_KatePostBattle] 77ea1412cb
+KATE: Quando alguém conta comigo, me\ndá vontade de parecer legal na\lfrente da pessoa…$
+
+[Route121_Text_KateNotEnoughMons] a93aadbb05
+KATE: Se você só tem um POKéMON, não\ndá pra batalhar com você.\pIsso seria covardia.$
+
+[Route121_Text_JoyIntro] 669b3a0b8f
+JOY: Juntas, não temos medo!\nVamos mostrar como somos fortes!$
+
+[Route121_Text_JoyDefeat] e4e937304e
+JOY: Me perdoa, KATE!$
+
+[Route121_Text_JoyPostBattle] c62ec12bda
+JOY: Ehehe, vou ter que treinar de\nnovo com a KATE, a minha veterana.$
+
+[Route121_Text_JoyNotEnoughMons] c7b2871669
+JOY: Você precisa de pelo menos dois\nPOKéMON pra desafiar a gente!$
+
+[Route121_Text_JessicaIntro] 1f503d85aa
+Pare! Dê uma boa olhada nos meus\nPOKéMON preciosos!$
+
+[Route121_Text_JessicaDefeat] e87549a38b
+Ah, que ousadia!\nNão leve tão a sério!$
+
+[Route121_Text_JessicaPostBattle] 6fd98e2d44
+Talvez eu vá pegar mais POKéMON\nno SAFÁRI.$
+
+[Route121_Text_JessicaRegister] 512f45f931
+Desta vez eu peguei leve!\nDa próxima não vai ser assim!$
+
+[Route121_Text_JessicaRematchIntro] 4dad49ae8d
+Os meus POKéMON preciosos cresceram!\nDê uma boa olhada!$
+
+[Route121_Text_JessicaRematchDefeat] 795a6e79ce
+Ah, que ousadia!\nVocê ainda não pega leve!$
+
+[Route121_Text_JessicaPostRematch] 6fd98e2d44
+Talvez eu vá pegar mais POKéMON\nno SAFÁRI.$
+
+[Route121_Text_CristinIntro] 7610142136
+Tenho uma rotina.\nVencer cinco TREINADORES por dia.\lAdivinha? Você é o número cinco!$
+
+[Route121_Text_CristinDefeat] 090a0987a8
+Não!\nVocê é horrível!$
+
+[Route121_Text_CristinPostBattle] b2282f4031
+Não esperava perder tão fácil…\nDa próxima eu ganho!$
+
+[Route121_Text_CristinRegister] ba9f56c477
+Que humilhação total!\nNão vou esquecer você…\lMe passa o seu POKéNAV!$
+
+[Route121_Text_CristinRematchIntro] d8f6ef7a3e
+Tenho uma rotina nova.\nVencer dez TREINADORES por dia.\lAdivinha? Você é o número dez!$
+
+[Route121_Text_CristinRematchDefeat] 05e0a348c8
+Pera! Que maldade!\nExijo uma revanche!$
+
+[Route121_Text_CristinPostRematch] 7639cd1a1f
+Um oponente que eu não consigo\nvencer… Snif…\lNão acredito nisso…$
+
+[Route121_Text_CaleIntro] b65db4eacf
+Não está vendo que estou carregando\neste monte de coisa?\pMesmo assim você insiste em\nbatalhar?$
+
+[Route121_Text_CaleDefeat] 396838a0b0
+Claro que perdi!\nEstou com as duas mãos ocupadas!$
+
+[Route121_Text_CalePostBattle] c5de3df890
+Comprei coisa demais na LOJA DE\nDEPARTAMENTOS de LILYCOVE.\pFica logo ali na estrada.\nQueria ter uma BOLSA como a sua.$
+
+[Route121_Text_MylesIntro] 619c97811b
+Nada me agrada mais do que ver\nos POKéMON dos outros!$
+
+[Route121_Text_MylesDefeat] 43ed346ddb
+Incrível demais!$
+
+[Route121_Text_MylesPostBattle] 716ece21bc
+Os seus POKéMON são ótimos!\nComo você cria eles?$
+
+[Route121_Text_PatIntro] 99f05ebf7e
+Quero que todo mundo veja os POKéMON\nque eu criei!$
+
+[Route121_Text_PatDefeat] ed43e8d1c5
+Uau!\nEspetacular!$
+
+[Route121_Text_PatPostBattle] 0bd80677ff
+Crio todos os POKéMON com o mesmo\namor e carinho: não tenho favoritos.$
+
+[Route121_Text_MarcelIntro] b4e2116801
+Os meus POKéMON nunca provaram a\nderrota! Na próxima vitória, vou\linscrever eles em CONCURSOS.$
+
+[Route121_Text_MarcelDefeat] fd6316b3c5
+Ué, o que aconteceu aqui?$
+
+[Route121_Text_MarcelPostBattle] 9fe55ace0a
+Talvez eu tenha que treinar mais a\nminha turma antes de um CONCURSO.$
