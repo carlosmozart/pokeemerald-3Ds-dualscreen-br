@@ -278,6 +278,12 @@ O maior volume do projeto, sem equivalente no wiki.
         de concursos, moça de LILYCOVE, LIQUIDIFICADOR, CENTRO DE CUIDADOS,
         BASES SECRETAS, árvores de FRUTA, golpes de campo, ROLETA e os
         PRESENTES MISTERIOSOS: 22 arquivos, cerca de 470 textos), 09/10
+  - [x] O resto de `src/strings.c` (09/10, a pedido do usuário): todos os
+        textos que o jogo usa, com a largura de cada janela conferida no
+        código. Ficam de fora os ~370 sem referência no código e os que não
+        mudam (nomes, símbolos, códigos de cor). As palavras da FALA FÁCIL
+        seguem em inglês até a decisão da Fase 6; a interface dela já está
+        traduzida.
   - [x] O resto de `data/text` (concursos, `cable_club`,
         `secret_base_trainers`, `trick_house_mechadolls`, `pokedex_rating`,
         `mauville_man`, `pokemon_news`, `questionnaire`, `abnormal_weather`),
