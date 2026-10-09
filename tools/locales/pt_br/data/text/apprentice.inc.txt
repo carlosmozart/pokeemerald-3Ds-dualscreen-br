@@ -240,3 +240,339 @@ Está mesmo me aceitando?\nNão quero comemorar antes da hora.\pSe for verdade, 
 
 [gText_ApprenticeLevelModeThanks15] 3bd7abf8a9
 {STR_VAR_1}?\nTem certeza?\pEntendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pSei que posso incomodar, mas me\nalegra que tenha me aceitado.\pAté a próxima!$
+
+[gText_ApprenticeWhatHeldItem0] 903481aff7
+Snif… Buá…\nAh, {PLAYER}!\pTô preso num dilema e não\nconsigo decidir.\pNão sei que item dar pro meu\n{STR_VAR_1} segurar.\pMe diga, {PLAYER}.\nQue item ele deve segurar?$
+
+[gText_ApprenticeHoldNothing0] 210f6c975f
+Ah, sério? O meu {STR_VAR_1}\nnão deve segurar nada?$
+
+[gText_ApprenticeThanksNoHeldItem0] 9ec2e126f8
+Ah, beleza! Que alegria, tá decidido!\nDemais! Irado! Uhuuu!\pMuito obrigado!$
+
+[gText_ApprenticeThanksHeldItem0] 7ab0bc2842
+Ah, que alívio…\nAcho que também tenho {STR_VAR_1}.\pQue alegria, tá decidido!\nDemais! Irado! Uhuuu!\pMuito obrigado!$
+
+[gText_ApprenticeItemAlreadyRecommended0] 0c34f66e6a
+Buááá! Não faz isso comigo!\pO item {STR_VAR_1} já foi recomendado\npra mim antes, buá…\pOu quer dizer que o meu {STR_VAR_2}\nnão deve segurar nada?$
+
+[gText_ApprenticeWhatHeldItem1] f416fa35b5
+Eba! É {PLAYER}!\nDemais! Queria te perguntar uma coisa!\pVocê dá itens pros seus POKéMON\nsegurarem? Quero dar pros meus, mas…\pQue item seria bom pro\n{STR_VAR_1} segurar?\pO que você acha?$
+
+[gText_ApprenticeHoldNothing1] 049b3badb5
+Hã? Quer dizer que o meu {STR_VAR_1}\nnão precisa segurar nada?$
+
+[gText_ApprenticeThanksNoHeldItem1] ec0317d6be
+Ah, entendi! Vou fazer isso!\nValeu por me ensinar!$
+
+[gText_ApprenticeThanksHeldItem1] 5bc04e17ff
+Nossa! {STR_VAR_1}, é?\nBeleza, vou fazer isso!\pValeu por me ensinar!$
+
+[gText_ApprenticeItemAlreadyRecommended1] 2fbf13cf5f
+Ah, hã, não, não foi isso que eu quis\ndizer. Quero saber de um item\ldiferente dos que eu já conheço.\pOu quer dizer que o meu POKéMON não\nprecisa segurar nada desta vez?$
+
+[gText_ApprenticeWhatHeldItem2] 0715a91970
+{PLAYER}, olá!\nÉ sobre o meu {STR_VAR_1}…\pQuero dar um item bom pra ele\nsegurar. O que seria bom?$
+
+[gText_ApprenticeHoldNothing2] c99b43294f
+Ah, então o meu {STR_VAR_1} não\nprecisa segurar nada?$
+
+[gText_ApprenticeThanksNoHeldItem2] 3239db6457
+Certo, entendi!\nAté mais!$
+
+[gText_ApprenticeThanksHeldItem2] 0ac07b70d0
+Ah, o item {STR_VAR_1}?\nEntendido!\pVou fazer de tudo pra achar um!\nAté mais!$
+
+[gText_ApprenticeItemAlreadyRecommended2] b9b8b3016d
+Alguém já me falou do\n{STR_VAR_1}.\pQuero que o meu POKéMON segure\noutro tipo de item.\pOu você acha que {STR_VAR_2} não\nprecisa segurar nada?$
+
+[gText_ApprenticeWhatHeldItem3] 1142f23316
+Olá, {PLAYER}…\nDesculpe incomodar, mas tem outra\lcoisa que eu queria perguntar.\pAcho que não sou bom o bastante pra\nvencer sozinho, então tô pensando em\ldar um item pro meu {STR_VAR_1}.\pMas não sei o que seria bom.\p{PLAYER}, por favor, pode decidir\npor mim?$
+
+[gText_ApprenticeHoldNothing3] 7f404fcc0f
+O POKéMON de alguém como eu se\ndaria melhor sem item?$
+
+[gText_ApprenticeThanksNoHeldItem3] a331e5c448
+Entendi…\nVocê quer dizer que não devo depender\lde itens. Vou me esforçar!\pMuito obrigado!$
+
+[gText_ApprenticeThanksHeldItem3] e1e6af9ac0
+O item {STR_VAR_1}, certo.\nNão sei se consigo um…\lNão! Vou me esforçar pra conseguir.\pMuito obrigado!$
+
+[gText_ApprenticeItemAlreadyRecommended3] 499b1baa6b
+Ah, mas…\nAcho que já ouvi falar disso antes…\pSerá que é porque não usei bem\no item {STR_VAR_1}?\pOu quer dizer que o meu {STR_VAR_2}\nnão deve segurar nada?$
+
+[gText_ApprenticeWhatHeldItem4] 166aaac98e
+Ah, {PLAYER}{KUN}.\nQueria te perguntar uma coisa.\pVocê decidiu qual POKéMON\neu devia ter, lembra?\pMas nunca perguntei que item\nele devia segurar.\pJá que me deu conselho, que tal\nir até o fim?\pO que seria bom? Quero dar algo\npro meu {STR_VAR_1} segurar.$
+
+[gText_ApprenticeHoldNothing4] f2a82d26d9
+Ah! Então o meu {STR_VAR_1} deve\nse virar de mãos vazias?$
+
+[gText_ApprenticeThanksNoHeldItem4] fdb9af4f6b
+Se acha que é melhor, vou fazer isso.\pSabendo que foi você que decidiu,\n{PLAYER}{KUN}, não vou ficar tão chateado\lse perder.\pBeleza, vou te pedir conselhos de novo.\nTchau!$
+
+[gText_ApprenticeThanksHeldItem4] 68b211bf5d
+O item {STR_VAR_1}, é?\nNada mal. Vou usar!\pSabendo que foi você que decidiu,\n{PLAYER}{KUN}, não vou ficar tão chateado\lse perder.\pBeleza, vou te pedir conselhos de novo.\nTchau!$
+
+[gText_ApprenticeItemAlreadyRecommended4] e3a89a6c04
+Hã? O que tá dizendo?\nVocê já me falou do {STR_VAR_1}\lantes.\pOu quer dizer que o meu {STR_VAR_2}\ndeve se virar de mãos vazias?$
+
+[gText_ApprenticeWhatHeldItem5] 211e15ffd6
+Fala, {PLAYER}{KUN}!\pA gente vive ocupado, mas parece\nque se esbarra direto!\pHoje tenho que caminhar, limpar\ne escovar.\pNem tive tempo de comprar nada\npro meu querido {STR_VAR_1}.\pNão tenho tempo, então que tal\nme aconselhar sobre o que dar\lpro meu {STR_VAR_1} segurar?$
+
+[gText_ApprenticeHoldNothing5] b8a0b57311
+Ah, então, como sou ocupado,\no {STR_VAR_1} não precisa de nada?$
+
+[gText_ApprenticeThanksNoHeldItem5] f2a2ba3648
+Beleza, saquei.\nNão vou precisar de tempo pra isso.\pValeu por hoje!\nAté mais!$
+
+[gText_ApprenticeThanksHeldItem5] 834aee9fcd
+Beleza, saquei.\nVou arranjar tempo e achar\lo {STR_VAR_1} que você recomendou.\pQue bom que achei um bom sensei.\nValeu! Até mais!$
+
+[gText_ApprenticeItemAlreadyRecommended5] 0fc17af7e0
+Hã? Eu já conheço\nesse {STR_VAR_1}.\pAh, certo, entendi.\nComo sou um cara ocupado, o meu\l{STR_VAR_2} não precisa de nada?$
+
+[gText_ApprenticeWhatHeldItem6] 44adf1fa02
+Oi, {PLAYER}! Sou eu!\nPreciso da sua cabeça de novo hoje.\lPor favor, preciso de um conselho!\pRufem os tambores!\nA minha pergunta é…\pSe eu quiser que o meu {STR_VAR_1}\nsegure um item, qual deve ser?$
+
+[gText_ApprenticeHoldNothing6] 447e30d970
+É mesmo? O meu {STR_VAR_1} não\nprecisa segurar item, você diz.$
+
+[gText_ApprenticeThanksNoHeldItem6] a6daa197d2
+Beleza, é isso que eu vou fazer!\pAcho que era tudo que eu queria\nte perguntar hoje.\pVamos nos ver aqui de novo, tá?\nValeu!$
+
+[gText_ApprenticeThanksHeldItem6] b1f3d513d8
+Aham! {STR_VAR_1}.\nQue escolha legal!\lVou tentar com certeza!\pAcho que era tudo que eu queria\nte perguntar hoje.\pVamos nos ver aqui de novo, tá?\nValeu!$
+
+[gText_ApprenticeItemAlreadyRecommended6] 1b7eff8e0d
+Ahahah! Que bobeira!\nVocê já me falou desse\l{STR_VAR_1} antes!\pTá se sentindo bem, {PLAYER}?\pAh, espera! O meu {STR_VAR_2} não\nprecisa segurar item, você diz.$
+
+[gText_ApprenticeWhatHeldItem7] e161d26226
+Olá, {PLAYER}. Espero que esteja\ntudo bem.\pPosso te pedir um conselho?\pNuma batalha recente, o meu\nadversário parecia ter dado um item\lpro POKéMON dele segurar.\pPor isso, fui derrotado…\pNão quero ficar pra trás.\nGostaria de dar um item pro meu\l{STR_VAR_1} também.\pFicaria feliz se você decidisse o que\nseria certo pro meu POKéMON…$
+
+[gText_ApprenticeHoldNothing7] dc5c20eca8
+Ou seja… O meu POKéMON não\nprecisa segurar item?$
+
+[gText_ApprenticeThanksNoHeldItem7] d9037a07e0
+Agora entendi claramente!\nVou continuar assim.\pObrigado, {PLAYER}.\nEspero poder contar com você de novo.\lSe cuide!$
+
+[gText_ApprenticeThanksHeldItem7] 04f59df314
+{STR_VAR_1}, então!\nVou encomendar agora mesmo.\pObrigado, {PLAYER}.\nEspero poder contar com você de novo.\lSe cuide!$
+
+[gText_ApprenticeItemAlreadyRecommended7] 6e1265ca14
+Você já me falou disso,\ne eu já tenho.\pOu está dizendo… Que o meu POKéMON\nnão precisa segurar item?$
+
+[gText_ApprenticeWhatHeldItem8] e31537cdc6
+Ai! {PLAYER}!\nE… Que alegria te ver de novo!\pOh-oh-oh! Tem uma coisa que eu\nprecisava te perguntar, {PLAYER}!\pDecida, por favor, o que o meu\n{STR_VAR_1} deve segurar!$
+
+[gText_ApprenticeHoldNothing8] b28c8c8db6
+Nossa! Não esperava essa resposta!\nEntão, não precisa de item?$
+
+[gText_ApprenticeThanksNoHeldItem8] 6230d4b314
+Entendido!\nVou continuar sem item!\pEspero que você queira me ensinar\nmais outra hora.$
+
+[gText_ApprenticeThanksHeldItem8] dbe841650e
+{STR_VAR_1}! Vou usar esse!\pHã… Será, {PLAYER}, que você também\ndá esse item pros seus POKéMON?\pVou arranjar um com certeza!\nEspero que você queira me ensinar\lmais outra hora.$
+
+[gText_ApprenticeItemAlreadyRecommended8] d0ef477262
+Ué? Você já recomendou esse\n{STR_VAR_1} antes.\pOu é o melhor item pra segurar?\nOu quer dizer que o meu {STR_VAR_2}\lnão precisa segurar nada?$
+
+[gText_ApprenticeWhatHeldItem9] cddba3371b
+Hola!\nMeu sensei, {PLAYER}{KUN}!\pQuero um conselho sobre\nitens de POKéMON.\pO que você acha que seria bom pro\nmeu {STR_VAR_1} segurar?\pNada de timidez.\nSolta logo!$
+
+[gText_ApprenticeHoldNothing9] c5c0d4accf
+Ué? Então tá dizendo que o meu\n{STR_VAR_1} vence sem segurar item?$
+
+[gText_ApprenticeThanksNoHeldItem9] ab112bc22d
+Sí, bueno!\nVou dar o meu melhor, tipo, pá!\pBeleza, valeu, como sempre!\nAdiós!$
+
+[gText_ApprenticeThanksHeldItem9] 42be505930
+Aham, {STR_VAR_1}, é isso?\nSí, bueno!\lVou achar um, tipo, bum!\pBeleza, valeu, como sempre!\nAdiós!$
+
+[gText_ApprenticeItemAlreadyRecommended9] 31d0428e1f
+Não, não! Você já me falou desse\n{STR_VAR_1} antes.\pAh, espera só um minuto…\nEntão tá dizendo que o meu\l{STR_VAR_2} vence sem segurar item?$
+
+[gText_ApprenticeWhatHeldItem10] 99c7a5fc33
+{PLAYER}{KUN}, aconteceu uma coisa\ninacreditável!\pAcordei hoje e o meu POKéMON\ntinha 10 PEPITAS!\pÉ claro que é mentira!\nWahahaha!\pMas isto não é mentira:\nnão sou bom em pensar em que\litem o POKéMON deve segurar.\pEntão, que tal decidir pra mim o que\no meu {STR_VAR_1} segura, sensei?$
+
+[gText_ApprenticeHoldNothing10] ba7990bdcf
+Como assim?\nNão dar nada pra ele segurar?$
+
+[gText_ApprenticeThanksNoHeldItem10] c55d0494a2
+Certo, então não deve segurar nada.\nEntão vou arranjar algo pra ele!\pBrincadeira!\nVou seguir o seu ensinamento, sensei!\pValeu, sensei!\nEspero que continue me ensinando!$
+
+[gText_ApprenticeThanksHeldItem10] 14b753a2b8
+Certo, então é {STR_VAR_1}!\nVou dar qualquer coisa, menos isso!\pBrincadeira!\nVou seguir o seu ensinamento, sensei!\pValeu, sensei!\nEspero que continue me ensinando!$
+
+[gText_ApprenticeItemAlreadyRecommended10] 4456859fda
+Hã, você já me falou disso antes,\nnão falou?\pNão tem outra coisa?\pOu quer dizer pra não dar nada\npro meu {STR_VAR_2} segurar?$
+
+[gText_ApprenticeWhatHeldItem11] d6371361a5
+O-L-Á!\nSoletrei olá, já!\pO MARINHEIRO que rima sou eu, sim!\nTrago uma pergunta\lmuito afim!\pÉ uma questão de item\nque pede o seu palpite!\pMeu {STR_VAR_1} precisa de um item,\nqual vai ser, me diz, sem fim?$
+
+[gText_ApprenticeHoldNothing11] c4f0c43c9a
+É mesmo?\nMeu {STR_VAR_1} não precisa\lsegurar nada, nem um pouquinho?$
+
+[gText_ApprenticeThanksNoHeldItem11] a2c20c21ff
+Beleza, ouvi, ouvi, sim!\nMeu POKéMON vai de mãos vazias, enfim!\pSe um conselho eu precisar,\n{PLAYER}, sua palavra vou escutar!$
+
+[gText_ApprenticeThanksHeldItem11] 9497c16b21
+Beleza, {STR_VAR_1},\né o que eu vou usar.\lFoi certo você escolher, pode apostar!\pSe um conselho eu precisar,\n{PLAYER}, sua palavra vou escutar!$
+
+[gText_ApprenticeItemAlreadyRecommended11] 6e2ce38f22
+Beleza, {STR_VAR_1}, você diz?\nVocê já me disse isso, por um triz.\lPreciso de uma ideia nova, feliz.\pOu, o quê, é isso mesmo?\nMeu POKéMON não precisa segurar\lnada, nem a esmo?$
+
+[gText_ApprenticeWhatHeldItem12] f5baf256db
+Ei, olha, {PLAYER}!\nTe achei de novo hoje!\pO que eu faço? Peço conselho?\nPor que não? Já tô falando, pô!\p{PLAYER}, tá enjoando de mim?\nQue nada, não pode ser assim.\pVai me ouvir?\nTô atrás de um conselho, é isso\lque eu vim pedir.\pÉ sobre um item bom pro\nmeu {STR_VAR_1} segurar.\lA dúvida não me deixa sossegar.$
+
+[gText_ApprenticeHoldNothing12] c3f0d65e4f
+Meu {STR_VAR_1} não precisa de nada?\nNem segurar coisa nenhuma?$
+
+[gText_ApprenticeThanksNoHeldItem12] 37fcad687b
+Se não segurar nada é o melhor,\nvou fazer como você mandou, sem temor!\pBom, {PLAYER}, tenho que vagar por aí,\nmas não se esqueça de mim.\pAté mais, minha fera esperta!$
+
+[gText_ApprenticeThanksHeldItem12] 0fa56f5d6f
+Se segurar {STR_VAR_1} é o melhor,\nvou fazer como você mandou, sem temor!\pBom, {PLAYER}, tenho que vagar por aí,\nmas não se esqueça de mim.\pAté mais, minha fera esperta!$
+
+[gText_ApprenticeItemAlreadyRecommended12] 92eb9244b9
+Já não ouvi falar desse\n{STR_VAR_1} antes?\lTenho certeza que sim, com certeza!\pPreciso de algo novo!\nOu o meu {STR_VAR_2} não precisa\lde nada? Nem segurar coisa nenhuma?$
+
+[gText_ApprenticeWhatHeldItem13] c64911a730
+Gwah! Ai! {PLAYER}{KUN}, quebrei o braço!\nNão encoste, por favor!\pDevo ter quebrado testando itens\ndiferentes com a minha turma\lde POKéMON.\pEntão, do jeito que as coisas tão,\npreciso que você decida por mim.\p{PLAYER}{KUN}, o que seria bom pro\nmeu {STR_VAR_1} segurar?$
+
+[gText_ApprenticeHoldNothing13] fe0aa52487
+Ai…\pEntão o meu {STR_VAR_1}\nnão precisa segurar nada?$
+
+[gText_ApprenticeThanksNoHeldItem13] f77481d7f8
+Hm, certo. Assim fica mais fácil\npra mim, do jeito que eu tô.\pEspero poder continuar te pedindo\najuda assim.$
+
+[gText_ApprenticeThanksHeldItem13] 254d5228f4
+Hm, certo. É {STR_VAR_1}.\nO braço do meu POKéMON tá bom, então\lvou dar esse item pra ele já.\pEspero poder continuar te pedindo\najuda assim.$
+
+[gText_ApprenticeItemAlreadyRecommended13] e922c92cb5
+Não, não, você já me falou desse\n{STR_VAR_1} antes, lembra?\pQue tal me dizer algo ainda\nmelhor?\pAh, espera aí.\nEntão o meu {STR_VAR_2}\lnão precisa segurar nada?$
+
+[gText_ApprenticeWhatHeldItem14] 7b11f1fc39
+Hã… Hum…\n{PLAYER}{KUN}…\pPor favor, não me olhe assim.\nMeus POKéMON não têm nada.\pE… Tenho muita vergonha disso,\nmas preciso muito do seu conselho.\pNão sei que item deixaria o meu\n{STR_VAR_1} forte.\p{PLAYER}{KUN}, o que você acha\nque seria bom?$
+
+[gText_ApprenticeHoldNothing14] 6aa3b46e2f
+Ah… Então acha que seria melhor\no meu {STR_VAR_1} ficar sem item?$
+
+[gText_ApprenticeThanksNoHeldItem14] 6dc4079c81
+Ah… Certo!\nVou sem item.\pMas que nervoso.\nNão seria estiloso demais?\pObrigado, {PLAYER}{KUN}.\nSe a gente se encontrar de novo,\lespero que me ajude assim.$
+
+[gText_ApprenticeThanksHeldItem14] 37100536c8
+Ah… Certo!\nVou com esse {STR_VAR_1}.\pMas que nervoso.\nNão seria estiloso demais?\pObrigado, {PLAYER}{KUN}.\nSe a gente se encontrar de novo,\lespero que me ajude assim.$
+
+[gText_ApprenticeItemAlreadyRecommended14] 7dac97250d
+M-mas eu já ouvi falar disso.\pPor favor, não me dispense assim!\nNão aguento essa humilhação.\pAh… Será que tô tirando conclusões?\nAcha que seria melhor o meu\l{STR_VAR_2} ficar sem item?$
+
+[gText_ApprenticeWhatHeldItem15] efc080e0d5
+Hm? Você parece ser {PLAYER}{KUN}…\nMas é mesmo?\lQuem sabe é um sósia?\pOh, não, não, não, não se preocupe!\nSe for mesmo {PLAYER}, por favor,\lesqueça a minha grosseria.\pO que eu queria era mais um dos\nseus bons conselhos.\pTenho aqui o meu {STR_VAR_1}, a quem\nquero dar um item conveniente.\pO que seria digno dele?$
+
+[gText_ApprenticeHoldNothing15] 277a80379f
+É melhor não segurar nada?\nTem certeza?$
+
+[gText_ApprenticeThanksNoHeldItem15] 0fcaab80d5
+Entendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pAté a próxima!$
+
+[gText_ApprenticeThanksHeldItem15] 560bf238ca
+{STR_VAR_1}?\nTem certeza?\pEntendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pEspero que o meu POKéMON saiba\naproveitar bem.\pAté a próxima!$
+
+[gText_ApprenticeItemAlreadyRecommended15] 9433377fc1
+Não, não, espere um minuto.\nAcredito que você já me ensinou isso.\pGostaria que recomendasse algo\ndiferente desta vez.\pTalvez esteja sugerindo que o meu\n{STR_VAR_2} não deve segurar nada?\lTem certeza?$
+
+[gText_ApprenticeWhichMonFirst0] 66e3d5e2f1
+Buá, {PLAYER}!\nTô num dilema, buá…\pQuero começar a batalhar com outras\npessoas, mas não sei o que fazer.\pComo eu organizo os meus POKéMON\npra ficarem mais fortes?\pMe diga, {PLAYER}.\nSe fosse eu, qual destes POKéMON\lvocê mandaria primeiro?$
+
+[gText_ApprenticeMonFirstThanks0] 6fcb835aca
+O meu {STR_VAR_1} vai primeiro?\nBuááááá!\pAh! Desculpa!\nVocê escolheu o meu primeiro POKéMON,\le fiquei tão feliz que chorei…\pMuito obrigado!$
+
+[gText_ApprenticeWhichMonFirst1] 84aeae2492
+Eba! É {PLAYER}!\nDemais! Queria te perguntar uma coisa!\pHã, dos meus POKéMON, qual você\nacha que deve ir primeiro?$
+
+[gText_ApprenticeMonFirstThanks1] bfcd4f4606
+O meu {STR_VAR_1}? É verdade.\nBeleza, vou fazer isso!\pValeu por me ensinar!$
+
+[gText_ApprenticeWhichMonFirst2] b0d2150852
+{PLAYER}, olá!\pAcho que, numa batalha, é muito\nimportante quem entra primeiro.\pDos POKéMON que eu tenho,\nqual seria bom mandar primeiro?$
+
+[gText_ApprenticeMonFirstThanks2] 9cdd0753dc
+O meu {STR_VAR_1} vai primeiro?\nCerto, entendi!\pAté mais!$
+
+[gText_ApprenticeWhichMonFirst3] 02a87980cb
+Olá, {PLAYER}…\nDesculpe incomodar de novo com\loutra pergunta.\pTenho tão pouca confiança que nem sei\no que faria sem você, {PLAYER}.\pTalvez seja perda de tempo me\npreocupar, mas não consigo\ldecidir uma coisa…\pQual dos meus POKéMON eu mando\nprimeiro numa batalha?$
+
+[gText_ApprenticeMonFirstThanks3] be2493c98a
+O meu {STR_VAR_1}?\nEntendido!\pNão acredito que você se dá o trabalho\nde responder tanta pergunta!\pFico feliz só de você falar\ncomigo… Obrigado!$
+
+[gText_ApprenticeWhichMonFirst4] a12e2be91a
+Ah, {PLAYER}{KUN}! Sou eu!\nQue bom te ver, porque tenho\lum probleminha.\pNão sei em que ordem colocar os meus\nPOKéMON. Pode decidir por mim?\pAh, não precisa decidir a equipe\ninteira agora.\pQue tal decidir só o primeiro\nPOKéMON pra mim?$
+
+[gText_ApprenticeMonFirstThanks4] ced7146483
+O meu {STR_VAR_1}? Ótimo!\pSabendo que foi você que decidiu,\n{PLAYER}{KUN}, não vou ficar tão chateado\lse perder.\pBeleza, vou te pedir conselhos de novo.\nTchau!$
+
+[gText_ApprenticeWhichMonFirst5] 2e825fdd6b
+Oi, meu sensei {PLAYER}{KUN}!\nTô ocupado de novo hoje!\pTenho que pedalar, fazer compras\ne cantarolar.\pNem tive tempo de decidir a ordem\nda minha equipe de POKéMON.\pEntão, que tal dar uma olhada na\nminha equipe? Quem vai primeiro?$
+
+[gText_ApprenticeMonFirstThanks5] 45e8456a1b
+Beleza, saquei.\nPelo menos tenho tempo de pôr\lo meu {STR_VAR_1} na frente da fila!\pOpa, minha namorada tá esperando!\nValeu! Até mais!$
+
+[gText_ApprenticeWhichMonFirst6] e89c9d95e2
+Uhuu! Oi, {PLAYER}!\nVocê sempre anda com cara de forte!\pEscuta, preciso de uma coisa sua de\nnovo! A de sempre!\pRufem os tambores!\nA minha pergunta é sobre a equipe.\pQual dos meus POKéMON deve ir\nprimeiro numa batalha?$
+
+[gText_ApprenticeMonFirstThanks6] 258af8c3d0
+Hmhm!\nO meu {STR_VAR_1}, você diz!\lValeu pela resposta superlegal!\pAcho que era tudo que eu queria\nte perguntar hoje.\pVamos nos ver aqui de novo, tá?\nValeu!$
+
+[gText_ApprenticeWhichMonFirst7] 83f58c228e
+Muito obrigado por parar pra\nconversar comigo, {PLAYER}.\pSei que estou abusando da sua\nbondade, mas posso pedir um conselho?\pGostaria que você decidisse a ordem\nda minha equipe de POKéMON.\pFicaria feliz se decidisse qual\nPOKéMON deve vir primeiro.$
+
+[gText_ApprenticeMonFirstThanks7] 5935124bd0
+O meu {STR_VAR_1}, então!\nVou colocá-lo primeiro já!\pObrigado, {PLAYER}.\nEspero poder contar com você de novo.\lSe cuide!$
+
+[gText_ApprenticeWhichMonFirst8] 3b354b32c4
+Ai! {PLAYER}!\nE… Que alegria te ver de novo!\pMeus POKéMON ficaram muito\nmais fortes!\pMas nem sempre eu ganho. Parece\nque depende de quem entra primeiro.\p{PLAYER}, por favor, me ajude!\pDecida qual dos meus POKéMON\ndeve ir primeiro!$
+
+[gText_ApprenticeMonFirstThanks8] 77f6400c09
+Ai… Tô transbordando de felicidade…\pÉ um sonho você decidir\npor mim, {PLAYER}.\pMas entendido!\nVou com o meu {STR_VAR_1} primeiro!\pEspero que você queira me ensinar\nmais outra hora.$
+
+[gText_ApprenticeWhichMonFirst9] e1e6502782
+Olá, olá!\nMeu sensei, {PLAYER}{KUN}!\lMe dá um conselho sábio hoje!\pÉ que montei uma equipe de\ntrês POKéMON. Até aí, tudo bem.\pMas a ordem da equipe ainda\nnão tá definida.\pÉ aí que você entra, {PLAYER}{KUN}!\nVocê decide quem abre a luta!\pNada de timidez.\nSolta logo!$
+
+[gText_ApprenticeMonFirstThanks9] eed1387b69
+Aham, o meu {STR_VAR_1} abre!\nOK, tudo OK!\lVou reorganizar a fila, tipo, vupt!\pBeleza, valeu, como sempre!\nAdiós!$
+
+[gText_ApprenticeWhichMonFirst10] 017f35a739
+{PLAYER}{KUN}, escuta!\nÉ uma crise!\pMeus POKéMON, os três, entram\nna batalha ao mesmo tempo!\pÉ claro que isso é impossível!\nWahahaha!\pMas isto não é mentira:\nnão sou bom em pensar na ordem\ldos meus POKéMON.\pEntão, que tal decidir pra mim qual\nPOKéMON vai primeiro, sensei?$
+
+[gText_ApprenticeMonFirstThanks10] a8c74196dc
+Certo, você escolheu o meu\n{STR_VAR_1}? Vai outro, menos ele!\pBrincadeira!\nVou seguir o seu ensinamento, sensei!\pValeu, sensei!\nEspero que continue me ensinando!$
+
+[gText_ApprenticeWhichMonFirst11] b3f61e81b9
+O-L-Á!\nSoletrei olá, já!\pO MARINHEIRO que rima sou eu, sim!\nTrago uma pergunta\lmuito afim!\pÉ uma questão de ordem na equipe\nque pede o seu palpite!\pDesta turma, quem vai primeiro\nentrar no campo inteiro?$
+
+[gText_ApprenticeMonFirstThanks11] 4cdf1e0903
+Beleza, ouvi, ouvi, sim!\nVou trocar a ordem, enfim!\pSe um conselho eu precisar,\n{PLAYER}, sua palavra vou escutar!$
+
+[gText_ApprenticeWhichMonFirst12] 42bc3e328b
+Uhuu, {PLAYER}!\nComo vai?\pO que eu faço? Pergunto de vez?\nAham, tenho uma pergunta, freguês!\lTá me ouvindo?\lTá me ouvindo, sim!\pVocê tem que decidir qual dos meus\nPOKéMON vai primeiro!\lNa batalha, quero dizer.$
+
+[gText_ApprenticeMonFirstThanks12] 87508f3026
+O meu {STR_VAR_1}? Sim!\nVai dar certo, sem drama no fim!\pBom, {PLAYER}, tenho que vagar por aí,\nmas não se esqueça de mim.\pAté mais, minha fera esperta!$
+
+[gText_ApprenticeWhichMonFirst13] d00f4c619f
+…Ufa… Ai… {PLAYER}{KUN}…\nMinha barriga doeu de repente…\p…Tá melhorando agora…\pDevo ter passado mal de tanto quebrar\na cabeça sobre a ordem da minha\lturma de POKéMON.\pEntão, do jeito que as coisas tão,\npreciso que você decida por mim.\p{PLAYER}{KUN}, qual dos meus POKéMON\nvai primeiro? Pra eu ganhar, digo.$
+
+[gText_ApprenticeMonFirstThanks13] f8890d3b08
+Hm, certo.\nO meu {STR_VAR_1} vai primeiro.\pVou arrumar a ordem assim depois\ndo jantar.\pEspero poder continuar te pedindo\najuda assim.$
+
+[gText_ApprenticeWhichMonFirst14] 0cd4156514
+Hã… Hum…\n{PLAYER}{KUN}?\pPor favor, não me olhe assim.\nVocê me deixa todo atrapalhado.\pHã…\nPreciso muito do seu conselho.\pMe dá vergonha dizer, mas escolhi\na minha equipe de 3 POKéMON.\lSó não consigo decidir a ordem.\pQual POKéMON eu mando primeiro pra\npelo menos parecer capaz?$
+
+[gText_ApprenticeMonFirstThanks14] 6208d93ed2
+Ah… Certo!\nVou abrir com o meu {STR_VAR_1}.\pEspero dar o meu melhor sem\nficar todo atrapalhado.\pObrigado, {PLAYER}{KUN}.\nSe a gente se encontrar de novo,\lespero que me ajude assim.$
+
+[gText_ApprenticeWhichMonFirst15] 3ad7af1599
+Hm? Você parece ser {PLAYER}{KUN}…\nMas é mesmo?\lQuem sabe é um sósia de primeira?\pOh, não, não, não, não se preocupe!\nSe for mesmo {PLAYER}, por favor,\lesqueça a minha grosseria.\pO que eu queria era um dos seus\nbons conselhos.\pTenho aqui a minha equipe de POKéMON.\nGostaria que me dissesse qual\ldeve ir primeiro numa batalha.$
+
+[gText_ApprenticeMonFirstThanks15] 6b6bd4ebd1
+O meu {STR_VAR_1}…\nNão está brincando comigo?\pEntendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pSou como você vê, mas vou\ndar o meu melhor.\pAté a próxima!$
