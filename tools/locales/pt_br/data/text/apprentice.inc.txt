@@ -576,3 +576,291 @@ Hm? Você parece ser {PLAYER}{KUN}…\nMas é mesmo?\lQuem sabe é um sósia de 
 
 [gText_ApprenticeMonFirstThanks15] 6b6bd4ebd1
 O meu {STR_VAR_1}…\nNão está brincando comigo?\pEntendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pSou como você vê, mas vou\ndar o meu melhor.\pAté a próxima!$
+
+[gText_ApprenticeWhichMon0] 2073640817
+Snif…\nAh, {PLAYER}!\pQue hora perfeita!\nTem uma coisa que não consigo decidir…\pNão sei qual POKéMON eu\ndevo usar.\pNão consigo escolher entre\n{STR_VAR_1} e {STR_VAR_2}…\p{PLAYER}, qual você acha que daria\naté pra mim uma chance de vencer?$
+
+[gText_ApprenticeMonThanks0] 2e80366bd0
+Snif… E… Entendi!\nAh! Desculpa!\lTô tão feliz que tô chorando…\pVou fazer de tudo pra capturar um\n{STR_VAR_1}!\pMuito obrigado!$
+
+[gText_ApprenticeWhichMon1] 5c1ca44e67
+Eba! É {PLAYER}!\nEba, chegou na hora certa!\lPreciso do seu conselho de novo!\pHã, tô todo confuso: uso o meu\n{STR_VAR_1} ou o {STR_VAR_2}…\pQual você acha que eu devo criar,\n{PLAYER}?$
+
+[gText_ApprenticeMonThanks1] 8ea7c6c3b0
+Ah, então o {STR_VAR_1} é melhor!\nBeleza, vou fazer isso!\pValeu por me ensinar!$
+
+[gText_ApprenticeWhichMon2] 74b7d52875
+{PLAYER}, olá!\nTenho uma pergunta.\pTô num dilema: crio um {STR_VAR_1}\nou um {STR_VAR_2}?\pQual POKéMON você acha que\nvai ficar mais forte?$
+
+[gText_ApprenticeMonThanks2] f3c0548eea
+Você escolhe {STR_VAR_1}?\nCerto, entendi!\pVou capturar um {STR_VAR_1} forte\nagora mesmo!\pAté mais!$
+
+[gText_ApprenticeWhichMon3] acac8bcdb4
+Olá, {PLAYER}…\pHã, você já deve ter esquecido\nde alguém como eu…\p…Mas não importa, se puder\nme dar um conselho…\pNão consigo decidir que tipo de\nPOKéMON eu devo criar…\pFiquei entre {STR_VAR_1} e\n{STR_VAR_2}, mas aí\lempaquei…\p{PLAYER}, você nem deve querer\nse incomodar, mas decida por mim.$
+
+[gText_ApprenticeMonThanks3] 6fc845dd71
+Mas será que um {STR_VAR_1} selvagem\nvai me dar atenção?\pVou tentar!\pMas será que eu consigo capturar…\nNão! Vou dar o meu melhor!\pObrigado!$
+
+[gText_ApprenticeWhichMon4] e519b08576
+Ah, {PLAYER}{KUN}! Que bom te ver!\nEu ia te procurar agora mesmo!\pPode decidir que tipo de POKéMON\neu devo usar?\pPor exemplo…\nQue tal {STR_VAR_1}\le {STR_VAR_2}?\pQual você acha que seria\nmelhor?$
+
+[gText_ApprenticeMonThanks4] aa09d4b532
+{STR_VAR_1}? Ótimo!\pSabendo que foi você que decidiu,\n{PLAYER}{KUN}, não vou ficar tão chateado\lse perder.\pBeleza, vou te pedir conselhos de novo.\nTchau!$
+
+[gText_ApprenticeWhichMon5] 430740e040
+Olha só, {PLAYER}{KUN}! Como vai?\nTô ocupado como sempre!\pTambém quero mandar bem com POKéMON,\nmas não consegui decidir\lqual POKéMON usar.\pSabe como {STR_VAR_1} parece forte?\nMas {STR_VAR_2} também é bom.\p{PLAYER}{KUN}, me dá um dos seus bons\nconselhos! Qual seria bom pra mim?$
+
+[gText_ApprenticeMonThanks5] 03e7c1e350
+Beleza, saquei.\nVou arranjar tempo e capturar\lo {STR_VAR_1} que você recomendou.\pQue bom que achei um bom sensei.\nValeu! Até mais!$
+
+[gText_ApprenticeWhichMon6] 488edffbbb
+Ah!\nEba, é {PLAYER}!\pNão perdi tempo e já me gabei pros\nmeus amigos de ter te conhecido!\pPreciso da sua cabeça de novo hoje.\nÉ fácil pra você!\pRufem os tambores!\nA minha pergunta é…\pSe eu fosse criar um POKéMON,\ne as opções fossem {STR_VAR_1}\lou {STR_VAR_2}, qual seria?$
+
+[gText_ApprenticeMonThanks6] 52e0a6c687
+Ahhh!\n{STR_VAR_1}, você diz!\lValeu pela resposta superlegal!\pAcho que era tudo que eu queria\nte perguntar hoje.\pVamos nos ver aqui de novo, tá?\nValeu!$
+
+[gText_ApprenticeWhichMon7] 35008dad9c
+Ah, é você, {PLAYER}?\nQue alegria te ver de novo!\pDesde que virei seu aprendiz,\na minha confiança só cresce.\pAcho que estou pronto pra criar\num POKéMON só meu!\p{PLAYER}, posso abusar e pedir que\nescolha qual POKéMON eu devo criar?\pAs opções são {STR_VAR_1}\nou {STR_VAR_2}…\lQual POKéMON é o certo pra mim?$
+
+[gText_ApprenticeMonThanks7] a1eab666e1
+{STR_VAR_1}, então!\nVou achar um agora mesmo!\pObrigado, {PLAYER}.\nEspero poder contar com você de novo.\lSe cuide!$
+
+[gText_ApprenticeWhichMon8] 0e0858e7b1
+Ai! {PLAYER}! Te encontrei de novo!\nE… Que alegria!\pOh-oh-oh, já sei!\nNão posso perder esta chance!\pPosso te pedir um favorzão, {PLAYER}?\nEscolha um POKéMON pra mim!\pDecida qual seria melhor,\n{STR_VAR_1} ou {STR_VAR_2}!$
+
+[gText_ApprenticeMonThanks8] 30931b1ec0
+Uau! Você decidiu por mim!\nVou criar um {STR_VAR_1} do melhor\ljeito que eu puder.\pEspero que você queira me ensinar\nmais outra hora.$
+
+[gText_ApprenticeWhichMon9] 8f1c03c335
+Ei, ei!\nMeu sensei, {PLAYER}{KUN}!\pOlá, tava te procurando pra mais\num dos seus conselhos sábios!\pQue tipo de POKéMON seria certo\npra mim, {STR_VAR_1} ou {STR_VAR_2}?\pNada de timidez.\nSolta logo!$
+
+[gText_ApprenticeMonThanks9] 04647ec0f3
+Aham, {STR_VAR_1}, então!\nOK, tudo OK!\lVou pôr um numa BOLA, tipo, plim!\pBeleza, valeu, como sempre!\nAdiós!$
+
+[gText_ApprenticeWhichMon10] 1806510948
+{PLAYER}{KUN}, escuta! Grande novidade!\nCapturei um POKéMON miragem!\pÉ claro que é mentira!\nWahahaha!\pMas isto não é mentira:\nnão sou bom em capturar\lPOKéMON.\pEntão, que tal decidir pra mim que\ntipo de POKéMON eu devo capturar,\lsensei?\pQual seria melhor?\n{STR_VAR_1} ou {STR_VAR_2}?$
+
+[gText_ApprenticeMonThanks10] 4eed2a331d
+Certo, você escolheu {STR_VAR_1}?\nVou pegar o outro, então!\pBrincadeira!\nVou seguir o seu ensinamento, sensei!\pValeu, sensei!\nEspero que continue me ensinando!$
+
+[gText_ApprenticeWhichMon11] 3588131dc6
+O-L-Á!\nSoletrei olá, já!\pO MARINHEIRO que rima sou eu, sim!\nVocê lembra de mim, enfim?\pHoje tenho uma questão de POKéMON\nque pede a sua opinião, tom por tom!\pTenho a escolha entre este\n{STR_VAR_1} e {STR_VAR_2}, veja só.\lQual eu capturo, sem dó?$
+
+[gText_ApprenticeMonThanks11] 03849b800a
+{STR_VAR_1}, você diz, ei, ei!\nVou pegar um agora, já sei!\pSe um conselho eu precisar,\n{PLAYER}, sua palavra vou escutar!$
+
+[gText_ApprenticeWhichMon12] e45468d2c6
+Uau, olha só, é {PLAYER}!\pO que eu faço? Peço conselho?\nPor que não? Já tô falando, pô!\pFaz tempo. Deixa eu quebrar o gelo.\nTambém tô atrás de conselho, é o apelo!\lTá me ouvindo?\lTá me ouvindo, sim!\pMeu POKéMON… qual eu uso?\nÉ {STR_VAR_1} ou {STR_VAR_2}.\lQual você escolhe, sem abuso?$
+
+[gText_ApprenticeMonThanks12] 15ef80fbbb
+Se esse {STR_VAR_1} é o melhor,\nvou fazer como você mandou, sem temor!\pBom, {PLAYER}, tenho que vagar por aí,\nmas não se esqueça de mim.\pAté mais, minha fera esperta!$
+
+[gText_ApprenticeWhichMon13] 6723251851
+Ah, oi, {PLAYER}{KUN}…\nTô com uma dor de cabeça horrível…\pDevo ter me preocupado demais com\no tipo de POKéMON que eu devo criar.\pEntão, do jeito que as coisas tão,\npreciso que você decida por mim.\p{PLAYER}{KUN}, se eu tivesse que escolher\nentre {STR_VAR_1} e\l{STR_VAR_2}, qual seria?$
+
+[gText_ApprenticeMonThanks13] c75ff5849e
+Hm, {STR_VAR_1}, certo.\nVou procurar um quando melhorar.\pEspero poder continuar te pedindo\najuda assim.$
+
+[gText_ApprenticeWhichMon14] ad669ec4f4
+Hã… Hum…\n{PLAYER}{KUN}…?\pPor favor, não me olhe assim.\nTô ficando todo atrapalhado…\lE… Preciso do seu conselho.\pE… Tenho muita vergonha, mas não\nconsigo decidir qual POKéMON usar.\pSe as opções fossem {STR_VAR_1} ou\n{STR_VAR_2}, qual seria melhor?$
+
+[gText_ApprenticeMonThanks14] 275b3ff527
+Ah… Certo!\nVou dar o meu melhor com {STR_VAR_1}.\pEspero dar o meu melhor sem\nficar todo atrapalhado.\pObrigado, {PLAYER}{KUN}.\nSe a gente se encontrar de novo,\lespero que me ajude assim.$
+
+[gText_ApprenticeWhichMon15] 6e12c2d0af
+Hm? Você parece ser {PLAYER}{KUN}…\nMas é de verdade mesmo?\pNão, não, se for de verdade, tudo bem.\nAliás, gostaria de obter\lum conselho seu.\pÉ sobre o POKéMON que vou usar.\pSe as opções forem\n{STR_VAR_1} e {STR_VAR_2}, qual é\lmais digno de mim?$
+
+[gText_ApprenticeMonThanks15] 2c50ff72a5
+{STR_VAR_1}?\nTem certeza?\pEntendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pEspero que seja algo que até eu\nconsiga dominar com classe.\pAté a próxima!$
+
+[gText_ApprenticeWhichMove0] 82846cd1c8
+Buááá! Ah, {PLAYER}!\nSnif… Hic…\pTô num dilema!\nNão consigo escolher um golpe\lpro meu {STR_VAR_1}…\pPor favor, por favor, {PLAYER}.\nPode decidir por mim?\pPro meu {STR_VAR_1}, que golpe seria\nmelhor: {STR_VAR_2}\lou {STR_VAR_3}?$
+
+[gText_ApprenticeMoveThanks0] 67d421354e
+{STR_VAR_1}?\nBuááááá!\pAh! Desculpa, {PLAYER}!\nVocê decidiu o golpe e me deixou\ltão feliz que tô chorando…\pSnif…\nMuito obrigado!$
+
+[gText_ApprenticeWhichMove1] 90af0109cd
+Eba! Oi, {PLAYER}!\nPreciso do seu conselho de novo!\pQuero ensinar um golpe legal\npro meu {STR_VAR_1}.\pGosto dos dois golpes:\n{STR_VAR_2} e {STR_VAR_3}.\lQual você recomenda?$
+
+[gText_ApprenticeMoveThanks1] a7227c9448
+{STR_VAR_1} é melhor? Acho que sim!\nBeleza, vou com esse!\pSe a gente se encontrar aqui de novo,\nme ensine outra coisa, sensei!$
+
+[gText_ApprenticeWhichMove2] 21e78b834d
+{PLAYER}, olá!\nÉ sobre o meu {STR_VAR_1}, tô\lpreocupado com os golpes dele.\pSão os golpes {STR_VAR_2}\ne {STR_VAR_3}.\pQual é mais forte e melhor pro\nmeu {STR_VAR_1}?$
+
+[gText_ApprenticeMoveThanks2] 5c8282db28
+Você escolhe {STR_VAR_1}?\nCerto, entendi!\pVou ensinar {STR_VAR_1} pro\nmeu POKéMON agora mesmo!\pAté mais!$
+
+[gText_ApprenticeWhichMove3] 9bbd6873b9
+Ahhh, {PLAYER}…\nNão tenho jeito, sério!\pDecidi criar um POKéMON, mas agora\nnem consigo decidir que golpe\ldeixar ele aprender…\pSei que isso não significa nada\npra você, {PLAYER}.\pMas significa muito pra mim…\pPor favor, {PLAYER}, pode escolher\num golpe pro meu {STR_VAR_1}?\pSe puder só escolher entre\n{STR_VAR_2} e {STR_VAR_3}…$
+
+[gText_ApprenticeMoveThanks3] 053813e102
+Entendi!\pMas será que ele vai querer aprender\n{STR_VAR_1} por mim…\lNão! Vou dar o meu melhor!\pObrigado!$
+
+[gText_ApprenticeWhichMove4] ae095a38c2
+Ah, {PLAYER}{KUN}!\nEu tava torcendo pra te ver!\pTava pensando em que golpe seria\nadequado pro meu {STR_VAR_1}.\pNão consigo decidir, então pode\ndecidir por mim?\pPor exemplo… Que tal os golpes\n{STR_VAR_2} e {STR_VAR_3}?\lQual seria melhor?$
+
+[gText_ApprenticeMoveThanks4] aa09d4b532
+{STR_VAR_1}? Ótimo!\pSabendo que foi você que decidiu,\n{PLAYER}{KUN}, não vou ficar tão chateado\lse perder.\pBeleza, vou te pedir conselhos de novo.\nTchau!$
+
+[gText_ApprenticeWhichMove5] 43fd86d64b
+Como pode ter tanta coisa pra fazer?\nEi, olha só, {PLAYER}{KUN}!\lComo vai?\pDesde que acordei, já corri,\nnadei e cozinhei!\pVocê não imagina como tô ocupado!\pNem consigo decidir que golpe\no meu {STR_VAR_1} deve aprender!\p{STR_VAR_2} parece bom, né?\nMas {STR_VAR_3} também é decente.\p{PLAYER}{KUN}, me dá um dos seus bons\nconselhos! Qual golpe seria bom?$
+
+[gText_ApprenticeMoveThanks5] f8bf943e74
+Beleza, saquei.\nVou abrir espaço na agenda e\lensinar esse golpe.\pQue bom que achei um bom sensei.\nValeu! Até mais!$
+
+[gText_ApprenticeWhichMove6] 8401d75206
+Ah! Que sorte!\nTe encontrei de novo, {PLAYER}!\lPreciso da sua cabeça de novo hoje.\pRufem os tambores!\nA minha pergunta é…\pPro meu {STR_VAR_1}, qual golpe é\nmais adequado, {STR_VAR_2} ou\l{STR_VAR_3}?$
+
+[gText_ApprenticeMoveThanks6] 52e0a6c687
+Ahhh!\n{STR_VAR_1}, você diz!\lValeu pela resposta superlegal!\pAcho que era tudo que eu queria\nte perguntar hoje.\pVamos nos ver aqui de novo, tá?\nValeu!$
+
+[gText_ApprenticeWhichMove7] 73f31d5dc8
+Ah, olá, {PLAYER}.\nEspero que esteja tudo bem.\pPreciso do seu conselho de novo.\nÉ sobre o meu querido {STR_VAR_1}.\pQual seria o golpe ideal pro\nmeu adorável {STR_VAR_1}?\l{STR_VAR_2} ou {STR_VAR_3}?$
+
+[gText_ApprenticeMoveThanks7] ea46ff2c3c
+{STR_VAR_1}, então!\nVou ensinar agora mesmo!\pObrigado, {PLAYER}.\nEspero poder contar com você de novo.\lSe cuide!$
+
+[gText_ApprenticeWhichMove8] 04a803cd21
+Ai! {PLAYER}! Te encontrei de novo!\nE… Que alegria!\pSempre que eu preciso, você\nestá lá pra mim, {PLAYER}!\pHoje, quero que me recomende\num golpe!\pEscolha um golpe pro\nmeu {STR_VAR_1}!\pQual golpe seria melhor,\n{STR_VAR_2} ou {STR_VAR_3}?$
+
+[gText_ApprenticeMoveThanks8] 29e5734572
+Oh-oh-oh! Obrigado!\n{STR_VAR_1}, então!\lEntendido!\pEspero que você queira me ensinar\nmais outra hora.$
+
+[gText_ApprenticeWhichMove9] ce811f5bfc
+Hola, {PLAYER}{KUN}, bueno!\nTô esperando mais um dos seus\lconselhos sábios hoje!\pQual seria o melhor golpe pro\nmeu {STR_VAR_1}?\pTem que ser algo que me faça\nvencer assim, ó!\pSeria {STR_VAR_2}?\nOu {STR_VAR_3}?$
+
+[gText_ApprenticeMoveThanks9] 4594e5fbf3
+Aham, {STR_VAR_1}, então!\nSí, bueno!\lVou ensinar, tipo, kabum!\pBeleza, valeu, como sempre!\nAdiós!$
+
+[gText_ApprenticeWhichMove10] 27efe9be3b
+{PLAYER}{KUN}, é muito doido!\pMeu POKéMON!\nAprendeu seis golpes!\pÉ claro que é mentira!\nWahahaha!\pMas isto não é mentira:\nnão sou bom em escolher golpes\lpros meus POKéMON.\pEntão, que tal decidir pra mim que\ngolpe eu devo ensinar?\p{STR_VAR_2} ou {STR_VAR_3}… qual\ncombina mais com o meu {STR_VAR_1}?$
+
+[gText_ApprenticeMoveThanks10] ebd7437304
+Certo, você escolheu {STR_VAR_1}?\nVou escolher outro golpe, então!\pBrincadeira!\nVou seguir o seu ensinamento, sensei!\pValeu, sensei!\nEspero que continue me ensinando!$
+
+[gText_ApprenticeWhichMove11] 4fa214cc24
+O-L-Á!\nSoletrei olá, já!\pO MARINHEIRO que rima sou eu, sim!\nSempre na moda, sem porquê, enfim.\pHoje tenho uma questão de golpe\nque pede o seu palpite num sopro!\p{STR_VAR_2} e {STR_VAR_3} são\nos golpes. Qual o melhor, de verdade,\lpro meu {STR_VAR_1} ter qualidade?$
+
+[gText_ApprenticeMoveThanks11] fcd328a328
+{STR_VAR_1}, você diz, ei, ei!\nVou ensinar agora, já sei!\pSe um conselho eu precisar,\n{PLAYER}, sua palavra vou escutar!$
+
+[gText_ApprenticeWhichMove12] 2f82e25636
+Ah, iéé, olha só, é {PLAYER}!\pO que eu faço? Peço conselho?\nPor que não? Já tô falando, pô!\p{PLAYER}, se espantou comigo?\nQuero o seu conselho, amigo!\pTá me ouvindo?\nTá me ouvindo, sim!\pMeu {STR_VAR_1}… o que ele usa?\nÉ {STR_VAR_2} ou {STR_VAR_3},\lqual você escolhe, sem recusa?$
+
+[gText_ApprenticeMoveThanks12] 15ef80fbbb
+Se esse {STR_VAR_1} é o melhor,\nvou fazer como você mandou, sem temor!\pBom, {PLAYER}, tenho que vagar por aí,\nmas não se esqueça de mim.\pAté mais, minha fera esperta!$
+
+[gText_ApprenticeWhichMove13] 7117390a3a
+Cof! Cof! Ah, {PLAYER}{KUN}…\nTô com uma gripe daquelas…\pQuero escolher um golpe pro meu\nPOKéMON, mas não tô em condições…\pEntão, do jeito que as coisas tão,\npreciso que você decida por mim.\p{PLAYER}{KUN}, se eu tivesse que escolher\nentre {STR_VAR_2} e {STR_VAR_3} pro\lmeu {STR_VAR_1}, qual seria?$
+
+[gText_ApprenticeMoveThanks13] 6687bf6710
+Hm, {STR_VAR_1}, certo. Cof!\nVou ensinar quando melhorar.\pEspero poder continuar te pedindo\najuda assim.$
+
+[gText_ApprenticeWhichMove14] 7167ccc561
+Hã… Hum…\n{PLAYER}{KUN}…?\pPor favor, não me olhe assim.\nTô ficando todo atrapalhado…\lE… Preciso do seu conselho.\pE… Tenho muita vergonha, mas não\nconsigo decidir que golpe ensinar\lpro meu POKéMON.\pÉ pro meu {STR_VAR_1}.\nSe as opções fossem {STR_VAR_2} ou\l{STR_VAR_3}, qual seria melhor?$
+
+[gText_ApprenticeMoveThanks14] 3a13e62998
+Ah… Certo!\nVou tentar esse {STR_VAR_1}.\pEspero conseguir ensinar o golpe…\nQue nervoso…\pObrigado, {PLAYER}{KUN}.\nSe a gente se encontrar de novo,\lespero que me ajude assim.$
+
+[gText_ApprenticeWhichMove15] 834a88f4f7
+Hm? Você parece ser {PLAYER}{KUN}…\nMas é de verdade mesmo?\pTalvez seja um desses imitadores\nfamosos?\pNão, não, se for de verdade, tudo bem.\nNão precisa se aborrecer, garanto!\pAliás, gostaria de obter\num conselho seu.\pÉ sobre o meu {STR_VAR_1}.\pQue golpe seria melhor pra ele\nusar, {STR_VAR_2} ou {STR_VAR_3}?$
+
+[gText_ApprenticeMoveThanks15] 4e2d6f6429
+{STR_VAR_1}?\nNão há dúvida disso?\pEntendo. Se é assim, tudo bem.\nAgradeço pelo seu tempo.\pEspero que seja algo que até\no meu POKéMON consiga aprender.\pAté a próxima!$
+
+[gText_ApprenticePickWinSpeech0] 4b50948f09
+Ah… {PLAYER}?\nÉ {PLAYER}!\lAh! Snif… buá… Por favor, escute!\pE… Quando eu batalho, fico tão\nnervoso que choro até quando ganho…\pQueria dizer algo legal quando\neu vencesse…\pPor favor, por favor, {PLAYER}!\nPode me ensinar algo legal pra dizer\lquando eu vencer, pra eu não chorar?$
+
+[gText_ApprenticeWinSpeechThanks0] 6db94acb42
+{STR_VAR_1}\pDemais! Irado! Uhuuu!\nÉ muito legal!\pAh… Desculpa…\nTô tão feliz que tô chorando…\pSnif… {PLAYER}!\nMuito obrigado por tudo!\pVou batalhar o melhor que puder\npor você, {PLAYER}!\p{PLAYER}…\nDa próxima vez… Vamos batalhar!$
+
+[gText_ApprenticePickWinSpeech1] 997a7c7926
+Eba! É {PLAYER}! Olá!\nQueria te perguntar uma coisa!\pQuero dizer algo legal quando\nganhar uma luta.\pTem alguma frase legal pra\nme recomendar?$
+
+[gText_ApprenticeWinSpeechThanks1] 82b01a9cb1
+{STR_VAR_1}\pNossa! Que legal!\nBeleza, vou dizer isso!\pValeu por me ensinar esse tempo todo!\nVou dar o meu melhor\laonde eu for daqui pra frente!\pQuando a gente se encontrar de novo,\nvai ser pra batalhar!$
+
+[gText_ApprenticePickWinSpeech2] 85fbe03b6b
+{PLAYER}, olá!\pEu e os meus POKéMON estamos prontos\npra tudo, menos uma coisa.\pAcho que seria bom ter algo\npra gritar quando eu vencer.\pPode pensar em algo bom\npra eu dizer?$
+
+[gText_ApprenticeWinSpeechThanks2] 7df00878e9
+{STR_VAR_1}\p…Legal!\nVou usar isso!\pVou batalhar por todo\ncanto.\pQuem sabe um dia até batalho\ncom você, {PLAYER}.\pDa próxima vez, vamos nos ver\nnum lugar de batalha!$
+
+[gText_ApprenticePickWinSpeech3] 92d7cceeeb
+Olá, {PLAYER}…\nDesculpe, mas não tenho jeito…\pMesmo quando…\nMesmo quando eu ganho, não tenho nada\lde especial pra dizer…\pSei que isso não significa nada\npra você, {PLAYER}.\pMas significa muito pra mim…\pPor favor, {PLAYER}, o que eu digo\nse ganhar uma batalha?$
+
+[gText_ApprenticeWinSpeechThanks3] 2dd9938c2f
+{STR_VAR_1}\pQue inspirado…\pHã… Tudo bem alguém como eu\ndizer uma coisa dessas?\pNão! Vou dar o meu melhor!\p{PLAYER}, muito obrigado por me\naguentar por tanto tempo…\pPrometo dar o meu melhor\ndaqui pra frente.\pCom certeza você vai esquecer logo\nalguém como eu, mas vamos nos\lencontrar por aí de novo!$
+
+[gText_ApprenticePickWinSpeech4] 2ece2af1d8
+Ah, {PLAYER}{KUN}.\nQuero que você ouça uma coisa.\pSei que nem sempre pareço\nlegal ou educado…\pQuando ganho uma batalha, acho\nque pareço arrogante.\pNão quero que as pessoas não\ngostem de mim, então quero dizer algo\llegal pra quem eu venço.\pMas não penso em nada bom!\nPode pensar em algo por mim?$
+
+[gText_ApprenticeWinSpeechThanks4] 17bfb16f7f
+{STR_VAR_1}\pNada mal!\nIsso, é com essa que eu vou!\pVou cair na estrada e fazer o que\npuder com o que você me ensinou,\lna cabeça e no coração.\pDesculpe por ter sido tão\ninsistente com você!\pDa próxima, a gente batalha, tá?\nAté mais!$
+
+[gText_ApprenticePickWinSpeech5] 00676809a1
+Ah, não acredito em como tô ocupado!\nAh, ei, tava te procurando, {PLAYER}{KUN}.\pTudo bem como sempre?\nPra mim, nada mudou.\pTenho que correr, lutar e fazer\nmapas. Por que tanta coisa?\pMas, mesmo ocupado, seria falta de\neducação dar as costas e ir embora\lde uma vitória sem dizer nada.\pEntão, qual seria uma frase legal pra\nmostrar meu estilo quando eu terminar\le for embora? {PLAYER}{KUN}, me ajuda!$
+
+[gText_ApprenticeWinSpeechThanks5] e68c45282e
+{STR_VAR_1}\pBeleza, saquei.\nDá tempo de dizer isso!\pSério, que bom que achei um\nbom sensei como você.\pVou arranjar tempo de algum jeito\npra entrar nas batalhas.\pValeu por tudo, {PLAYER}{KUN}!\nA gente tem que batalhar um dia!$
+
+[gText_ApprenticePickWinSpeech6] 43f2703511
+Tive sorte de novo!\n{PLAYER}! Que bom te ver!\lComo sempre, preciso de um conselho!\pRufem os tambores!\nA minha última pergunta é…\pSe eu ganhar uma batalha e quiser\nfechar com chave de ouro, o que\leu digo?$
+
+[gText_ApprenticeWinSpeechThanks6] d143e09429
+{STR_VAR_1}\pIs… Isso é fabuloso!\nÉ digno e legal! É minha!\p…Escuta, acho que tô ficando\nbom nisso, né?\pEntão, tô pensando em desafiar\noutros TREINADORES daqui pra frente.\p{PLAYER}, seus conselhos\nme ajudaram muito.\pQuem sabe um dia a gente\nbatalha!\pObrigado por tudo!$
+
+[gText_ApprenticePickWinSpeech7] d1471aba0f
+Ah, {PLAYER}.\nQue bom que te conheci!\pNão tenho mais nenhuma preocupação\ncom os meus POKéMON.\pÉ comigo mesmo que me preocupo…\pSabe como os TREINADORES dizem\numas palavras ao vencer?\pCom certeza eu queria fazer\nisso também!\pPor favor, o que eu digo quando\nganhar uma batalha?$
+
+[gText_ApprenticeWinSpeechThanks7] 539a013989
+{STR_VAR_1}\pAh! Essa frase! Ela me revigora\ne me faz sentir renascer!\pPreciso usar já!\pE agora, devo me despedir,\n{PLAYER}…\pVou batalhar com muitos outros,\nmas nunca vou esquecer\los seus ensinamentos.\pQuem sabe um dia…\nAdeus!$
+
+[gText_ApprenticePickWinSpeech8] d0dc1a8e2e
+Ai! Avistei {PLAYER}!\nE… Que alegria te ver!\pOh-oh-oh! Tem uma coisa que eu\nprecisava te perguntar!\pAgora há pouco, ganhei uma batalha.\nEssa parte foi de dar tontura!\pMas fiquei tão feliz que engasguei\ne não consegui dizer nada!\pEntão agora, {PLAYER}, por favor, pense\nnuma frase pra quando eu ganhar!$
+
+[gText_ApprenticeWinSpeechThanks8] 759c876e91
+{STR_VAR_1}\pBuááááá!\nEu vou dizer isso?!\lE… Tô delirando de alegria!\pO-o-obrigado!\nNão tenho mais nada a lamentar!\pAgora vou viajar e batalhar com\ntodo tipo de gente.\pTudo isso eu devo a você, {PLAYER}.\nDe verdade, muito obrigado!\pTenho que ir, mas vamos nos\nencontrar numa batalha um dia!$
+
+[gText_ApprenticePickWinSpeech9] 828a7dca42
+Hola, bueno!\n{PLAYER}{KUN}!\pSabe, tô com vontade de sair por aí\nbatalhando onde der.\pMas antes, quero o seu conselho\nmais uma vez, por favor!\pSe eu ganhar uma batalha, que\nfrase boa eu digo pro meu\ladversário derrotado?$
+
+[gText_ApprenticeWinSpeechThanks9] f4029b4d7c
+{STR_VAR_1}\pAham, que maneiro!\nSí, bueno!\lVou tentar dizer isso, tipo, tchã!\pE agora, é hora de dizer tchau!\nValeu por tudo!\pMe dá uma batalha um dia, OK?\nAdiós!$
+
+[gText_ApprenticePickWinSpeech10] 9d08f63d8c
+{PLAYER}{KUN}, é um problemão!\pQuando ganho uma batalha, fico me\ngabando por uma hora, no mínimo!\pÉ claro que é mentira!\nWahahaha!\pMas isto não é mentira:\nnão sou bom de papo.\pEntão, que tal decidir pra mim o que\neu digo depois de ganhar uma batalha,\lsensei?$
+
+[gText_ApprenticeWinSpeechThanks10] b0ff5d57ee
+{STR_VAR_1}\pÉ isso que eu devo dizer, é?\nEntão vou evitar isso!\pBrincadeira!\nVou seguir o seu ensinamento, sensei!\pValeu por me ensinar esse tempo todo,\nsensei!\pFinalmente tô entendendo o que é\nser TREINADOR.\pVou sair e vencer batalhas contra\nqualquer TREINADOR.\pTalvez seja você um dia, sensei!\pÉ isso!\nAdeus, meu sensei!$
+
+[gText_ApprenticePickWinSpeech11] 8e272a82cb
+O-L-Á!\nSoletrei olá, já!\pO MARINHEIRO que rima sou eu, sim!\nEsta é a última pergunta,\lnão chore por mim!\pÉ uma questão de frase\nque pede o seu palpite, com classe!\pSe eu ganhar uma luta, o que dizer\nde um jeito bem legal de ver?$
+
+[gText_ApprenticeWinSpeechThanks11] 6cbc3011eb
+{STR_VAR_1}\pPerfeito! É isso que eu vou usar.\nFoi certo você escolher, pode apostar!\pE agora, acho que é melhor\neu sair do ninho, ao seu dispor!\pValeu por tudo que me ensinou.\nPras batalhas agora eu vou!\pB-O-A-V-I-A-G-E-M!\nSoletrei boa viagem,\lpra você, minha homenagem!$
+
+[gText_ApprenticePickWinSpeech12] 81c9a6f91e
+Ah, é, {PLAYER}!\nTe achei de novo hoje!\pO que eu faço? Pergunto de novo?\nPor que não? Já tô perguntando, pô!\pEnfim, {PLAYER}…\nTá me ouvindo?\lTá me ouvindo, sim!\lPreciso de mais um conselho pra mim!\pÉ sobre o que eu devo gritar.\nAlgo legal pra berrar quando\luma batalha terminar.\pVai, quero ouvir você falar!$
+
+[gText_ApprenticeWinSpeechThanks12] e172fa1152
+{STR_VAR_1}\pBeleza, beleza!\nVou usar, porque é uma beleza!\pAcabaram as perguntas pra fazer.\nSó falta dar tchau e correr.\pMas talvez um dia a gente se ache,\ne um dos dois vai perder, sem empate.\pMas é hora mesmo de dizer adeus.\pBom, {PLAYER}, tenho que vagar por aí,\nmas não se esqueça de mim!\pSe cuida, {PLAYER}!\nUm abraço!$
+
+[gText_ApprenticePickWinSpeech13] 365500b311
+{PLAYER}{KUN}, tô acabado…\nMeu nariz não para de escorrer…\pTava tentando pensar em algo\nlegal pra dizer quando eu vencer.\pMe emocionei tanto que chorei,\ne agora o nariz não para de escorrer…\pEntão, do jeito que as coisas tão,\npreciso que você decida, {PLAYER}{KUN}.\pQuando eu ganhar uma batalha,\no que eu digo?$
+
+[gText_ApprenticeWinSpeechThanks13] 0748168b9c
+{STR_VAR_1}\p… … …Isso é bom.\nNão, é inspirador!\lTá me trazendo lágrimas de novo!\pMas, mesmo com lágrimas e nariz\nescorrendo, vou usar essa frase!\pAcabaram as perguntas,\n{PLAYER}{KUN}.\pDaqui pra frente, somos rivais!\nValeu por tudo!$
+
+[gText_ApprenticePickWinSpeech14] eb8318b0aa
+Hã… Hum…\n{PLAYER}{KUN}…\pPor favor, não me olhe assim.\nVocê me deixa todo nervoso.\pE… Preciso do seu conselho de novo.\nMas vai ser o último…\pÉ muita vergonha perguntar,\nmas e se eu ganhar uma batalha?\lO que eu digo?$
+
+[gText_ApprenticeWinSpeechThanks14] 8a679a1b38
+{STR_VAR_1}\pAh… Certo!\nVou tentar dizer isso!\lTalvez eu fique nervoso demais…\pObrigado, {PLAYER}{KUN}.\nAgora tenho que me despedir.\pVou seguir tudo que você me ensinou,\n{PLAYER}{KUN}, e dar o meu melhor.$
+
+[gText_ApprenticePickWinSpeech15] 4e95c62f10
+Hm? Você parece ser {PLAYER}{KUN}…\nMas é mesmo?\lQuem sabe um BONECO {PLAYER}?\pOh, não, não, não, não se preocupe!\nSe for de verdade, por favor,\lesqueça a minha grosseria.\pNão precisa se zangar. Só quero\nmais um dos seus bons conselhos.\pÉ sobre uma frase.\pMais precisamente, o que eu digo\nse ganhar uma batalha?$
+
+[gText_ApprenticeWinSpeechThanks15] eeb04ced8f
+{STR_VAR_1}\p… … … … … …\nQuando eu ganhar uma luta…\p{STR_VAR_1}\p…É sério?\pEntendo. Se é sério, tudo bem.\nAgradeço pelo seu tempo.\pEspero que até eu consiga fazer\nbom uso dessa frase.\pParece que não preciso de mais\nconselhos.\pCreio que já é hora de me despedir\ne seguir meu próprio caminho.\pObrigado, meu sensei!\nPeço desculpas pela desconfiança!$
