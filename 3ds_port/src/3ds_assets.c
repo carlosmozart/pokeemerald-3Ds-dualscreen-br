@@ -420,14 +420,15 @@ static u8 *ReadPayload(u32 idx)
         return NULL;
     }
     fclose(file);
-    /* Graphics with English words, redrawn for a translated build. */
-    Port_TransformAsset(path, buffer, expected);
     return buffer;
 }
 
 /* Under sLock. */
 static void Publish(u32 idx, u8 *buffer)
 {
+    /* Graphics with English words, redrawn for a translated build. Here,
+     * where the demand read, the warm-up worker and the prefetch all pass. */
+    Port_TransformAsset(GetAssetPathByIndex(idx), buffer, sEntries[idx].size);
     sPayloads[idx].data = buffer;
     sPayloads[idx].size = sEntries[idx].size;
     sPayloads[idx].stamp = sStamp;

@@ -226,6 +226,10 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       cena ampliada 1,5×, atrás da caixa de mensagem, que esconde AT. ESP.,
       DEF. ESP. e VELOC. A versão original em inglês tem o mesmo corte
       (conferido no 3DS em 09/10): é um bug do port, não da tradução.
+- [ ] Ícones de tipo do RESUMO (`graphics/types/move_types.4bpp.lz`, comprimido,
+      diferente da folha `menu_info` já traduzida, que aparece na BOLSA e em
+      menus): fazer junto com os ícones de condição, que pedem o mesmo
+      mecanismo (descomprimir, redesenhar, comprimir de novo, tamanho novo).
 - [ ] Ícones de condição (`status_icons.4bpp.lz`, comprimido; também lido à
       parte pela tela de baixo): ENV, PAR, DOR, CON, QUE, DES; PKRS fica.
       Abreviações decididas em 09/10, para a próxima build.
