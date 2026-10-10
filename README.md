@@ -32,6 +32,25 @@ Pokémon Emerald 3Ds Dual Screen brings the adventure to Nintendo 3DS as
 interface on the bottom screen replaces the START menu. Enable the optional
 **voxel overworld** to explore supported areas from a new angle.
 
+## This fork: Brazilian Portuguese
+
+This fork translates the game into **Brazilian Portuguese** (PT-BR), with
+the official Brazilian names. Build it with
+`python tools/bootstrap.py --make --port-lang pt_br`; see
+[Portuguese build](docs/PORTUGUESE.md) and the
+[translation roadmap](docs/ROADMAP-PTBR.md). Translation: Carlos Mozart
+(AllGenWiki). Original 3DS port: Daniel Cazalla.
+
+Known issues in the Portuguese build:
+
+- **POKéDEX:** on the screen that registers a new POKéMON, the text
+  appears cut.
+- Some graphics still show English words (summary page headers, the
+  summary's type icons, the status icons, the POKéDEX and POKéNAV menus,
+  the title logo).
+- Moves with full-screen animations (SURF) cover only the GBA's 240
+  pixels: a limitation of the original port.
+
 ## Screenshots
 
 <p align="center"><em>A look at the adventure across both screens.</em></p>

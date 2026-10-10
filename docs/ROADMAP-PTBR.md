@@ -326,6 +326,14 @@ O maior volume do projeto, sem equivalente no wiki.
 - [x] Créditos e cena final: ficam em inglês, com duas páginas novas logo
       depois do título (patch `0048`): Tradução PT-BR, Carlos Mozart e
       AllGenWiki; Port para Nintendo 3DS, Daniel Cazalla (09/10).
+- [ ] Rever os arquivos de código com texto que nenhum catálogo cobre
+      (levantamento de 10/10 no PC dos menus): `src/berry.c` (129, nomes
+      e descrições das FRUTAS), `src/data/text/match_call_messages.h`
+      (312), `src/data/union_room.h` (211), `src/landmark.c` (42),
+      `src/text_input_strings.c` e `src/naming_screen.c` (45),
+      `src/berry_blender.c` (32) e `src/map_name_popup.c` (8). O usuário
+      lembra de ter traduzido parte deles neste PC: conferir se o trabalho
+      chegou ao GitHub e catalogar o que faltar.
 
 ## Fase 8 — Tela de toque do 3DS
 
