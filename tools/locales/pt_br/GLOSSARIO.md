@@ -54,6 +54,7 @@ houver um, e registre a escolha na segunda tabela.
 | Stat | ATRIBUTO | |
 | Ability | HABILIDADE | |
 | Status condition | CONDIÇÃO DE STATUS | |
+| Ícones de condição (PSN, PAR, SLP, FRZ, BRN, FNT) | ENV, PAR, DOR, CON, QUE, DES (PKRS fica) | sem abreviação oficial no Brasil; escolha do projeto, 09/10 |
 | TM | MÁQUINA TÉCNICA (MT) | |
 | Type | TIPO | |
 

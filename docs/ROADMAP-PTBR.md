@@ -226,6 +226,15 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       cena ampliada 1,5×, atrás da caixa de mensagem, que esconde AT. ESP.,
       DEF. ESP. e VELOC. A versão original em inglês tem o mesmo corte
       (conferido no 3DS em 09/10): é um bug do port, não da tradução.
+- [ ] Ícones de condição (`status_icons.4bpp.lz`, comprimido; também lido à
+      parte pela tela de baixo): ENV, PAR, DOR, CON, QUE, DES; PKRS fica.
+      Abreviações decididas em 09/10, para a próxima build.
+- [ ] BUG a verificar (relatado em 09/10): golpes com animação na tela toda,
+      como SURF, aparecem errados na batalha. Primeira hipótese: a correção
+      da janela de subida de nível (`BattleTextLayers` em `3ds_video.c`),
+      que desenha o BG1 com a caixa de mensagem sempre que ele fica à frente
+      do BG0; a animação do SURF usa o BG1. Conferir se acontece também na
+      versão original e com o 3D desligado.
 - [x] Mensagens de batalha (`src/battle_message.c`, patch `0041` para a
       ordem “ZIGZAGOON selvagem”); conferir larguras com a
       referência do patch `0034`.
