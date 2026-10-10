@@ -178,6 +178,81 @@ static void DrawTypeName(unsigned char *tiles, unsigned tile, const char *name)
     }
 }
 
+/* The move window's labels, 42x12: white letters outlined in the colour of
+ * the bar they sit on (rows 4-8). '~' stands for Ã. */
+static const struct
+{
+    unsigned short tile;
+    const char *name;
+} sLabels[] = {
+    {0xA8, "TIPO"}, {0xC0, "PODER"}, {0xC8, "PRECIS~O"}, {0xE0, "PP"}, {0xE8, "EFEITO"},
+};
+
+#define LABEL_W 42
+#define LABEL_H 12
+
+static void DrawLabel(unsigned char *tiles, unsigned tile, const char *name)
+{
+    int x0 = (int)(tile % SHEET_TILES_WIDE) * 8, y0 = (int)(tile / SHEET_TILES_WIDE) * 8;
+    unsigned char inked[LABEL_H][LABEL_W];
+    int total = -1, x, y;
+    const char *p;
+
+    /* The bar back without its letters, and nothing above or below it. */
+    for (y = 0; y < LABEL_H; y++)
+        for (x = 0; x < LABEL_W; x++)
+        {
+            if (y >= 4 && y <= 8)
+            {
+                if (SheetPixel(tiles, x0 + x, y0 + y) != 0)
+                    SetSheetPixel(tiles, x0 + x, y0 + y, SHADOW);
+            }
+            else
+            {
+                SetSheetPixel(tiles, x0 + x, y0 + y, 0);
+            }
+        }
+    memset(inked, 0, sizeof(inked));
+    for (p = name; *p; p++)
+    {
+        int w;
+        GlyphInk(*p, 0, 0, &w);
+        total += w + 1;
+    }
+    x = (LABEL_W - 1 - total) / 2;
+    for (p = name; *p; p++)
+    {
+        int w, r, c, dummy;
+        GlyphInk(*p, 0, 0, &w);
+        for (r = -1; r <= 7; r++)
+            for (c = 0; c < w; c++)
+            {
+                int ly = 3 + r; /* row -1 on the label's row 2, the letter on rows 3-9 */
+                if (GlyphInk(*p, r, c, &dummy) && ly >= 0 && ly < LABEL_H && x + c < LABEL_W)
+                    inked[ly][x + c] = 1;
+            }
+        x += w + 1;
+    }
+    for (y = 0; y < LABEL_H; y++)
+        for (x = 0; x < LABEL_W; x++)
+        {
+            int dx, dy;
+            if (!inked[y][x])
+                continue;
+            for (dy = -1; dy <= 1; dy++)
+                for (dx = -1; dx <= 1; dx++)
+                {
+                    int nx = x + dx, ny = y + dy;
+                    if (nx >= 0 && ny >= 0 && nx < LABEL_W && ny < LABEL_H && !inked[ny][nx])
+                        SetSheetPixel(tiles, x0 + nx, y0 + ny, SHADOW);
+                }
+        }
+    for (y = 0; y < LABEL_H; y++)
+        for (x = 0; x < LABEL_W; x++)
+            if (inked[y][x])
+                SetSheetPixel(tiles, x0 + x, y0 + y, INK);
+}
+
 static int EndsWith(const char *path, const char *suffix)
 {
     size_t n = strlen(path), m = strlen(suffix);
@@ -189,8 +264,12 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
     unsigned i;
 
     if (EndsWith(path, "interface/menu_info.4bpp") && size >= 128 * 128 / 2)
+    {
         for (i = 0; i < sizeof(sTypeNames) / sizeof(sTypeNames[0]); i++)
             DrawTypeName(data, sTypeNames[i].tile, sTypeNames[i].name);
+        for (i = 0; i < sizeof(sLabels) / sizeof(sLabels[0]); i++)
+            DrawLabel(data, sLabels[i].tile, sLabels[i].name);
+    }
 }
 
 #else

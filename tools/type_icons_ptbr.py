@@ -52,6 +52,9 @@ TYPES = {  # menu_info tile offset: name
     0x40: 'ELÉTR.', 0x84: 'PSÍQ.', 0x4C: 'GELO', 0xA0: 'DRAGÃO', 0x8C: 'SOMBR.',
 }
 INK, SHADOW = 0xF, 0xE
+# The move window's labels, 42x12: white letters outlined in the colour of
+# the bar they sit on (rows 4-8).
+LABELS = {0xA8: 'TIPO', 0xC0: 'PODER', 0xC8: 'PRECISÃO', 0xE0: 'PP', 0xE8: 'EFEITO'}
 
 
 def glyph(ch):
@@ -94,6 +97,35 @@ def draw_type(px, off, name):
         x += w + 1
 
 
+def draw_label(px, off, name):
+    x0, y0 = (off % 16) * 8, (off // 16) * 8
+    # The bar back without its letters, and nothing above or below it.
+    for y in range(y0, y0 + 12):
+        for x in range(x0, x0 + 42):
+            if 4 <= y - y0 <= 8:
+                if px[x, y] != 0:
+                    px[x, y] = SHADOW
+            else:
+                px[x, y] = 0
+    glyphs = [glyph(ch) for ch in name]
+    total = sum(w for _, w in glyphs) + (len(glyphs) - 1)
+    x = x0 + (41 - total) // 2
+    inked = set()
+    for rows, w in glyphs:
+        for r, row in enumerate(rows):
+            for c, ch in enumerate(row):
+                if ch == '#':
+                    inked.add((x + c, y0 + 2 + r))  # row -1 on the label's row 2, the letter on rows 3-9
+        x += w + 1
+    for (ix, iy) in inked:
+        for dy in (-1, 0, 1):
+            for dx in (-1, 0, 1):
+                if (ix + dx, iy + dy) not in inked:
+                    px[ix + dx, iy + dy] = SHADOW
+    for (ix, iy) in inked:
+        px[ix, iy] = INK
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('--tree', type=Path, required=True)
@@ -103,6 +135,8 @@ def main():
     px = im.load()
     for off, name in TYPES.items():
         draw_type(px, off, name)
+    for off, name in LABELS.items():
+        draw_label(px, off, name)
     big = im.convert('RGB').resize((im.width * 4, im.height * 4), Image.NEAREST)
     big.save(args.out)
     print('preview:', args.out)
