@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Portuguese: the type icons in Portuguese (NORMAL, LUTADOR, ÁGUA, ELÉTR.,
+  DRAGÃO…). 3ds_icons_ptbr.c redraws the player's own menu_info sheet as it
+  is read from the data pack: the frames and colours stay, the English
+  letters are cleared and the names written in a small font drawn for the
+  project. tools/type_icons_ptbr.py renders the same into a preview.
 - Portuguese: two credits pages right after the title, before the crew's
   (patch 0048): Tradução PT-BR, Carlos Mozart, AllGenWiki; Port para
   Nintendo 3DS, Daniel Cazalla.

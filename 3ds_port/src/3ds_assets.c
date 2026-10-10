@@ -420,6 +420,8 @@ static u8 *ReadPayload(u32 idx)
         return NULL;
     }
     fclose(file);
+    /* Graphics with English words, redrawn for a translated build. */
+    Port_TransformAsset(path, buffer, expected);
     return buffer;
 }
 
