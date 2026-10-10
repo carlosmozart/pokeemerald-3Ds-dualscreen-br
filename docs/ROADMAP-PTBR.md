@@ -229,12 +229,11 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
 - [ ] Ícones de condição (`status_icons.4bpp.lz`, comprimido; também lido à
       parte pela tela de baixo): ENV, PAR, DOR, CON, QUE, DES; PKRS fica.
       Abreviações decididas em 09/10, para a próxima build.
-- [ ] BUG a verificar (relatado em 09/10): golpes com animação na tela toda,
-      como SURF, aparecem errados na batalha. Primeira hipótese: a correção
-      da janela de subida de nível (`BattleTextLayers` em `3ds_video.c`),
-      que desenha o BG1 com a caixa de mensagem sempre que ele fica à frente
-      do BG0; a animação do SURF usa o BG1. Conferir se acontece também na
-      versão original e com o 3D desligado.
+- [ ] Golpes com animação na tela toda, como SURF: só cobrem a parte da tela
+      que existia no GBA (240 px dos 400 do 3DS). Acontece também na versão
+      original do port (conferido em 09/10): é uma limitação do port, não da
+      tradução, nem da correção da janela de nível. Fica para depois,
+      opcional.
 - [x] Mensagens de batalha (`src/battle_message.c`, patch `0041` para a
       ordem “ZIGZAGOON selvagem”); conferir larguras com a
       referência do patch `0034`.
