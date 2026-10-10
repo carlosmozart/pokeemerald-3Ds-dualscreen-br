@@ -5,21 +5,20 @@ A compilação em português (`--port-lang pt_br`) tem duas partes:
 - **A interface do port**, toda em português: os rótulos da tela de baixo
   (MAPA, os atributos, as opções de 3D), as abas OPÇÕES, MELHORIAS e
   TRAPAÇAS com suas células, e as mensagens de erro do pacote de dados.
-- **O texto do jogo**, em tradução: por enquanto a fala do Prof. Birch, o
-  caminhão de mudança, a CIDADE DE LITTLEROOT inteira (as duas casas e o
-  LABORATÓRIO), a ROTA 101 com a escolha do primeiro POKéMON, a CIDADE DE
-  OLDALE, a enfermeira dos CENTROS POKéMON, os POKé MARTS, os nomes e as
-  descrições de todos os itens, golpes e habilidades, as mensagens de batalha, os tipos, as categorias da POKéDEX, a BOLSA (menus, bolsos e
-  mensagens), o menu principal, o menu START e SIM/NÃO. O que ainda não foi traduzido fica
-  em inglês. `python tools/localize_portuguese.py --tree build/upstream
-  --status` mostra o progresso.
+- **O texto do jogo**, traduzido por inteiro: os diálogos de todos os mapas,
+  os treinadores, as batalhas, os menus, a POKéDEX, o PC, as lojas, o
+  POKéNAV, os concursos, a FRONTEIRA DE BATALHA e a FALA FÁCIL.
+  `python tools/localize_portuguese.py --tree build/upstream --status`
+  mostra a cobertura.
+- **Os gráficos com palavras** que o port redesenha a partir da ROM do
+  jogador (`3ds_port/src/3ds_icons_ptbr.c`): os ícones de tipo, a janela de
+  golpes, os títulos do resumo e o APERTE START.
 
 O plano da tradução, as decisões e o andamento de cada fase estão no
 [roadmap](ROADMAP-PTBR.md); os termos, no
 [glossário](../tools/locales/pt_br/GLOSSARIO.md).
 
-O jogo continua vindo da ROM americana/europeia (BPEE). Ainda não foi testada
-num 3DS.
+O jogo continua vindo da ROM americana/europeia (BPEE). Testada num 3DS.
 
 ## Compilar
 
