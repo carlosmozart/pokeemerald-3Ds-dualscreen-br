@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Portuguese: the summary's page titles (PERFIL, HABILIDADE, GOLPES,
+  DESCRIÇÃO, MEMO TREINADOR, ATRIBUTOS…), redrawn in the decompressed tiles
+  before they reach VRAM (patch 0049).
 - Portuguese: the summary's type icons too (FOGO, ÁGUA, PLANTA…), redrawn
   by 3ds_icons_ptbr.c once the summary decompresses the sheet (patch 0049).
   The contest categories (COOL, BEAUTY…) stay for now.

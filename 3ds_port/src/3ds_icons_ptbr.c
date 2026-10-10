@@ -68,6 +68,8 @@ static const struct Glyph sGlyphs[] = {
     {'T', {"###", ".#.", ".#.", ".#.", ".#.", ".#.", ".#."}},
     {'U', {"#.#", "#.#", "#.#", "#.#", "#.#", "#.#", "###"}},
     {'V', {"#.#", "#.#", "#.#", "#.#", "#.#", ".#.", ".#."}},
+    {'X', {"#.#", "#.#", "#.#", ".#.", "#.#", "#.#", "#.#"}},
+    {' ', {"..", "..", "..", "..", "..", "..", ".."}},
     {'.', {".", ".", ".", ".", ".", ".", "#"}},
 };
 
@@ -273,6 +275,82 @@ static void DrawLabel(unsigned char *tiles, unsigned tile, const char *name)
                 SetSheetPixel(tiles, x0 + x, y0 + y, INK);
 }
 
+/*
+ * The summary's page titles (graphics/summary_screen/tiles.4bpp, 16 tiles to
+ * a row): one 8-pixel row of tiles each, the letters in colour 2 with the
+ * shadow 6 below and to the right, on the strip's colour. The font loses its
+ * third row there, so the accents fit on the tile's row 0 and the cedilla on
+ * row 7.
+ */
+#define TITLE_INK 0x2
+#define TITLE_SHADOW 0x6
+
+static const struct
+{
+    unsigned short tile;
+    unsigned char tiles;
+    const char *name;
+} sSummaryTitles[] = {
+    {128, 8, "PERFIL"}, {144, 9, "HABILIDADE"}, {176, 9, "ESTADO"}, {224, 9, "MEMO TREINADOR"},
+    {192, 8, "GOLPES"}, {202, 6, "EFEITO"}, {208, 10, "DESCRIc~O"},
+    {137, 7, "ITEM"}, {153, 7, "FITAS"}, {169, 7, "ATRIBUTOS"}, {185, 7, "EXP."},
+};
+
+static void DrawSummaryTitle(unsigned char *tiles, unsigned tile, int width, const char *name)
+{
+    int x0 = (int)(tile % SHEET_TILES_WIDE) * 8, y0 = (int)(tile / SHEET_TILES_WIDE) * 8;
+    unsigned char inked[8][80];
+    int x, y;
+    const char *p;
+
+    for (y = 0; y < 8; y++)
+    {
+        /* The strip's colour: the commonest one besides the letters' (the
+         * right end may have a border). */
+        unsigned count[16] = {0}, bg = 0;
+        for (x = 0; x < width; x++)
+            count[SheetPixel(tiles, x0 + x, y0 + y)]++;
+        count[TITLE_INK] = count[TITLE_SHADOW] = 0;
+        for (x = 1; x < 16; x++)
+            if (count[x] > count[bg])
+                bg = (unsigned)x;
+        for (x = 0; x < width; x++)
+        {
+            unsigned v = SheetPixel(tiles, x0 + x, y0 + y);
+            if (v == TITLE_INK || v == TITLE_SHADOW)
+                SetSheetPixel(tiles, x0 + x, y0 + y, bg);
+        }
+    }
+    memset(inked, 0, sizeof(inked));
+    x = 2;
+    for (p = name; *p; p++)
+    {
+        int w, t, c, dummy;
+        GlyphInk(*p, 0, 0, &w);
+        for (t = 0; t < 8; t++)
+        {
+            /* Tile row 0 the accent, 1-6 the letter without its row 2, 7 the cedilla. */
+            int r = t == 0 ? -1 : t == 7 ? 7 : t < 3 ? t - 1 : t;
+            for (c = 0; c < w; c++)
+                if (x + c < width - 1 && GlyphInk(*p, r, c, &dummy))
+                    inked[t][x + c] = 1;
+        }
+        x += w + 1;
+    }
+    for (y = 0; y < 8; y++)
+        for (x = 0; x < width; x++)
+        {
+            int dx, dy;
+            if (!inked[y][x])
+                continue;
+            for (dy = 0; dy <= 1; dy++)
+                for (dx = 0; dx <= 1; dx++)
+                    if ((dx || dy) && y + dy < 8 && x + dx < width && !inked[y + dy][x + dx])
+                        SetSheetPixel(tiles, x0 + x + dx, y0 + y + dy, TITLE_SHADOW);
+            SetSheetPixel(tiles, x0 + x, y0 + y, TITLE_INK);
+        }
+}
+
 static int EndsWith(const char *path, const char *suffix)
 {
     size_t n = strlen(path), m = strlen(suffix);
@@ -289,6 +367,11 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
             DrawTypeName(data, sTypeNames[i].tile, sTypeNames[i].name);
         for (i = 0; i < sizeof(sLabels) / sizeof(sLabels[0]); i++)
             DrawLabel(data, sLabels[i].tile, sLabels[i].name);
+    }
+    else if (EndsWith(path, "summary_screen/tiles.4bpp") && size >= 128 * 120 / 2)
+    {
+        for (i = 0; i < sizeof(sSummaryTitles) / sizeof(sSummaryTitles[0]); i++)
+            DrawSummaryTitle(data, sSummaryTitles[i].tile, sSummaryTitles[i].tiles * 8, sSummaryTitles[i].name);
     }
     else if (EndsWith(path, "types/move_types.4bpp") && size >= sizeof(sSummaryTypeNames) / sizeof(sSummaryTypeNames[0]) * 256)
     {

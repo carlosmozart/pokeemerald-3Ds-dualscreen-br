@@ -1,10 +1,29 @@
-Pokémon Emerald 3Ds Dual Screen changes to pret/pokeemerald 76463dac15cad36aca5e2b3f6366abf9e53f814f: the summary type icons in Portuguese
+Pokémon Emerald 3Ds Dual Screen changes to pret/pokeemerald 76463dac15cad36aca5e2b3f6366abf9e53f814f: the summary page titles and type icons in Portuguese
 Applies after 0048-portuguese-credits-page.patch; apply with tools/bootstrap.py.
 
 diff --git a/src/pokemon_summary_screen.c b/src/pokemon_summary_screen.c
 --- a/src/pokemon_summary_screen.c
 +++ b/src/pokemon_summary_screen.c
-@@ -1339,7 +1339,22 @@
+@@ -1307,7 +1307,18 @@
+     {
+     case 0:
+         ResetTempTileDataBuffers();
++#ifdef CTR_LANG_PT_BR
++    {
++        /* The page titles in Portuguese, redrawn by the port in the buffer
++         * the copy to VRAM still reads from (3ds_icons_ptbr.c). */
++        void *tiles = DecompressAndCopyTileDataToVram(1, &gSummaryScreen_Gfx, 0, 0, 0);
++
++        if (tiles != NULL)
++            Port_TransformAsset("summary_screen/tiles.4bpp", tiles, 128 * 120 / 2);
++    }
++#else
+         DecompressAndCopyTileDataToVram(1, &gSummaryScreen_Gfx, 0, 0, 0);
++#endif
+         sMonSummaryScreen->switchCounter++;
+         break;
+     case 1:
+@@ -1339,7 +1350,22 @@
          sMonSummaryScreen->switchCounter++;
          break;
      case 7:

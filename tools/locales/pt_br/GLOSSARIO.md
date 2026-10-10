@@ -287,3 +287,10 @@ há (FELIZ, BEM), masculino quando não há; os grupos de habilidades, tipos,
 golpes e POKéMON usam os nomes dos catálogos. A ordem alfabética das listas
 (por grupo e no modo ABC) é refeita do texto em português por
 `tools/easy_chat_order.py`, com É no E e Ç no C.
+
+## Títulos do resumo
+
+Gráficos redesenhados pelo port (`3ds_icons_ptbr.c`, patch `0049`), cada um
+na faixa de tiles do original: PERFIL, HABILIDADE, ESTADO (ovo), MEMO
+TREINADOR (TRAINER MEMO; "MEMO DO TREINADOR" não cabe nos 72 px), GOLPES,
+EFEITO, DESCRIÇÃO, ITEM, FITAS, ATRIBUTOS (STATS) e EXP.
