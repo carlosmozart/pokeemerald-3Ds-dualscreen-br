@@ -273,3 +273,13 @@ linhas e 224 px. Medidas no sistema métrico, arredondadas como alguém
 diria: “a mais de 10 km” (six miles), “mais de 50 metros” (160 feet),
 “quase 1 km” (half a mile). Nomes de POKéMON e golpes em maiúsculas, como
 no jogo.
+
+## FALA FÁCIL
+
+As palavras da FALA FÁCIL (EASY CHAT) são traduzidas (decidido em 09/10):
+o jogo guarda e troca as frases como números, então save e troca com
+outros idiomas não mudam. Até 72 px, como o inglês; formas neutras quando
+há (FELIZ, BEM), masculino quando não há; os grupos de habilidades, tipos,
+golpes e POKéMON usam os nomes dos catálogos. A ordem alfabética das listas
+(por grupo e no modo ABC) é refeita do texto em português por
+`tools/easy_chat_order.py`, com É no E e Ç no C.

@@ -453,6 +453,12 @@ def main() -> int:
     # Validate everything before changing anything.
     for relative in present(tree):
         localize(tree, relative, charset, write=True)
+    # The EASY CHAT lists are ordered by hand for English: order them by the
+    # staged texts (words, moves) so the ABC mode and each group read right.
+    import easy_chat_order
+    words, groups = easy_chat_order.word_texts(tree)
+    easy_chat_order.reorder_groups(groups)
+    easy_chat_order.reorder_letters(tree, words)
     (tree / ".emerald3ds-locale").write_text(MARKER + "\n")
     print("localize_portuguese: %d texts staged from %d files"
           % (sum(r.applied for r in results), len(results)))

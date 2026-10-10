@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Portuguese: the EASY CHAT words (1008, with the abilities, types, moves
+  and POKéMON from the catalogs), and their lists in alphabetical order
+  again: tools/easy_chat_order.py rewrites each group's order and the ABC
+  mode from the staged texts. Saves and trades keep the words' numbers.
 - Portuguese: the place names on the map popup, the region map and the summary:
   the towns by their own name (LITTLEROOT), ROTA 101 and the rest within 16
   characters. localize_portuguese.py stages the generated

@@ -176,9 +176,10 @@ Nomes primeiro, porque as descrições e os diálogos citam esses nomes.
 - [x] **Lugares:** no mapa, na placa e no resumo, as cidades só com o nome
       próprio (LITTLEROOT) e o resto em até 16 caracteres (ROTA 101, CAT.
       METEOROS), pelo cabeçalho gerado `region_map_entries.h` (09/10).
-- [ ] Naturezas (25, nomes `pt_br` do Bulbapedia), classes de treinador (66),
+- [x] Naturezas (25, nomes `pt_br` do Bulbapedia), classes de treinador (66),
       FITAS (66) e decorações da BASE SECRETA (120 nomes e 120 descrições)
-      feitas em 09/10. Falta decidir as palavras da FALA FÁCIL.
+      feitas em 09/10; as palavras da FALA FÁCIL (1008) também, com a ordem
+      alfabética refeita do português (`tools/easy_chat_order.py`).
 - [ ] Os limites de golpe, item e habilidade não estão no save e podem
       aumentar; antes, conferir as janelas que mostram esses nomes. Se não
       couber, abreviar (Princípio 2).
