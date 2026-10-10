@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Portuguese: the status icons read ENV, PAR, DOR, CON, QUE and DES (PKRS
+  stays), in the summary (patch 0049) and on the bottom screen, whose
+  decompressed sheets now pass through Port_TransformAsset too (the bottom
+  screen's type icons are Portuguese as well).
 - Portuguese: APERTE START on the title screen, put together by
   3ds_icons_ptbr.c from the sheet's own letters (patch 0050). The logo
   (EMERALD VERSION) stays.

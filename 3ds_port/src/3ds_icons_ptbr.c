@@ -418,6 +418,48 @@ static void DrawPressStart(unsigned char *tiles)
                 SetSheetPixel(tiles, sx, sy, line[y][l]);
 }
 
+/*
+ * The status icons (graphics/interface/status_icons.4bpp, 4 tiles to a row):
+ * one 32x8 icon per row in the order of the summary (PSN, PAR, SLP, FRZ,
+ * BRN, PKRS, FNT), the letters in colour 2 on rows 1-6, no shadow. The font
+ * loses its third row, as in the summary's titles; PKRS stays.
+ */
+static const char *const sStatusNames[] = {"ENV", "PAR", "DOR", "CON", "QUE", NULL, "DES"};
+
+static void DrawStatusIcon(unsigned char *tiles, int y0, const char *name)
+{
+    int total = -1, x, y;
+    const char *p;
+
+    for (y = 1; y <= 6; y++)
+    {
+        unsigned bg = SheetPixel(tiles, 8, y0 + y); /* left of the letters */
+        for (x = 0; x < 32; x++)
+            if (SheetPixel(tiles, x, y0 + y) == TITLE_INK)
+                SetSheetPixel(tiles, x, y0 + y, bg);
+    }
+    for (p = name; *p; p++)
+    {
+        int w;
+        GlyphInk(*p, 0, 0, &w);
+        total += w + 1;
+    }
+    x = (32 - total) / 2;
+    for (p = name; *p; p++)
+    {
+        int w, t, c, dummy;
+        GlyphInk(*p, 0, 0, &w);
+        for (t = 1; t <= 6; t++)
+        {
+            int r = t < 3 ? t - 1 : t;
+            for (c = 0; c < w; c++)
+                if (GlyphInk(*p, r, c, &dummy))
+                    SetSheetPixel(tiles, x + c, y0 + t, TITLE_INK);
+        }
+        x += w + 1;
+    }
+}
+
 static int EndsWith(const char *path, const char *suffix)
 {
     size_t n = strlen(path), m = strlen(suffix);
@@ -443,6 +485,14 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
     else if (EndsWith(path, "title_screen/press_start.4bpp") && size >= 21 * 32)
     {
         DrawPressStart(data);
+    }
+    else if (EndsWith(path, "interface/status_icons.4bpp") && size >= 7 * 4 * 32)
+    {
+        sTilesWide = 4;
+        for (i = 0; i < sizeof(sStatusNames) / sizeof(sStatusNames[0]); i++)
+            if (sStatusNames[i] != NULL)
+                DrawStatusIcon(data, (int)i * 8, sStatusNames[i]);
+        sTilesWide = SHEET_TILES_WIDE;
     }
     else if (EndsWith(path, "types/move_types.4bpp") && size >= sizeof(sSummaryTypeNames) / sizeof(sSummaryTypeNames[0]) * 256)
     {
