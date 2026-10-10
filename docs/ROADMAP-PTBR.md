@@ -237,9 +237,9 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       (logo e PRESS START). Os títulos e os ícones de tipo do resumo foram
       feitos em 10/10 (patch `0049`); as categorias de concurso (COOL,
       BEAUTY…) seguem em inglês.
-- [ ] CENTRO POKéMON: na cura, as POKé BOLAS e o brilho da tela aparecem
-      fora do lugar (visto no 3DS em 10/10, depois da 0.3.1 do original):
-      conferir se a 0.3.1 do original tem o mesmo.
+- [x] CENTRO POKéMON: na cura, as POKé BOLAS e o brilho da tela aparecem
+      fora do lugar. Bug do port original (conferido na 0.3.1 em 10/10):
+      fica para o autor do port corrigir, não neste fork.
 - [ ] Golpes com animação na tela toda, como SURF: só cobrem a parte da tela
       que existia no GBA (240 px dos 400 do 3DS). Acontece também na versão
       original do port (conferido em 09/10): é uma limitação do port, não da
