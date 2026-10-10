@@ -233,8 +233,9 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
 - [ ] Ícones de condição (`status_icons.4bpp.lz`, comprimido; também lido à
       parte pela tela de baixo): ENV, PAR, DOR, CON, QUE, DES; PKRS fica.
       Abreviações decididas em 09/10, para a próxima build.
-- [ ] Gráficos ainda em inglês, vistos no 3DS em 10/10: a tela de título
-      (logo e PRESS START). Os títulos e os ícones de tipo do resumo foram
+- [ ] Gráficos ainda em inglês, vistos no 3DS em 10/10: o logo da tela de
+      título (EMERALD VERSION; o APERTE START foi feito em 10/10, patch
+      `0050`). Os títulos e os ícones de tipo do resumo foram
       feitos em 10/10 (patch `0049`); as categorias de concurso (COOL,
       BEAUTY…) seguem em inglês.
 - [x] CENTRO POKéMON: na cura, as POKé BOLAS e o brilho da tela aparecem

@@ -351,6 +351,73 @@ static void DrawSummaryTitle(unsigned char *tiles, unsigned tile, int width, con
         }
 }
 
+/*
+ * PRESS START on the title screen (graphics/title_screen/press_start.4bpp,
+ * 16 tiles to a row): five 32x8 sprites from tile 1, 160 pixels in a line.
+ * APERTE START is put together from the sheet's own letters, each cut from
+ * its left outline to its right one (the next letter shares that column).
+ */
+static const struct
+{
+    char ch;
+    unsigned char from, to;
+} sStartCells[] = {
+    {'P', 35, 43}, {'R', 43, 51}, {'E', 51, 59}, {'T', 91, 100}, {'A', 100, 107}, {'*', 83, 124}, /* '*' the word START */
+};
+
+static int StartLinear(int l, int y, int *sx, int *sy)
+{
+    int tile = 1 + l / 8;
+    *sx = (tile % SHEET_TILES_WIDE) * 8 + l % 8;
+    *sy = (tile / SHEET_TILES_WIDE) * 8 + y;
+    return tile <= 20;
+}
+
+static void DrawPressStart(unsigned char *tiles)
+{
+    static const char sText[] = "APERTE *";
+    unsigned char source[8][128], line[8][160];
+    int l = 23, x, y, sx, sy;
+    const char *p;
+    unsigned i;
+
+    for (y = 0; y < 8; y++)
+        for (x = 0; x < 128; x++)
+            source[y][x] = (unsigned char)SheetPixel(tiles, x, y);
+    memset(line, 0, sizeof(line));
+    for (p = sText; *p; p++)
+    {
+        if (*p == ' ')
+        {
+            l += 7;
+            continue;
+        }
+        for (i = 0; i < sizeof(sStartCells) / sizeof(sStartCells[0]); i++)
+        {
+            if (sStartCells[i].ch != *p)
+                continue;
+            for (x = sStartCells[i].from; x <= sStartCells[i].to; x++)
+                for (y = 0; y < 8; y++)
+                {
+                    unsigned v = source[y][x];
+                    int at = l + x - sStartCells[i].from;
+                    /* The A's column 100 above its apex is the T's bar. */
+                    if (*p == 'A' && x == 100 && y <= 3)
+                        v = 0;
+                    /* An outline (1) gives way to a letter's colours. */
+                    if (v != 0 && at < 160 && (line[y][at] == 0 || line[y][at] == 1))
+                        line[y][at] = (unsigned char)v;
+                }
+            l += sStartCells[i].to - sStartCells[i].from;
+            break;
+        }
+    }
+    for (l = 0; l < 160; l++)
+        for (y = 0; y < 8; y++)
+            if (StartLinear(l, y, &sx, &sy))
+                SetSheetPixel(tiles, sx, sy, line[y][l]);
+}
+
 static int EndsWith(const char *path, const char *suffix)
 {
     size_t n = strlen(path), m = strlen(suffix);
@@ -372,6 +439,10 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
     {
         for (i = 0; i < sizeof(sSummaryTitles) / sizeof(sSummaryTitles[0]); i++)
             DrawSummaryTitle(data, sSummaryTitles[i].tile, sSummaryTitles[i].tiles * 8, sSummaryTitles[i].name);
+    }
+    else if (EndsWith(path, "title_screen/press_start.4bpp") && size >= 21 * 32)
+    {
+        DrawPressStart(data);
     }
     else if (EndsWith(path, "types/move_types.4bpp") && size >= sizeof(sSummaryTypeNames) / sizeof(sSummaryTypeNames[0]) * 256)
     {

@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Portuguese: APERTE START on the title screen, put together by
+  3ds_icons_ptbr.c from the sheet's own letters (patch 0050). The logo
+  (EMERALD VERSION) stays.
 - Portuguese: the summary's page titles (PERFIL, HABILIDADE, GOLPES,
   DESCRIÇÃO, MEMO TREINADOR, ATRIBUTOS…), redrawn in the decompressed tiles
   before they reach VRAM (patch 0049).
