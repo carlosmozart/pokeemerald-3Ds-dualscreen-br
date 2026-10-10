@@ -234,7 +234,7 @@ TROVÃO, VENTO GELADO, LANÇA GELO). A lista completa está em
 
 As habilidades seguem a mesma regra, em até 12 bytes
 (`src/data/text/abilities.h`): ARM. BATALHA, ABS.VOLTAICA, INDULG. SER.,
-SUPERCRESC. Quando o Bulbapedia não traz nome brasileiro (STENCH, SHIELD
+SUPERCRESC., PRATO CHUVA (o oficial é PRATO DE CHUVA, com 14). Quando o Bulbapedia não traz nome brasileiro (STENCH, SHIELD
 DUST, ARENA TRAP, LIQUID OOZE, WHITE SMOKE, AIR LOCK, CACOPHONY), vale o da
 cópia do HoennKantoWiki ou a tradução direta: FEDOR, PÓ ESCUDO, ARMAD.
 ARENA, LODO LÍQUIDO, FUM. BRANCA, ECLUSA DE AR, CACOFONIA. FORECAST vira
