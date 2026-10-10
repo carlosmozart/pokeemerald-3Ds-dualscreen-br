@@ -310,8 +310,10 @@ O maior volume do projeto, sem equivalente no wiki.
 - [x] Frases de treinador (intro, derrota, revanche): `trainers.inc`, 09/10.
 - [ ] Cartas, Easy Chat e vocabulário (decidir se ficam em inglês: o Easy Chat
       é trocado entre saves e jogos).
-- [ ] Braille das ruínas (o espanhol traduziu; avaliar).
-- [ ] Créditos e cena final.
+- [x] Braille das ruínas: fica em inglês (decidido em 09/10).
+- [x] Créditos e cena final: ficam em inglês, com duas páginas novas logo
+      depois do título (patch `0048`): Tradução PT-BR, Carlos Mozart e
+      AllGenWiki; Port para Nintendo 3DS, Daniel Cazalla (09/10).
 
 ## Fase 8 — Tela de toque do 3DS
 

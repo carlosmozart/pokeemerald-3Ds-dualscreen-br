@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Portuguese: two credits pages right after the title, before the crew's
+  (patch 0048): Tradução PT-BR, Carlos Mozart, AllGenWiki; Port para
+  Nintendo 3DS, Daniel Cazalla.
 - Portuguese: the EASY CHAT words (1008, with the abilities, types, moves
   and POKéMON from the catalogs), and their lists in alphabetical order
   again: tools/easy_chat_order.py rewrites each group's order and the ABC
