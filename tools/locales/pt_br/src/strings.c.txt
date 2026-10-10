@@ -3980,3 +3980,687 @@ QUIZ
 
 [gText_Answer] 64b080ec54
 RESP.
+
+# Textos de src/strings.c que o jogo usa e tinham ficado de fora (10/10):
+# a tela da equipe, as listas de escolha dos scripts, os nomes da
+# FRONTEIRA, das moças de LILYCOVE e outros. Os nomes próprios ficam.
+
+[gText_ExpandedPlaceholder_Emerald] 55973449f3 width=120
+ESMERALDA
+
+[gText_Item] e849c5f964 width=120
+ITEM
+
+[gText_Mail] 0d8e8b084c width=120
+CARTA
+
+[gText_Take] 06614e39f2 width=120
+PEGAR
+
+[gText_Store] a022ae64c8 width=120
+GUARDAR
+
+[gText_Shift] 149b8de2b0 width=120
+TROCAR
+
+[gText_SendOut] 64d10dc53e width=120
+ENVIAR
+
+[gText_Switch2] b02cbd93fe width=120
+TROCAR
+
+[gText_Summary5] 1450844d24 width=120
+RESUMO
+
+[gText_Enter] 54febf3139 width=120
+ENTRAR
+
+[gText_NoEntry] b95a32a286 width=120
+NÃO ENTRA
+
+[gText_Take2] 06614e39f2 width=120
+PEGAR
+
+[gText_Read2] 0a3768425d width=120
+LER
+
+[gText_Trade4] 91e044d0ff width=120
+TROCAR
+
+[gText_ChoosePokemon] ba9981c402 width=160
+Escolha um POKéMON.
+
+[gText_MoveToWhere] cf1c7b7156 width=160
+Mover para onde?
+
+[gText_TeachWhichPokemon] f398afea9f width=160
+Ensinar qual POKéMON?
+
+[gText_UseOnWhichPokemon] 8018485ca3 width=160
+Usar em qual POKéMON?
+
+[gText_GiveToWhichPokemon] c8a226d0b1 width=160
+Dar a qual POKéMON?
+
+[gText_DoWhatWithPokemon] a4b41457dc width=160
+O que fazer com este {PKMN}?
+
+[gText_NothingToCut] 97df7496e9 width=160
+Não há nada para CORTAR.
+
+[gText_CantSurfHere] 40b2da38f5 width=160
+Não dá para SURFAR aqui.
+
+[gText_AlreadySurfing] c1ce5660ac width=160
+Você já está SURFANDO.
+
+[gText_CantUseHere] 0046ae2d89 width=160
+Não dá para usar aqui.
+
+[gText_RestoreWhichMove] e428a8083d width=160
+Restaurar qual golpe?
+
+[gText_BoostPp] 453300917f width=160
+Aumentar os PP de qual golpe?
+
+[gText_DoWhatWithItem] f0b2ef22da width=160
+O que fazer com o item?
+
+[gText_NoPokemonForBattle] c192d9c14e width=160
+Nenhum POKéMON para lutar!
+
+[gText_ChoosePokemon2] ba9981c402 width=160
+Escolha um POKéMON.
+
+[gText_NotEnoughHp] 2667a0f571 width=160
+PS insuficiente…
+
+[gText_PokemonAreNeeded] b8eaec4ccb width=179
+Precisa de {STR_VAR_1} POKéMON.
+
+[gText_PokemonCantBeSame] 48ff3ea0ae width=160
+Os POKéMON não podem repetir.
+
+[gText_NoIdenticalHoldItems] 6bd8ccc50c width=160
+Itens segurados repetidos.
+
+[gText_CurrentIsTooFast] d77570c990 width=160
+A correnteza é forte demais!
+
+[gText_DoWhatWithMail] a62ffe766f width=160
+O que fazer com a CARTA?
+
+[gText_ChoosePokemonCancel] 6d5889975c width=160
+Escolha um POKéMON ou VOLTE.
+
+[gText_ChoosePokemonConfirm] 62f90e196f width=160
+Escolha os POKéMON e confirme.
+
+[gText_EnjoyCycling] d2edde0840 width=160
+Bom passeio de bicicleta!
+
+[gText_InUseAlready_PM] cf44934928 width=160
+Isso já está em uso.
+
+[gText_AlreadyHoldingOne] 49025ab78e width=168
+{STR_VAR_1} já segura\n
+um(a) {STR_VAR_2}.
+
+[gText_NoUse] ed27f728fe width=160
+Não serve.
+
+[gText_Able] fee3999bd9 width=120
+PODE
+
+[gText_First_PM] 2f20f7ce5f width=120
+1º
+
+[gText_Second_PM] 739c9e403a width=120
+2º
+
+[gText_Third_PM] a50aba57a0 width=120
+3º
+
+[gText_Able2] fee3999bd9 width=120
+PODE
+
+[gText_NotAble] 454e3f875d width=120
+NÃO PODE
+
+[gText_Able3] 06e0dbc687 width=120
+PODE!
+
+[gText_NotAble2] 97c7186b88 width=120
+NÃO PODE!
+
+[gText_Learned] 18745fb931 width=120
+APRENDEU
+
+[gText_Have] 3eeb2596cd width=120
+TEM
+
+[gText_DontHave] af28641b01 width=120
+NÃO TEM
+
+[gText_Fourth] a778f3156e width=120
+4º
+
+[gText_OtherTrainersPkmnCantBeTraded] f9d624b708 width=208
+O POKéMON do outro TREINADOR\n
+não pode ser trocado agora.
+
+[gText_OtherTrainerCantAcceptPkmn] 6c787b0003 width=208
+O outro TREINADOR não pode\n
+aceitar esse POKéMON agora.
+
+[gText_CantTradeWithTrainer] 7629b5b1f8 width=208
+Você não pode trocar com esse\n
+TREINADOR agora.
+
+[gText_NotPkmnOtherTrainerWants] 221c738b0e width=208
+Esse não é o tipo de POKéMON\n
+que o outro TREINADOR quer.
+
+[gText_ThatIsntAnEgg] a7096539e1 width=208
+Isso não é um OVO.
+
+[gText_Petalburg] bbb72d352a width=120
+PETALBURG
+
+[gText_Slateport] 5b45fe52b6 width=120
+SLATEPORT
+
+[gText_Dewford] 764ce695c1 width=120
+DEWFORD
+
+[gText_Enter2] 54febf3139 width=120
+ENTRAR
+
+[gText_Info2] 9c9cf99982 width=120
+INFO
+
+[gText_WhatsAContest] ea1d801db5 width=120
+O que é CONCURSO?
+
+[gText_TypesOfContests] 4e3c026e9e width=120
+Tipos de CONCURSO
+
+[gText_Ranks] 00926d0eca width=120
+Níveis
+
+[gText_CoolnessContest] 0496f8ef18 width=120
+CONCURSO ESTILO
+
+[gText_BeautyContest] 5549cf9c36 width=120
+CONCURSO BELEZA
+
+[gText_CutenessContest] c0258eb5ae width=120
+CONCURSO FOFURA
+
+[gText_SmartnessContest] cac77fc5b8 width=120
+CONC. ESPERTEZA
+
+[gText_ToughnessContest] b4c313666d width=120
+CONCURSO FORÇA
+
+[gText_Decoration2] 9cb976dd2f width=120
+DECORAÇÃO
+
+[gText_PackUp] f168e2d68a width=120
+DESMONTAR
+
+[gText_Registry] b14e18379b width=120
+REGISTRO
+
+[gText_Information] b8ff98db93 width=120
+INFORMAÇÕES
+
+[gText_Mach] ab604b250b width=120
+MACH
+
+[gText_Acro] 33a6e719e2 width=120
+ACRO
+
+[gText_Psn] 6facc3332c width=120
+ENV
+
+[gText_Par] e7df76d7a9 width=120
+PAR
+
+[gText_Slp] d66ea66b50 width=120
+DOR
+
+[gText_Brn] 7ee447790d width=120
+QUE
+
+[gText_Frz] d8e9996159 width=120
+CON
+
+[gText_SawIt] 8961aabf8e width=120
+Já vi
+
+[gText_NotYet] 8de95fd5b4 width=120
+Ainda não
+
+[gText_SingleBattle] a851771634 width=120
+BATALHA SIMPLES
+
+[gText_DoubleBattle] 6e4774eec6 width=120
+BATALHA DUPLA
+
+[gText_MultiBattle] acbae79ba5 width=120
+BATALHA MÚLTIPLA
+
+[gText_Challenge] e9166b5b8a width=120
+DESAFIO
+
+[gText_Info3] 9c9cf99982 width=120
+INFO
+
+[gText_FreshWaterAndPrice] 001285dc44 width=120
+ÁGUA FRESCA{CLEAR_TO 0x48}¥200
+
+[gText_SodaPopAndPrice] 3c9c765194 width=120
+REFRIGERANTE{CLEAR_TO 0x48}¥300
+
+[gText_LemonadeAndPrice] a882260c4b width=120
+LIMONADA{CLEAR_TO 0x48}¥350
+
+[gText_HowToRide] dfe778597a width=120
+COMO ANDAR
+
+[gText_HowToTurn] 5a32e54e1f width=120
+COMO VIRAR
+
+[gText_SandySlopes] 11bd39e6c5 width=120
+LADEIRAS
+
+[gText_Wheelies] c9ca21f537 width=120
+EMPINAR
+
+[gText_BunnyHops] b151df4e86 width=120
+PULINHOS
+
+[gText_Jump] bb0d79b578 width=120
+PULAR
+
+[gText_Satisfied] 154e46efcd width=120
+Satisfeito
+
+[gText_Dissatisfied] eac7a00ff7 width=120
+Insatisfeito
+
+[gText_Excellent2] 1aafbf548b width=120
+Excelente
+
+[gText_NotSoGood] 4b1821a11b width=120
+Nem tanto
+
+[gText_Right] 954daa8b00 width=120
+Direita
+
+[gText_Left] 8ae1c34bd3 width=120
+Esquerda
+
+[gText_Normal] 21b3708ac8 width=120
+NORMAL
+
+[gText_Super] 5004e32432 width=120
+SUPER
+
+[gText_Hyper] 98cfefccd4 width=120
+HIPER
+
+[gText_Master] 74ffc874ad width=120
+MESTRE
+
+[gText_Cool2] 2991fd24ef width=120
+ESTILO
+
+[gText_Beauty2] bed48404f8 width=120
+BELEZA
+
+[gText_Cute2] 4b766bb69f width=120
+FOFURA
+
+[gText_Smart2] a4969f2088 width=120
+ESPERTEZA
+
+[gText_Tough2] 1c4ae12ec4 width=120
+FORÇA
+
+[gText_Items] a5ef8f60cf width=120
+ITENS
+
+[gText_Key_Items] 0a6c54eddf width=120
+ITENS CHAVE
+
+[gText_Poke_Balls] 45a1d46176 width=120
+POKé BOLAS
+
+[gText_TMs_Hms] a23cbc63df width=120
+MT e MO
+
+[gText_Berries2] fba348a585 width=120
+FRUTAS
+
+[gText_Opponent] 9749741ff0 width=120
+OPONENTE
+
+[gText_Tourney_Tree] 1d01eb2045 width=120
+CHAVES
+
+[gText_ReadyToStart] 3a2d035415 width=120
+PRONTO
+
+[gText_NormalRank] 2e00ec3a78 width=120
+NÍVEL NORMAL
+
+[gText_SuperRank] 61ce6c63c1 width=120
+NÍVEL SUPER
+
+[gText_HyperRank] 1d2de54f47 width=120
+NÍVEL HIPER
+
+[gText_MasterRank] 2a580e245e width=120
+NÍVEL MESTRE
+
+[gText_Single2] 36fb236688 width=120
+SIMPLES
+
+[gText_Double2] 097274c5c7 width=120
+DUPLA
+
+[gText_Multi] 73cadb41b4 width=120
+MÚLTIPLA
+
+[gText_MultiLink] df3e91b734 width=120
+MÚLT. CONECT.
+
+[gText_BattleBag] f701028b39 width=120
+BOLSA BATALHA
+
+[gText_HeldItem] e5f02d19c1 width=120
+ITEM SEGURADO
+
+[gText_LinkContest] 7b66c261c7 width=120
+CONCURSO CONECT.
+
+[gText_5BP] 65f4e63d52 width=120
+  5PB
+
+[gText_10BP] 722f2f9c6c width=120
+10PB
+
+[gText_15BP] 655917d575 width=120
+15PB
+
+[gText_RedTent] 1bc9a41979 width=120
+BARRACA VERM.
+
+[gText_BlueTent] 5112184eea width=120
+BARRACA AZUL
+
+[gText_ClawFossil] e15d0df7b0 width=120
+FÓSSIL GARRA
+
+[gText_RootFossil] 6c944b05fb width=120
+FÓSSIL RAIZ
+
+[gText_IllBattleNow] 957ac0833f width=120
+Vou lutar agora!
+
+[gText_IWon] 5df02f95a3 width=120
+Eu venci!
+
+[gText_ILost] 23515c82df width=120
+Eu perdi!
+
+[gText_IWontTell] 570c25ccb4 width=120
+Não vou contar.
+
+[gText_TradeCenter] 66cb62425b width=120
+CENTRO DE TROCAS
+
+[gText_Colosseum] c2df12bd72 width=120
+COLISEU
+
+[gText_RecordCorner] 64afe93a82 width=120
+CANTO DOS REGISTROS
+
+[gText_BerryCrush3] 8d9e34e09d width=120
+TRITURA FRUTAS
+
+[gText_DodrioBerryPicking] 48026adc77 width=120
+COLHEITA DODRIO
+
+[gText_BecomeLeader] 9b7ea7add4 width=120
+SER O LÍDER
+
+[gText_JoinGroup] 5536418619 width=120
+ENTRAR NO GRUPO
+
+[gText_TwoStyles] 822c092ff9 width=120
+DOIS ESTILOS
+
+[gText_Lv50_3] 13f0a8a25c width=120
+NV. 50
+
+[gText_OpenLevel2] 32c7557ca3 width=120
+NÍVEL LIVRE
+
+[gText_MonTypeAndNo] 91f42b057b width=120
+TIPO E Nº {PKMN}
+
+[gText_HoldItems] 4244f7bc48 width=120
+ITENS SEGURADOS
+
+[gText_Symbols2] fab167e9c6 width=120
+SÍMBOLOS
+
+[gText_Record3] 31355a2868 width=120
+RECORDE
+
+[gText_BattlePts] 7d69f0f930 width=120
+PTS. BATALHA
+
+[gText_TowerInfo] 3488626287 width=120
+INFO DA TORRE
+
+[gText_BattleMon] bdb950e5dd width=120
+{PKMN} DE BATALHA
+
+[gText_BattleSalon] 67576aa017 width=120
+SALÃO DE BATALHA
+
+[gText_MultiLink2] df3e91b734 width=120
+MÚLT. CONECT.
+
+[gText_BattleRules] 65abe0a664 width=120
+REGRAS
+
+[gText_JudgeMind] dc4e3e0446 width=120
+JUIZ: MENTE
+
+[gText_JudgeSkill] b721f0f9fe width=120
+JUIZ: TÉCNICA
+
+[gText_JudgeBody] c226a7df8d width=120
+JUIZ: CORPO
+
+[gText_Matchup] ac535b81dd width=120
+CONFRONTO
+
+[gText_TourneyTree] 1d01eb2045 width=120
+CHAVES
+
+[gText_DoubleKO] 3e298cae58 width=120
+NOCAUTE DUPLO
+
+[gText_BasicRules] dd66af15b2 width=120
+REGRAS BÁSICAS
+
+[gText_SwapPartners] e4db167cb5 width=120
+TROCA: PARCEIRO
+
+[gText_SwapNumber] 35a6706c52 width=120
+TROCA: NÚMERO
+
+[gText_SwapNotes] b30f439c57 width=120
+TROCA: NOTAS
+
+[gText_OpenLevel3] 32c7557ca3 width=120
+NÍVEL LIVRE
+
+[gText_PyramidPokemon] c76947f6d2 width=120
+PIRÂMIDE: POKéMON
+
+[gText_PyramidTrainers] 4c223050ab width=120
+PIRÂMIDE: TREIN.
+
+[gText_PyramidMaze] 28eb1a1326 width=120
+PIRÂMIDE: LABIRINTO
+
+[gText_BattleBag2] f701028b39 width=120
+BOLSA BATALHA
+
+[gText_PokenavAndBag] c5f7b16f30 width=120
+POKéNAV E BOLSA
+
+[gText_HeldItems] b081382a4d width=120
+ITENS SEGURADOS
+
+[gText_PokemonOrder] 037ec3b5f9 width=120
+ORDEM DOS POKéMON
+
+[gText_BattlePokemon] fc2e01bafe width=120
+POKéMON DE BATALHA
+
+[gText_GoOn] d2e5a765ac width=120
+CONTINUAR
+
+[gText_Record2] 31355a2868 width=120
+RECORDE
+
+[gText_Rest] cbaaa18133 width=120
+DESCANSAR
+
+[gText_Retire] 0e25d55e0a width=120
+DESISTIR
+
+[gText_LilycoveCity] fb61d4cde1 width=120
+LILYCOVE
+
+[gText_CaveOfOrigin] e8bcd346b2 width=120
+CAV. DA ORIGEM
+
+[gText_MtPyre] a7894f88c0 width=120
+MONTE PYRE
+
+[gText_SkyPillar] 23b9e5dd45 width=120
+PILAR CELESTE
+
+[gText_DontRemember] cbe88c2ff2 width=120
+Não lembro
+
+[gText_Ok] d9e172ae23 width=120
+OK!
+
+[gText_Red] bb4e68e797 width=120
+VERMELHO
+
+[gText_Blue] c4f8490d87 width=120
+AZUL
+
+[gText_ContestLady_Coolness] 10fd644b5a width=120
+estilo
+
+[gText_ContestLady_Beauty] 874f5e379b width=120
+beleza
+
+[gText_ContestLady_Cuteness] 41b7dd4c84 width=120
+fofura
+
+[gText_ContestLady_Smartness] dbee94d60b width=120
+esperteza
+
+[gText_ContestLady_Toughness] ef532ea6ec width=120
+força
+
+[gText_FavorLady_Slippery] b91b61fb06 width=120
+escorregadio
+
+[gText_FavorLady_Roundish] bd49c331e8 width=120
+arredondado
+
+[gText_FavorLady_Whamish] 4f77acfa1d width=120
+impactante
+
+[gText_FavorLady_Shiny] 0d48364405 width=120
+brilhante
+
+[gText_FavorLady_Sticky] 3e0fd166d4 width=120
+grudento
+
+[gText_FavorLady_Pointy] 546b9719ff width=120
+pontudo
+
+[gText_Hoenn] d53c3ebf40 width=120
+HOENN
+
+[gText_DexHoenn] d53c3ebf40 width=120
+HOENN
+
+[gText_BlueFlute2] f846f4bd34 width=120
+FLAUTA AZUL
+
+[gText_YellowFlute2] e7455c6875 width=120
+FLAUTA AMAR.
+
+[gText_RedFlute2] dc2ff90d20 width=120
+FLAUTA VERM.
+
+[gText_WhiteFlute2] 96801c2c4d width=120
+FLAUTA BRANCA
+
+[gText_BlackFlute2] 7b34ba411f width=120
+FLAUTA PRETA
+
+[gText_GlassChair] 2f42d72c84 width=120
+CADEIRA VIDRO
+
+[gText_GlassDesk] 1859487916 width=120
+MESA DE VIDRO
+
+[gText_RedShard] fe252d6765 width=120
+CACO VERMELHO
+
+[gText_YellowShard] 94dd7dc831 width=120
+CACO AMARELO
+
+[gText_BlueShard] 41a8fda545 width=120
+CACO AZUL
+
+[gText_GreenShard] 0fd452bf8e width=120
+CACO VERDE
+
+[gText_DeepSeaTooth] b81cb37ff3 width=120
+DENTE ABISSAL
+
+[gText_DeepSeaScale] f7cc0d6769 width=120
+ESCAMA ABISS.
+
+[gText_MoveRelearnerPP] 612082b4ed width=120
+PP/
+
+[gText_AboutE_Mode] 06ae98ae80 width=120
+SOBRE O MODO E
+
+[gText_AboutG_Mode] a3151d3531 width=120
+SOBRE O MODO G
+
+[gText_E_Mode] 07567ce9e7 width=120
+MODO E
+
+[gText_G_Mode] 46c32926e0 width=120
+MODO G
