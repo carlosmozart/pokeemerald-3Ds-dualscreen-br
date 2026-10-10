@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Portuguese: the summary's type icons too (FOGO, ÁGUA, PLANTA…), redrawn
+  by 3ds_icons_ptbr.c once the summary decompresses the sheet (patch 0049).
+  The contest categories (COOL, BEAUTY…) stay for now.
 - Portuguese: the type icons in Portuguese (NORMAL, LUTADOR, ÁGUA, ELÉTR.,
   DRAGÃO…). 3ds_icons_ptbr.c redraws the player's own menu_info sheet as it
   is read from the data pack: the frames and colours stay, the English

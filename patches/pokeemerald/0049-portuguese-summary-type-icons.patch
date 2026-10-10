@@ -1,0 +1,29 @@
+Pokémon Emerald 3Ds Dual Screen changes to pret/pokeemerald 76463dac15cad36aca5e2b3f6366abf9e53f814f: the summary type icons in Portuguese
+Applies after 0048-portuguese-credits-page.patch; apply with tools/bootstrap.py.
+
+diff --git a/src/pokemon_summary_screen.c b/src/pokemon_summary_screen.c
+--- a/src/pokemon_summary_screen.c
++++ b/src/pokemon_summary_screen.c
+@@ -1339,7 +1339,22 @@
+         sMonSummaryScreen->switchCounter++;
+         break;
+     case 7:
++#ifdef CTR_LANG_PT_BR
++    {
++        /* The type icons with the Portuguese names, redrawn by the port
++         * once the sheet is decompressed (3ds_icons_ptbr.c). */
++        struct SpriteSheet sheet;
++
++        LZ77UnCompWram(sSpriteSheet_MoveTypes.data, gDecompressionBuffer);
++        Port_TransformAsset("types/move_types.4bpp", gDecompressionBuffer, sSpriteSheet_MoveTypes.size);
++        sheet.data = gDecompressionBuffer;
++        sheet.size = sSpriteSheet_MoveTypes.size;
++        sheet.tag = sSpriteSheet_MoveTypes.tag;
++        LoadSpriteSheet(&sheet);
++    }
++#else
+         LoadCompressedSpriteSheet(&sSpriteSheet_MoveTypes);
++#endif
+         sMonSummaryScreen->switchCounter++;
+         break;
+     case 8:

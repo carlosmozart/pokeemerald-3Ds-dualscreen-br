@@ -19,16 +19,20 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size);
 #define INK 0xF
 #define SHADOW 0xE
 
+/* The sheet being drawn: menu_info is 16 tiles wide, a summary type icon
+ * (a 32x16 sprite) 4. */
+static int sTilesWide = SHEET_TILES_WIDE;
+
 static unsigned SheetPixel(const unsigned char *tiles, int x, int y)
 {
-    const unsigned char *tile = tiles + ((y / 8) * SHEET_TILES_WIDE + x / 8) * 32;
+    const unsigned char *tile = tiles + ((y / 8) * sTilesWide + x / 8) * 32;
     unsigned char byte = tile[(y % 8) * 4 + (x % 8) / 2];
     return (x & 1) ? byte >> 4 : byte & 0xF;
 }
 
 static void SetSheetPixel(unsigned char *tiles, int x, int y, unsigned value)
 {
-    unsigned char *tile = tiles + ((y / 8) * SHEET_TILES_WIDE + x / 8) * 32;
+    unsigned char *tile = tiles + ((y / 8) * sTilesWide + x / 8) * 32;
     unsigned char *byte = &tile[(y % 8) * 4 + (x % 8) / 2];
     *byte = (x & 1) ? (unsigned char)((*byte & 0x0F) | (value << 4)) : (unsigned char)((*byte & 0xF0) | value);
 }
@@ -115,18 +119,20 @@ static int GlyphInk(char ch, int r, int c, int *width)
     return 0;
 }
 
-static void DrawTypeName(unsigned char *tiles, unsigned tile, const char *name)
+/* The icon's letters sit on rows top to top + 6 (the accents on top - 1);
+ * rows first to last - 1 are cleared. */
+static void DrawTypeNameAt(unsigned char *tiles, int x0, int y0, int first, int last, int top, const char *name)
 {
-    int x0 = (int)(tile % SHEET_TILES_WIDE) * 8, y0 = (int)(tile / SHEET_TILES_WIDE) * 8;
-    unsigned rowBg[12];
+    unsigned rowBg[16];
     int total = -1, x, y;
     const char *p;
 
     /* Some icons fade to a second colour at the bottom: each row is
      * cleared with its own background, read at the icon's right edge. */
-    for (y = 0; y < 12; y++)
-    {
+    for (y = 0; y < 16; y++)
         rowBg[y] = 0;
+    for (y = first; y < last; y++)
+    {
         for (x = 31; x > 0; x--)
         {
             unsigned v = SheetPixel(tiles, x0 + x, y0 + y);
@@ -163,13 +169,13 @@ static void DrawTypeName(unsigned char *tiles, unsigned tile, const char *name)
                 ink = GlyphInk(*p, r, c, &dummy);
                 if (!ink)
                     continue;
-                y = y0 + 2 + r; /* row -1 on the icon's row 1, the letter on rows 2-8 */
+                y = y0 + top + r;
                 SetSheetPixel(tiles, x + c, y, INK);
                 for (dy = 0; dy <= 1; dy++)
                     for (dx = 0; dx <= 1; dx++)
                     {
                         int sy = y + dy - y0;
-                        if ((dx || dy) && sy < 12 && SheetPixel(tiles, x + c + dx, y + dy) == rowBg[sy])
+                        if ((dx || dy) && sy < last && SheetPixel(tiles, x + c + dx, y + dy) == rowBg[sy])
                             SetSheetPixel(tiles, x + c + dx, y + dy, SHADOW);
                     }
             }
@@ -177,6 +183,20 @@ static void DrawTypeName(unsigned char *tiles, unsigned tile, const char *name)
         x += w + 1;
     }
 }
+
+static void DrawTypeName(unsigned char *tiles, unsigned tile, const char *name)
+{
+    /* Rows 0-11 cleared, the letter on rows 2-8. */
+    DrawTypeNameAt(tiles, (int)(tile % SHEET_TILES_WIDE) * 8, (int)(tile / SHEET_TILES_WIDE) * 8, 0, 12, 2, name);
+}
+
+/* The summary's type icons (graphics/types/move_types.4bpp), one 32x16
+ * sprite of 8 tiles (256 bytes) per type, in the order of TYPE_*; ??? and
+ * the contest categories stay. */
+static const char *const sSummaryTypeNames[] = {
+    "NORMAL", "LUTADOR", "VOADOR", "VENENO", "TERRA", "PEDRA", "INSETO", "FANTAS", "AcO", NULL,
+    "FOGO", "aGUA", "PLANTA", "ELeTR.", "PSiQ.", "GELO", "DRAG~O", "SOMBR.",
+};
 
 /* The move window's labels, 42x12: white letters outlined in the colour of
  * the bar they sit on (rows 4-8). '~' stands for Ã. */
@@ -269,6 +289,15 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
             DrawTypeName(data, sTypeNames[i].tile, sTypeNames[i].name);
         for (i = 0; i < sizeof(sLabels) / sizeof(sLabels[0]); i++)
             DrawLabel(data, sLabels[i].tile, sLabels[i].name);
+    }
+    else if (EndsWith(path, "types/move_types.4bpp") && size >= sizeof(sSummaryTypeNames) / sizeof(sSummaryTypeNames[0]) * 256)
+    {
+        sTilesWide = 4;
+        for (i = 0; i < sizeof(sSummaryTypeNames) / sizeof(sSummaryTypeNames[0]); i++)
+            if (sSummaryTypeNames[i] != NULL)
+                /* Rows 3-12 cleared, the letter on rows 4-10. */
+                DrawTypeNameAt(data + i * 256, 0, 0, 3, 13, 4, sSummaryTypeNames[i]);
+        sTilesWide = SHEET_TILES_WIDE;
     }
 }
 
