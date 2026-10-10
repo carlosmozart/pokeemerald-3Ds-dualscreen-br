@@ -146,6 +146,7 @@ Os nomes dos POKéMON não se traduzem.
 | Navel Rock / Birth Island / Southern Island | ROCHA UMBIGO / ILHA NATAL / ILHA DO SUL | destinos do S.S. TIDAL; sem nome oficial conferido |
 | Mimic Circle | CLUBE DA MÍMICA | treinadores da ROTA 119 |
 | Altering Cave | CAVERNA MUTANTE | sem nome oficial no Brasil; os POKéMON dela mudam com o evento |
+| Trading Board / Wireless Communication System / Greetings (SALA UNIÃO) | QUADRO DE TROCAS / SISTEMA DE COMUNICAÇÃO SEM FIO / CUMPRIMENTO | `union_room.h`, 10/10 |
 | Tunneler's Rest House / Ocean Current / Hunter's House / Safari Zone Entrance | CASA DOS ESCAVADORES / CORRENTE MARINHA / CASA DO CAÇADOR / ENTRADA DO SAFÁRI | pontos do mapa da POKéNAV (`landmark.c`), 10/10 |
 | Pontos do mapa da POKéNAV que não cabem | CAT. DOS METEOROS, COL. DOS TREINADORES, CAV. DO BANCO DE AREIA, CASA DO MAN. FÓSSEIS, CASA DO MESTRE FRUTAS, CENTRO DE CUIDADOS (Day Care); placa da PIRÂMIDE: PIRÂMIDE ANDAR 1 | 10/10 |
 | Stamp Card / Battle Count Card / Wonder Card / Wonder News / Stamp | CARTÃO DE SELOS / CARTÃO DE BATALHAS / CARTÃO MARAVILHA / NOTÍCIAS MARAVILHA / SELO | PRESENTE MISTERIOSO |
