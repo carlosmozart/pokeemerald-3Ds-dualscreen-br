@@ -232,10 +232,20 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
 - [x] Ícones de condição: ENV, PAR, DOR, CON, QUE, DES (PKRS fica), no
       resumo (patch `0049`, que leva ao port toda folha descomprimida) e na tela de baixo, redesenhados pelo port
       (10/10).
-- [ ] Gráficos ainda em inglês, vistos no 3DS em 10/10: o logo da tela de
-      título (EMERALD VERSION, que fica como no original; o APERTE START foi feito em 10/10). Os títulos e os ícones de tipo do resumo foram
-      feitos em 10/10 (patch `0049`), e as categorias de concurso (ESTILO,
-      BELEZA, FOFURA, ESPERT., FORÇA) em 11/10.
+- [x] Gráficos com palavras, vistos no 3DS em 10/10: o APERTE START da
+      tela de título (o logo EMERALD VERSION fica como no original), os
+      títulos e os ícones de tipo do resumo (10/10) e as categorias de
+      concurso (ESTILO, BELEZA, FOFURA, ESPERT., FORÇA, 11/10). Desde 11/10
+      o patch `0049` leva ao port toda folha que o jogo descomprime.
+- [ ] Conferir no 3DS os gráficos de 10 e 11/10, já pelo caminho do patch
+      `0049`: títulos e ícones do resumo, ícones de condição e de concurso,
+      APERTE START, POKéDEX (abas, menu START, busca, lista) e POKéNAV
+      (opções, cabeçalhos, legenda do mapa, SAIR). Em teste pelo usuário.
+- [ ] Os títulos dos concursos no 3DS (o espanhol precisou do patch
+      `0032`).
+- [ ] POKéDEX: na tela que registra um POKéMON novo, o texto aparece
+      cortado (10/10). Conferir na versão original em inglês antes de
+      investigar.
 - [x] Menus da POKéDEX e do POKéNAV, escritos com as fontes do próprio
       jogo (`Port_LatinGlyph`), 11/10: na POKéDEX, as abas, o menu START,
       a busca e a lista; no POKéNAV, as opções, os cabeçalhos, a legenda do
@@ -260,13 +270,13 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       SECRETAS (textos de `src/strings.c` e de `data/text`, 09/10). Falta
       conferir no 3DS os títulos dos concursos (o espanhol precisou do patch
       `0032`).
-- [ ] Gráficos com texto em inglês (logo, "THE END", alguns menus): continuam
-      em inglês nesta fase. Avaliar depois se vale desenhar versões próprias.
+- [ ] "THE END" no fim dos créditos: decidir se fica em inglês, como os
+      créditos. O logo fica; os menus foram feitos em 11/10.
 - [x] Ícones de tipo em PT: o port (não o builder) redesenha o nome sobre o
       ícone original, com uma fonte própria (`3ds_icons_ptbr.c`): BOLSA,
       janela de golpes, resumo e tela de baixo.
-- [ ] Atributos: localizar onde são texto (janela de subida de nível) e onde
-      são gráfico (página de resumo) e gerar os gráficos no builder.
+- [x] Atributos: são texto na janela de subida de nível e no resumo; os
+      gráficos do resumo foram redesenhados pelo port (10/10), sem builder.
 - [x] Atributos: larguras conferidas; no resumo, AT.ESP e DEF.ESP (centralizados
       em 36 px), na equipe e nas mensagens, AT. ESP. e DEF. ESP.
 
