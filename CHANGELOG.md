@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Portuguese: the POKéDEX menu and search sheets (and the summary's titles)
+  were still English on the 3DS: malloc_and_decompress decompresses a copy
+  of the asset, which the port could not name. Patch 0049 now passes it the
+  original asset there.
 - Portuguese: the POKéNAV's graphics: the menu options (MAPA DE HOENN,
   CONDIÇÃO, CHAMADAS, FITAS, DESLIGAR, EQUIPE, BUSCAR, the five conditions,
   VOLTAR), the headers (MENU PRINCIPAL, MAPA, VISÃO GERAL, AMPLIADO…), the
