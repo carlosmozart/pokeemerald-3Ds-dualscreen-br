@@ -230,13 +230,16 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       redesenhados depois de descomprimir, sem comprimir de novo (patch
       `0049`, 10/10).
 - [x] Ícones de condição: ENV, PAR, DOR, CON, QUE, DES (PKRS fica), no
-      resumo (patch `0049`) e na tela de baixo, redesenhados pelo port
+      resumo (patch `0049`, que leva ao port toda folha descomprimida) e na tela de baixo, redesenhados pelo port
       (10/10).
 - [ ] Gráficos ainda em inglês, vistos no 3DS em 10/10: o logo da tela de
-      título (EMERALD VERSION, que fica como no original; o APERTE START foi feito em 10/10, patch
-      `0050`). Os títulos e os ícones de tipo do resumo foram
+      título (EMERALD VERSION, que fica como no original; o APERTE START foi feito em 10/10). Os títulos e os ícones de tipo do resumo foram
       feitos em 10/10 (patch `0049`), e as categorias de concurso (ESTILO,
       BELEZA, FOFURA, ESPERT., FORÇA) em 11/10.
+- [ ] Menus da POKéDEX e do POKéNAV, escritos com as fontes do próprio
+      jogo (`Port_LatinGlyph`): feito o menu da POKéDEX (ÁREA, GRITO,
+      TAMANHO, VOLTAR e o menu START), 11/10; faltam a busca, a lista e o
+      POKéNAV (opções, cabeçalhos, legenda do mapa).
 - [x] CENTRO POKéMON: na cura, as POKé BOLAS e o brilho da tela aparecem
       fora do lugar. Bug do port original (conferido na 0.3.1 em 10/10):
       fica para o autor do port corrigir, não neste fork.

@@ -290,7 +290,14 @@ golpes e POKéMON usam os nomes dos catálogos. A ordem alfabética das listas
 
 ## Títulos do resumo
 
-Gráficos redesenhados pelo port (`3ds_icons_ptbr.c`, patch `0049`), cada um
+Gráficos redesenhados pelo port (`3ds_icons_ptbr.c`), cada um
 na faixa de tiles do original: PERFIL, HABILIDADE, ESTADO (ovo), MEMO
 TREINADOR (TRAINER MEMO; "MEMO DO TREINADOR" não cabe nos 72 px), GOLPES,
 EFEITO, DESCRIÇÃO, ITEM, FITAS, ATRIBUTOS (STATS) e EXP.
+
+## Menus da POKéDEX
+
+Escritos com as fontes do jogo (`3ds_icons_ptbr.c`): as abas ÁREA, GRITO e
+TAMANHO; VOLTAR (CANCEL); no menu START, VOLTAR À LISTA, TOPO DA LISTA, FIM
+DA LISTA, VOLTAR À POKéDEX e FECHAR POKéDEX. O que não cabe na fonte normal
+sai na estreita.

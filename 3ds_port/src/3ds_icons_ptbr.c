@@ -11,6 +11,7 @@
 
 /* Declared in compat/port_platform.h, which 3ds_assets.c includes. */
 void Port_TransformAsset(const char *path, unsigned char *data, unsigned size);
+const unsigned char *Port_LatinGlyph(unsigned font, unsigned char code, int *width);
 
 #if defined(CTR_LANG_PT_BR)
 
@@ -462,6 +463,150 @@ static void DrawStatusIcon(unsigned char *tiles, int y0, const char *name)
     }
 }
 
+/*
+ * Words written with the game's own fonts (Port_LatinGlyph, 3ds_compat.c),
+ * for the graphics whose letters are as big as the text's: each label is a
+ * box of the sheet, the English ink and shadow in it cleared to the row's
+ * background, the Portuguese in the same colours. A text wider than the box
+ * in the normal font is written in the narrow one.
+ */
+enum { FONT_NARROW = 2, FONT_NORMAL = 4 };
+
+/* The game's character code of the UTF-8 letter at *s (the few the labels
+ * use), advancing *s; -1 for one it does not know. */
+static int NextGameChar(const char **s)
+{
+    static const struct { const char *utf8; unsigned char code; } sAccents[] = {
+        {"À", 0x01}, {"Á", 0x02}, {"Â", 0x03}, {"Ç", 0x04}, {"É", 0x06}, {"Ê", 0x07}, {"Í", 0x5A},
+        {"Ó", 0x0E}, {"Ô", 0x0F}, {"Ú", 0x12}, {"Ã", 0x2F}, {"Õ", 0x30}, {"é", 0x1B},
+    };
+    unsigned char c = (unsigned char)**s;
+    unsigned i;
+
+    if (c >= 'A' && c <= 'Z') { (*s)++; return 0xBB + (c - 'A'); }
+    if (c >= 'a' && c <= 'z') { (*s)++; return 0xD5 + (c - 'a'); }
+    if (c >= '0' && c <= '9') { (*s)++; return 0xA1 + (c - '0'); }
+    if (c == ' ') { (*s)++; return 0x00; }
+    if (c == '.') { (*s)++; return 0xAD; }
+    for (i = 0; i < sizeof(sAccents) / sizeof(sAccents[0]); i++)
+    {
+        size_t n = strlen(sAccents[i].utf8);
+        if (strncmp(*s, sAccents[i].utf8, n) == 0)
+        {
+            *s += n;
+            return sAccents[i].code;
+        }
+    }
+    (*s)++;
+    return -1;
+}
+
+static unsigned GlyphValue(const unsigned char *glyph, int x, int y)
+{
+    unsigned char byte = glyph[((y / 8) * 2 + x / 8) * 16 + (y % 8) * 2 + ((x % 8) < 4)];
+    return (byte >> (6 - 2 * (x % 4))) & 3;
+}
+
+static int GameTextWidth(unsigned font, const char *text)
+{
+    int total = 0, w, code;
+
+    while (*text)
+        if ((code = NextGameChar(&text)) >= 0 && Port_LatinGlyph(font, (unsigned char)code, &w) != NULL)
+            total += w;
+    return total;
+}
+
+/* The first row of B that the font inks: the top of its capitals. */
+static int CapitalTop(unsigned font)
+{
+    int w, x, y;
+    const unsigned char *glyph = Port_LatinGlyph(font, 0xBB + 1, &w);
+
+    for (y = 0; glyph != NULL && y < 16; y++)
+        for (x = 0; x < 16; x++)
+            if (GlyphValue(glyph, x, y) == 1 || GlyphValue(glyph, x, y) == 2)
+                return y;
+    return 0;
+}
+
+struct GameLabel
+{
+    unsigned char x, y, width, height; /* the box in the sheet */
+    unsigned char capitals;            /* the row the capitals start on */
+    unsigned char ink, shadow;
+    unsigned char centred;
+    const char *text;
+};
+
+static void DrawGameLabel(unsigned char *tiles, const struct GameLabel *label)
+{
+    unsigned font = FONT_NORMAL;
+    int x, y, top, width, code, w;
+    const char *p;
+
+    for (y = label->y; y < label->y + label->height; y++)
+    {
+        /* The row's background: the commonest colour besides the text's. */
+        unsigned count[16] = {0}, bg = 16, best = 0, v;
+        for (x = label->x; x < label->x + label->width; x++)
+        {
+            v = SheetPixel(tiles, x, y);
+            if (v != label->ink && v != label->shadow && ++count[v] > best)
+            {
+                best = count[v];
+                bg = v;
+            }
+        }
+        if (bg == 16)
+            continue;
+        for (x = label->x; x < label->x + label->width; x++)
+        {
+            v = SheetPixel(tiles, x, y);
+            if (v == label->ink || v == label->shadow)
+                SetSheetPixel(tiles, x, y, bg);
+        }
+    }
+    if (GameTextWidth(font, label->text) > label->width)
+        font = FONT_NARROW;
+    width = GameTextWidth(font, label->text);
+    x = label->x + (label->centred ? (label->width - width) / 2 : 0);
+    top = label->capitals - CapitalTop(font);
+    for (p = label->text; *p;)
+    {
+        const unsigned char *glyph;
+        int gx, gy;
+
+        if ((code = NextGameChar(&p)) < 0 || (glyph = Port_LatinGlyph(font, (unsigned char)code, &w)) == NULL)
+            continue;
+        for (gy = 0; gy < 16; gy++)
+            for (gx = 0; gx < w; gx++)
+            {
+                unsigned v = GlyphValue(glyph, gx, gy);
+                int px = x + gx, py = top + gy;
+                if ((v == 1 || v == 2) && px >= label->x && px < label->x + label->width
+                 && py >= label->y && py < label->y + label->height)
+                    SetSheetPixel(tiles, px, py, v == 1 ? label->ink : label->shadow);
+            }
+        x += w;
+    }
+}
+
+/* graphics/pokedex/menu.4bpp, 16 tiles to a row: the tabs of a species'
+ * page, the B button's and the submenu's CANCEL, and the START menu. */
+static const struct GameLabel sPokedexMenuLabels[] = {
+    {16, 17, 24, 14, 20, 0xF, 0xD, 1, "ÁREA"},
+    {48, 17, 40, 14, 20, 0xF, 0xD, 1, "GRITO"},
+    {88, 17, 40, 14, 20, 0xF, 0xD, 1, "TAMANHO"},
+    {18, 34, 38, 13, 36, 0x9, 0x5, 0, "VOLTAR"},
+    {64, 34, 40, 13, 36, 0xF, 0x2, 1, "VOLTAR"},
+    {0, 48, 72, 16, 51, 0x9, 0x5, 0, "VOLTAR À LISTA"},
+    {0, 64, 72, 16, 67, 0x9, 0x5, 0, "TOPO DA LISTA"},
+    {0, 80, 72, 16, 83, 0x9, 0x5, 0, "FIM DA LISTA"},
+    {0, 96, 88, 16, 99, 0x9, 0x5, 0, "VOLTAR À POKéDEX"},
+    {0, 112, 88, 16, 115, 0x9, 0x5, 0, "FECHAR POKéDEX"},
+};
+
 static int EndsWith(const char *path, const char *suffix)
 {
     size_t n = strlen(path), m = strlen(suffix);
@@ -487,6 +632,11 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
     else if (EndsWith(path, "title_screen/press_start.4bpp") && size >= 21 * 32)
     {
         DrawPressStart(data);
+    }
+    else if (EndsWith(path, "pokedex/menu.4bpp") && size >= 128 * 128 / 2)
+    {
+        for (i = 0; i < sizeof(sPokedexMenuLabels) / sizeof(sPokedexMenuLabels[0]); i++)
+            DrawGameLabel(data, &sPokedexMenuLabels[i]);
     }
     else if (EndsWith(path, "interface/status_icons.4bpp") && size >= 7 * 4 * 32)
     {
