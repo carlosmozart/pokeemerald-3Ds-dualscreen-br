@@ -235,8 +235,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
 - [ ] Gráficos ainda em inglês, vistos no 3DS em 10/10: o logo da tela de
       título (EMERALD VERSION, que fica como no original; o APERTE START foi feito em 10/10, patch
       `0050`). Os títulos e os ícones de tipo do resumo foram
-      feitos em 10/10 (patch `0049`); as categorias de concurso (COOL,
-      BEAUTY…) seguem em inglês.
+      feitos em 10/10 (patch `0049`), e as categorias de concurso (ESTILO,
+      BELEZA, FOFURA, ESPERT., FORÇA) em 11/10.
 - [x] CENTRO POKéMON: na cura, as POKé BOLAS e o brilho da tela aparecem
       fora do lugar. Bug do port original (conferido na 0.3.1 em 10/10):
       fica para o autor do port corrigir, não neste fork.

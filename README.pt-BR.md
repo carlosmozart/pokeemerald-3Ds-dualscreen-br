@@ -41,7 +41,7 @@ O save é o mesmo do jogo em inglês.
 ## Problemas conhecidos
 
 - **POKéDEX:** na tela que registra um POKéMON novo, o texto aparece cortado.
-- Ainda em inglês: as categorias de concurso, os menus da POKéDEX e do POKéNAV e o logo EMERALD VERSION, que
+- Ainda em inglês: os menus da POKéDEX e do POKéNAV e o logo EMERALD VERSION, que
   fica como no original.
 - Do port original, não da tradução: golpes com animação na tela toda (SURF)
   só cobrem os 240 px do GBA, e a animação da cura no CENTRO POKéMON aparece

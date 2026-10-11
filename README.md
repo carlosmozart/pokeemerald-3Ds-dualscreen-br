@@ -32,7 +32,7 @@ Known issues in the Portuguese build:
 
 - **POKéDEX:** on the screen that registers a new POKéMON, the text
   appears cut.
-- Still in English: the contest categories, the POKéDEX
+- Still in English: the POKéDEX
   and POKéNAV menus, and the EMERALD VERSION logo (kept as the original).
 - From the original port: moves with full-screen animations (SURF) cover
   only the GBA's 240 pixels, and the POKéMON CENTER's healing animation is

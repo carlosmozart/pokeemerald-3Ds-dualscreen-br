@@ -69,6 +69,7 @@ static const struct Glyph sGlyphs[] = {
     {'U', {"#.#", "#.#", "#.#", "#.#", "#.#", "#.#", "###"}},
     {'V', {"#.#", "#.#", "#.#", "#.#", "#.#", ".#.", ".#."}},
     {'X', {"#.#", "#.#", "#.#", ".#.", "#.#", "#.#", "#.#"}},
+    {'Z', {"###", "..#", "..#", ".#.", "#..", "#..", "###"}},
     {' ', {"..", "..", "..", "..", "..", "..", ".."}},
     {'.', {".", ".", ".", ".", ".", ".", "#"}},
 };
@@ -193,11 +194,12 @@ static void DrawTypeName(unsigned char *tiles, unsigned tile, const char *name)
 }
 
 /* The summary's type icons (graphics/types/move_types.4bpp), one 32x16
- * sprite of 8 tiles (256 bytes) per type, in the order of TYPE_*; ??? and
- * the contest categories stay. */
+ * sprite of 8 tiles (256 bytes) per type, in the order of TYPE_*, then the
+ * contest categories (COOL, BEAUTY, CUTE, SMART, TOUGH); ??? stays. */
 static const char *const sSummaryTypeNames[] = {
     "NORMAL", "LUTADOR", "VOADOR", "VENENO", "TERRA", "PEDRA", "INSETO", "FANTAS", "AcO", NULL,
     "FOGO", "aGUA", "PLANTA", "ELeTR.", "PSiQ.", "GELO", "DRAG~O", "SOMBR.",
+    "ESTILO", "BELEZA", "FOFURA", "ESPERT.", "FORcA",
 };
 
 /* The move window's labels, 42x12: white letters outlined in the colour of

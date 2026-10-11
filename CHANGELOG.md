@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Portuguese: the contest category icons read ESTILO, BELEZA, FOFURA,
+  ESPERT. and FORÇA (3ds_icons_ptbr.c, same sheet as the type icons).
 - Portuguese: the status icons read ENV, PAR, DOR, CON, QUE and DES (PKRS
   stays), in the summary (patch 0049) and on the bottom screen, whose
   decompressed sheets now pass through Port_TransformAsset too (the bottom

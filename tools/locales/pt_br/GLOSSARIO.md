@@ -103,7 +103,7 @@ Os nomes dos POKéMON não se traduzem.
 | Trainer Card (Gold/Silver) | CARTÃO DE OURO / DE PRATA | |
 | Key Items | ITENS CHAVE | só "Objeto Chave", num manual; sem hífen para caber no bolso da BOLSA |
 | Dad | PAPAI | par de MAMÃE |
-| Contest conditions (Cool, Beauty, Cute, Smart, Tough) | ESTILO, BELEZA, FOFURA, ESPERTEZA, FORÇA | |
+| Contest conditions (Cool, Beauty, Cute, Smart, Tough) | ESTILO, BELEZA, FOFURA, ESPERTEZA, FORÇA | no ícone de 32 px, ESPERT. |
 | Hold item | item segurado (“Se segurado, …”) | |
 | Mail | CARTA | |
 | Cancel (menus) | VOLTAR | mesma largura de CANCEL, que algumas janelas têm exata |
