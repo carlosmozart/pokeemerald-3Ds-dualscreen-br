@@ -470,7 +470,7 @@ static void DrawStatusIcon(unsigned char *tiles, int y0, const char *name)
  * background, the Portuguese in the same colours. A text wider than the box
  * in the normal font is written in the narrow one.
  */
-enum { FONT_NARROW = 2, FONT_NORMAL = 4 };
+enum { FONT_NARROW = 2, FONT_SHORT = 3, FONT_NORMAL = 4 };
 
 /* The game's character code of the UTF-8 letter at *s (the few the labels
  * use), advancing *s; -1 for one it does not know. */
@@ -537,37 +537,45 @@ struct GameLabel
     unsigned char ink, shadow;
     unsigned char centred;
     const char *text;
+    unsigned char font; /* 0 for the normal font */
 };
 
 static void DrawGameLabel(unsigned char *tiles, const struct GameLabel *label)
 {
-    unsigned font = FONT_NORMAL;
+    unsigned font = label->font ? label->font : FONT_NORMAL;
     int x, y, top, width, code, w;
     const char *p;
 
     for (y = label->y; y < label->y + label->height; y++)
     {
-        /* The row's background: the commonest colour besides the text's. */
-        unsigned count[16] = {0}, bg = 16, best = 0, v;
-        for (x = label->x; x < label->x + label->width; x++)
+        /* Each pixel of the English text takes the colour of the nearest
+         * pixel of the same row that is not text, left first: the
+         * button's own background, even next to its border. */
+        unsigned char row[256];
+        for (x = 0; x < label->width; x++)
+            row[x] = (unsigned char)SheetPixel(tiles, label->x + x, y);
+        for (x = 0; x < label->width; x++)
         {
-            v = SheetPixel(tiles, x, y);
-            if (v != label->ink && v != label->shadow && ++count[v] > best)
+            int d;
+            if (row[x] != label->ink && row[x] != label->shadow)
+                continue;
+            for (d = 1; d < label->width; d++)
             {
-                best = count[v];
-                bg = v;
+                if (x - d >= 0 && row[x - d] != label->ink && row[x - d] != label->shadow)
+                {
+                    SetSheetPixel(tiles, label->x + x, y, row[x - d]);
+                    break;
+                }
+                if (x + d < label->width && row[x + d] != label->ink && row[x + d] != label->shadow)
+                {
+                    SetSheetPixel(tiles, label->x + x, y, row[x + d]);
+                    break;
+                }
             }
         }
-        if (bg == 16)
-            continue;
-        for (x = label->x; x < label->x + label->width; x++)
-        {
-            v = SheetPixel(tiles, x, y);
-            if (v == label->ink || v == label->shadow)
-                SetSheetPixel(tiles, x, y, bg);
-        }
     }
-    if (GameTextWidth(font, label->text) > label->width)
+    /* Narrow when it would not leave a few pixels to the box's edges. */
+    if (GameTextWidth(font, label->text) > label->width - (label->centred && label->width >= 40 ? 6 : 0))
         font = FONT_NARROW;
     width = GameTextWidth(font, label->text);
     x = label->x + (label->centred ? (label->width - width) / 2 : 0);
@@ -595,16 +603,30 @@ static void DrawGameLabel(unsigned char *tiles, const struct GameLabel *label)
 /* graphics/pokedex/menu.4bpp, 16 tiles to a row: the tabs of a species'
  * page, the B button's and the submenu's CANCEL, and the START menu. */
 static const struct GameLabel sPokedexMenuLabels[] = {
-    {16, 17, 24, 14, 20, 0xF, 0xD, 1, "ÁREA"},
-    {48, 17, 40, 14, 20, 0xF, 0xD, 1, "GRITO"},
-    {88, 17, 40, 14, 20, 0xF, 0xD, 1, "TAMANHO"},
-    {18, 34, 38, 13, 36, 0x9, 0x5, 0, "VOLTAR"},
-    {64, 34, 40, 13, 36, 0xF, 0x2, 1, "VOLTAR"},
-    {0, 48, 72, 16, 51, 0x9, 0x5, 0, "VOLTAR À LISTA"},
-    {0, 64, 72, 16, 67, 0x9, 0x5, 0, "TOPO DA LISTA"},
-    {0, 80, 72, 16, 83, 0x9, 0x5, 0, "FIM DA LISTA"},
-    {0, 96, 88, 16, 99, 0x9, 0x5, 0, "VOLTAR À POKéDEX"},
-    {0, 112, 88, 16, 115, 0x9, 0x5, 0, "FECHAR POKéDEX"},
+    {16, 17, 24, 14, 20, 0xF, 0xD, 1, "ÁREA", 0},
+    {48, 17, 40, 14, 20, 0xF, 0xD, 1, "GRITO", 0},
+    {88, 17, 40, 14, 20, 0xF, 0xD, 1, "TAMANHO", 0},
+    {18, 34, 38, 13, 36, 0x9, 0x5, 0, "VOLTAR", 0},
+    {64, 34, 40, 13, 36, 0xF, 0x2, 1, "VOLTAR", 0},
+    {0, 48, 72, 16, 51, 0x9, 0x5, 0, "VOLTAR À LISTA", 0},
+    {0, 64, 72, 16, 67, 0x9, 0x5, 0, "TOPO DA LISTA", 0},
+    {0, 80, 72, 16, 83, 0x9, 0x5, 0, "FIM DA LISTA", 0},
+    {0, 96, 88, 16, 99, 0x9, 0x5, 0, "VOLTAR À POKéDEX", 0},
+    {0, 112, 88, 16, 115, 0x9, 0x5, 0, "FECHAR POKéDEX", 0},
+};
+
+/* graphics/pokedex/search_menu.4bpp: the search's buttons, 40x16 each, in
+ * the short font. */
+static const struct GameLabel sPokedexSearchLabels[] = {
+    {0, 16, 40, 16, 20, 0x4, 0xB, 1, "MODO", FONT_SHORT},
+    {40, 16, 40, 16, 20, 0x4, 0xB, 1, "ORDEM", FONT_SHORT},
+    {80, 16, 40, 16, 20, 0x4, 0xB, 1, "NOME", FONT_SHORT},
+    {0, 32, 40, 16, 36, 0x4, 0xB, 1, "COR", FONT_SHORT},
+    {40, 32, 40, 16, 36, 0x4, 0xB, 1, "TIPO", FONT_SHORT},
+    {80, 32, 40, 16, 36, 0x4, 0x9, 1, "VOLTAR", FONT_SHORT},
+    {0, 48, 40, 16, 52, 0x4, 0x9, 1, "OK", FONT_SHORT},
+    {40, 48, 40, 16, 52, 0x4, 0x9, 1, "TROCAR", FONT_SHORT},
+    {80, 48, 40, 16, 52, 0x4, 0x9, 1, "BUSCAR", FONT_SHORT},
 };
 
 static int EndsWith(const char *path, const char *suffix)
@@ -637,6 +659,11 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
     {
         for (i = 0; i < sizeof(sPokedexMenuLabels) / sizeof(sPokedexMenuLabels[0]); i++)
             DrawGameLabel(data, &sPokedexMenuLabels[i]);
+    }
+    else if (EndsWith(path, "pokedex/search_menu.4bpp") && size >= 128 * 64 / 2)
+    {
+        for (i = 0; i < sizeof(sPokedexSearchLabels) / sizeof(sPokedexSearchLabels[0]); i++)
+            DrawGameLabel(data, &sPokedexSearchLabels[i]);
     }
     else if (EndsWith(path, "interface/status_icons.4bpp") && size >= 7 * 4 * 32)
     {

@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Portuguese: the POKéDEX search buttons (MODO, ORDEM, NOME, COR, TIPO,
+  VOLTAR, OK, TROCAR, BUSCAR), in the game's short font. The English letters
+  now take the nearest background pixel of their row.
 - Portuguese: the POKéDEX menu sheet in Portuguese (ÁREA, GRITO, TAMANHO,
   VOLTAR and the START menu), written with the game's own fonts from the
   player's ROM (Port_LatinGlyph). Every graphic the game decompresses now
