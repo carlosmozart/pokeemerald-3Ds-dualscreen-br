@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Portuguese: the POKéNAV's graphics: the menu options (MAPA DE HOENN,
+  CONDIÇÃO, CHAMADAS, FITAS, DESLIGAR, EQUIPE, BUSCAR, the five conditions,
+  VOLTAR), the headers (MENU PRINCIPAL, MAPA, VISÃO GERAL, AMPLIADO…), the
+  zoomed map's key (CENTRO POKéMON, GINÁSIO POKéMON, TENDA DE BATALHA,
+  CONCURSO POKéMON) and the condition screen's SAIR. The labels can be
+  drawn without a shadow, and an accent above a short box goes on its top
+  row.
 - Portuguese: the POKéDEX list's sprites: BUSCAR, NACIONAL (the T of
   NATIONAL redrawn as a C, keeping its hand-kerned letters), VISTOS and
   CAPTURADOS. The labels draw every shadow before the ink, and a text still

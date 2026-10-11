@@ -236,11 +236,11 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       título (EMERALD VERSION, que fica como no original; o APERTE START foi feito em 10/10). Os títulos e os ícones de tipo do resumo foram
       feitos em 10/10 (patch `0049`), e as categorias de concurso (ESTILO,
       BELEZA, FOFURA, ESPERT., FORÇA) em 11/10.
-- [ ] Menus da POKéDEX e do POKéNAV, escritos com as fontes do próprio
-      jogo (`Port_LatinGlyph`): feito o menu da POKéDEX (ÁREA, GRITO,
-      TAMANHO, VOLTAR e o menu START) e a busca (MODO, ORDEM, NOME, COR,
-      TIPO, OK, TROCAR, BUSCAR) e a lista (BUSCAR, NACIONAL, VISTOS,
-      CAPTURADOS), 11/10; falta o POKéNAV (opções, cabeçalhos, legenda do mapa).
+- [x] Menus da POKéDEX e do POKéNAV, escritos com as fontes do próprio
+      jogo (`Port_LatinGlyph`), 11/10: na POKéDEX, as abas, o menu START,
+      a busca e a lista; no POKéNAV, as opções, os cabeçalhos, a legenda do
+      mapa ampliado e o SAIR da tela de condição. O cabeçalho POKéNAV /
+      POKéMON NAVIGATOR fica (marca).
 - [x] CENTRO POKéMON: na cura, as POKé BOLAS e o brilho da tela aparecem
       fora do lugar. Bug do port original (conferido na 0.3.1 em 10/10):
       fica para o autor do port corrigir, não neste fork.
