@@ -470,7 +470,7 @@ static void DrawStatusIcon(unsigned char *tiles, int y0, const char *name)
  * background, the Portuguese in the same colours. A text wider than the box
  * in the normal font is written in the narrow one.
  */
-enum { FONT_NARROW = 2, FONT_SHORT = 3, FONT_NORMAL = 4 };
+enum { FONT_SMALL = 1, FONT_NARROW = 2, FONT_SHORT = 3, FONT_NORMAL = 4 };
 
 /* The game's character code of the UTF-8 letter at *s (the few the labels
  * use), advancing *s; -1 for one it does not know. */
@@ -543,7 +543,7 @@ struct GameLabel
 static void DrawGameLabel(unsigned char *tiles, const struct GameLabel *label)
 {
     unsigned font = label->font ? label->font : FONT_NORMAL;
-    int x, y, top, width, code, w;
+    int x, y, top, width, code, w, tight = 0, pass;
     const char *p;
 
     for (y = label->y; y < label->y + label->height; y++)
@@ -575,28 +575,46 @@ static void DrawGameLabel(unsigned char *tiles, const struct GameLabel *label)
         }
     }
     /* Narrow when it would not leave a few pixels to the box's edges. */
-    if (GameTextWidth(font, label->text) > label->width - (label->centred && label->width >= 40 ? 6 : 0))
+    if (font != FONT_NARROW && font != FONT_SMALL
+     && GameTextWidth(font, label->text) > label->width - (label->centred && label->width >= 40 ? 6 : 0))
         font = FONT_NARROW;
     width = GameTextWidth(font, label->text);
-    x = label->x + (label->centred ? (label->width - width) / 2 : 0);
-    top = label->capitals - CapitalTop(font);
-    for (p = label->text; *p;)
+    /* Still too wide: the letters a pixel closer together. */
+    if (width > label->width)
     {
-        const unsigned char *glyph;
-        int gx, gy;
+        int letters = 0;
+        for (p = label->text; *p;)
+            if (NextGameChar(&p) >= 0)
+                letters++;
+        if (width - (letters - 1) <= label->width)
+        {
+            tight = 1;
+            width -= letters - 1;
+        }
+    }
+    top = label->capitals - CapitalTop(font);
+    /* The shadows first and the ink over them, so that letters a pixel
+     * closer together keep their ink. */
+    for (pass = 2; pass >= 1; pass--)
+    {
+        x = label->x + (label->centred ? (label->width - width) / 2 : 0);
+        for (p = label->text; *p;)
+        {
+            const unsigned char *glyph;
+            int gx, gy;
 
-        if ((code = NextGameChar(&p)) < 0 || (glyph = Port_LatinGlyph(font, (unsigned char)code, &w)) == NULL)
-            continue;
-        for (gy = 0; gy < 16; gy++)
-            for (gx = 0; gx < w; gx++)
-            {
-                unsigned v = GlyphValue(glyph, gx, gy);
-                int px = x + gx, py = top + gy;
-                if ((v == 1 || v == 2) && px >= label->x && px < label->x + label->width
-                 && py >= label->y && py < label->y + label->height)
-                    SetSheetPixel(tiles, px, py, v == 1 ? label->ink : label->shadow);
-            }
-        x += w;
+            if ((code = NextGameChar(&p)) < 0 || (glyph = Port_LatinGlyph(font, (unsigned char)code, &w)) == NULL)
+                continue;
+            for (gy = 0; gy < 16; gy++)
+                for (gx = 0; gx < w; gx++)
+                {
+                    int px = x + gx, py = top + gy;
+                    if (GlyphValue(glyph, gx, gy) == (unsigned)pass && px >= label->x && px < label->x + label->width
+                     && py >= label->y && py < label->y + label->height)
+                        SetSheetPixel(tiles, px, py, pass == 1 ? label->ink : label->shadow);
+                }
+            x += w - tight;
+        }
     }
 }
 
@@ -627,6 +645,47 @@ static const struct GameLabel sPokedexSearchLabels[] = {
     {0, 48, 40, 16, 52, 0x4, 0x9, 1, "OK", FONT_SHORT},
     {40, 48, 40, 16, 52, 0x4, 0x9, 1, "TROCAR", FONT_SHORT},
     {80, 48, 40, 16, 52, 0x4, 0x9, 1, "BUSCAR", FONT_SHORT},
+};
+
+/* graphics/pokedex/interface.4bpp, the list's sprites: 32x16 ones (4 tiles
+ * wide) and the 64x32 SEEN and OWN (8 tiles wide), on a clear background:
+ * SEARCH in the narrow font, the rest in the small one. NATIONAL becomes
+ * NACIONAL by its T (columns 9-12) redrawn as a C: its letters are kerned
+ * by hand, and the font's are too wide to fit at that spacing. */
+static void NationalToNacional(unsigned char *sprite)
+{
+    static const char *const sC[] = {".##", "#..", "#..", "#..", "#..", "#..", ".##"};
+    int x, y;
+
+    for (y = 4; y <= 11; y++)
+        for (x = 9; x <= 12; x++)
+            SetSheetPixel(sprite, x, y, 0);
+    for (y = 0; y < 7; y++)
+        for (x = 0; x < 3; x++)
+            if (sC[y][x] == '#')
+            {
+                int dx, dy;
+                for (dy = 0; dy <= 1; dy++)
+                    for (dx = 0; dx <= 1; dx++)
+                        if ((dx || dy) && SheetPixel(sprite, 9 + x + dx, 4 + y + dy) == 0)
+                            SetSheetPixel(sprite, 9 + x + dx, 4 + y + dy, 0xF);
+            }
+    for (y = 0; y < 7; y++)
+        for (x = 0; x < 3; x++)
+            if (sC[y][x] == '#')
+                SetSheetPixel(sprite, 9 + x, 4 + y, 0x1);
+}
+
+/* MENU, HOENN, SELECT and START stay. */
+static const struct
+{
+    unsigned short tile;
+    unsigned char tilesWide;
+    struct GameLabel label;
+} sPokedexListSprites[] = {
+    {40, 4, {0, 0, 32, 16, 3, 0x1, 0xF, 0, "BUSCAR", FONT_NARROW}},
+    {64, 8, {6, 6, 52, 8, 6, 0x1, 0xF, 1, "VISTOS", FONT_SMALL}},
+    {96, 8, {5, 6, 53, 8, 6, 0x1, 0xF, 1, "CAPTURADOS", FONT_SMALL}},
 };
 
 static int EndsWith(const char *path, const char *suffix)
@@ -664,6 +723,17 @@ void Port_TransformAsset(const char *path, unsigned char *data, unsigned size)
     {
         for (i = 0; i < sizeof(sPokedexSearchLabels) / sizeof(sPokedexSearchLabels[0]); i++)
             DrawGameLabel(data, &sPokedexSearchLabels[i]);
+    }
+    else if (EndsWith(path, "pokedex/interface.4bpp") && size >= 200 * 32)
+    {
+        for (i = 0; i < sizeof(sPokedexListSprites) / sizeof(sPokedexListSprites[0]); i++)
+        {
+            sTilesWide = sPokedexListSprites[i].tilesWide;
+            DrawGameLabel(data + sPokedexListSprites[i].tile * 32, &sPokedexListSprites[i].label);
+        }
+        sTilesWide = 4;
+        NationalToNacional(data + 168 * 32);
+        sTilesWide = SHEET_TILES_WIDE;
     }
     else if (EndsWith(path, "interface/status_icons.4bpp") && size >= 7 * 4 * 32)
     {

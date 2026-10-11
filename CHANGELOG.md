@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Portuguese: the POKéDEX list's sprites: BUSCAR, NACIONAL (the T of
+  NATIONAL redrawn as a C, keeping its hand-kerned letters), VISTOS and
+  CAPTURADOS. The labels draw every shadow before the ink, and a text still
+  too wide in the narrow font is set a pixel tighter.
 - Portuguese: the POKéDEX search buttons (MODO, ORDEM, NOME, COR, TIPO,
   VOLTAR, OK, TROCAR, BUSCAR), in the game's short font. The English letters
   now take the nearest background pixel of their row.

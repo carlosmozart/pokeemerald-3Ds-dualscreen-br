@@ -239,7 +239,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
 - [ ] Menus da POKéDEX e do POKéNAV, escritos com as fontes do próprio
       jogo (`Port_LatinGlyph`): feito o menu da POKéDEX (ÁREA, GRITO,
       TAMANHO, VOLTAR e o menu START) e a busca (MODO, ORDEM, NOME, COR,
-      TIPO, OK, TROCAR, BUSCAR), 11/10; faltam a lista e o POKéNAV (opções, cabeçalhos, legenda do mapa).
+      TIPO, OK, TROCAR, BUSCAR) e a lista (BUSCAR, NACIONAL, VISTOS,
+      CAPTURADOS), 11/10; falta o POKéNAV (opções, cabeçalhos, legenda do mapa).
 - [x] CENTRO POKéMON: na cura, as POKé BOLAS e o brilho da tela aparecem
       fora do lugar. Bug do port original (conferido na 0.3.1 em 10/10):
       fica para o autor do port corrigir, não neste fork.

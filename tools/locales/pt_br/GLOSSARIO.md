@@ -300,4 +300,6 @@ EFEITO, DESCRIÇÃO, ITEM, FITAS, ATRIBUTOS (STATS) e EXP.
 Escritos com as fontes do jogo (`3ds_icons_ptbr.c`): as abas ÁREA, GRITO e
 TAMANHO; VOLTAR (CANCEL); no menu START, VOLTAR À LISTA, TOPO DA LISTA, FIM
 DA LISTA, VOLTAR À POKéDEX e FECHAR POKéDEX; na busca, MODO, ORDEM, NOME,
-COR, TIPO, OK, TROCAR (SHIFT) e BUSCAR. O que não cabe sai na fonte estreita.
+COR, TIPO, OK, TROCAR (SHIFT) e BUSCAR; na lista, BUSCAR, NACIONAL, VISTOS
+(SEEN) e CAPTURADOS (OWN); MENU, HOENN, SELECT e START ficam. O que não
+cabe sai na fonte estreita.
