@@ -73,10 +73,10 @@ def render(big,small,smallTilde):
     layers=[]
     bw=width(big,BIG,1); bx=(W-bw)//2
     mb=[[0]*W for _ in range(H)]
-    place(mb,big,BIG,bx,14,1,lambda c: round(4*(1-(c-bx)/bw)))
+    place(mb,big,BIG,bx,14,1,lambda c: 2)
     sw=width(small,SMALL,1); sx=(W-sw)//2
     ms=[[0]*W for _ in range(H)]
-    place(ms,small,SMALL,sx,2,1,lambda c: round(2*(1-(c-sx)/sw)))
+    place(ms,small,SMALL,sx,2,1,lambda c: 1)
     for m in (mb,ms):
         # outline: two rings, the inner near black (4), the outer dark (e)
         def dil(m,n):

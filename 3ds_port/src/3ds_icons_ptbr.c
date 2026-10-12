@@ -797,7 +797,7 @@ static const struct GameLabel sHoennMapHeaders[] = {
  * The title screen's logo (graphics/title_screen/emerald_version.8bpp, two
  * 64x32 sprites of 8bpp tiles, one byte a pixel): VERSÃO over ESMERALDA,
  * drawn here in the original's palette (white letters, grey shading, a near
- * black outline and a dark one around it), rising to the right like it.
+ * black outline and a dark one around it), straight.
  * tools/logo_ptbr.py draws the same into a PNG, as a preview.
  */
 static const char *const sLogoBig[][12] = {
@@ -821,15 +821,6 @@ static const char *const sLogoSmall[][10] = {
 #define LOGO_W 128
 #define LOGO_H 32
 
-/* round(n / d) as Python rounds, the half to the even number. */
-static int RoundHalfEven(int n, int d)
-{
-    int q = n / d, r = n % d;
-    if (2 * r > d || (2 * r == d && (q & 1)))
-        q++;
-    return q;
-}
-
 static int LogoWidth(const char *text, int big)
 {
     int w = 0;
@@ -845,11 +836,10 @@ static int LogoGlyph(char ch, int big)
     return at != NULL ? (int)(at - order) : 0;
 }
 
-/* Marks the text's pixels in mask, each column raised by rise * (1 - its
- * place along the text), rounded. */
-static void LogoText(unsigned char mask[LOGO_H][LOGO_W], const char *text, int big, int y0, int rise)
+/* Marks the text's pixels in mask, centred, its top on row y0. */
+static void LogoText(unsigned char mask[LOGO_H][LOGO_W], const char *text, int big, int y0)
 {
-    int width = LogoWidth(text, big), x0 = (LOGO_W - width) / 2, x = x0;
+    int x = (LOGO_W - LogoWidth(text, big)) / 2;
     int w = big ? 10 : 8, h = big ? 12 : 10;
 
     for (; *text; text++)
@@ -857,11 +847,11 @@ static void LogoText(unsigned char mask[LOGO_H][LOGO_W], const char *text, int b
         int g = LogoGlyph(*text, big), c, r;
         for (c = 0; c < w; c++)
         {
-            int col = x + c, dy = RoundHalfEven(rise * (width - (col - x0)), width);
+            int col = x + c;
             for (r = 0; r < h; r++)
             {
                 const char *row = big ? sLogoBig[g][r] : sLogoSmall[g][r];
-                int y = y0 + r + dy;
+                int y = y0 + r;
                 if (row[c] == '#' && col >= 0 && col < LOGO_W && y >= 0 && y < LOGO_H)
                     mask[y][col] = 1;
             }
@@ -891,9 +881,9 @@ static void DrawLogo(unsigned char *data)
     {
         memset(mask, 0, sizeof(mask));
         if (pass == 0)
-            LogoText(mask, "ESMERALDA", 1, 14, 4);
+            LogoText(mask, "ESMERALDA", 1, 16);
         else
-            LogoText(mask, "VERS@O", 0, 2, 2);
+            LogoText(mask, "VERS@O", 0, 3);
         for (y = 0; y < LOGO_H; y++)
             for (x = 0; x < LOGO_W; x++)
             {
