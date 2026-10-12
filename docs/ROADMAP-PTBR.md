@@ -234,7 +234,7 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       resumo (patch `0049`, que leva ao port toda folha descomprimida) e na tela de baixo, redesenhados pelo port
       (10/10).
 - [x] Gráficos com palavras, vistos no 3DS em 10/10: o APERTE START da
-      tela de título (o logo EMERALD VERSION fica como no original), os
+      tela de título, o logo VERSÃO ESMERALDA (desenho próprio, 12/10), os
       títulos e os ícones de tipo do resumo (10/10) e as categorias de
       concurso (ESTILO, BELEZA, FOFURA, ESPERT., FORÇA, 11/10). Desde 11/10
       o patch `0049` leva ao port toda folha que o jogo descomprime.
@@ -272,7 +272,7 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       conferir no 3DS os títulos dos concursos (o espanhol precisou do patch
       `0032`).
 - [ ] "THE END" no fim dos créditos: decidir se fica em inglês, como os
-      créditos. O logo fica; os menus foram feitos em 11/10.
+      créditos. O logo e os menus foram feitos.
 - [x] Ícones de tipo em PT: o port (não o builder) redesenha o nome sobre o
       ícone original, com uma fonte própria (`3ds_icons_ptbr.c`): BOLSA,
       janela de golpes, resumo e tela de baixo.
