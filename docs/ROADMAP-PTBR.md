@@ -274,8 +274,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       SECRETAS (textos de `src/strings.c` e de `data/text`, 09/10). Falta
       conferir no 3DS os títulos dos concursos (o espanhol precisou do patch
       `0032`).
-- [ ] "THE END" no fim dos créditos: decidir se fica em inglês, como os
-      créditos. O logo e os menus foram feitos.
+- [x] "THE END" no fim dos créditos: fica em inglês, como os créditos
+      (decidido em 12/10).
 - [x] Ícones de tipo em PT: o port (não o builder) redesenha o nome sobre o
       ícone original, com uma fonte própria (`3ds_icons_ptbr.c`): BOLSA,
       janela de golpes, resumo e tela de baixo.
