@@ -243,8 +243,10 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       `0049`: títulos e ícones do resumo, ícones de condição e de concurso,
       APERTE START, POKéDEX (abas, menu START, busca, lista) e POKéNAV
       (opções, cabeçalhos, legenda do mapa, SAIR). Em teste pelo usuário.
-- [ ] Os títulos dos concursos no 3DS (o espanhol precisou do patch
-      `0032`).
+- [x] Títulos dos concursos (resultado): NÍVEL NORMAL / SUPER / HIPER /
+      MESTRE e as categorias, numa fonte alta desenhada como a original
+      (12/10). Sem o patch `0032`: os textos cabem nos 40 px de cada parte.
+      Conferir no 3DS com a lista acima.
 - [ ] POKéDEX: na tela que registra um POKéMON novo, o texto aparece
       cortado (10/10). Conferir na versão original em inglês antes de
       investigar.
