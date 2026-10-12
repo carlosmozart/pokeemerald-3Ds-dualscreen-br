@@ -234,7 +234,8 @@ Ordem sugerida, do que o jogador vê mais para o que vê menos:
       resumo (patch `0049`, que leva ao port toda folha descomprimida) e na tela de baixo, redesenhados pelo port
       (10/10).
 - [x] Gráficos com palavras, vistos no 3DS em 10/10: o APERTE START da
-      tela de título, o logo VERSÃO ESMERALDA (desenho próprio, 12/10), os
+      tela de título, o logo VERSÃO ESMERALDA (desenho próprio, reto,
+      aprovado no 3DS em 12/10), os
       títulos e os ícones de tipo do resumo (10/10) e as categorias de
       concurso (ESTILO, BELEZA, FOFURA, ESPERT., FORÇA, 11/10). Desde 11/10
       o patch `0049` leva ao port toda folha que o jogo descomprime.
