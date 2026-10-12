@@ -96,7 +96,7 @@ A tabela de caracteres da Gen 3 não tem `ã`, `õ`, `Ã` nem `Õ`.
       livres `2F`–`32`.
 - [x] O port desenha os glifos ao carregar as fontes (`3ds_compat.c`), a
       partir dos da ROM. Nada do gráfico é distribuído.
-- [ ] Teclado de nomes: decidir se `ã`/`õ` entram no teclado.
+- [x] Teclado de nomes: sem `ã`/`õ` por enquanto (decidido em 12/10).
 - [x] ã e õ conferidos no 3DS (08/10: "acentuação e til normais"), no lugar
       da captura no emulador.
 
