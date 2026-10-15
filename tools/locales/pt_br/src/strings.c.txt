@@ -1501,11 +1501,8 @@ PAIXÃO ARDENTE
 [gText_JuanMatchCallDesc] 64b8e0a528 width=88
 CHARME DÂNDI
 
-[gText_MayBrendanMatchCallDesc] 70c6d0604a width=88
+[gText_MayBrendanMatchCallDesc] 03d88bb00f width=88
 VIZINHO LEGAL
-
-[gText_MayMatchCallDesc] 534de9846b width=88
-VIZINHA LEGAL
 
 [gText_MomMatchCallDesc] 4a225b5191 width=88
 CALMA E GENTIL
@@ -3462,12 +3459,6 @@ TEMPO
 
 [gText_IDNumber] 8b9d3d695a
 Nº ID
-
-[gText_Berries] 4aec2f3375 width=40
-FRUTAS
-
-[gText_Berry] ed2d80e442 width=40
-FRUTA
 
 [gText_QuizLady_Lady] fc40dd4181
 Moça

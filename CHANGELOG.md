@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Portuguese: localize_portuguese.py skips the Spanish (and French) #if
+  branches of a C source and reads the English one; it had translated the
+  first definition, the Spanish one. So RAD NEIGHBOR, the match call
+  description of MAY and BRENDAN, is now VIZINHO LEGAL, and two leftover
+  catalog entries (FRUTA, FRUTAS, which patch 0047 writes) are gone.
 - Portuguese: the language checks are `#if CTR_LANG_PT_BR`. The Makefile
   defines it as 0 for the other builds, so `#ifdef`/`defined()` had turned
   the Portuguese code on in English too (credits pages, metric units, the

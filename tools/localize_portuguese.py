@@ -271,11 +271,40 @@ def c_label(source: str, start: int) -> str | None:
     return None
 
 
+FOREIGN = re.compile(r"GAME_LANGUAGE\s*==\s*LANGUAGE_(SPANISH|FRENCH)")
+
+
+def foreign_spans(source: str) -> list[tuple[int, int]]:
+    """The parts of a C source that only another language's build compiles:
+    the branch of an #if on GAME_LANGUAGE == LANGUAGE_SPANISH or _FRENCH
+    (unless it names CTR_LANG_PT_BR too), up to its #else, #elif or #endif.
+    The English text is the one in the other branch."""
+    spans, stack, pos = [], [], 0
+    for line in source.splitlines(keepends=True):
+        word = line.strip().split(None, 1)[0] if line.strip().startswith("#") else ""
+        foreign = word in ("#if", "#elif") and FOREIGN.search(line) is not None and "CTR_LANG_PT_BR" not in line
+        if word in ("#if", "#ifdef", "#ifndef"):
+            stack.append(pos + len(line) if foreign else None)
+        elif word in ("#else", "#elif", "#endif") and stack:
+            if stack[-1] is not None:
+                spans.append((stack[-1], pos))
+            if word == "#endif":
+                stack.pop()
+            else:
+                stack[-1] = pos + len(line) if foreign else None
+        pos += len(line)
+    return spans
+
+
 def c_texts(source: str) -> dict[str, tuple[int, int, str]]:
     """label -> (start, end, text) of each _("...") with a label (see
-    c_label), start and end around the string literals inside _( )."""
+    c_label), start and end around the string literals inside _( ). Texts
+    only another language's build compiles are left out (foreign_spans)."""
     found = {}
+    skip = foreign_spans(source)
     for m in C_STRING.finditer(source):
+        if any(a <= m.start() < b for a, b in skip):
+            continue
         label = c_label(source, m.start())
         if label is None or label in found:
             continue
