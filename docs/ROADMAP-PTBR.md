@@ -379,6 +379,16 @@ O maior volume do projeto, sem equivalente no wiki.
       o código em português passou a ficar só na build em português
       (`#if CTR_LANG_PT_BR`; `TYPE_NAME_LENGTH` 6 no inglês), conferido nas
       duas builds. Mudanças pedidas pelo autor vão no branch `ptbr`.
+  - [x] Refeito sobre o `dev` (12/10), como pede o `CONTRIBUTING`: patches
+        `0049` a `0058`, `CTR_TEXT` com o português como quarto idioma, ao
+        lado do francês; `localize_portuguese.py` lê o ramo inglês de um C
+        (corrigiu "RAD NEIGHBOR", levado também ao `main` do fork em 14/10).
+        Sem a cópia do HoennKantoWiki, que tem texto do jogo em inglês.
+  - [ ] O autor deixou para a próxima atualização (14/10): quer mudar o
+        patcher e o site e fazer um logo no estilo exato do original, e
+        criou o branch `dev-pr60-ptbr`. O `dev` andou 86 commits e ocupou de
+        novo os números `0049` a `0056`; renumerar só quando ele começar a
+        integração ou pedir.
 - [ ] Variante `payload/pt/` com o executável PT e a receita da ROM BPEE.
 - [ ] Receita com o texto PT: os textos do jogo vão para `gamedata.bin` e
       `scripts.bin`, que o builder recria da ROM. O texto traduzido não existe
