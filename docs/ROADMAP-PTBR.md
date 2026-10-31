@@ -384,28 +384,33 @@ O maior volume do projeto, sem equivalente no wiki.
         lado do francês; `localize_portuguese.py` lê o ramo inglês de um C
         (corrigiu "RAD NEIGHBOR", levado também ao `main` do fork em 14/10).
         Sem a cópia do HoennKantoWiki, que tem texto do jogo em inglês.
-  - [ ] O autor deixou para a próxima atualização (14/10): quer mudar o
-        patcher e o site e fazer um logo no estilo exato do original, e
-        criou o branch `dev-pr60-ptbr`. O `dev` andou 86 commits e ocupou de
-        novo os números `0049` a `0056`; renumerar só quando ele começar a
-        integração ou pedir.
-- [ ] Variante `payload/pt/` com o executável PT e a receita da ROM BPEE.
-- [ ] Receita com o texto PT: os textos do jogo vão para `gamedata.bin` e
-      `scripts.bin`, que o builder recria da ROM. O texto traduzido não existe
-      na ROM e entra como literal; hoje `tools/gen_recipe.py` limita literais
-      de objetos do jogo a 4 KB (`--max-game-literal`). Criar uma classe
-      "tradução" para esses bytes, com limite próprio, e conferir com
-      `release_audit.py --rom` que nenhum trecho da ROM entrou junto.
-- [ ] Builder (Windows e web): **escolha de idioma**. Hoje a variante sai da
-      ROM; o PT usa a mesma ROM que o inglês.
-- [ ] Verificação do pacote: o 3DSX PT aceita só o pacote PT (ABI própria),
-      e o 3DSX inglês recusa o pacote PT.
-- [ ] `tools/build_release.py` e `tools/release_audit.py`: incluir a variante e
-      conferir que nenhum dado da ROM entrou.
-- [ ] Documentação: `docs/PORTUGUESE.md` (feito: como compilar), seção no
-      `README.md` e entrada no `CHANGELOG.md`.
-- [ ] Créditos da tradução e nota em `AI_DISCLOSURE.md` se houver texto gerado
-      ou revisado com IA.
+  - [x] Mesclado pelo autor no `dev` em 20/10, com os patches renumerados
+        (`0057` a `0066`) e um logo VERSÃO ESMERALDA desenhado por ele a
+        partir do logo espanhol.
+- [x] Segundo PR, testado no 3DS (23/10):
+      [ZallaxDev/emerald-3ds#178](https://github.com/ZallaxDev/emerald-3ds/pull/178).
+      Os 25 textos de `data/event_scripts.s` (o localizador passou a ler
+      `.s`), os ícones de tipo e de concurso da tela de baixo de volta em
+      português (o merge do #60 tinha perdido o trecho) e a descrição
+      inteira da POKéDEX da tela de baixo, na largura toda da caixa, em
+      todos os idiomas. Mesclado em 24/10, pelo #187.
+- [x] **Beta 0.5.0 com o português** (30/10):
+      [release v0.5.0](https://github.com/ZallaxDev/emerald-3ds/releases/tag/v0.5.0).
+      O autor fez o resto desta fase no projeto dele:
+  - [x] Variante `payload/pt/` (`build_release.py --portuguese`) e o
+        executável `Emerald3DS-pt.3dsx` entre os arquivos da release.
+  - [x] Receita com o texto PT: `gen_recipe.py --translation` conta os
+        textos do catálogo como classe "translation", própria do projeto.
+  - [x] Builder (Windows e web): **escolha de idioma**; o português sai da
+        ROM em inglês (variante `pt` no `web-manifest.json`).
+  - [x] Documentação: `docs/PORTUGUESE.md`, `README.pt-BR.md`, o português
+        nos idiomas do `README.md` e entradas no `CHANGELOG.md`.
+  - [x] Créditos nas notas da release: Carlos Mozart (AllGenWiki), PRs #60
+        e #178.
+- [ ] Verificação do pacote: o 3DSX PT aceita só o pacote PT, e o 3DSX
+      inglês recusa o pacote PT. Ainda não conferido por nós na 0.5.0.
+- [ ] Nota em `AI_DISCLOSURE.md` sobre a tradução feita com ajuda de IA: o
+      arquivo da 0.5.0 não cita o português.
 
 ## Fase 10 — Teste completo e lançamento
 
